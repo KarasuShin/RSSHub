@@ -366,6 +366,19 @@
       }
     ]
   },
+  "69shu.top": {
+    "_name": "69书吧",
+    "www": [
+      {
+        "title": "章节",
+        "docs": "https://docs.rsshub.app/routes/reading",
+        "source": [
+          "/book/:id.htm"
+        ],
+        "target": "/69shu/article/:id"
+      }
+    ]
+  },
   "6parkbbs.com": {
     "_name": "留园网",
     "club": [
@@ -1018,6 +1031,14 @@
   "apnews.com": {
     "_name": "AP News",
     ".": [
+      {
+        "title": "RSS",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/:rss"
+        ],
+        "target": "/apnews/rss/:rss"
+      },
       {
         "title": "Topics",
         "docs": "https://docs.rsshub.app/routes/traditional-media",
@@ -3300,6 +3321,19 @@
       }
     ]
   },
+  "copernicium.tw": {
+    "_name": "日新说",
+    "www": [
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/"
+        ],
+        "target": "/copernicium/:category"
+      }
+    ]
+  },
   "cpcaauto.com": {
     "_name": "cpcaauto.com",
     ".": [
@@ -3909,6 +3943,19 @@
       }
     ]
   },
+  "deepin.org": {
+    "_name": "Deepin",
+    "bbs": [
+      {
+        "title": "BBS Home Page",
+        "docs": "https://docs.rsshub.app/routes/bbs",
+        "source": [
+          "/user/:user_id"
+        ],
+        "target": "/deepin/homepage/:user_id"
+      }
+    ]
+  },
   "deeplearning.ai": {
     "_name": "deeplearning.ai",
     "www": [
@@ -4028,6 +4075,19 @@
           "/"
         ],
         "target": "/diershoubing/news"
+      }
+    ]
+  },
+  "digitalcameraworld.com": {
+    "_name": "Digital Camera World",
+    ".": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/"
+        ],
+        "target": "/digitalcameraworld/news"
       }
     ]
   },
@@ -6481,6 +6541,19 @@
       }
     ]
   },
+  "gq.com": {
+    "_name": "GQ",
+    ".": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/"
+        ],
+        "target": "/gq/news"
+      }
+    ]
+  },
   "greasyfork.org": {
     "_name": "Greasy Fork",
     ".": [
@@ -6721,7 +6794,7 @@
   },
   "ycombinator.com": {
     "_name": "Hacker News",
-    ".": [
+    "news": [
       {
         "title": "用户",
         "docs": "https://docs.rsshub.app/routes/programming",
@@ -8582,6 +8655,19 @@
       }
     ]
   },
+  "keylol.com": {
+    "_name": "其乐",
+    ".": [
+      {
+        "title": "论坛",
+        "docs": "https://docs.rsshub.app/routes/game",
+        "source": [
+          "/:path"
+        ],
+        "target": "/keylol(params,url)=>url.replaceAll(\"forum.php?\",\"\")"
+      }
+    ]
+  },
   "kimlaw.or.kr": {
     "_name": "The Korea Institute of Marine Law",
     ".": [
@@ -8949,6 +9035,19 @@
       }
     ]
   },
+  "linkedin.com": {
+    "_name": "LinkedIn 领英",
+    "www": [
+      {
+        "title": "Jobs",
+        "docs": "https://docs.rsshub.app/routes/social-media",
+        "source": [
+          "/jobs/search"
+        ],
+        "target": "/linkedin(params,url)=>{const searchParams=new URLSearchParams(new URL(url).search);const fJT=(0,import_utils.parseRouteParam)(searchParams.get(\"f_JT\"));const fE=(0,import_utils.parseRouteParam)(searchParams.get(\"f_E\"));const keywords=encodeURIComponent(searchParams.get(\"keywords\")||\"\");const newSearchParams=new URLSearchParams;for(const[key,value]of searchParams.entries()){if(![\"f_JT\",\"f_E\",\"keywords\"].includes(key)){newSearchParams.append(key,value)}}return`/linkedin/jobs/${fJT}/${fE}/${keywords}/?${newSearchParams.toString()}`}"
+      }
+    ]
+  },
   "linovelib.com": {
     "_name": "哔哩轻小说",
     "www": [
@@ -9098,6 +9197,91 @@
       }
     ]
   },
+  "lrepacks.net": {
+    "_name": "REPACK скачать",
+    ".": [
+      {
+        "title": "REPACK скачать",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/:category"
+        ],
+        "target": "/lrepacksparams=>{const category=params.category;return`/lrepacks${category?`/${category}`:\"\"}`}"
+      },
+      {
+        "title": "Новые репаки на сегодня",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/novye-repaki-elchupacabra/"
+        ],
+        "target": "/lrepacks/novye-repaki-elchupacabra"
+      },
+      {
+        "title": "Системные программы",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/repaki-sistemnyh-programm/"
+        ],
+        "target": "/lrepacks/repaki-sistemnyh-programm"
+      },
+      {
+        "title": "Программы для графики",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/repaki-programm-dlya-grafiki/"
+        ],
+        "target": "/lrepacks/repaki-programm-dlya-grafiki"
+      },
+      {
+        "title": "Программы для интернета",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/repaki-programm-dlya-interneta/"
+        ],
+        "target": "/lrepacks/repaki-programm-dlya-interneta"
+      },
+      {
+        "title": "Мультимедиа программы",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/repaki-multimedia-programm/"
+        ],
+        "target": "/lrepacks/repaki-multimedia-programm"
+      },
+      {
+        "title": "Программы для офиса",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/repaki-programm-dlya-ofisa/"
+        ],
+        "target": "/lrepacks/repaki-programm-dlya-ofisa"
+      },
+      {
+        "title": "Разные программы",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/repaki-raznyh-programm/"
+        ],
+        "target": "/lrepacks/repaki-raznyh-programm"
+      },
+      {
+        "title": "Системные библиотеки",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/sistemnye-biblioteki/"
+        ],
+        "target": "/lrepacks/sistemnye-biblioteki"
+      },
+      {
+        "title": "Важная информация",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/informaciya/"
+        ],
+        "target": "/lrepacks/informaciya"
+      }
+    ]
+  },
   "lsnu.edu.cn": {
     "_name": "乐山师范学院",
     ".": [
@@ -9223,6 +9407,19 @@
           "/app/mac/:appId/:appSlug"
         ],
         "target": "/macupdate/app/:appId/:appSlug?"
+      }
+    ]
+  },
+  "magnumphotos.com": {
+    "_name": "Magnum Photos",
+    ".": [
+      {
+        "title": "Magazine",
+        "docs": "https://docs.rsshub.app/routes/picture",
+        "source": [
+          "/"
+        ],
+        "target": "/magnumphotos/magazine"
       }
     ]
   },
@@ -9945,6 +10142,19 @@
           "/"
         ],
         "target": "/newsmarket/:category?"
+      }
+    ]
+  },
+  "newyorker.com": {
+    "_name": "New Yorker",
+    ".": [
+      {
+        "title": "The New Yorker",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/feed/:category/:subCategory"
+        ],
+        "target": "/newyorker/:category/:subCategory?"
       }
     ]
   },
@@ -14603,19 +14813,6 @@
       }
     ]
   },
-  "thecatcity.com": {
-    "_name": "貓奴日常",
-    ".": [
-      {
-        "title": "分類",
-        "docs": "https://docs.rsshub.app/routes/new-media",
-        "source": [
-          "/"
-        ],
-        "target": "/thecatcity/:term?"
-      }
-    ]
-  },
   "thehindu.com": {
     "_name": "The Hindu",
     ".": [
@@ -14626,6 +14823,43 @@
           "/topic/:topic"
         ],
         "target": "/thehindu/topic/:topic"
+      }
+    ]
+  },
+  "theinitium.com": {
+    "_name": "端传媒",
+    ".": [
+      {
+        "title": "作者",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/author/:type"
+        ],
+        "target": "/theinitium/author/:type"
+      },
+      {
+        "title": "专题・栏目",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/channel/:type"
+        ],
+        "target": "/theinitium/channel/:type"
+      },
+      {
+        "title": "作者",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/author/:type"
+        ],
+        "target": "/theinitium/author/:type"
+      },
+      {
+        "title": "话题・标签",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/tags/:type"
+        ],
+        "target": "/theinitium/tags/:type"
       }
     ]
   },
@@ -14668,6 +14902,64 @@
           "/"
         ],
         "target": "/thepaper/839studio/:id"
+      }
+    ]
+  },
+  "thepetcity.co": {
+    "_name": "PetCity 毛孩日常",
+    ".": [
+      {
+        "title": "Pet Staff 毛孩好物",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/category/cute-item",
+          "/"
+        ],
+        "target": "/thepetcity/1"
+      },
+      {
+        "title": "Funny News毛孩趣聞",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/category/funny-news",
+          "/"
+        ],
+        "target": "/thepetcity/2"
+      },
+      {
+        "title": "Knowledge飼養大全",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/category/knowledge",
+          "/"
+        ],
+        "target": "/thepetcity/3"
+      },
+      {
+        "title": "Hot Spot 毛孩打卡點",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/category/hot-spot",
+          "/"
+        ],
+        "target": "/thepetcity/4"
+      },
+      {
+        "title": "Raise Pets 養寵物新手",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/category/raise-cats",
+          "/"
+        ],
+        "target": "/thepetcity/5"
+      },
+      {
+        "title": "PetCity 毛孩日常 | 飼養竉物、竉物用品、萌寵趣聞",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/"
+        ],
+        "target": "/thepetcity/:term?"
       }
     ]
   },
@@ -14967,6 +15259,19 @@
           "/"
         ],
         "target": "/trow/portal"
+      }
+    ]
+  },
+  "ttv.com.tw": {
+    "_name": "台視新聞網",
+    "news": [
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/:category"
+        ],
+        "target": "/ttv/:category?"
       }
     ]
   },
@@ -15343,6 +15648,17 @@
   },
   "upc.edu.cn": {
     "_name": "中国石油大学（华东）",
+    "jwc": [
+      {
+        "title": "教务处通知公告",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/",
+          "/:type/list.htm"
+        ],
+        "target": "/upc/jwc/:type?"
+      }
+    ],
     "zs.gs": [
       {
         "title": "研究生院通知公告",
@@ -15860,7 +16176,7 @@
     "_name": "新假期周刊",
     ".": [
       {
-        "title": "Unknown",
+        "title": "最新文章",
         "docs": "https://docs.rsshub.app/routes/other",
         "source": [
           "/"
@@ -15920,6 +16236,19 @@
           "/profile/:uid"
         ],
         "target": "/weibo/user/:uid"
+      }
+    ]
+  },
+  "wellcee.com": {
+    "_name": "Wellcee 唯心所寓",
+    "www": [
+      {
+        "title": "支持的城市",
+        "docs": "https://docs.rsshub.app/routes/other",
+        "source": [
+          "/"
+        ],
+        "target": "/wellcee/support-city"
       }
     ]
   },
@@ -16474,6 +16803,19 @@
           "/post/"
         ],
         "target": "/yande/post/popular_recent/:period?"
+      }
+    ]
+  },
+  "yenpress.com": {
+    "_name": "Yen Press",
+    ".": [
+      {
+        "title": "Series",
+        "docs": "https://docs.rsshub.app/routes/reading",
+        "source": [
+          "/series/:name"
+        ],
+        "target": "/yenpress/series/:name"
       }
     ]
   },
