@@ -3804,7 +3804,9 @@
   "/nber/new": [
     "5upernova-heng"
   ],
-  "/ncc-cma/cmdp/image/:id{.+}?": [],
+  "/ncc-cma/cmdp/image/:id{.+}?": [
+    "nczitzk"
+  ],
   "/ncepu/master/:type": [
     "nilleo"
   ],
@@ -5117,6 +5119,9 @@
   "/sjtu/yzb/zkxx/:type": [
     "stdrc"
   ],
+  "/sketis/isabelle-dev/blog/:blog": [
+    "Ritsuka314"
+  ],
   "/skysports/news/:team": [
     "nczitzk"
   ],
@@ -5703,6 +5708,9 @@
   ],
   "/trow/portal": [
     "shiningdracon"
+  ],
+  "/tsinghua/lib/zydt/:category?": [
+    "nczitzk"
   ],
   "/ttv/:category?": [
     "dzx-dzx"
