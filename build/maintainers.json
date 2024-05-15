@@ -5785,6 +5785,9 @@
   "/typora/changelog": [
     "cnzgray"
   ],
+  "/typst/universe": [
+    "HPDell"
+  ],
   "/u3c3/search/:keyword/:preview?": [
     "storytellerF"
   ],
@@ -6142,6 +6145,9 @@
   ],
   "/whu/hyxt/:category{.+}?": [],
   "/whu/news/:category{.+}?": [],
+  "/whu/rsgis/:type/:sub?": [
+    "HPDell"
+  ],
   "/whu/gs/:type?": [
     "Delreyaa"
   ],
