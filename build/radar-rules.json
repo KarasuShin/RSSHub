@@ -1,4 +1,17 @@
 {
+  "81.cn": {
+    "_name": "中国军网",
+    "81rc": [
+      {
+        "title": "中国人民解放军专业技术人才网",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/:category"
+        ],
+        "target": "/81params=>{const category=params.category;return`/81/81rc/${category?`/${category}`:\"\"}`}"
+      }
+    ]
+  },
   "163.com": {
     "_name": "网易公开课",
     "ds": [
@@ -1079,6 +1092,20 @@
       }
     ]
   },
+  "alipan.com": {
+    "_name": "阿里云盘",
+    "www": [
+      {
+        "title": "文件列表",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/s/:share_id/folder/:parent_file_id",
+          "/s/:share_id"
+        ],
+        "target": "/alipan/files/:share_id/:parent_file_id?"
+      }
+    ]
+  },
   "aliresearch.com": {
     "_name": "阿里研究院",
     ".": [
@@ -1352,33 +1379,6 @@
           "/"
         ],
         "target": "/arcteryx/regear/new-arrivals"
-      }
-    ]
-  },
-  "arknights.jp": {
-    "_name": "明日方舟",
-    "ak": [
-      {
-        "title": "アークナイツ (日服新闻)",
-        "docs": "https://docs.rsshub.app/routes/game",
-        "source": [
-          "/news",
-          "/"
-        ],
-        "target": "/arknights/japan"
-      }
-    ]
-  },
-  "hypergryph.com": {
-    "_name": "明日方舟",
-    "ak-conf": [
-      {
-        "title": "游戏公告与新闻",
-        "docs": "https://docs.rsshub.app/routes/game",
-        "source": [
-          "/*"
-        ],
-        "target": "/arknights/news"
       }
     ]
   },
@@ -2069,6 +2069,19 @@
           "/"
         ],
         "target": "/bjsk/keti/:id"
+      }
+    ]
+  },
+  "bjtu.edu.cn": {
+    "_name": "Beijing Jiaotong University",
+    "gs": [
+      {
+        "title": "研究生院",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/"
+        ],
+        "target": "/bjtu/gs/:type?"
       }
     ]
   },
@@ -4477,6 +4490,15 @@
         "target": "/domp4/detail/:id"
       },
       {
+        "title": "最近更新的电源BT列表",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/",
+          "/custom/update.html"
+        ],
+        "target": "/domp4/latest_movie_bt"
+      },
+      {
         "title": "最近更新",
         "docs": "https://docs.rsshub.app/routes/multimedia",
         "source": [
@@ -5279,26 +5301,26 @@
         "target": "/finology/bullets"
       },
       {
+        "title": "Category",
+        "docs": "https://docs.rsshub.app/routes/finance",
+        "source": [
+          "/:category"
+        ],
+        "target": "/finology/:category"
+      },
+      {
         "title": "Most Viewed",
         "docs": "https://docs.rsshub.app/routes/finance",
         "source": [
-          "/:category"
+          "/most-viewed"
         ],
-        "target": "/finology/:category"
+        "target": "/finology/most-viewed/monthly"
       },
       {
-        "title": "Category",
+        "title": "Trending Topic",
         "docs": "https://docs.rsshub.app/routes/finance",
         "source": [
-          "/:category"
-        ],
-        "target": "/finology/:category"
-      },
-      {
-        "title": "Category",
-        "docs": "https://docs.rsshub.app/routes/finance",
-        "source": [
-          "/:category"
+          "/tag/:topic"
         ],
         "target": "/finology/tag/:topic"
       }
@@ -8017,6 +8039,33 @@
       }
     ]
   },
+  "arknights.jp": {
+    "_name": "鹰角网络",
+    "ak": [
+      {
+        "title": "アークナイツ (日服新闻)",
+        "docs": "https://docs.rsshub.app/routes/game",
+        "source": [
+          "/news",
+          "/"
+        ],
+        "target": "/hypergryph/arknights/japan"
+      }
+    ]
+  },
+  "hypergryph.com": {
+    "_name": "鹰角网络",
+    "ak-conf": [
+      {
+        "title": "明日方舟 - 游戏公告与新闻",
+        "docs": "https://docs.rsshub.app/routes/game",
+        "source": [
+          "/news"
+        ],
+        "target": "/hypergryph/arknights/news/:group?"
+      }
+    ]
+  },
   "icac.org.hk": {
     "_name": "Hong Kong Independent Commission Against Corruption 香港廉政公署",
     ".": [
@@ -8468,16 +8517,16 @@
       }
     ]
   },
-  "seejav.pw": {
+  "javbus.com": {
     "_name": "JavBus",
     "www": [
       {
-        "title": "Unknown",
-        "docs": "https://docs.rsshub.app/routes/other",
+        "title": "Works",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
         "source": [
-          "/"
+          "/:path*"
         ],
-        "target": "/javbus*"
+        "target": "/javbus/:path"
       }
     ]
   },
@@ -10736,7 +10785,7 @@
         "source": [
           "/:key/:keyword"
         ],
-        "target": "/nhentai/:key/:keyword"
+        "target": "/nhentai/index/:key/:keyword"
       },
       {
         "title": "Advanced Search",
@@ -12647,11 +12696,11 @@
     ]
   },
   "qq.com": {
-    "_name": "腾讯新闻较真查证平台",
+    "_name": "腾讯网",
     "ac": [
       {
         "title": "Unknown",
-        "docs": "https://docs.rsshub.app/routes/anime",
+        "docs": "https://docs.rsshub.app/routes/new-media",
         "source": [
           "/Comic/ComicInfo/id/:id",
           "/"
@@ -12666,6 +12715,48 @@
           "/"
         ],
         "target": "/qq/ac/rank/:type?/:time?"
+      }
+    ],
+    "cfhd.cf": [
+      {
+        "title": "穿越火线 CFHD 专区资讯中心 - 最新",
+        "docs": "https://docs.rsshub.app/routes/game",
+        "source": [
+          "/webplat/info/news_version3/37427/59139/59140/60847/m22510/list_1.shtml"
+        ],
+        "target": "/qq/cfhd/news/60847"
+      },
+      {
+        "title": "穿越火线 CFHD 专区资讯中心 - 公告",
+        "docs": "https://docs.rsshub.app/routes/game",
+        "source": [
+          "/webplat/info/news_version3/37427/59139/59140/59625/m22510/list_1.shtml"
+        ],
+        "target": "/qq/cfhd/news/59625"
+      },
+      {
+        "title": "穿越火线 CFHD 专区资讯中心 - 版本",
+        "docs": "https://docs.rsshub.app/routes/game",
+        "source": [
+          "/webplat/info/news_version3/37427/59139/59140/60850/m22510/list_1.shtml"
+        ],
+        "target": "/qq/cfhd/news/60850"
+      },
+      {
+        "title": "穿越火线 CFHD 专区资讯中心 - 赛事",
+        "docs": "https://docs.rsshub.app/routes/game",
+        "source": [
+          "/webplat/info/news_version3/37427/59139/59140/59626/m22510/list_1.shtml"
+        ],
+        "target": "/qq/cfhd/news/59626"
+      },
+      {
+        "title": "穿越火线 CFHD 专区资讯中心 - 杂谈",
+        "docs": "https://docs.rsshub.app/routes/game",
+        "source": [
+          "/webplat/info/news_version3/37427/59139/59140/59624/m22510/list_1.shtml"
+        ],
+        "target": "/qq/cfhd/news/59624"
       }
     ],
     "vp.fact": [
@@ -14051,14 +14142,24 @@
   },
   "shisu.edu.cn": {
     "_name": "上海外国语大学",
+    "en": [
+      {
+        "title": "SISU TODAY | FEATURED STORIES",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/resources/:section/"
+        ],
+        "target": "/shisu/en/:section"
+      }
+    ],
     "news": [
       {
         "title": "上外新闻",
         "docs": "https://docs.rsshub.app/routes/university",
         "source": [
-          "/:category/index.html"
+          "/:section/index.html"
         ],
-        "target": "/shisu/news/:category"
+        "target": "/shisu/news/:section"
       }
     ]
   },
@@ -15009,6 +15110,16 @@
         ],
         "target": "/swjtu/xg"
       }
+    ],
+    "gsee": [
+      {
+        "title": "地球科学与工程学院",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/"
+        ],
+        "target": "/swjtu/gsee/yjs"
+      }
     ]
   },
   "swpu.edu.cn": {
@@ -15055,7 +15166,7 @@
         "target": "/swpu/is/:code"
       },
       {
-        "title": "计算机科学学院",
+        "title": "计算机与软件学院",
         "docs": "https://docs.rsshub.app/routes/university",
         "source": [
           "/"
@@ -15374,6 +15485,27 @@
           "/:category"
         ],
         "target": "/theatlantic/:category"
+      }
+    ]
+  },
+  "theblockbeats.info": {
+    "_name": "律动 BlockBeats",
+    "www": [
+      {
+        "title": "文章",
+        "docs": "https://docs.rsshub.app/routes/finance",
+        "source": [
+          "/article"
+        ],
+        "target": "/theblockbeats/article"
+      },
+      {
+        "title": "快讯",
+        "docs": "https://docs.rsshub.app/routes/finance",
+        "source": [
+          "/newsflash"
+        ],
+        "target": "/theblockbeats/newsflash"
       }
     ]
   },
@@ -15911,8 +16043,8 @@
       }
     ]
   },
-  "twitter.com": {
-    "_name": "Twitter",
+  "x.com": {
+    "_name": "X (Twitter)",
     ".": [
       {
         "title": "Home timeline",
@@ -17058,6 +17190,19 @@
           "/wj/*path"
         ],
         "target": "/worldjournal/:path"
+      }
+    ]
+  },
+  "worldofwarships.com": {
+    "_name": "World of Warships",
+    "blog": [
+      {
+        "title": "Development Blog",
+        "docs": "https://docs.rsshub.app/routes/game",
+        "source": [
+          "/"
+        ],
+        "target": "/worldofwarships/devblog"
       }
     ]
   },
