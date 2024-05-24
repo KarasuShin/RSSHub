@@ -19002,7 +19002,35 @@
       }
     },
     "name": "fanbox",
-    "url": "https://www.fanbox.cc"
+    "url": "www.fanbox.cc"
+  },
+  "fanqienovel": {
+    "routes": {
+      "/page/:bookId": {
+        "path": "/page/:bookId",
+        "example": "/fanqienovel/page/6621052928482348040",
+        "parameters": {
+          "bookId": "小说 ID，可在 URL 中找到"
+        },
+        "maintainers": [
+          "TonyRL"
+        ],
+        "name": "小说更新",
+        "radar": [
+          {
+            "source": [
+              "fanqienovel.com/page/:bookId"
+            ]
+          }
+        ],
+        "location": "page.ts"
+      }
+    },
+    "name": "番茄小说",
+    "url": "fanqienovel.com",
+    "categories": [
+      "reading"
+    ]
   },
   "fansly": {
     "routes": {
@@ -32253,6 +32281,31 @@
     },
     "name": "集思录",
     "url": "jisilu.cn"
+  },
+  "jiuyangongshe": {
+    "routes": {
+      "/community": {
+        "path": "/community",
+        "example": "/jiuyangongshe/community",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "name": "社群",
+        "radar": [
+          {
+            "source": [
+              "www.jiuyangongshe.com"
+            ]
+          }
+        ],
+        "location": "community.ts"
+      }
+    },
+    "name": "韭研公社",
+    "url": "www.jiuyangongshe.com",
+    "categories": [
+      "finance"
+    ]
   },
   "jjwxc": {
     "routes": {
@@ -46126,15 +46179,6 @@
           "other"
         ],
         "example": "/pwc/strategyand/sustainability",
-        "parameters": {},
-        "features": {
-          "requireConfig": false,
-          "requirePuppeteer": true,
-          "antiCrawler": false,
-          "supportBT": false,
-          "supportPodcast": false,
-          "supportScihub": false
-        },
         "radar": [
           {
             "source": [

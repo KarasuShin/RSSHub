@@ -1862,6 +1862,9 @@
   "/fanbox/:creator": [
     "KarasuShin"
   ],
+  "/fanqienovel/page/:bookId": [
+    "TonyRL"
+  ],
   "/fansly/user/:username": [
     "TonyRL"
   ],
@@ -3221,6 +3224,9 @@
   ],
   "/jisilu/:category?/:sort?/:day?": [
     "nczitzk"
+  ],
+  "/jiuyangongshe/community": [
+    "TonyRL"
   ],
   "/jjwxc/author/:id?": [
     "nczitzk"
