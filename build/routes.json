@@ -2056,11 +2056,11 @@
       "/article/:id": {
         "path": "/article/:id",
         "name": "章节",
-        "url": "www.69shu.top",
+        "url": "www.69shuba.pro",
         "maintainers": [
           "eternasuno"
         ],
-        "example": "/article/47117",
+        "example": "/69shu/article/47117",
         "parameters": {
           "id": "小说 id, 可在对应小说页 URL 中找到"
         },
@@ -2078,7 +2078,7 @@
         "radar": [
           {
             "source": [
-              "www.69shu.top/book/:id.htm"
+              "www.69shuba.pro/book/:id.htm"
             ],
             "target": "/article/:id"
           }
@@ -2087,7 +2087,7 @@
       }
     },
     "name": "69书吧",
-    "url": "69shu.top"
+    "url": "69shuba.pro"
   },
   "6park": {
     "routes": {
@@ -6992,7 +6992,7 @@
           "arc_type": "投稿时间, 可为 0(全部投稿) 1(近期投稿) , 默认 1",
           "disableEmbed": "默认为开启内嵌视频, 任意值为关闭"
         },
-        "description": "| 全站 | 动画 | 国创相关 | 音乐 | 舞蹈 | 游戏 | 科技 | 数码 | 生活 | 鬼畜 | 时尚 | 娱乐 | 影视 |\n    | ---- | ---- | -------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |\n    | 0    | 1    | 168      | 3    | 129  | 4    | 36   | 188  | 160  | 119  | 155  | 5    | 181  |",
+        "description": "| 全站 | 动画 | 国创相关 | 音乐 | 舞蹈 | 游戏 | 科技 | 数码 | 生活 | 鬼畜 | 时尚 | 娱乐 | 影视 |\n| ---- | ---- | -------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |\n| 0    | 1    | 168      | 3    | 129  | 4    | 36   | 188  | 160  | 119  | 155  | 5    | 181  |",
         "location": "ranking.ts"
       },
       "/readlist/:listid": {
@@ -10811,6 +10811,40 @@
     },
     "name": "中国期货市场监控中心",
     "url": "cfmmc.com"
+  },
+  "cfr": {
+    "routes": {
+      "/:category/:subCategory?": {
+        "path": "/:category/:subCategory?",
+        "categories": [
+          "traditional-media"
+        ],
+        "parameters": {
+          "category": "category, find it in the URL",
+          "subCategory": "sub-category, find it in the URL"
+        },
+        "example": "/cfr/asia",
+        "name": "News",
+        "maintainers": [
+          "KarasuShin"
+        ],
+        "radar": [
+          {
+            "source": [
+              "www.cfr.org/:category",
+              "www.cfr.org/:category/:subCategory"
+            ],
+            "target": "/:category/:subCategory?"
+          }
+        ],
+        "features": {
+          "antiCrawler": true
+        },
+        "location": "index.ts"
+      }
+    },
+    "name": "Council on Foreign Relations",
+    "url": "www.cfr.org"
   },
   "cgtn": {
     "routes": {
@@ -15444,7 +15478,7 @@
         "maintainers": [
           "KiraKiseki"
         ],
-        "description": "| 学生专栏 | 教师专栏 |\n  | -------- | -------- |\n  | student  | teacher  |",
+        "description": "| 学生专栏 | 教师专栏 | 选课专栏（仅选课期间开放） | 辅修专业 |\n  | -------- | -------- | -------- | -------- |\n  | student  | teacher  | class    | fxzy     |",
         "location": "jiaowu/news.ts"
       },
       "/news/xsxx": {
@@ -15547,7 +15581,7 @@
       }
     },
     "name": "东华大学",
-    "url": "gs.dhu.edu.cn"
+    "url": "www.dhu.edu.cn"
   },
   "diandong": {
     "routes": {
@@ -20750,7 +20784,7 @@
         "categories": [
           "traditional-media"
         ],
-        "example": "/ft/simplified/hotstoryby7day",
+        "example": "/ftchinese/simplified/hotstoryby7day",
         "parameters": {
           "language": "语言，简体 `simplified`，繁体 `traditional`",
           "channel": "频道，缺省为每日更新"
@@ -20768,7 +20802,7 @@
           "HenryQW",
           "xyqfer"
         ],
-        "description": ":::tip\n  -   不支持付费文章。\n  :::\n\n  通过提取文章全文，以提供比官方源更佳的阅读体验。\n\n  支持所有频道，频道名称见 [官方频道 RSS](http://www.ftchinese.com/channel/rss.html).\n\n  -   频道为单一路径，如 `http://www.ftchinese.com/rss/news` 则为 `/ft/simplified/news`.\n  -   频道包含多重路径，如 `http://www.ftchinese.com/rss/column/007000002` 则替换 `/` 为 `-` `/ft/simplified/column-007000002`.",
+        "description": ":::tip\n  -   不支持付费文章。\n  :::\n\n  通过提取文章全文，以提供比官方源更佳的阅读体验。\n\n  支持所有频道，频道名称见 [官方频道 RSS](http://www.ftchinese.com/channel/rss.html).\n\n  -   频道为单一路径，如 `http://www.ftchinese.com/rss/news` 则为 `/ftchinese/simplified/news`.\n  -   频道包含多重路径，如 `http://www.ftchinese.com/rss/column/007000002` 则替换 `/` 为 `-` `/ftchinese/simplified/column-007000002`.",
         "location": "channel.ts"
       }
     },
@@ -30132,6 +30166,36 @@
     "name": "ImageMagick",
     "url": "imagemagick.org"
   },
+  "imdb": {
+    "routes": {
+      "/chart/:chart?": {
+        "path": "/chart/:chart?",
+        "categories": [
+          "multimedia"
+        ],
+        "parameters": {
+          "chart": "The chart to display, `top` by default"
+        },
+        "example": "/imdb/chart",
+        "radar": [
+          {
+            "source": [
+              "www.imdb.com/chart/:chart/"
+            ]
+          }
+        ],
+        "name": "Charts",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "url": "www.imdb.com/chart/top/",
+        "description": "| Top 250 Movies | Most Popular Movies | Top 250 TV Shows | Most Popular TV Shows |\n  | -------------- | ------------------- | ---------------- | --------------------- |\n  | top            | moviemeter          | toptv            | tvmeter               |",
+        "location": "chart.ts"
+      }
+    },
+    "name": "IMDb",
+    "url": "www.imdb.com"
+  },
   "imiker": {
     "routes": {
       "/ask/jinghua": {
@@ -31310,40 +31374,21 @@
         "location": "actors.ts"
       },
       "/home/:category?/:sort?/:filter?": {
-        "path": [
-          "/home/:category?/:sort?/:filter?",
-          "/:category?/:sort?/:filter?"
-        ],
+        "path": "/home/:category?/:sort?/:filter?",
         "radar": [
           {
             "source": [
               "javdb.com/"
-            ],
-            "target": ""
+            ]
           }
         ],
-        "name": "Unknown",
-        "maintainers": [
-          "nczitzk"
-        ],
-        "url": "javdb.com/",
-        "description": "分类\n\n  | 有碼     | 無碼       | 歐美    |\n  | -------- | ---------- | ------- |\n  | censored | uncensored | western |\n\n  排序\n\n  | 发布日期排序 | 磁鏈更新排序 |\n  | ------------ | ------------ |\n  | 1            | 2            |\n\n  过滤\n\n  | 全部 | 可下载 | 含字幕 | 含短評 |\n  | ---- | ------ | ------ | ------ |\n  | 0    | 1      | 2      | 3      |",
-        "location": "index.ts"
-      },
-      "/:category?/:sort?/:filter?": {
-        "path": [
-          "/home/:category?/:sort?/:filter?",
-          "/:category?/:sort?/:filter?"
-        ],
-        "radar": [
-          {
-            "source": [
-              "javdb.com/"
-            ],
-            "target": ""
-          }
-        ],
-        "name": "Unknown",
+        "name": "主页",
+        "example": "/javdb/home",
+        "parameters": {
+          "category": "分类，见下表，默认为 `有碼`",
+          "sort": "排序，见下表，默认为 `磁鏈更新排序`",
+          "filter": "过滤，见下表，默认为 `可下载`"
+        },
         "maintainers": [
           "nczitzk"
         ],
@@ -32162,6 +32207,32 @@
     "name": "金十数据",
     "url": "jin10.com"
   },
+  "jingzhengu": {
+    "routes": {
+      "/news": {
+        "path": "/news",
+        "categories": [
+          "other"
+        ],
+        "example": "/jingzhengu/news",
+        "radar": [
+          {
+            "source": [
+              "www.jingzhengu.com"
+            ]
+          }
+        ],
+        "name": "资讯",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "url": "www.jingzhengu.com",
+        "location": "news.ts"
+      }
+    },
+    "name": "精真估",
+    "url": "www.jingzhengu.com"
+  },
   "jinse": {
     "routes": {
       "/:category?": {
@@ -32358,6 +32429,33 @@
     },
     "name": "晋江文学城",
     "url": "jjwxc.net"
+  },
+  "jlu": {
+    "routes": {
+      "/jwc": {
+        "path": "/jwc",
+        "categories": [
+          "university"
+        ],
+        "example": "/jlu/jwc",
+        "radar": [
+          {
+            "source": [
+              "jwc.jlu.edu.cn",
+              "jwc.jlu.edu.cn/index.htm"
+            ]
+          }
+        ],
+        "name": "教务通知",
+        "maintainers": [
+          "mayouxi"
+        ],
+        "url": "jwc.jlu.edu.cn",
+        "location": "jwc.ts"
+      }
+    },
+    "name": "吉林大学",
+    "url": "jlu.edu.cn"
   },
   "jornada": {
     "routes": {
@@ -32978,6 +33076,47 @@
       "new-media"
     ],
     "description": ""
+  },
+  "kadokawa": {
+    "routes": {
+      "/blog": {
+        "path": "/blog",
+        "name": "角編新聞台",
+        "url": "kadokawa.com.tw",
+        "maintainers": [
+          "nczitzk"
+        ],
+        "example": "/kadokawa/blog",
+        "description": "",
+        "categories": [
+          "blog"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportRadar": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "kadokawa.com.tw/blog/posts"
+            ],
+            "target": "/blog"
+          }
+        ],
+        "location": "blog.ts"
+      }
+    },
+    "name": "台灣角川",
+    "url": "kadokawa.com.tw",
+    "categories": [
+      "shopping"
+    ],
+    "description": "TAIWAN KADOKAWA"
   },
   "kamen-rider-official": {
     "routes": {
@@ -35956,6 +36095,76 @@
     "name": "Mastodon",
     "url": "mastodon.social",
     "description": ":::tip\nOfficial user RSS:\n\n-   RSS: `https://**:instance**/users/**:username**.rss` ([Example](https://pawoo.net/users/pawoo_support.rss))\n-   Atom: ~~`https://**:instance**/users/**:username**.atom`~~ (Only for pawoo.net, [example](https://pawoo.net/users/pawoo_support.atom))\n\nThese feed do not include boosts (a.k.a. reblogs). RSSHub provides a feed for user timeline based on the Mastodon API, but to use that, you may need to create application on a Mastodon instance, and configure your RSSHub instance. Check the [Deploy Guide](https://docs.rsshub.app/deploy/config#route-specific-configurations) for route-specific configurations.\n:::"
+  },
+  "matters": {
+    "routes": {
+      "/author/:uid": {
+        "path": "/author/:uid",
+        "name": "Author",
+        "example": "/matters/author/robertu",
+        "parameters": {
+          "uid": "Author id, can be found at author's homepage url"
+        },
+        "maintainers": [
+          "Cerebrater",
+          "xosdy"
+        ],
+        "radar": [
+          {
+            "source": [
+              "matters.town/:uid"
+            ]
+          }
+        ],
+        "location": "author.ts"
+      },
+      "/latest/:type?": {
+        "path": "/latest/:type?",
+        "name": "Latest, heat, essence",
+        "example": "/matters/latest/heat",
+        "parameters": {
+          "uid": "Defaults to latest, see table below"
+        },
+        "maintainers": [
+          "xyqfer",
+          "Cerebrater",
+          "xosdy"
+        ],
+        "radar": [
+          {
+            "source": [
+              "matters.town"
+            ]
+          }
+        ],
+        "description": "| 最新   | 热门 | 精华    |\n  | ------ | ---- | ------- |\n  | latest | heat | essence |",
+        "location": "latest.ts"
+      },
+      "/tags/:tid": {
+        "path": "/tags/:tid",
+        "name": "Tags",
+        "example": "/matters/tags/972-哲學",
+        "parameters": {
+          "tid": "Tag id, can be found in the url of the tag page"
+        },
+        "maintainers": [
+          "Cerebrater"
+        ],
+        "radar": [
+          {
+            "source": [
+              "matters.town/tags/:tid"
+            ]
+          }
+        ],
+        "location": "tags.ts"
+      }
+    },
+    "name": "Matters",
+    "url": "matters.town",
+    "categories": [
+      "new-media"
+    ]
   },
   "mckinsey": {
     "routes": {
@@ -39579,32 +39788,22 @@
   },
   "nikkei": {
     "routes": {
-      "/": {
-        "path": [
-          "/",
-          "/index"
-        ],
-        "name": "Unknown",
-        "maintainers": [],
-        "url": "www.nikkei.com/",
-        "location": "index.ts"
-      },
       "/index": {
-        "path": [
-          "/",
-          "/index"
+        "path": "/index",
+        "name": "Home",
+        "example": "/nikkei/index",
+        "maintainers": [
+          "zjysdhr"
         ],
-        "name": "Unknown",
-        "maintainers": [],
-        "url": "www.nikkei.com/",
+        "url": "www.nikkei.com",
         "location": "index.ts"
       },
-      "/:category/:article_type?": {
-        "path": "/:category/:article_type?",
+      "/news/:category/:article_type?": {
+        "path": "/news/:category/:article_type?",
         "categories": [
           "traditional-media"
         ],
-        "example": "/nikkei/news",
+        "example": "/nikkei/news/news",
         "parameters": {
           "category": "Category, see table below",
           "article_type": "Only includes free articles, set `free` to enable, disabled by default"
@@ -39632,15 +39831,6 @@
           "traditional-media"
         ],
         "example": "/nikkei/asia",
-        "parameters": {},
-        "features": {
-          "requireConfig": false,
-          "requirePuppeteer": false,
-          "antiCrawler": false,
-          "supportBT": false,
-          "supportPodcast": false,
-          "supportScihub": false
-        },
         "radar": [
           {
             "source": [
@@ -39652,18 +39842,40 @@
         "maintainers": [
           "rainrdx"
         ],
-        "url": "asia.nikkei.com/",
+        "url": "asia.nikkei.com",
         "location": "asia/index.ts"
       },
       "/cn/*": {
         "path": "/cn/*",
-        "name": "Unknown",
-        "maintainers": [],
+        "name": "中文版新闻",
+        "example": "/nikkei/cn",
+        "maintainers": [
+          "nczitzk"
+        ],
+        "description": "::: tip\n  如 [中国 经济 日经中文网](https://cn.nikkei.com/china/ceconomy.html) 的 URL 为 `https://cn.nikkei.com/china/ceconomy.html` 对应路由为 [`/nikkei/cn/cn/china/ceconomy`](https://rsshub.app/nikkei/cn/cn/china/ceconomy)\n\n  如 [中國 經濟 日經中文網](https://zh.cn.nikkei.com/china/ceconomy.html) 的 URL 为 `https://zh.cn.nikkei.com/china/ceconomy.html` 对应路由为 [`/nikkei/cn/zh/china/ceconomy`](https://rsshub.app/nikkei/cn/zh/china/ceconomy)\n\n  特别地，当 `path` 填入 `rss` 后（如路由为 [`/nikkei/cn/cn/rss`](https://rsshub.app/nikkei/cn/cn/rss)），此时返回的是 [官方 RSS 的内容](https://cn.nikkei.com/rss.html)\n:::",
+        "radar": [
+          {
+            "title": "中文版新闻",
+            "source": [
+              "cn.nikkei.com/:category/:type",
+              "cn.nikkei.com/:category",
+              "cn.nikkei.com/"
+            ]
+          },
+          {
+            "title": "中文版新聞",
+            "source": [
+              "zh.cn.nikkei.com/:category/:type",
+              "zh.cn.nikkei.com/:category",
+              "zh.cn.nikkei.com/"
+            ]
+          }
+        ],
         "location": "cn/index.ts"
       }
     },
     "name": "The Nikkei 日本経済新聞",
-    "url": "asia.nikkei.com"
+    "url": "nikkei.com"
   },
   "nintendo": {
     "routes": {
@@ -45620,6 +45832,57 @@
     },
     "name": "Proceedings of The National Academy of Sciences",
     "url": "pnas.org"
+  },
+  "podwise": {
+    "routes": {
+      "/explore": {
+        "path": "/explore",
+        "categories": [
+          "multimedia"
+        ],
+        "example": "/podwise/explore",
+        "radar": [
+          {
+            "source": [
+              "podwise.ai",
+              "podwise.ai/explore"
+            ]
+          }
+        ],
+        "name": "Collections",
+        "maintainers": [
+          "lyling"
+        ],
+        "location": "collections.ts"
+      },
+      "/explore/:type": {
+        "path": "/explore/:type",
+        "categories": [
+          "multimedia"
+        ],
+        "example": "/podwise/explore/latest",
+        "parameters": {
+          "type": "latest or all episodes."
+        },
+        "radar": [
+          {
+            "source": [
+              "podwise.ai/explore/:type"
+            ]
+          }
+        ],
+        "name": "Episodes",
+        "maintainers": [
+          "lyling"
+        ],
+        "location": "episodes.ts"
+      }
+    },
+    "name": "Podwise",
+    "url": "podwise.ai",
+    "zh": {
+      "name": "Podwise"
+    }
   },
   "pornhub": {
     "routes": {
@@ -53995,6 +54258,31 @@
     "name": "Stratechery by Ben Thompson",
     "url": "blog.stratechery.com"
   },
+  "stream-capital": {
+    "routes": {
+      "/search": {
+        "path": "/search",
+        "name": "最新",
+        "categories": [
+          "finance"
+        ],
+        "example": "/stream-capital/search",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "radar": [
+          {
+            "source": [
+              "www.stream-capital.com/search"
+            ]
+          }
+        ],
+        "location": "search.ts"
+      }
+    },
+    "name": "远川研究所",
+    "url": "www.stream-capital.com"
+  },
   "studygolang": {
     "routes": {
       "/go/:id?": {
@@ -55721,6 +56009,28 @@
   },
   "tencent": {
     "routes": {
+      "/cloud/developer/column/:categoryId?": {
+        "path": "/cloud/developer/column/:categoryId?",
+        "categories": [
+          "programming"
+        ],
+        "example": "/tencent/cloud/developer/column/1",
+        "parameters": {
+          "categoryId": "categoryId from page url"
+        },
+        "radar": [
+          {
+            "source": [
+              "cloud.tencent.com/developer/column"
+            ]
+          }
+        ],
+        "name": "腾讯云开发者社区专栏",
+        "maintainers": [
+          "lyling"
+        ],
+        "location": "cloud/developer/column.ts"
+      },
       "/news/author/:mid": {
         "path": "/news/author/:mid",
         "categories": [
@@ -55825,8 +56135,8 @@
         "location": "qq/sdk/changelog.ts"
       }
     },
-    "name": "王者荣耀",
-    "url": "mp.weixin.qq.com"
+    "name": "腾讯",
+    "url": "tencent.com"
   },
   "tesla": {
     "routes": {
@@ -55894,7 +56204,7 @@
     "routes": {
       "/:id/:params?": {
         "path": "/:id/:params?",
-        "name": "Unknown",
+        "name": "Test",
         "maintainers": [
           "DIYgod",
           "NeverBehave"
@@ -55902,7 +56212,7 @@
         "location": "index.ts"
       }
     },
-    "name": "Unknown"
+    "name": "RSSHub Test"
   },
   "tfc-taiwan": {
     "routes": {
@@ -60474,6 +60784,37 @@
     },
     "name": "Constitutional Court of Baden-Württemberg (Germany)",
     "url": "verfgh.baden-wuerttemberg.de"
+  },
+  "vice": {
+    "routes": {
+      "/topic/:topic/:language?": {
+        "path": "/topic/:topic/:language?",
+        "categories": [
+          "traditional-media"
+        ],
+        "example": "/vice/topic/politics/en",
+        "parameters": {
+          "topic": "Can be found in the URL",
+          "language": "defaults to `en`, use the website to discover other codes"
+        },
+        "radar": [
+          {
+            "source": [
+              "www.vice.com/:language/topic/:topic"
+            ],
+            "target": "/topic/:topic/:language"
+          }
+        ],
+        "name": "Topic",
+        "maintainers": [
+          "K33k0"
+        ],
+        "url": "vice.com/",
+        "location": "topic.ts"
+      }
+    },
+    "name": "VICE",
+    "url": "vice.com"
   },
   "vimeo": {
     "routes": {
@@ -65767,51 +66108,34 @@
   },
   "zaobao": {
     "routes": {
-      "/:type?/:section?": {
-        "path": "/:type?/:section?",
-        "categories": [
-          "traditional-media"
-        ],
-        "example": "/zaobao/lifestyle/health",
-        "parameters": {
-          "type": "https://www.zaobao.com/**lifestyle**/health 中的 **lifestyle**",
-          "section": "https://www.zaobao.com/lifestyle/**health** 中的 **health**"
-        },
-        "features": {
-          "requireConfig": false,
-          "requirePuppeteer": false,
-          "antiCrawler": false,
-          "supportBT": false,
-          "supportPodcast": false,
-          "supportScihub": false
-        },
-        "name": "其他栏目",
-        "maintainers": [
-          "shunf4"
-        ],
-        "description": "除了上面两个兼容规则之外，联合早报网站里所有页面形如 [https://www.zaobao.com/lifestyle/health](https://www.zaobao.com/lifestyle/health) 这样的栏目都能被这个规则解析到，早报的大部分栏目都是这个样式的。你可以测试之后再订阅。",
-        "location": "index.ts"
-      },
       "/interactive-graphics": {
         "path": "/interactive-graphics",
         "categories": [
           "traditional-media"
         ],
         "example": "/zaobao/interactive-graphics",
-        "parameters": {},
-        "features": {
-          "requireConfig": false,
-          "requirePuppeteer": false,
-          "antiCrawler": false,
-          "supportBT": false,
-          "supportPodcast": false,
-          "supportScihub": false
-        },
         "name": "互动新闻",
         "maintainers": [
           "shunf4"
         ],
         "location": "interactive.ts"
+      },
+      "/other/:type?/:section?": {
+        "path": "/other/:type?/:section?",
+        "categories": [
+          "traditional-media"
+        ],
+        "example": "/zaobao/other/lifestyle/health",
+        "parameters": {
+          "type": "https://www.zaobao.com/**lifestyle**/health 中的 **lifestyle**",
+          "section": "https://www.zaobao.com/lifestyle/**health** 中的 **health**"
+        },
+        "name": "其他栏目",
+        "maintainers": [
+          "shunf4"
+        ],
+        "description": "除了上面两个兼容规则之外，联合早报网站里所有页面形如 [https://www.zaobao.com/lifestyle/health](https://www.zaobao.com/lifestyle/health) 这样的栏目都能被这个规则解析到，早报的大部分栏目都是这个样式的。你可以测试之后再订阅。",
+        "location": "other.ts"
       },
       "/realtime/:section?": {
         "path": "/realtime/:section?",
@@ -65821,14 +66145,6 @@
         "example": "/zaobao/realtime/china",
         "parameters": {
           "section": "分类，缺省为 china"
-        },
-        "features": {
-          "requireConfig": false,
-          "requirePuppeteer": false,
-          "antiCrawler": false,
-          "supportBT": false,
-          "supportPodcast": false,
-          "supportScihub": false
         },
         "name": "即时新闻",
         "maintainers": [
