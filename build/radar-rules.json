@@ -2162,6 +2162,29 @@
       }
     ]
   },
+  "bjnews.com.cn": {
+    "_name": "新京报",
+    "www": [
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/:cat"
+        ],
+        "target": "/bjnews/cat/:cat"
+      }
+    ],
+    "m": [
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/column/:column.htm"
+        ],
+        "target": "/bjnews/column/:column"
+      }
+    ]
+  },
   "bjp.org.cn": {
     "_name": "北京天文馆",
     ".": [
@@ -3147,6 +3170,19 @@
       }
     ]
   },
+  "cffex.com.cn": {
+    "_name": "中国金融期货交易所",
+    ".": [
+      {
+        "title": "交易所公告",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/"
+        ],
+        "target": "/cffex/announcement"
+      }
+    ]
+  },
   "cfr.org": {
     "_name": "Council on Foreign Relations",
     "www": [
@@ -3299,6 +3335,19 @@
           "/"
         ],
         "target": "/chinaventure/news/:id?"
+      }
+    ]
+  },
+  "chlinlearn.top": {
+    "_name": "chlinlearn的技术博客",
+    "daily-blog": [
+      {
+        "title": "值得一读技术博客",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/blogs/*"
+        ],
+        "target": "/chlinlearn/chlinlearn/daily-blog"
       }
     ]
   },
@@ -8805,6 +8854,27 @@
       }
     ]
   },
+  "inspirehep.net": {
+    "_name": "INSPIRE",
+    ".": [
+      {
+        "title": "Author Search",
+        "docs": "https://docs.rsshub.app/routes/journal",
+        "source": [
+          "/authors/:id"
+        ],
+        "target": "/inspirehep/authors/:id"
+      },
+      {
+        "title": "Literature Search",
+        "docs": "https://docs.rsshub.app/routes/journal",
+        "source": [
+          "/literature"
+        ],
+        "target": "/inspirehep(_params,url)=>`/inspirehep/literature/${new URL(url).searchParams.get(\"q\")}`"
+      }
+    ]
+  },
   "instructables.com": {
     "_name": "Instructables",
     ".": [
@@ -9401,6 +9471,14 @@
           "/column/:id"
         ],
         "target": "/juejin/column/:id"
+      },
+      {
+        "title": "用户动态",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/user/:id"
+        ],
+        "target": "/juejin/dynamic/:id"
       },
       {
         "title": "收藏集",
@@ -10857,7 +10935,7 @@
     ]
   },
   "nasa.govundefined": {
-    "_name": "NASA Astronomy Picture of the Day",
+    "_name": "NASA",
     "apod": [
       {
         "title": "NASA 中文",
@@ -10876,7 +10954,7 @@
         "target": "/nasa/apod-ncku"
       },
       {
-        "title": "NASA",
+        "title": "Astronomy Picture of the Day",
         "docs": "https://docs.rsshub.app/routes/picture",
         "source": [
           "/"
@@ -13581,7 +13659,7 @@
     ],
     "book": [
       {
-        "title": "章节",
+        "title": "作品章节",
         "docs": "https://docs.rsshub.app/routes/reading",
         "source": [
           "/info/:id"
@@ -18015,7 +18093,7 @@
     ]
   },
   "weibo.com": {
-    "_name": "微博绿洲",
+    "_name": "微博",
     ".": [
       {
         "title": "最新关注时间线",
@@ -18054,7 +18132,7 @@
     ]
   },
   "weibo.cn": {
-    "_name": "微博绿洲",
+    "_name": "微博",
     "m": [
       {
         "title": "博主",
@@ -18679,6 +18757,15 @@
     ],
     "hk.news": [
       {
+        "title": "合作媒體",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/",
+          "/"
+        ],
+        "target": "/yahoo/news/list/:region/:listId"
+      },
+      {
         "title": "新聞來源列表",
         "docs": "https://docs.rsshub.app/routes/new-media",
         "source": [
@@ -19102,14 +19189,6 @@
           "/collection/:id"
         ],
         "target": "/zhihu/collection/:id"
-      },
-      {
-        "title": "知乎热榜",
-        "docs": "https://docs.rsshub.app/routes/social-media",
-        "source": [
-          "/hot"
-        ],
-        "target": "/zhihu/hotlist"
       },
       {
         "title": "用户文章",
