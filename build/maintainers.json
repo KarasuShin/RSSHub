@@ -78,11 +78,11 @@
   "/0x80/blog": [
     "xnum"
   ],
-  "/141jav/{.*}?": [
+  "/141jav/:type/:keyword{.*}?": [
     "cgkings",
     "nczitzk"
   ],
-  "/141ppv/{.*}?": [
+  "/141ppv/:type/:keyword{.*}?": [
     "cgkings",
     "nczitzk"
   ],
@@ -380,7 +380,9 @@
   "/aliyun/developer/group/:type": [
     "umm233"
   ],
-  "/aljazeera*": [],
+  "/aljazeera*": [
+    "nczitzk"
+  ],
   "/ally/rail/:category?/:topic?": [
     "Rongronggg9"
   ],
@@ -2338,6 +2340,9 @@
   "/google/news/:category/:locale": [
     "zoenglinghou"
   ],
+  "/google/research": [
+    "Levix"
+  ],
   "/google/scholar/:query": [
     "HenryQW"
   ],
@@ -3505,6 +3510,9 @@
   ],
   "/kunchengblog/essay": [
     "nczitzk"
+  ],
+  "/kurogames/wutheringwaves/news": [
+    "enpitsulin"
   ],
   "/kuwaitlocal/:category?": [
     "TonyRL"
@@ -5826,6 +5834,9 @@
   ],
   "/tgbus/list/:category": [
     "Xzonn"
+  ],
+  "/the/:filter{.+}?": [
+    "nczitzk"
   ],
   "/theatlantic/:category": [
     "EthanWng97"
