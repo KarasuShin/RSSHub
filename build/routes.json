@@ -26809,6 +26809,56 @@
         ],
         "location": "zhengce/zhengceku.ts"
       },
+      "/zj/ningbogzw-notice/:colId?": {
+        "path": "/zj/ningbogzw-notice/:colId?",
+        "categories": [
+          "government"
+        ],
+        "example": "/gov/zj/ningbogzw-notice/1229116730",
+        "parameters": {
+          "colId": "公告分类id、详细信息点击源网站http://gzw.ningbo.gov.cn/请求中寻找"
+        },
+        "radar": [
+          {
+            "source": [
+              "gzw.ningbo.gov.cn/col/col1229116730/index.html"
+            ],
+            "target": "/zj/ningbogzw-notice/:colId?"
+          }
+        ],
+        "name": "宁波市国资委-公告",
+        "url": "gzw.ningbo.gov.cn",
+        "maintainers": [
+          "HaoyuLee"
+        ],
+        "description": "\n| 公告类别         | colId |\n| ------------ | -- |\n| 首页-市属国企招聘信息-招聘公告     | 1229116730  |\n    ",
+        "location": "zj/ningbogzw-notice.ts"
+      },
+      "/zj/ningborsjnotice/:colId?": {
+        "path": "/zj/ningborsjnotice/:colId?",
+        "categories": [
+          "government"
+        ],
+        "example": "/gov/zj/ningborsjnotice/1229676740",
+        "parameters": {
+          "colId": "公告分类id、详细信息点击源网站http://rsj.ningbo.gov.cn/请求中寻找"
+        },
+        "radar": [
+          {
+            "source": [
+              "rsj.ningbo.gov.cn/col/col1229676740/index.html"
+            ],
+            "target": "/zj/ningborsjnotice/:colId?"
+          }
+        ],
+        "name": "宁波市人力资源和社会保障局-公告",
+        "url": "rsj.ningbo.gov.cn",
+        "maintainers": [
+          "HaoyuLee"
+        ],
+        "description": "\n| 公告类别         | colId |\n| ------------ | -- |\n| 事业单位进人公告     | 1229676740  |\n    ",
+        "location": "zj/ningborsjnotice.ts"
+      },
       "/zj/search/:websiteid?/:word/:cateid?": {
         "path": "/zj/search/:websiteid?/:word/:cateid?",
         "categories": [
@@ -31713,6 +31763,35 @@
     "name": "米课",
     "url": "imiker.com"
   },
+  "imop": {
+    "routes": {
+      "/tianshu": {
+        "path": "/tianshu",
+        "categories": [
+          "game"
+        ],
+        "example": "/imop/tianshu",
+        "radar": [
+          {
+            "source": [
+              "t.imop.com"
+            ],
+            "target": "/tianshu"
+          }
+        ],
+        "name": "全部消息",
+        "maintainers": [
+          "zhkgo"
+        ],
+        "location": "tianshu.ts"
+      }
+    },
+    "name": "imop",
+    "url": "imop.com",
+    "zh": {
+      "name": "千橡游戏"
+    }
+  },
   "indiansinkuwait": {
     "routes": {
       "/latest": {
@@ -35094,7 +35173,7 @@
         "categories": [
           "new-media"
         ],
-        "example": "/news/zh-hans",
+        "example": "/kaopu/news/zh-hans",
         "parameters": {
           "language": "语言"
         },
@@ -35109,7 +35188,7 @@
         "maintainers": [
           "fashioncj"
         ],
-        "description": "| 简体中文    | 繁体中文     | \n  | ------- | -------- | \n  | zh-hans | zh-hant | ",
+        "description": "| 简体中文    | 繁体中文     |\n  | ------- | -------- |\n  | zh-hans | zh-hant | ",
         "location": "news.ts"
       }
     },
@@ -36871,6 +36950,39 @@
     },
     "name": "龙空",
     "url": "lkong.com"
+  },
+  "lmu": {
+    "routes": {
+      "/jobs": {
+        "path": "/jobs",
+        "name": "Job Openings",
+        "url": "lmu.de",
+        "example": "/lmu/jobs",
+        "maintainers": [
+          "StarDxxx"
+        ],
+        "categories": [
+          "university",
+          "study"
+        ],
+        "radar": [
+          {
+            "source": [
+              "www.lmu.de/en/about-lmu/working-at-lmu/job-portal/academic-staff/"
+            ],
+            "target": "/lmu/jobs"
+          }
+        ],
+        "description": "RSS feed for LMU academic staff job openings.",
+        "location": "jobs.ts"
+      }
+    },
+    "name": "Ludwig Maximilian University of Munich",
+    "url": "www.lmu.de",
+    "description": "\nThis namespace provides RSS feeds for various sections of the Ludwig Maximilian University of Munich (LMU) website, particularly for job openings in the academic staff section.\n\n:::tip\nFor more information about LMU and their job offerings, visit their official website.\n:::\n",
+    "zh": {
+      "name": "慕尼黑大学"
+    }
   },
   "lofter": {
     "routes": {
@@ -39315,6 +39427,29 @@
           "Misaka13514"
         ],
         "location": "featured-notes.ts"
+      },
+      "/users/notes/:username": {
+        "path": "/users/notes/:username",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/misskey/users/notes/support@misskey.io",
+        "parameters": {
+          "username": "misskey username format, like support@misskey.io"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "User timeline",
+        "maintainers": [
+          "siygle"
+        ],
+        "location": "user-timeline.ts"
       }
     },
     "name": "Misskey",
@@ -58601,15 +58736,16 @@
   },
   "t66y": {
     "routes": {
-      "/:id/:type?": {
-        "path": "/:id/:type?",
+      "/:id/:type?/:search?": {
+        "path": "/:id/:type?/:search?",
         "categories": [
           "multimedia"
         ],
         "example": "/t66y/20/2",
         "parameters": {
           "id": "分区 id, 可在分区页 URL 中找到",
-          "type": "类型 id, 可在分区类型过滤后的 URL 中找到"
+          "type": "类型 id, 可在分区类型过滤后的 URL 中找到",
+          "search": "主题类型筛选，可在分区主题类型筛选后的 URL 中找到，默认为 `today`"
         },
         "features": {
           "requireConfig": false,
@@ -58623,7 +58759,7 @@
         "maintainers": [
           "zhboner"
         ],
-        "description": "> 注意：并非所有的分区都有子类型，可以参考成人文学交流区的 `古典武侠` 这一子类型。\n\n  | 亚洲无码原创区 | 亚洲有码原创区 | 欧美原创区 | 动漫原创区 | 国产原创区 |\n  | -------------- | -------------- | ---------- | ---------- | ---------- |\n  | 2              | 15             | 4          | 5          | 25         |\n\n  | 中字原创区 | 转帖交流区 | HTTP 下载区 | 在线成人区 |\n  | ---------- | ---------- | ----------- | ---------- |\n  | 26         | 27         | 21          | 22         |\n\n  | 技术讨论区 | 新时代的我们 | 达盖尔的旗帜 | 成人文学交流 |\n  | ---------- | ------------ | ------------ | ------------ |\n  | 7          | 8            | 16           | 20           |",
+        "description": "> 注意：并非所有的分区都有子类型，可以参考成人文学交流区的 `古典武侠` 这一子类型。\n\n  | 亚洲无码原创区 | 亚洲有码原创区 | 欧美原创区 | 动漫原创区 | 国产原创区 |\n  | -------------- | -------------- | ---------- | ---------- | ---------- |\n  | 2              | 15             | 4          | 5          | 25         |\n\n  | 中字原创区 | 转帖交流区 | HTTP 下载区 | 在线成人区 |\n  | ---------- | ---------- | ----------- | ---------- |\n  | 26         | 27         | 21          | 22         |\n\n  | 技术讨论区 | 新时代的我们 | 达盖尔的旗帜 | 成人文学交流 |\n  | ---------- | ------------ | ------------ | ------------ |\n  | 7          | 8            | 16           | 20           |\n\n  **主题过滤**\n\n  > 因为该类型无法搭配子类型使用，所以使用时 `type` 子类型需使用 `-999` 占位\n\n  | 今日主题 | 热门主题 | 精华主题 | 原创主题 | 今日新作  |\n  | ------- | ------- | ------- | ------- | ------ |\n  | today   | hot     | digest  | 1       | 2      |",
         "location": "index.ts"
       },
       "/post/:tid": {
