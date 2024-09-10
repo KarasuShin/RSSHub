@@ -4636,6 +4636,40 @@
   },
   "apnews": {
     "routes": {
+      "/api/:tags?": {
+        "path": "/api/:tags?",
+        "categories": [
+          "traditional-media"
+        ],
+        "example": "/apnews/api/business",
+        "view": 0,
+        "parameters": {
+          "tags": {
+            "description": "Getting a list of articles from a public API based on tags. See https://github.com/kovidgoyal/calibre/blob/81666219718b5f57d56b149a7ac017cc2a76b931/recipes/ap.recipe#L43-L46",
+            "default": "apf-topnews"
+          }
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "apnews.com/"
+            ]
+          }
+        ],
+        "name": "News",
+        "maintainers": [
+          "dzx-dzx"
+        ],
+        "location": "api.ts"
+      },
       "/rss/:category?": {
         "path": "/rss/:category?",
         "categories": [
@@ -21817,6 +21851,32 @@
     "name": "Focus Taiwan",
     "url": "focustaiwan.tw"
   },
+  "follow": {
+    "routes": {
+      "/profile/:uid": {
+        "name": "User subscriptions",
+        "path": "/profile/:uid",
+        "example": "/profile/41279032429549568",
+        "radar": [
+          {
+            "source": [
+              "app.follow.is/profile/:uid"
+            ],
+            "target": "/follow/profile/:uid"
+          }
+        ],
+        "maintainers": [
+          "KarasuShin"
+        ],
+        "features": {
+          "supportRadar": true
+        },
+        "location": "profile.ts"
+      }
+    },
+    "name": "Follow",
+    "url": "app.follow.is"
+  },
   "followin": {
     "routes": {
       "/:categoryId?/:lang?": {
@@ -36804,6 +36864,38 @@
       "shopping"
     ],
     "description": "TAIWAN KADOKAWA"
+  },
+  "kakuyomu": {
+    "routes": {
+      "/works/:id": {
+        "name": "投稿",
+        "categories": [
+          "reading"
+        ],
+        "path": "/works/:id",
+        "example": "/kakuyomu/works/1177354054894027232",
+        "parameters": {
+          "id": "投稿 ID"
+        },
+        "maintainers": [
+          "KarasuShin"
+        ],
+        "features": {
+          "supportRadar": true
+        },
+        "radar": [
+          {
+            "source": [
+              "kakuyomu.jp/works/:id"
+            ],
+            "target": "/works/:id"
+          }
+        ],
+        "location": "works.ts"
+      }
+    },
+    "name": "カクヨム",
+    "url": "kakuyomu.jp"
   },
   "kamen-rider-official": {
     "routes": {
@@ -53783,8 +53875,8 @@
   },
   "samd": {
     "routes": {
-      "news/:typeId": {
-        "path": "news/:typeId",
+      "/news/:typeId": {
+        "path": "/news/:typeId",
         "categories": [
           "government"
         ],

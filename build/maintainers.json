@@ -425,6 +425,9 @@
   "/apkpure/versions/:pkg/:region?": [
     "maple3142"
   ],
+  "/apnews/api/:tags?": [
+    "dzx-dzx"
+  ],
   "/apnews/rss/:category?": [
     "zoenglinghou",
     "mjysci",
@@ -2085,6 +2088,9 @@
   "/focustaiwan/:category?": [
     "nczitzk"
   ],
+  "/follow/profile/:uid": [
+    "KarasuShin"
+  ],
   "/followin/:categoryId?/:lang?": [
     "TonyRL"
   ],
@@ -3539,6 +3545,9 @@
   ],
   "/kadokawa/blog": [
     "nczitzk"
+  ],
+  "/kakuyomu/works/:id": [
+    "KarasuShin"
   ],
   "/kamen-rider-official/news/:category?": [
     "nczitzk"
@@ -5194,7 +5203,7 @@
   "/sakurazaka46/news": [
     "nczitzk"
   ],
-  "/samdnews/:typeId": [
+  "/samd/news/:typeId": [
     "hualiong"
   ],
   "/samsung/research/blog": [
