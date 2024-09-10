@@ -3445,6 +3445,210 @@
     "name": "AG⓪RA",
     "url": "agorahub.github.io"
   },
+  "agri": {
+    "routes": {
+      "/:category{.+}?": {
+        "path": "/:category{.+}?",
+        "name": "分类",
+        "url": "www.agri.cn",
+        "maintainers": [
+          "nczitzk"
+        ],
+        "example": "/agri/zx/zxfb",
+        "parameters": {
+          "category": "分类，默认为 `zx/zxfb`，即最新发布，可在对应分类页 URL 中找到"
+        },
+        "description": ":::tip\n  若订阅 [最新发布](http://www.agri.cn/zx/zxfb/)，网址为 `http://www.agri.cn/zx/zxfb/`。截取 `https://www.agri.cn/` 到末尾的部分 `zx/zxfb` 作为参数填入，此时路由为 [`/agri/zx/zxfb`](https://rsshub.app/agri/zx/zxfb)。\n  :::\n\n  #### [机构](http://www.agri.cn/jg/)\n\n  | 分类                                    | ID                                         |\n  | --------------------------------------- | ------------------------------------------ |\n  | [成果展示](http://www.agri.cn/jg/cgzs/) | [jg/cgzs](https://rsshub.app/agri/jg/cgzs) |\n\n  #### [资讯](http://www.agri.cn/zx/)\n\n  | 分类                                        | ID                                         |\n  | ------------------------------------------- | ------------------------------------------ |\n  | [最新发布](http://www.agri.cn/zx/zxfb/)     | [zx/zxfb](https://rsshub.app/agri/zx/zxfb) |\n  | [农业要闻](http://www.agri.cn/zx/nyyw/)     | [zx/nyyw](https://rsshub.app/agri/zx/nyyw) |\n  | [中心动态](http://www.agri.cn/zx/zxdt/)     | [zx/zxdt](https://rsshub.app/agri/zx/zxdt) |\n  | [通知公告](http://www.agri.cn/zx/hxgg/)     | [zx/hxgg](https://rsshub.app/agri/zx/hxgg) |\n  | [全国信息联播](http://www.agri.cn/zx/xxlb/) | [zx/xxlb](https://rsshub.app/agri/zx/xxlb) |\n\n  #### [生产](http://www.agri.cn/sc/)\n\n  | 分类                                    | ID                                         |\n  | --------------------------------------- | ------------------------------------------ |\n  | [生产动态](http://www.agri.cn/sc/scdt/) | [sc/scdt](https://rsshub.app/agri/sc/scdt) |\n  | [农业品种](http://www.agri.cn/sc/nypz/) | [sc/nypz](https://rsshub.app/agri/sc/nypz) |\n  | [农事指导](http://www.agri.cn/sc/nszd/) | [sc/nszd](https://rsshub.app/agri/sc/nszd) |\n  | [农业气象](http://www.agri.cn/sc/nyqx/) | [sc/nyqx](https://rsshub.app/agri/sc/nyqx) |\n  | [专项监测](http://www.agri.cn/sc/zxjc/) | [sc/zxjc](https://rsshub.app/agri/sc/zxjc) |\n\n  #### [数据](http://www.agri.cn/sj/)\n\n  | 分类                                    | ID                                         |\n  | --------------------------------------- | ------------------------------------------ |\n  | [市场动态](http://www.agri.cn/sj/scdt/) | [sj/scdt](https://rsshub.app/agri/sj/scdt) |\n  | [供需形势](http://www.agri.cn/sj/gxxs/) | [sj/gxxs](https://rsshub.app/agri/sj/gxxs) |\n  | [监测预警](http://www.agri.cn/sj/jcyj/) | [sj/jcyj](https://rsshub.app/agri/sj/jcyj) |\n\n  #### [信息化](http://www.agri.cn/xxh/)\n\n  | 分类                                           | ID                                               |\n  | ---------------------------------------------- | ------------------------------------------------ |\n  | [智慧农业](http://www.agri.cn/xxh/zhny/)       | [xxh/zhny](https://rsshub.app/agri/xxh/zhny)     |\n  | [信息化标准](http://www.agri.cn/xxh/xxhbz/)    | [xxh/xxhbz](https://rsshub.app/agri/xxh/xxhbz)   |\n  | [中国乡村资讯](http://www.agri.cn/xxh/zgxczx/) | [xxh/zgxczx](https://rsshub.app/agri/xxh/zgxczx) |\n\n  #### [视频](http://www.agri.cn/video/)\n\n  | 分类                                               | ID                                                               |\n  | -------------------------------------------------- | ---------------------------------------------------------------- |\n  | [新闻资讯](http://www.agri.cn/video/xwzx/nyxw/)    | [video/xwzx/nyxw](https://rsshub.app/agri/video/xwzx/nyxw)       |\n  | [致富天地](http://www.agri.cn/video/zftd/)         | [video/zftd](https://rsshub.app/agri/video/zftd)                 |\n  | [地方农业](http://www.agri.cn/video/dfny/beijing/) | [video/dfny/beijing](https://rsshub.app/agri/video/dfny/beijing) |\n  | [气象农业](http://www.agri.cn/video/qxny/)         | [video/qxny](https://rsshub.app/agri/video/qxny)                 |\n  | [讲座培训](http://www.agri.cn/video/jzpx/)         | [video/jzpx](https://rsshub.app/agri/video/jzpx)                 |\n  | [文化生活](http://www.agri.cn/video/whsh/)         | [video/whsh](https://rsshub.app/agri/video/whsh)                 |\n  ",
+        "categories": [
+          "new-media"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportRadar": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.agri.cn/:category?"
+            ]
+          },
+          {
+            "title": "机构 - 成果展示",
+            "source": [
+              "www.agri.cn/jg/cgzs/"
+            ],
+            "target": "/jg/cgzs"
+          },
+          {
+            "title": "资讯 - 最新发布",
+            "source": [
+              "www.agri.cn/zx/zxfb/"
+            ],
+            "target": "/zx/zxfb"
+          },
+          {
+            "title": "资讯 - 农业要闻",
+            "source": [
+              "www.agri.cn/zx/nyyw/"
+            ],
+            "target": "/zx/nyyw"
+          },
+          {
+            "title": "资讯 - 中心动态",
+            "source": [
+              "www.agri.cn/zx/zxdt/"
+            ],
+            "target": "/zx/zxdt"
+          },
+          {
+            "title": "资讯 - 通知公告",
+            "source": [
+              "www.agri.cn/zx/hxgg/"
+            ],
+            "target": "/zx/hxgg"
+          },
+          {
+            "title": "资讯 - 全国信息联播",
+            "source": [
+              "www.agri.cn/zx/xxlb/"
+            ],
+            "target": "/zx/xxlb"
+          },
+          {
+            "title": "生产 - 生产动态",
+            "source": [
+              "www.agri.cn/sc/scdt/"
+            ],
+            "target": "/sc/scdt"
+          },
+          {
+            "title": "生产 - 农业品种",
+            "source": [
+              "www.agri.cn/sc/nypz/"
+            ],
+            "target": "/sc/nypz"
+          },
+          {
+            "title": "生产 - 农事指导",
+            "source": [
+              "www.agri.cn/sc/nszd/"
+            ],
+            "target": "/sc/nszd"
+          },
+          {
+            "title": "生产 - 农业气象",
+            "source": [
+              "www.agri.cn/sc/nyqx/"
+            ],
+            "target": "/sc/nyqx"
+          },
+          {
+            "title": "生产 - 专项监测",
+            "source": [
+              "www.agri.cn/sc/zxjc/"
+            ],
+            "target": "/sc/zxjc"
+          },
+          {
+            "title": "数据 - 市场动态",
+            "source": [
+              "www.agri.cn/sj/scdt/"
+            ],
+            "target": "/sj/scdt"
+          },
+          {
+            "title": "数据 - 供需形势",
+            "source": [
+              "www.agri.cn/sj/gxxs/"
+            ],
+            "target": "/sj/gxxs"
+          },
+          {
+            "title": "数据 - 监测预警",
+            "source": [
+              "www.agri.cn/sj/jcyj/"
+            ],
+            "target": "/sj/jcyj"
+          },
+          {
+            "title": "信息化 - 智慧农业",
+            "source": [
+              "www.agri.cn/xxh/zhny/"
+            ],
+            "target": "/xxh/zhny"
+          },
+          {
+            "title": "信息化 - 信息化标准",
+            "source": [
+              "www.agri.cn/xxh/xxhbz/"
+            ],
+            "target": "/xxh/xxhbz"
+          },
+          {
+            "title": "信息化 - 中国乡村资讯",
+            "source": [
+              "www.agri.cn/xxh/zgxczx/"
+            ],
+            "target": "/xxh/zgxczx"
+          },
+          {
+            "title": "视频 - 新闻资讯",
+            "source": [
+              "www.agri.cn/video/xwzx/nyxw/"
+            ],
+            "target": "/video/xwzx/nyxw"
+          },
+          {
+            "title": "视频 - 致富天地",
+            "source": [
+              "www.agri.cn/video/zftd/"
+            ],
+            "target": "/video/zftd"
+          },
+          {
+            "title": "视频 - 地方农业",
+            "source": [
+              "www.agri.cn/video/dfny/beijing/"
+            ],
+            "target": "/video/dfny/beijing"
+          },
+          {
+            "title": "视频 - 气象农业",
+            "source": [
+              "www.agri.cn/video/qxny/"
+            ],
+            "target": "/video/qxny"
+          },
+          {
+            "title": "视频 - 讲座培训",
+            "source": [
+              "www.agri.cn/video/jzpx/"
+            ],
+            "target": "/video/jzpx"
+          },
+          {
+            "title": "视频 - 文化生活",
+            "source": [
+              "www.agri.cn/video/whsh/"
+            ],
+            "target": "/video/whsh"
+          }
+        ],
+        "location": "index.ts"
+      }
+    },
+    "name": "中国农业农村信息网",
+    "url": "agri.cn",
+    "categories": [
+      "new-media"
+    ],
+    "description": ""
+  },
   "ahjzu": {
     "routes": {
       "/news": {
@@ -4469,6 +4673,42 @@
           "TonyRL"
         ],
         "location": "rss.ts"
+      },
+      "/sitemap/:route": {
+        "path": "/sitemap/:route",
+        "categories": [
+          "traditional-media"
+        ],
+        "example": "/apnews/sitemap/ap-sitemap-latest",
+        "view": 0,
+        "parameters": {
+          "route": {
+            "description": "Route for sitemap, excluding the `.xml` extension"
+          }
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "apnews.com/"
+            ]
+          }
+        ],
+        "name": "Sitemap",
+        "maintainers": [
+          "zoenglinghou",
+          "mjysci",
+          "TonyRL",
+          "dzx-dzx"
+        ],
+        "location": "sitemap.ts"
       },
       "/topics/:topic?": {
         "path": "/topics/:topic?",
@@ -6471,6 +6711,35 @@
     "name": "本地宝",
     "url": "bendibao.com"
   },
+  "bestblogs": {
+    "routes": {
+      "/feeds/:category?": {
+        "path": "/feeds/:category?",
+        "categories": [
+          "programming"
+        ],
+        "example": "/bestblogs/feeds/featured",
+        "parameters": {
+          "category": "the category of articles. Can be `programming`, `ai`, `product`, `business` or `featured`. Default is `featured`"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "文章列表",
+        "maintainers": [
+          "zhenlohuang"
+        ],
+        "location": "feeds.ts"
+      }
+    },
+    "name": "bestblogs.dev",
+    "url": "www.bestblogs.dev"
+  },
   "bgmlist": {
     "routes": {
       "/onair/:lang?": {
@@ -7731,6 +8000,59 @@
   },
   "binance": {
     "routes": {
+      "/announcement/:type": {
+        "path": "/announcement/:type",
+        "categories": [
+          "finance"
+        ],
+        "example": "/binance/announcement/new-cryptocurrency-listing",
+        "parameters": {
+          "type": {
+            "description": "Binance Announcement type",
+            "default": "new-cryptocurrency-listing",
+            "options": [
+              {
+                "value": "new-cryptocurrency-listing",
+                "label": "New Cryptocurrency Listing"
+              },
+              {
+                "value": "latest-binance-news",
+                "label": "Latest Binance News"
+              },
+              {
+                "value": "latest-activities",
+                "label": "Latest Activities"
+              },
+              {
+                "value": "new-fiat-listings",
+                "label": "New Fiat Listings"
+              },
+              {
+                "value": "api-updates",
+                "label": "API Updates"
+              },
+              {
+                "value": "crypto-airdrop",
+                "label": "Crypto Airdrop"
+              },
+              {
+                "value": "wallet-maintenance-updates",
+                "label": "Wallet Maintenance Updates"
+              },
+              {
+                "value": "delisting",
+                "label": "Delisting"
+              }
+            ]
+          }
+        },
+        "name": "Announcement",
+        "description": "\nType category\n\n - new-cryptocurrency-listing => New Cryptocurrency Listing \n - latest-binance-news        => Latest Binance News        \n - latest-activities          => Latest Activities          \n - new-fiat-listings          => New Fiat Listings          \n - api-updates                => API Updates                \n - crypto-airdrop             => Crypto Airdrop             \n - wallet-maintenance-updates => Wallet Maintenance Updates \n - delisting                  => Delisting                  \n",
+        "maintainers": [
+          "enpitsulin"
+        ],
+        "location": "announcement.ts"
+      },
       "/launchpool": {
         "path": "/launchpool",
         "categories": [
@@ -9553,6 +9875,29 @@
         },
         "location": "sme.ts"
       },
+      "/lib/space/:path{newbook.*}": {
+        "path": "/lib/space/:path{newbook.*}",
+        "name": "图书馆 - 新书速递",
+        "url": "space.lib.buaa.edu.cn/mspace/newBook",
+        "maintainers": [
+          "OverflowCat"
+        ],
+        "example": "/buaa/lib/space/newbook/",
+        "description": "可通过参数进行筛选：`/buaa/lib/space/newbook/key1=value1&key2=value2...`\n- `dcpCode`：学科分类代码\n  - 例：\n    - 工学：`08`\n    - 工学 > 计算机 > 计算机科学与技术：`080901`\n  - 默认值：`nolimit`\n  - 注意事项：不可与 `clsNo` 同时使用。\n- `clsNo`：中图分类号\n  - 例：\n    - 计算机科学：`TP3`\n  - 默认值：无\n  - 注意事项\n    - 不可与 `dcpCode` 同时使用。\n    - 此模式下获取不到上架日期。\n- `libCode`：图书馆代码\n  - 例：\n    - 本馆：`00000`\n  - 默认值：无\n  - 注意事项：只有本馆一个可选值。\n- `locaCode`：馆藏地代码\n  - 例：\n    - 五层西-中文新书借阅室(A-Z类)：`02503`\n  - 默认值：无\n  - 注意事项：必须与 `libCode` 同时使用。\n\n示例：\n- `buaa/lib/space/newbook` 为所有新书\n- `buaa/lib/space/newbook/clsNo=U&libCode=00000&locaCode=60001` 为沙河教2图书馆所有中图分类号为 U（交通运输）的书籍\n",
+        "categories": [
+          "university"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportRadar": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "location": "lib/space/newbook.ts"
+      },
       "/news/:type": {
         "path": "/news/:type",
         "categories": [
@@ -11318,13 +11663,25 @@
         "description": "| 焦点访谈 | 等着我 | 今日说法 | 开讲啦 |\n  | -------- | ------ | -------- | ------ |\n  | jdft     | dzw    | jrsf     | kjl    |\n\n  | 正大综艺 | 经济半小时 | 第一动画乐园 |\n  | -------- | ---------- | ------------ |\n  | zdzy     | jjbxs      | dydhly       |\n\n  :::tip\n  更多栏目请看 [这里](https://tv.cctv.com/lm)\n  :::",
         "location": "lm.ts"
       },
-      "/xwlb": {
-        "path": "/xwlb",
+      "/:site/:category/:name": {
+        "path": "/:site/:category/:name",
         "categories": [
           "traditional-media"
         ],
-        "example": "/cctv/xwlb",
-        "parameters": {},
+        "example": "/cctv/tv/lm/xwlb",
+        "parameters": {
+          "site": "站点, 可选值如'tv', 既'央视节目'",
+          "category": "分类名, 官网对应分类, 当前可选值'lm', 既'栏目大全'",
+          "name": {
+            "description": "栏目名称, 可在对应栏目页面 URL 中找到, 可选值如'xwlb',既'新闻联播'",
+            "options": [
+              {
+                "value": "xwlb",
+                "label": "新闻联播"
+              }
+            ]
+          }
+        },
         "features": {
           "requireConfig": false,
           "requirePuppeteer": false,
@@ -11461,6 +11818,41 @@
     },
     "name": "国家高端智库 / 综合开发研究院",
     "url": "cdi.com.cn"
+  },
+  "cdu": {
+    "routes": {
+      "/jwgg": {
+        "path": "/jwgg",
+        "categories": [
+          "university"
+        ],
+        "example": "/cdu/jwgg",
+        "parameters": {},
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "jw.cdu.edu.cn/"
+            ]
+          }
+        ],
+        "name": "教务处通知公告",
+        "maintainers": [
+          "uuwor"
+        ],
+        "url": "jw.cdu.edu.cn/",
+        "location": "jwgg.ts"
+      }
+    },
+    "name": "成都大学",
+    "url": "www.cdu.edu.cn"
   },
   "cdzjryb": {
     "routes": {
@@ -11953,6 +12345,45 @@
     },
     "name": "通識・現代中國",
     "url": "chiculture.org.hk"
+  },
+  "chikubi": {
+    "routes": {
+      "/:category?": {
+        "path": "/:category?",
+        "categories": [
+          "multimedia"
+        ],
+        "example": "/chikubi",
+        "parameters": {
+          "category": "分類，見下表，默認爲最新"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "Category",
+        "maintainers": [
+          "snowagar25"
+        ],
+        "description": "| 最新 | 殿堂 | 動畫 | VR | 漫畫 | 音聲 | CG |\n  | ------ | ---- | ----- | -- | ----- | ----- | -- |\n  | (empty) | best | video | vr | comic | voice | cg |",
+        "radar": [
+          {
+            "source": [
+              "chikubi.jp/:category",
+              "chikubi.jp/"
+            ],
+            "target": "/:category"
+          }
+        ],
+        "location": "index.ts"
+      }
+    },
+    "name": "乳首ふぇち",
+    "url": "chikubi.jp"
   },
   "china": {
     "routes": {
@@ -16376,7 +16807,7 @@
       "/blog": {
         "path": "/blog",
         "categories": [
-          "blog"
+          "game"
         ],
         "example": "/devolverdigital/blog",
         "parameters": {},
@@ -19132,7 +19563,7 @@
         "maintainers": [
           "syzq"
         ],
-        "description": "| 策略报告       | 宏观研究    | 券商晨报     | 行业研究 |\n  | -------------- | ----------- | ------------ | -------- |\n  | strategyreport | macresearch | brokerreport | industry |",
+        "description": "| 策略报告       | 宏观研究    | 券商晨报     | 行业研究 | 个股研报 |\n  | -------------- | ----------- | ------------ | -------- | -------- |\n  | strategyreport | macresearch | brokerreport | industry | stock    |",
         "location": "report/index.ts"
       },
       "/search/:keyword": {
@@ -21254,6 +21685,41 @@
     "name": "福建考试报名网",
     "url": "fjksbm.com"
   },
+  "flashcat": {
+    "routes": {
+      "/blog": {
+        "path": "/blog",
+        "categories": [
+          "blog"
+        ],
+        "example": "/flashcat/blog",
+        "parameters": {},
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "flashcat.cloud/blog"
+            ],
+            "target": "/blog"
+          }
+        ],
+        "name": "快猫星云博客",
+        "maintainers": [
+          "chesha1"
+        ],
+        "location": "blog.ts"
+      }
+    },
+    "name": "Flashcat",
+    "url": "flashcat.cloud"
+  },
   "flyert": {
     "routes": {
       "/creditcard/:bank": {
@@ -21987,6 +22453,32 @@
     "name": "FT 中文网",
     "url": "ftchinese.com"
   },
+  "ftm": {
+    "routes": {
+      "/": {
+        "path": "/",
+        "categories": [
+          "new-media"
+        ],
+        "example": "/ftm",
+        "parameters": {},
+        "name": "文章",
+        "maintainers": [
+          "dzx-dzx"
+        ],
+        "radar": [
+          {
+            "source": [
+              "www.ftm.eu"
+            ]
+          }
+        ],
+        "location": "index.ts"
+      }
+    },
+    "name": "Follow The Money",
+    "url": "www.ftm.eu"
+  },
   "fuliba": {
     "routes": {
       "/latest": {
@@ -22284,6 +22776,44 @@
     "name": "福州地铁",
     "url": "www.fzmtr.com"
   },
+  "galxe": {
+    "routes": {
+      "/quest/:alias": {
+        "path": "/quest/:alias",
+        "name": "Quest",
+        "url": "app.galxe.com",
+        "maintainers": [
+          "cxheng315"
+        ],
+        "example": "/galxe/quest/MissionWeb3",
+        "categories": [
+          "other"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "app.galxe.com/quest/:alias"
+            ],
+            "target": "/quest/:alias"
+          }
+        ],
+        "location": "index.ts"
+      }
+    },
+    "name": "Galxe",
+    "url": "app.galxe.com",
+    "zh": {
+      "name": "銀河"
+    }
+  },
   "gameapps": {
     "routes": {
       "/": {
@@ -22544,6 +23074,104 @@
     "name": "Gamer Secret",
     "url": "gamersecret.com"
   },
+  "gamersky": {
+    "routes": {
+      "/ent/:category?": {
+        "path": "/ent/:category?",
+        "categories": [
+          "game"
+        ],
+        "example": "/gamersky/ent/xz",
+        "parameters": {
+          "type": "分类类型，留空为 `all`"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [],
+        "name": "娱乐",
+        "maintainers": [
+          "LogicJake"
+        ],
+        "description": "|\n|\n|\n",
+        "location": "ent.ts"
+      },
+      "/news/:type?": {
+        "path": "/news/:type?",
+        "categories": [
+          "game"
+        ],
+        "example": "/gamersky/news/pc",
+        "parameters": {
+          "type": "资讯类型，见表，默认为 `pc`"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.gamersky.com/news"
+            ],
+            "target": "/news"
+          }
+        ],
+        "name": "资讯",
+        "maintainers": [
+          "yy4382"
+        ],
+        "description": "|today|pc|ns|mobile|web|industry|hardware|tech|\n|---|---|---|---|---|---|---|---|\n|今日推荐|单机电玩|NS|手游|网游|业界|硬件|科技|\n",
+        "location": "news.ts"
+      },
+      "/review/:type?": {
+        "path": "/review/:type?",
+        "categories": [
+          "game"
+        ],
+        "example": "/gamersky/review/pc",
+        "parameters": {
+          "type": "评测类型，可选值为 `pc`、`tv`、`indie`、`web`、`mobile`、`all`，默认为 `pc`"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.gamersky.com/review"
+            ],
+            "target": "/review"
+          }
+        ],
+        "name": "评测",
+        "maintainers": [
+          "yy4382"
+        ],
+        "description": "|pc|tv|indie|web|mobile|all|\n|---|---|---|---|---|---|\n|单机|电视|独立游戏|网游|手游|全部评测|\n",
+        "location": "review.ts"
+      }
+    },
+    "name": "GamerSky",
+    "url": "gamersky.com",
+    "zh": {
+      "name": "游民星空"
+    }
+  },
   "gamme": {
     "routes": {
       "/:domain/:category?": {
@@ -22738,7 +23366,7 @@
         ],
         "name": "Unknown",
         "maintainers": [
-          "Jim Kirisame"
+          "jim-kirisame"
         ],
         "url": "oas.gdut.edu.cn/seeyon",
         "location": "oa-news.ts"
@@ -23098,6 +23726,34 @@
     },
     "name": "gihyo.jp",
     "url": "gihyo.jp"
+  },
+  "gisreportsonline": {
+    "routes": {
+      "/:path{.*}": {
+        "path": "/:path{.*}",
+        "categories": [
+          "new-media"
+        ],
+        "example": "/gis/c/security-challenges/",
+        "parameters": {
+          "path": "包含\"Reports\"页面下的路径"
+        },
+        "name": "报告",
+        "maintainers": [
+          "dzx-dzx"
+        ],
+        "radar": [
+          {
+            "source": [
+              "www.gisreportsonline.com"
+            ]
+          }
+        ],
+        "location": "index.ts"
+      }
+    },
+    "name": "GIS Reports",
+    "url": "www.gisreportsonline.com"
   },
   "gitee": {
     "routes": {
@@ -23938,6 +24594,82 @@
     "name": "环球法律评论",
     "url": "globallawreview.org"
   },
+  "go": {
+    "routes": {
+      "/mhlw/pdf/:category{.+}?": {
+        "path": "/mhlw/pdf/:category{.+}?",
+        "name": "PDF",
+        "url": "www.mhlw.go.jp",
+        "maintainers": [
+          "nczitzk"
+        ],
+        "example": "/go/mhlw/pdf/stf/seisakunitsuite/bunya/houkokusuunosuii",
+        "parameters": {
+          "category": "Category, `stf/seisakunitsuite/bunya/houkokusuunosuii` as 新型コロナウイルス感染症の定点当たり報告数の推移 by default"
+        },
+        "description": ":::tip\n  Subscribing to this route will give you access to all PDF files on this page.\n\n  If you subscribe to [新型コロナウイルス感染症の定点当たり報告数の推移](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/houkokusuunosuii.html)，where the URL is `https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/houkokusuunosuii.html`, extract the part `https://www.mhlw.go.jp/` to the end, which is `.html`, and use it as the parameter to fill in. Therefore, the route will be [`/go/mhlw/stf/seisakunitsuite/bunya/houkokusuunosuii`](https://rsshub.app/go/mhlw/stf/seisakunitsuite/bunya/houkokusuunosuii).\n  :::\n  ",
+        "categories": [
+          "government"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportRadar": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.mhlw.go.jp"
+            ]
+          }
+        ],
+        "location": "mhlw/pdf.ts"
+      },
+      "/niid/idwr-dl/:year?": {
+        "path": "/niid/idwr-dl/:year?",
+        "name": "感染症発生動向調査週報ダウンロード",
+        "url": "www.niid.go.jp",
+        "maintainers": [
+          "nczitzk"
+        ],
+        "example": "/go/niid/idwr-dl/:year?",
+        "parameters": {
+          "year": "Year, current year by default"
+        },
+        "description": ":::tip\n  If you subscribe to [感染症発生動向調査週報ダウンロード2024年](https://www.niid.go.jp/niid/ja/idwr-dl/2024.html)，where the URL is `https://www.niid.go.jp/niid/ja/idwr-dl/2024.html`, extract the part `https://www.niid.go.jp/niid/ja/idwr-dl/` to the end, which is `.html`, and use it as the parameter to fill in. Therefore, the route will be [`/go/niid/idwr-dl/2024`](https://rsshub.app/go/niid/idwr-dl/2024).\n  :::",
+        "categories": [
+          "government"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportRadar": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.niid.go.jp/niid/ja/idwr-dl/:year"
+            ]
+          }
+        ],
+        "location": "niid/idwr-dl.ts"
+      }
+    },
+    "name": "JapanGov",
+    "url": "go.jp",
+    "categories": [
+      "government"
+    ],
+    "description": "The Government of Japan"
+  },
   "gocn": {
     "routes": {
       "/jobs": {
@@ -24608,6 +25340,284 @@
         "maintainers": [],
         "location": "cac/index.ts"
       },
+      "/cbirc/:id?": {
+        "path": "/cbirc/:id?",
+        "name": "分类",
+        "url": "www.cbirc.gov.cn",
+        "maintainers": [
+          "nczitzk"
+        ],
+        "example": "/gov/cbirc/:id?",
+        "parameters": {
+          "category": "分类，默认为监管动态，即 915，可在对应分类页 URL 中找到"
+        },
+        "description": ":::tip\n  若订阅 [监管动态](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemId=915&itemUrl=ItemListRightList.html)，网址为 `https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemId=915&itemUrl=ItemListRightList.html`。截取 `itemId` 的值 `915` 作为参数填入，此时路由为 [`/gov/cbirc/915`](https://rsshub.app/gov/cbirc/915)。\n  :::\n  \n  #### [首页](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=899&itemId=971&itemUrl=ItemListRightMore.html)\n\n  | [弹出公告](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=971&itemId=972&itemUrl=sss) | [法律声明](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=971&itemId=4128&itemUrl=ItemListRightArticle.html) |\n  | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |\n  | [972](https://rsshub.app/gov/cbirc/972)                                                             | [4128](https://rsshub.app/gov/cbirc/4128)                                                                                  |\n\n  #### [机构概况](https://www.cbirc.gov.cn/cn/view/pages/jigougaikuang/jigougaikuang.html)\n\n  | [主要职责](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=901&itemUrl=ItemListRightArticle.html) | [总局领导](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=902&itemUrl=jigougaikuang/huilingdao.html) | [内设机构](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=911&itemUrl=jigougaikuang/neishejigou.html) | [直属行政机构](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=4243&itemUrl=jigougaikuang/zhishuxingzhengjigou.html) | [派出机构](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=912&itemUrl=jigougaikuang/paichujigou.html) |\n  | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |\n  | [901](https://rsshub.app/gov/cbirc/901)                                                                                   | [902](https://rsshub.app/gov/cbirc/902)                                                                                       | [911](https://rsshub.app/gov/cbirc/911)                                                                                        | [4243](https://rsshub.app/gov/cbirc/4243)                                                                                                    | [912](https://rsshub.app/gov/cbirc/912)                                                                                        |\n\n  | [联系方式](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=913&itemUrl=jigougaikuang/lianxifangshi.html) |\n  | -------------------------------------------------------------------------------------------------------------------------------- |\n  | [913](https://rsshub.app/gov/cbirc/913)                                                                                          |\n\n  #### [新闻资讯](https://www.cbirc.gov.cn/cn/view/pages/xinwenzixun/xinwenzixun.html)\n\n  | [监管动态](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=915&itemUrl=ItemListRightList.html) | [政策解读](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=916&itemUrl=ItemListRightMore.html) | [领导活动及讲话](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=919&itemUrl=ItemListRightList.html) | [新闻发布会及访谈](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=920&itemUrl=xinwenzixun/xinwenfabu.html) | [新闻发言人](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=921&itemUrl=xinwenzixun/xinwenfayan.html) |\n  | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |\n  | [915](https://rsshub.app/gov/cbirc/915)                                                                                | [916](https://rsshub.app/gov/cbirc/916)                                                                                | [919](https://rsshub.app/gov/cbirc/919)                                                                                      | [920](https://rsshub.app/gov/cbirc/920)                                                                                             | [921](https://rsshub.app/gov/cbirc/921)                                                                                        |\n\n  #### [政务信息](https://www.cbirc.gov.cn/cn/view/pages/zhengwuxinxi/zhengwuxinxi.html)\n\n  | [政府信息公开](https://www.cbirc.gov.cn/cn/view/pages/zhengwuxinxi/zhengfuxinxi.html) | [公告通知](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=925&itemUrl=ItemListRightList.html) | [政策法规](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=926&itemUrl=ItemListRightMore.html) | [行政许可](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=930&itemUrl=zhengwuxinxi/xingzhengxuke.html) | [行政处罚](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=931&itemUrl=zhengwuxinxi/xingzhengchufa.html) |\n  | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |\n  | [924](https://rsshub.app/gov/cbirc/924)                                               | [925](https://rsshub.app/gov/cbirc/925)                                                                                | [926](https://rsshub.app/gov/cbirc/926)                                                                                | [930](https://rsshub.app/gov/cbirc/930)                                                                                         | [931](https://rsshub.app/gov/cbirc/931)                                                                                          |\n\n  | [行政监管措施](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=932&itemUrl=ItemListRightList.html) | [人事信息](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=933&itemUrl=ItemListRightList.html) |\n  | -------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |\n  | [932](https://rsshub.app/gov/cbirc/932)                                                                                    | [933](https://rsshub.app/gov/cbirc/933)                                                                                |\n\n  #### [在线服务](https://www.cbirc.gov.cn/cn/view/pages/zaixianfuwu/zaixianfuwu.html)\n\n  | [行政许可办事服务指南](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=937&itemId=938&itemUrl=zaixianfuwu/banshifuwu.html) | [查询服务](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=937&itemId=939&itemUrl=zaixianfuwu/chaxunfuwu.html) |\n  | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |\n  | [938](https://rsshub.app/gov/cbirc/938)                                                                                                 | [939](https://rsshub.app/gov/cbirc/939)                                                                                     |\n\n  #### [互动交流](https://www.cbirc.gov.cn/cn/view/pages/hudongjiaoliu/hudongjiaoliu.html)\n\n  | [政务咨询](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=945&itemId=946&itemUrl=tosubmenu:hudongjiaoliu/woyaozixun.html) | [征集调查](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=945&itemId=950&itemUrl=ItemListRightMore.html) | [国务院办公厅开通“国家政务服务投诉与建议”小程序](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=945&itemId=952&itemUrl=http://www.gov.cn/xinwen/2018-09/20/content_5323786.htm) |\n  | --------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n  | [946](https://rsshub.app/gov/cbirc/946)                                                                                                 | [950](https://rsshub.app/gov/cbirc/950)                                                                                | [952](https://rsshub.app/gov/cbirc/952)                                                                                                                                                       |\n\n  #### [统计数据](https://www.cbirc.gov.cn/cn/view/pages/tongjishuju/tongjishuju.html)\n\n  | [统计信息](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=953&itemId=954&itemUrl=ItemListRightList.html) | [数据图表](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=953&itemId=955&itemUrl=tosubmenu:tongjishuju/zongzichan.html) |\n  | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |\n  | [954](https://rsshub.app/gov/cbirc/954)                                                                                | [955](https://rsshub.app/gov/cbirc/955)                                                                                               |\n\n  #### [专题专栏](https://www.cbirc.gov.cn/cn/view/pages/zhuantizhuanlan/zhuantizhuanlan.html)\n\n  | [推进普惠金融高质量发展](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4234&itemUrl=ItemListRightMore.html) | [防范和处置非法集资](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=963&itemUrl=ItemListRightMore.html) | [消费者保护](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4097&itemUrl=ItemListRightMore.html) | [法治宣传](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4106&itemUrl=ItemListRightMore.html) | [政府网站年度报表](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=970&itemUrl=ItemListRightList.html) |\n  | ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |\n  | [4234](https://rsshub.app/gov/cbirc/4234)                                                                                             | [963](https://rsshub.app/gov/cbirc/963)                                                                                          | [4097](https://rsshub.app/gov/cbirc/4097)                                                                                 | [4106](https://rsshub.app/gov/cbirc/4106)                                                                               | [970](https://rsshub.app/gov/cbirc/970)                                                                                        |\n\n  | [服务民营企业](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4171&itemUrl=ItemListRightList.html) | [服务制造业发展](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4217&itemUrl=ItemListRightList.html) | [学习贯彻习近平新时代中国特色社会主义思想主题教育](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4229&itemUrl=ItemListRightMore.html) |\n  | --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n  | [4171](https://rsshub.app/gov/cbirc/4171)                                                                                   | [4217](https://rsshub.app/gov/cbirc/4217)                                                                                     | [4229](https://rsshub.app/gov/cbirc/4229)                                                                                                                       |\n  ",
+        "categories": [
+          "government"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportRadar": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.cbirc.gov.cn/:id?"
+            ]
+          },
+          {
+            "title": "首页 - 弹出公告",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=971&itemId=972&itemUrl=sss"
+            ],
+            "target": "/cbirc/972"
+          },
+          {
+            "title": "首页 - 法律声明",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=971&itemId=4128&itemUrl=ItemListRightArticle.html"
+            ],
+            "target": "/cbirc/4128"
+          },
+          {
+            "title": "机构概况 - 主要职责",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=901&itemUrl=ItemListRightArticle.html"
+            ],
+            "target": "/cbirc/901"
+          },
+          {
+            "title": "机构概况 - 总局领导",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=902&itemUrl=jigougaikuang/huilingdao.html"
+            ],
+            "target": "/cbirc/902"
+          },
+          {
+            "title": "机构概况 - 内设机构",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=911&itemUrl=jigougaikuang/neishejigou.html"
+            ],
+            "target": "/cbirc/911"
+          },
+          {
+            "title": "机构概况 - 直属行政机构",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=4243&itemUrl=jigougaikuang/zhishuxingzhengjigou.html"
+            ],
+            "target": "/cbirc/4243"
+          },
+          {
+            "title": "机构概况 - 派出机构",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=912&itemUrl=jigougaikuang/paichujigou.html"
+            ],
+            "target": "/cbirc/912"
+          },
+          {
+            "title": "机构概况 - 联系方式",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=913&itemUrl=jigougaikuang/lianxifangshi.html"
+            ],
+            "target": "/cbirc/913"
+          },
+          {
+            "title": "新闻资讯 - 监管动态",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=915&itemUrl=ItemListRightList.html"
+            ],
+            "target": "/cbirc/915"
+          },
+          {
+            "title": "新闻资讯 - 政策解读",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=916&itemUrl=ItemListRightMore.html"
+            ],
+            "target": "/cbirc/916"
+          },
+          {
+            "title": "新闻资讯 - 领导活动及讲话",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=919&itemUrl=ItemListRightList.html"
+            ],
+            "target": "/cbirc/919"
+          },
+          {
+            "title": "新闻资讯 - 新闻发布会及访谈",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=920&itemUrl=xinwenzixun/xinwenfabu.html"
+            ],
+            "target": "/cbirc/920"
+          },
+          {
+            "title": "新闻资讯 - 新闻发言人",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=921&itemUrl=xinwenzixun/xinwenfayan.html"
+            ],
+            "target": "/cbirc/921"
+          },
+          {
+            "title": "政务信息 - 政府信息公开",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/zhengwuxinxi/zhengfuxinxi.html"
+            ],
+            "target": "/cbirc/924"
+          },
+          {
+            "title": "政务信息 - 公告通知",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=925&itemUrl=ItemListRightList.html"
+            ],
+            "target": "/cbirc/925"
+          },
+          {
+            "title": "政务信息 - 政策法规",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=926&itemUrl=ItemListRightMore.html"
+            ],
+            "target": "/cbirc/926"
+          },
+          {
+            "title": "政务信息 - 行政许可",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=930&itemUrl=zhengwuxinxi/xingzhengxuke.html"
+            ],
+            "target": "/cbirc/930"
+          },
+          {
+            "title": "政务信息 - 行政处罚",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=931&itemUrl=zhengwuxinxi/xingzhengchufa.html"
+            ],
+            "target": "/cbirc/931"
+          },
+          {
+            "title": "政务信息 - 行政监管措施",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=932&itemUrl=ItemListRightList.html"
+            ],
+            "target": "/cbirc/932"
+          },
+          {
+            "title": "政务信息 - 人事信息",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=933&itemUrl=ItemListRightList.html"
+            ],
+            "target": "/cbirc/933"
+          },
+          {
+            "title": "在线服务 - 行政许可办事服务指南",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=937&itemId=938&itemUrl=zaixianfuwu/banshifuwu.html"
+            ],
+            "target": "/cbirc/938"
+          },
+          {
+            "title": "在线服务 - 查询服务",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=937&itemId=939&itemUrl=zaixianfuwu/chaxunfuwu.html"
+            ],
+            "target": "/cbirc/939"
+          },
+          {
+            "title": "互动交流 - 政务咨询",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=945&itemId=946&itemUrl=tosubmenu:hudongjiaoliu/woyaozixun.html"
+            ],
+            "target": "/cbirc/946"
+          },
+          {
+            "title": "互动交流 - 征集调查",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=945&itemId=950&itemUrl=ItemListRightMore.html"
+            ],
+            "target": "/cbirc/950"
+          },
+          {
+            "title": "互动交流 - 国务院办公厅开通“国家政务服务投诉与建议”小程序",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=945&itemId=952&itemUrl=http://www.gov.cn/xinwen/2018-09/20/content_5323786.htm"
+            ],
+            "target": "/cbirc/952"
+          },
+          {
+            "title": "统计数据 - 统计信息",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=953&itemId=954&itemUrl=ItemListRightList.html"
+            ],
+            "target": "/cbirc/954"
+          },
+          {
+            "title": "统计数据 - 数据图表",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=953&itemId=955&itemUrl=tosubmenu:tongjishuju/zongzichan.html"
+            ],
+            "target": "/cbirc/955"
+          },
+          {
+            "title": "专题专栏 - 推进普惠金融高质量发展",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4234&itemUrl=ItemListRightMore.html"
+            ],
+            "target": "/cbirc/4234"
+          },
+          {
+            "title": "专题专栏 - 防范和处置非法集资",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=963&itemUrl=ItemListRightMore.html"
+            ],
+            "target": "/cbirc/963"
+          },
+          {
+            "title": "专题专栏 - 消费者保护",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4097&itemUrl=ItemListRightMore.html"
+            ],
+            "target": "/cbirc/4097"
+          },
+          {
+            "title": "专题专栏 - 法治宣传",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4106&itemUrl=ItemListRightMore.html"
+            ],
+            "target": "/cbirc/4106"
+          },
+          {
+            "title": "专题专栏 - 政府网站年度报表",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=970&itemUrl=ItemListRightList.html"
+            ],
+            "target": "/cbirc/970"
+          },
+          {
+            "title": "专题专栏 - 服务民营企业",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4171&itemUrl=ItemListRightList.html"
+            ],
+            "target": "/cbirc/4171"
+          },
+          {
+            "title": "专题专栏 - 服务制造业发展",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4217&itemUrl=ItemListRightList.html"
+            ],
+            "target": "/cbirc/4217"
+          },
+          {
+            "title": "专题专栏 - 学习贯彻习近平新时代中国特色社会主义思想主题教育",
+            "source": [
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4229&itemUrl=ItemListRightMore.html"
+            ],
+            "target": "/cbirc/4229"
+          }
+        ],
+        "location": "cbirc/index.ts"
+      },
       "/ccdi/*": {
         "path": "/ccdi/*",
         "name": "Unknown",
@@ -25112,6 +26122,221 @@
         ],
         "url": "jnmhc.jinan.gov.cn/*",
         "location": "jinan/healthcommission/medical-exam-notice.ts"
+      },
+      "/lswz/:category{.+}?": {
+        "path": "/lswz/:category{.+}?",
+        "name": "国家粮食和物资储备局",
+        "url": "lswz.gov.cn",
+        "maintainers": [
+          "nczitzk"
+        ],
+        "example": "/gov/lswz",
+        "parameters": {
+          "category": "分类，默认为 `html/xinwen/index`，可在对应分类页 URL 中找到"
+        },
+        "description": ":::tip\n  若订阅 [新闻发布](https://www.lswz.gov.cn/html/xinwen/index.shtml)，网址为 `https://www.lswz.gov.cn/html/xinwen/index.shtml`。截取 `https://www.lswz.gov.cn/` 到末尾 `.shtml` 的部分 `html/xinwen/index` 作为参数填入，此时路由为 [`/gov/lswz/html/xinwen/index`](https://rsshub.app/gov/lswz/html/xinwen/index)。\n  :::\n\n  | [新闻发布](https://www.lswz.gov.cn/html/xinwen/index.shtml)        | [党建工作](https://www.lswz.gov.cn/html/djgz/index.shtml)      |\n  | ------------------------------------------------------------------ | -------------------------------------------------------------- |\n  | [html/xinwen/index](https://rsshub.app/gov/lswz/html/xinwen/index) | [html/djgz/index](https://rsshub.app/gov/lswz/html/djgz/index) |\n\n  | [粮食交易](https://www.lswz.gov.cn/html/zmhd/lysj/lsjy.shtml)          | [粮食质量](https://www.lswz.gov.cn/html/zmhd/lysj/lszl.shtml)          |\n  | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |\n  | [html/zmhd/lysj/lsjy](https://rsshub.app/gov/lswz/html/zmhd/lysj/lsjy) | [html/zmhd/lysj/lszl](https://rsshub.app/gov/lswz/html/zmhd/lysj/lszl) |\n\n\n  #### [业务频道](https://www.lswz.gov.cn/html/ywpd/index.shtml)\n\n  | [粮食调控](https://www.lswz.gov.cn/html/ywpd/lstk/index.shtml)           | [物资储备](https://www.lswz.gov.cn/html/ywpd/wzcb/index.shtml)           | [能源储备](https://www.lswz.gov.cn/html/ywpd/nycb/index.shtml)           | [安全应急](https://www.lswz.gov.cn/html/ywpd/aqyj/index.shtml)           | [法规体改](https://www.lswz.gov.cn/html/ywpd/fgtg/index.shtml)           |\n  | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |\n  | [html/ywpd/lstk/index](https://rsshub.app/gov/lswz/html/ywpd/lstk/index) | [html/ywpd/wzcb/index](https://rsshub.app/gov/lswz/html/ywpd/wzcb/index) | [html/ywpd/nycb/index](https://rsshub.app/gov/lswz/html/ywpd/nycb/index) | [html/ywpd/aqyj/index](https://rsshub.app/gov/lswz/html/ywpd/aqyj/index) | [html/ywpd/fgtg/index](https://rsshub.app/gov/lswz/html/ywpd/fgtg/index) |\n\n  | [规划建设](https://www.lswz.gov.cn/html/ywpd/gjks/index.shtml)           | [财务审计](https://www.lswz.gov.cn/html/ywpd/cwsj/index.shtml)           | [仓储科技](https://www.lswz.gov.cn/html/ywpd/cckj/index.shtml)           | [执法督查](https://www.lswz.gov.cn/html/ywpd/zfdc/index.shtml)           | [国际交流](https://www.lswz.gov.cn/html/ywpd/gjjl/index.shtml)           |\n  | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |\n  | [html/ywpd/gjks/index](https://rsshub.app/gov/lswz/html/ywpd/gjks/index) | [html/ywpd/cwsj/index](https://rsshub.app/gov/lswz/html/ywpd/cwsj/index) | [html/ywpd/cckj/index](https://rsshub.app/gov/lswz/html/ywpd/cckj/index) | [html/ywpd/zfdc/index](https://rsshub.app/gov/lswz/html/ywpd/zfdc/index) | [html/ywpd/gjjl/index](https://rsshub.app/gov/lswz/html/ywpd/gjjl/index) |\n\n  | [人事人才](https://www.lswz.gov.cn/html/ywpd/rsrc/index.shtml)           | [标准质量](https://www.lswz.gov.cn/html/ywpd/bzzl/index.shtml)           | [粮食和储备研究](https://www.lswz.gov.cn/html/ywpd/lshcbyj/index.shtml)        |\n  | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |\n  | [html/ywpd/rsrc/index](https://rsshub.app/gov/lswz/html/ywpd/rsrc/index) | [html/ywpd/bzzl/index](https://rsshub.app/gov/lswz/html/ywpd/bzzl/index) | [html/ywpd/lshcbyj/index](https://rsshub.app/gov/lswz/html/ywpd/lshcbyj/index) |\n\n  #### [政策发布](https://www.lswz.gov.cn/html/zcfb/index.shtml)\n\n  | [文件](https://www.lswz.gov.cn/html/zcfb/wenjian.shtml)            | [法律法规](https://www.lswz.gov.cn/html/zcfb/fggz-fg.shtml)        | [规章](https://www.lswz.gov.cn/html/zcfb/fggz-gz.shtml)            |\n  | ------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------ |\n  | [html/zcfb/wenjian](https://rsshub.app/gov/lswz/html/zcfb/wenjian) | [html/zcfb/fggz-fg](https://rsshub.app/gov/lswz/html/zcfb/fggz-fg) | [html/zcfb/fggz-gz](https://rsshub.app/gov/lswz/html/zcfb/fggz-gz) |\n\n  #### [通知公告](https://www.lswz.gov.cn/html/tzgg/index.shtml)\n\n  | [行政通知](https://www.lswz.gov.cn/html/tzgg/xztz.shtml)     | [公告通告](https://www.lswz.gov.cn/html/tzgg/ggtg.shtml)     |\n  | ------------------------------------------------------------ | ------------------------------------------------------------ |\n  | [html/tzgg/xztz](https://rsshub.app/gov/lswz/html/tzgg/xztz) | [html/tzgg/ggtg](https://rsshub.app/gov/lswz/html/tzgg/ggtg) |\n\n  #### [粮食收购](https://www.lswz.gov.cn/html/zmhd/lysj/lssg-szym.shtml)\n\n  | [收购数据](https://www.lswz.gov.cn/html/zmhd/lysj/lssg-szym.shtml)               | [政策·解读](https://www.lswz.gov.cn/html/zmhd/lysj/lssg-gzdt.shtml)              |\n  | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |\n  | [html/zmhd/lysj/lssg-szym](https://rsshub.app/gov/lswz/html/zmhd/lysj/lssg-szym) | [html/zmhd/lysj/lssg-gzdt](https://rsshub.app/gov/lswz/html/zmhd/lysj/lssg-gzdt) |\n\n  #### [粮食价格](https://www.lswz.gov.cn/html/zmhd/lysj/lsjg-scjc.shtml)\n\n  | [市场监测](https://www.lswz.gov.cn/html/zmhd/lysj/lsjg-scjc.shtml)               | [市场价格](https://www.lswz.gov.cn/html/zmhd/lysj/lsjg-scjg.shtml)               |\n  | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |\n  | [html/zmhd/lysj/lsjg-scjc](https://rsshub.app/gov/lswz/html/zmhd/lysj/lsjg-scjc) | [html/zmhd/lysj/lsjg-scjg](https://rsshub.app/gov/lswz/html/zmhd/lysj/lsjg-scjg) |\n\n  ",
+        "categories": [
+          "government"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportRadar": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.lswz.gov.cn/:category?"
+            ]
+          },
+          {
+            "title": "新闻发布",
+            "source": [
+              "www.lswz.gov.cn/html/xinwen/index.shtml"
+            ],
+            "target": "/lswz/html/xinwen/index"
+          },
+          {
+            "title": "党建工作",
+            "source": [
+              "www.lswz.gov.cn/html/djgz/index.shtml"
+            ],
+            "target": "/lswz/html/djgz/index"
+          },
+          {
+            "title": "业务频道 - 粮食调控",
+            "source": [
+              "www.lswz.gov.cn/html/ywpd/lstk/index.shtml"
+            ],
+            "target": "/lswz/html/ywpd/lstk/index"
+          },
+          {
+            "title": "业务频道 - 物资储备",
+            "source": [
+              "www.lswz.gov.cn/html/ywpd/wzcb/index.shtml"
+            ],
+            "target": "/lswz/html/ywpd/wzcb/index"
+          },
+          {
+            "title": "业务频道 - 能源储备",
+            "source": [
+              "www.lswz.gov.cn/html/ywpd/nycb/index.shtml"
+            ],
+            "target": "/lswz/html/ywpd/nycb/index"
+          },
+          {
+            "title": "业务频道 - 安全应急",
+            "source": [
+              "www.lswz.gov.cn/html/ywpd/aqyj/index.shtml"
+            ],
+            "target": "/lswz/html/ywpd/aqyj/index"
+          },
+          {
+            "title": "业务频道 - 法规体改",
+            "source": [
+              "www.lswz.gov.cn/html/ywpd/fgtg/index.shtml"
+            ],
+            "target": "/lswz/html/ywpd/fgtg/index"
+          },
+          {
+            "title": "业务频道 - 规划建设",
+            "source": [
+              "www.lswz.gov.cn/html/ywpd/gjks/index.shtml"
+            ],
+            "target": "/lswz/html/ywpd/gjks/index"
+          },
+          {
+            "title": "业务频道 - 财务审计",
+            "source": [
+              "www.lswz.gov.cn/html/ywpd/cwsj/index.shtml"
+            ],
+            "target": "/lswz/html/ywpd/cwsj/index"
+          },
+          {
+            "title": "业务频道 - 仓储科技",
+            "source": [
+              "www.lswz.gov.cn/html/ywpd/cckj/index.shtml"
+            ],
+            "target": "/lswz/html/ywpd/cckj/index"
+          },
+          {
+            "title": "业务频道 - 执法督查",
+            "source": [
+              "www.lswz.gov.cn/html/ywpd/zfdc/index.shtml"
+            ],
+            "target": "/lswz/html/ywpd/zfdc/index"
+          },
+          {
+            "title": "业务频道 - 国际交流",
+            "source": [
+              "www.lswz.gov.cn/html/ywpd/gjjl/index.shtml"
+            ],
+            "target": "/lswz/html/ywpd/gjjl/index"
+          },
+          {
+            "title": "业务频道 - 人事人才",
+            "source": [
+              "www.lswz.gov.cn/html/ywpd/rsrc/index.shtml"
+            ],
+            "target": "/lswz/html/ywpd/rsrc/index"
+          },
+          {
+            "title": "业务频道 - 标准质量",
+            "source": [
+              "www.lswz.gov.cn/html/ywpd/bzzl/index.shtml"
+            ],
+            "target": "/lswz/html/ywpd/bzzl/index"
+          },
+          {
+            "title": "业务频道 - 粮食和储备研究",
+            "source": [
+              "www.lswz.gov.cn/html/ywpd/lshcbyj/index.shtml"
+            ],
+            "target": "/lswz/html/ywpd/lshcbyj/index"
+          },
+          {
+            "title": "政策发布 - 文件",
+            "source": [
+              "www.lswz.gov.cn/html/zcfb/wenjian.shtml"
+            ],
+            "target": "/lswz/html/zcfb/wenjian"
+          },
+          {
+            "title": "政策发布 - 法律法规",
+            "source": [
+              "www.lswz.gov.cn/html/zcfb/fggz-fg.shtml"
+            ],
+            "target": "/lswz/html/zcfb/fggz-fg"
+          },
+          {
+            "title": "政策发布 - 规章",
+            "source": [
+              "www.lswz.gov.cn/html/zcfb/fggz-gz.shtml"
+            ],
+            "target": "/lswz/html/zcfb/fggz-gz"
+          },
+          {
+            "title": "通知公告 - 行政通知",
+            "source": [
+              "www.lswz.gov.cn/html/tzgg/xztz.shtml"
+            ],
+            "target": "/lswz/html/tzgg/xztz"
+          },
+          {
+            "title": "通知公告 - 公告通告",
+            "source": [
+              "www.lswz.gov.cn/html/tzgg/ggtg.shtml"
+            ],
+            "target": "/lswz/html/tzgg/ggtg"
+          },
+          {
+            "title": "粮食收购 - 收购数据",
+            "source": [
+              "www.lswz.gov.cn/html/zmhd/lysj/lssg-szym.shtml"
+            ],
+            "target": "/lswz/html/zmhd/lysj/lssg-szym"
+          },
+          {
+            "title": "粮食收购 - 政策·解读",
+            "source": [
+              "www.lswz.gov.cn/html/zmhd/lysj/lssg-gzdt.shtml"
+            ],
+            "target": "/lswz/html/zmhd/lysj/lssg-gzdt"
+          },
+          {
+            "title": "粮食价格 - 市场监测",
+            "source": [
+              "www.lswz.gov.cn/html/zmhd/lysj/lsjg-scjc.shtml"
+            ],
+            "target": "/lswz/html/zmhd/lysj/lsjg-scjc"
+          },
+          {
+            "title": "粮食价格 - 市场价格",
+            "source": [
+              "www.lswz.gov.cn/html/zmhd/lysj/lsjg-scjg.shtml"
+            ],
+            "target": "/lswz/html/zmhd/lysj/lsjg-scjg"
+          },
+          {
+            "title": "粮食交易",
+            "source": [
+              "www.lswz.gov.cn/html/zmhd/lysj/lsjy.shtml"
+            ],
+            "target": "/lswz/html/zmhd/lysj/lsjy"
+          },
+          {
+            "title": "粮食质量",
+            "source": [
+              "www.lswz.gov.cn/html/zmhd/lysj/lszl.shtml"
+            ],
+            "target": "/lswz/html/zmhd/lysj/lszl"
+          }
+        ],
+        "location": "lswz/index.ts"
       },
       "/maoming/*": {
         "path": "/maoming/*",
@@ -27206,6 +28431,47 @@
     "name": "Grub Street",
     "url": "grubstreet.com"
   },
+  "gs": {
+    "routes": {
+      "/developer/blog": {
+        "path": "/developer/blog",
+        "categories": [
+          "blog"
+        ],
+        "example": "/gs/developer/blog",
+        "parameters": {},
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "developer.gs.com/blog/posts"
+            ],
+            "target": "/developer/blog"
+          }
+        ],
+        "name": "Goldman Sachs Developer Blog",
+        "zh": {
+          "name": "高盛开发者博客"
+        },
+        "maintainers": [
+          "chesha1"
+        ],
+        "location": "developer/blog.ts"
+      }
+    },
+    "name": "Goldman Sachs",
+    "url": "goldmansachs.com",
+    "zh": {
+      "name": "高盛"
+    }
+  },
   "guancha": {
     "routes": {
       "/headline": {
@@ -29074,9 +30340,18 @@
         "radar": [
           {
             "source": [
+              "china.hket.com/:category/*",
+              "inews.hket.com/:category/*",
+              "topick.hket.com/:category/*",
+              "wealth.hket.com/:category/*"
+            ],
+            "target": "/:category"
+          },
+          {
+            "source": [
               "www.hket.com/"
             ],
-            "target": ""
+            "target": "/"
           }
         ],
         "name": "新闻",
@@ -29084,7 +30359,7 @@
           "TonyRL"
         ],
         "url": "www.hket.com/",
-        "description": "香港经济日报已有提供简单 RSS，详细可前往官方网站： [https://www.hket.com/rss](https://www.hket.com/rss)\n\n此路由主要补全官方 RSS 全文输出及完善分类输出。\n\n  <details>\n    <summary>分类</summary>\n\n    | sran001  | sran008  | sran010  | sran011  | sran012  | srat006  |\n    | -------- | -------- | -------- | -------- | -------- | -------- |\n    | 全部新闻 | 财经地产 | 科技信息 | 国际新闻 | 商业新闻 | 香港新闻 |\n\n    | sran009  | sran009-1 | sran009-2 | sran009-3  | sran009-4 | sran009-5 | sran009-6 |\n    | -------- | --------- | --------- | ---------- | --------- | --------- | --------- |\n    | 即时财经 | 股市      | 新股 IPO  | 新经济追踪 | 当炒股    | 宏观解读  | Hot Talk  |\n\n    | sran011-1 | sran011-2    | sran011-3    |\n    | --------- | ------------ | ------------ |\n    | 环球政治  | 环球经济金融 | 环球社会热点 |\n\n    | sran016    | sran016-1  | sran016-2  | sran016-3  | sran016-4  | sran016-5      |\n    | ---------- | ---------- | ---------- | ---------- | ---------- | -------------- |\n    | 大湾区主页 | 大湾区发展 | 大湾区工作 | 大湾区买楼 | 大湾区消费 | 大湾区投资理财 |\n\n    | srac002  | srac003  | srac004  | srac005  |\n    | -------- | -------- | -------- | -------- |\n    | 即时中国 | 经济脉搏 | 国情动向 | 社会热点 |\n\n    | srat001 | srat008 | srat055  | srat069  | srat070   |\n    | ------- | ------- | -------- | -------- | --------- |\n    | 话题    | 观点    | 休闲消费 | 娱乐新闻 | TOPick TV |\n\n    | srat052  | srat052-1 | srat052-2  | srat052-3 |\n    | -------- | --------- | ---------- | --------- |\n    | 健康主页 | 食用安全  | 医生诊症室 | 保健美颜  |\n\n    | srat053  | srat053-1 | srat053-2 | srat053-3 | srat053-4  |\n    | -------- | --------- | --------- | --------- | ---------- |\n    | 亲子主页 | 儿童健康  | 育儿经    | 教育      | 亲子好去处 |\n\n    | srat053-6   | srat053-61 | srat053-62 | srat053-63 | srat053-64 |\n    | ----------- | ---------- | ---------- | ---------- | ---------- |\n    | Band 1 学堂 | 幼稚园     | 中小学     | 尖子教室   | 海外升学   |\n\n    | srat072-1  | srat072-2  | srat072-3        | srat072-4         |\n    | ---------- | ---------- | ---------------- | ----------------- |\n    | 健康身心活 | 抗癌新方向 | 「糖」「心」解密 | 风湿不再 你我自在 |\n\n    | sraw007  | sraw009  | sraw010  | sraw011  | sraw012  | sraw014  | sraw018  | sraw019  |\n    | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |\n    | 全部博客 | Bloggers | 收息攻略 | 精明消费 | 退休规划 | 个人增值 | 财富管理 | 绿色金融 |\n\n    | sraw015  | sraw015-07 | sraw015-08 | sraw015-09 | sraw015-10 |\n    | -------- | ---------- | ---------- | ---------- | ---------- |\n    | 移民百科 | 海外置业   | 移民攻略   | 移民点滴   | 海外理财   |\n\n    | sraw020  | sraw020-1    | sraw020-2 | sraw020-3 | sraw020-4 |\n    | -------- | ------------ | --------- | --------- | --------- |\n    | ESG 主页 | ESG 趋势政策 | ESG 投资  | ESG 企业  | ESG 社会  |\n  </details>",
+        "description": "香港经济日报已有提供简单 RSS，详细可前往官方网站： [https://www.hket.com/rss](https://www.hket.com/rss)\n\n此路由主要补全官方 RSS 全文输出及完善分类输出。\n\n  <details>\n    <summary>分类</summary>\n\n| sran001  | sran008  | sran010  | sran011  | sran012  | srat006  |\n| -------- | -------- | -------- | -------- | -------- | -------- |\n| 全部新闻 | 财经地产 | 科技信息 | 国际新闻 | 商业新闻 | 香港新闻 |\n\n| sran009  | sran009-1 | sran009-2 | sran009-3  | sran009-4 | sran009-5 | sran009-6 |\n| -------- | --------- | --------- | ---------- | --------- | --------- | --------- |\n| 即时财经 | 股市      | 新股 IPO  | 新经济追踪 | 当炒股    | 宏观解读  | Hot Talk  |\n\n| sran011-1 | sran011-2    | sran011-3    |\n| --------- | ------------ | ------------ |\n| 环球政治  | 环球经济金融 | 环球社会热点 |\n\n| sran016    | sran016-1  | sran016-2  | sran016-3  | sran016-4  | sran016-5      |\n| ---------- | ---------- | ---------- | ---------- | ---------- | -------------- |\n| 大湾区主页 | 大湾区发展 | 大湾区工作 | 大湾区买楼 | 大湾区消费 | 大湾区投资理财 |\n\n| srac002  | srac003  | srac004  | srac005  |\n| -------- | -------- | -------- | -------- |\n| 即时中国 | 经济脉搏 | 国情动向 | 社会热点 |\n\n| srat001 | srat008 | srat055  | srat069  | srat070   |\n| ------- | ------- | -------- | -------- | --------- |\n| 话题    | 观点    | 休闲消费 | 娱乐新闻 | TOPick TV |\n\n| srat052  | srat052-1 | srat052-2  | srat052-3 |\n| -------- | --------- | ---------- | --------- |\n| 健康主页 | 食用安全  | 医生诊症室 | 保健美颜  |\n\n| srat053  | srat053-1 | srat053-2 | srat053-3 | srat053-4  |\n| -------- | --------- | --------- | --------- | ---------- |\n| 亲子主页 | 儿童健康  | 育儿经    | 教育      | 亲子好去处 |\n\n| srat053-6   | srat053-61 | srat053-62 | srat053-63 | srat053-64 |\n| ----------- | ---------- | ---------- | ---------- | ---------- |\n| Band 1 学堂 | 幼稚园     | 中小学     | 尖子教室   | 海外升学   |\n\n| srat072-1  | srat072-2  | srat072-3        | srat072-4         |\n| ---------- | ---------- | ---------------- | ----------------- |\n| 健康身心活 | 抗癌新方向 | 「糖」「心」解密 | 风湿不再 你我自在 |\n\n| sraw007  | sraw009  | sraw010  | sraw011  | sraw012  | sraw014  | sraw018  | sraw019  |\n| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |\n| 全部博客 | Bloggers | 收息攻略 | 精明消费 | 退休规划 | 个人增值 | 财富管理 | 绿色金融 |\n\n| sraw015  | sraw015-07 | sraw015-08 | sraw015-09 | sraw015-10 |\n| -------- | ---------- | ---------- | ---------- | ---------- |\n| 移民百科 | 海外置业   | 移民攻略   | 移民点滴   | 海外理财   |\n\n| sraw020  | sraw020-1    | sraw020-2 | sraw020-3 | sraw020-4 |\n| -------- | ------------ | --------- | --------- | --------- |\n| ESG 主页 | ESG 趋势政策 | ESG 投资  | ESG 企业  | ESG 社会  |\n  </details>",
         "location": "index.ts"
       }
     },
@@ -29307,6 +30582,35 @@
     },
     "name": "全球主机监控",
     "url": "stock.hostmonit.com"
+  },
+  "hottoys": {
+    "routes": {
+      "/": {
+        "path": "/",
+        "categories": [
+          "shopping"
+        ],
+        "example": "/hottoys",
+        "radar": [
+          {
+            "source": [
+              "hottoys.com.hk/"
+            ]
+          }
+        ],
+        "name": "Toys List",
+        "maintainers": [
+          "jw0903"
+        ],
+        "url": "hottoys.com.hk/",
+        "features": {
+          "requirePuppeteer": true
+        },
+        "location": "index.ts"
+      }
+    },
+    "name": "Hot Toys",
+    "url": "www.hottoys.com.hk"
   },
   "hotukdeals": {
     "routes": {
@@ -30591,6 +31895,221 @@
   },
   "hust": {
     "routes": {
+      "/gs/:category{.+}?": {
+        "path": "/gs/:category{.+}?",
+        "name": "研究生院",
+        "url": "gs.hust.edu.cn",
+        "maintainers": [
+          "nczitzk"
+        ],
+        "example": "/hust/gs/xwdt",
+        "parameters": {
+          "category": "分类，默认为新闻动态，即 `xwdt`，可在对应分类页 URL 中找到"
+        },
+        "description": ":::tip\n  若订阅 [新闻动态](https://gs.hust.edu.cn/xwdt.htm)，网址为 `https://gs.hust.edu.cn/xwdt.htm`。截取 `https://gs.hust.edu.cn/` 到末尾 `.htm` 的部分 `xwdt` 作为参数填入，此时路由为 [`/hust/gs/xwdt`](https://rsshub.app/hust/gs/xwdt)。\n  :::\n\n  | [新闻动态](https://gs.hust.edu.cn/xwdt.htm) | [研究生服务专区](https://gs.hust.edu.cn/yjsfwzq.htm) | [综合管理](https://gs.hust.edu.cn/gzzd/zhgl.htm)  |\n  | ------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------- |\n  | [xwdt](https://rsshub.app/hust/gs/xwdt)     | [yjsfwzq](https://rsshub.app/hust/gs/yjsfwzq)        | [gzzd/zhgl](https://rsshub.app/hust/gs/gzzd/zhgl) |\n\n  #### [通知公告](https://gs.hust.edu.cn/tzgg/kcjksap.htm)\n\n  | [课程及考试安排](https://gs.hust.edu.cn/tzgg/kcjksap.htm) | [国际交流](https://gs.hust.edu.cn/tzgg/gjjl.htm)  | [学位工作](https://gs.hust.edu.cn/tzgg/xwgz.htm)  | [同济医学院](https://gs.hust.edu.cn/tzgg/tjyxy.htm) | [其他](https://gs.hust.edu.cn/tzgg/qt.htm)    |\n  | --------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- | --------------------------------------------------- | --------------------------------------------- |\n  | [tzgg/kcjksap](https://rsshub.app/hust/gs/tzgg/kcjksap)   | [tzgg/gjjl](https://rsshub.app/hust/gs/tzgg/gjjl) | [tzgg/xwgz](https://rsshub.app/hust/gs/tzgg/xwgz) | [tzgg/tjyxy](https://rsshub.app/hust/gs/tzgg/tjyxy) | [tzgg/qt](https://rsshub.app/hust/gs/tzgg/qt) |\n\n    #### [学籍管理](https://gs.hust.edu.cn/pygz/zbjs1/xjyd.htm)\n\n  | [学籍异动](https://gs.hust.edu.cn/pygz/zbjs1/xjyd.htm)        | [毕业管理](https://gs.hust.edu.cn/pygz/zbjs1/bygl.htm)        |\n  | ------------------------------------------------------------- | ------------------------------------------------------------- |\n  | [pygz/zbjs1/xjyd](https://rsshub.app/hust/gs/pygz/zbjs1/xjyd) | [pygz/zbjs1/bygl](https://rsshub.app/hust/gs/pygz/zbjs1/bygl) |\n\n  #### [教学管理](https://gs.hust.edu.cn/pygz/zbjs13/jxyj.htm)\n\n  | [教学研究](https://gs.hust.edu.cn/pygz/zbjs13/jxyj.htm)         | [课程教材](https://gs.hust.edu.cn/pygz/zbjs13/kcjc.htm)         | [教学安排](https://gs.hust.edu.cn/pygz/zbjs13/jxap.htm)         | [课表查询](https://gs.hust.edu.cn/pygz/zbjs13/kbcx.htm)         |\n  | --------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- |\n  | [pygz/zbjs13/jxyj](https://rsshub.app/hust/gs/pygz/zbjs13/jxyj) | [pygz/zbjs13/kcjc](https://rsshub.app/hust/gs/pygz/zbjs13/kcjc) | [pygz/zbjs13/jxap](https://rsshub.app/hust/gs/pygz/zbjs13/jxap) | [pygz/zbjs13/kbcx](https://rsshub.app/hust/gs/pygz/zbjs13/kbcx) |\n\n  #### [培养过程](https://gs.hust.edu.cn/pygz/pygc.htm)\n\n  | [培养方案](https://gs.hust.edu.cn/pygz/pygc/pyfa.htm)       | [硕博连读](https://gs.hust.edu.cn/pygz/pygc/sbld.htm)       |\n  | ----------------------------------------------------------- | ----------------------------------------------------------- |\n  | [pygz/pygc/pyfa](https://rsshub.app/hust/gs/pygz/pygc/pyfa) | [pygz/pygc/sbld](https://rsshub.app/hust/gs/pygz/pygc/sbld) |\n\n  #### [国际交流](https://gs.hust.edu.cn/pygz/zbjs11/gjgpxm.htm)\n\n  | [国家公派项目](https://gs.hust.edu.cn/pygz/zbjs11/gjgpxm.htm)       | [国际学术会议](https://gs.hust.edu.cn/pygz/zbjs11/gjxshy.htm)       | [校际合作项目](https://gs.hust.edu.cn/pygz/zbjs11/xjhzxm.htm)       | [国际交流与合作办事流程](https://gs.hust.edu.cn/pygz/zbjs11/gjjlyhzbslc.htm)  |\n  | ------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------- |\n  | [pygz/zbjs11/gjgpxm](https://rsshub.app/hust/gs/pygz/zbjs11/gjgpxm) | [pygz/zbjs11/gjxshy](https://rsshub.app/hust/gs/pygz/zbjs11/gjxshy) | [pygz/zbjs11/xjhzxm](https://rsshub.app/hust/gs/pygz/zbjs11/xjhzxm) | [pygz/zbjs11/gjjlyhzbslc](https://rsshub.app/hust/gs/pygz/zbjs11/gjjlyhzbslc) |\n\n  #### [专业学位](https://gs.hust.edu.cn/pygz/zbjs111/xwsqdml.htm)\n\n  | [学位授权点目录](https://gs.hust.edu.cn/pygz/zbjs111/xwsqdml.htm)       | [专业学位建设](https://gs.hust.edu.cn/pygz/zbjs111/zyxwjs.htm)        | [特色培养](https://gs.hust.edu.cn/pygz/zbjs111/tspy.htm)          |\n  | ----------------------------------------------------------------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------- |\n  | [pygz/zbjs111/xwsqdml](https://rsshub.app/hust/gs/pygz/zbjs111/xwsqdml) | [pygz/zbjs111/zyxwjs](https://rsshub.app/hust/gs/pygz/zbjs111/zyxwjs) | [pygz/zbjs111/tspy](https://rsshub.app/hust/gs/pygz/zbjs111/tspy) |\n\n  #### [学位工作](https://gs.hust.edu.cn/xwgz/xwdjs.htm)\n\n  | [学位点建设](https://gs.hust.edu.cn/xwgz/xwdjs.htm) | [学位授予](https://gs.hust.edu.cn/xwgz/xwsy.htm)  | [导师队伍](https://gs.hust.edu.cn/xwgz/dsdw.htm)  |\n  | --------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |\n  | [xwgz/xwdjs](https://rsshub.app/hust/gs/xwgz/xwdjs) | [xwgz/xwsy](https://rsshub.app/hust/gs/xwgz/xwsy) | [xwgz/dsdw](https://rsshub.app/hust/gs/xwgz/dsdw) |\n  ",
+        "categories": [
+          "university"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportRadar": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "gs.hust.edu.cn/:category"
+            ]
+          },
+          {
+            "title": "新闻动态",
+            "source": [
+              "gs.hust.edu.cn/xwdt.htm"
+            ],
+            "target": "/gs/xwdt"
+          },
+          {
+            "title": "研究生服务专区",
+            "source": [
+              "gs.hust.edu.cn/yjsfwzq.htm"
+            ],
+            "target": "/gs/yjsfwzq"
+          },
+          {
+            "title": "综合管理",
+            "source": [
+              "gs.hust.edu.cn/gzzd/zhgl.htm"
+            ],
+            "target": "/gs/gzzd/zhgl"
+          },
+          {
+            "title": "通知公告 - 课程及考试安排",
+            "source": [
+              "gs.hust.edu.cn/tzgg/kcjksap.htm"
+            ],
+            "target": "/gs/tzgg/kcjksap"
+          },
+          {
+            "title": "通知公告 - 国际交流",
+            "source": [
+              "gs.hust.edu.cn/tzgg/gjjl.htm"
+            ],
+            "target": "/gs/tzgg/gjjl"
+          },
+          {
+            "title": "通知公告 - 学位工作",
+            "source": [
+              "gs.hust.edu.cn/tzgg/xwgz.htm"
+            ],
+            "target": "/gs/tzgg/xwgz"
+          },
+          {
+            "title": "通知公告 - 同济医学院",
+            "source": [
+              "gs.hust.edu.cn/tzgg/tjyxy.htm"
+            ],
+            "target": "/gs/tzgg/tjyxy"
+          },
+          {
+            "title": "通知公告 - 其他",
+            "source": [
+              "gs.hust.edu.cn/tzgg/qt.htm"
+            ],
+            "target": "/gs/tzgg/qt"
+          },
+          {
+            "title": "学籍管理 - 学籍异动",
+            "source": [
+              "gs.hust.edu.cn/pygz/zbjs1/xjyd.htm"
+            ],
+            "target": "/gs/pygz/zbjs1/xjyd"
+          },
+          {
+            "title": "学籍管理 - 毕业管理",
+            "source": [
+              "gs.hust.edu.cn/pygz/zbjs1/bygl.htm"
+            ],
+            "target": "/gs/pygz/zbjs1/bygl"
+          },
+          {
+            "title": "教学管理 - 教学研究",
+            "source": [
+              "gs.hust.edu.cn/pygz/zbjs13/jxyj.htm"
+            ],
+            "target": "/gs/pygz/zbjs13/jxyj"
+          },
+          {
+            "title": "教学管理 - 课程教材",
+            "source": [
+              "gs.hust.edu.cn/pygz/zbjs13/kcjc.htm"
+            ],
+            "target": "/gs/pygz/zbjs13/kcjc"
+          },
+          {
+            "title": "教学管理 - 教学安排",
+            "source": [
+              "gs.hust.edu.cn/pygz/zbjs13/jxap.htm"
+            ],
+            "target": "/gs/pygz/zbjs13/jxap"
+          },
+          {
+            "title": "教学管理 - 课表查询",
+            "source": [
+              "gs.hust.edu.cn/pygz/zbjs13/kbcx.htm"
+            ],
+            "target": "/gs/pygz/zbjs13/kbcx"
+          },
+          {
+            "title": "培养过程 - 培养方案",
+            "source": [
+              "gs.hust.edu.cn/pygz/pygc/pyfa.htm"
+            ],
+            "target": "/gs/pygz/pygc/pyfa"
+          },
+          {
+            "title": "培养过程 - 硕博连读",
+            "source": [
+              "gs.hust.edu.cn/pygz/pygc/sbld.htm"
+            ],
+            "target": "/gs/pygz/pygc/sbld"
+          },
+          {
+            "title": "国际交流 - 国家公派项目",
+            "source": [
+              "gs.hust.edu.cn/pygz/zbjs11/gjgpxm.htm"
+            ],
+            "target": "/gs/pygz/zbjs11/gjgpxm"
+          },
+          {
+            "title": "国际交流 - 国际学术会议",
+            "source": [
+              "gs.hust.edu.cn/pygz/zbjs11/gjxshy.htm"
+            ],
+            "target": "/gs/pygz/zbjs11/gjxshy"
+          },
+          {
+            "title": "国际交流 - 校际合作项目",
+            "source": [
+              "gs.hust.edu.cn/pygz/zbjs11/xjhzxm.htm"
+            ],
+            "target": "/gs/pygz/zbjs11/xjhzxm"
+          },
+          {
+            "title": "国际交流 - 国际交流与合作办事流程",
+            "source": [
+              "gs.hust.edu.cn/pygz/zbjs11/gjjlyhzbslc.htm"
+            ],
+            "target": "/gs/pygz/zbjs11/gjjlyhzbslc"
+          },
+          {
+            "title": "专业学位 - 学位授权点目录",
+            "source": [
+              "gs.hust.edu.cn/pygz/zbjs111/xwsqdml.htm"
+            ],
+            "target": "/gs/pygz/zbjs111/xwsqdml"
+          },
+          {
+            "title": "专业学位 - 专业学位建设",
+            "source": [
+              "gs.hust.edu.cn/pygz/zbjs111/zyxwjs.htm"
+            ],
+            "target": "/gs/pygz/zbjs111/zyxwjs"
+          },
+          {
+            "title": "专业学位 - 特色培养",
+            "source": [
+              "gs.hust.edu.cn/pygz/zbjs111/tspy.htm"
+            ],
+            "target": "/gs/pygz/zbjs111/tspy"
+          },
+          {
+            "title": "学位工作 - 学位点建设",
+            "source": [
+              "gs.hust.edu.cn/xwgz/xwdjs.htm"
+            ],
+            "target": "/gs/xwgz/xwdjs"
+          },
+          {
+            "title": "学位工作 - 学位授予",
+            "source": [
+              "gs.hust.edu.cn/xwgz/xwsy.htm"
+            ],
+            "target": "/gs/xwgz/xwsy"
+          },
+          {
+            "title": "学位工作 - 导师队伍",
+            "source": [
+              "gs.hust.edu.cn/xwgz/dsdw.htm"
+            ],
+            "target": "/gs/xwgz/dsdw"
+          }
+        ],
+        "location": "gs.ts"
+      },
       "/yjs": {
         "path": "/yjs",
         "categories": [
@@ -30743,7 +32262,7 @@
       }
     },
     "name": "华中科技大学",
-    "url": "aia.hust.edu.cn"
+    "url": "hust.edu.cn"
   },
   "huxiu": {
     "routes": {
@@ -31728,6 +33247,35 @@
     "name": "IMDb",
     "url": "www.imdb.com"
   },
+  "imhcg": {
+    "routes": {
+      "/": {
+        "path": "/",
+        "categories": [
+          "blog"
+        ],
+        "view": 5,
+        "example": "/imhcg",
+        "parameters": {},
+        "radar": [
+          {
+            "source": [
+              "infos.imhcg.cn"
+            ]
+          }
+        ],
+        "name": "Engineering blogs",
+        "maintainers": [
+          "ZiHao256"
+        ],
+        "url": "https://infos.imhcg.cn/",
+        "location": "blog.ts"
+      }
+    },
+    "name": "imhcg的信息站",
+    "url": "infos.imhcg.cn",
+    "description": "包含多种技术和新闻信息的网站"
+  },
   "imiker": {
     "routes": {
       "/ask/jinghua": {
@@ -32105,6 +33653,28 @@
   "infzm": {
     "name": "infzm",
     "routes": {
+      "/hot": {
+        "path": "/hot",
+        "parameters": {},
+        "categories": [
+          "traditional-media"
+        ],
+        "example": "/infzm/hot",
+        "radar": [
+          {
+            "source": [
+              "infzm.com/"
+            ]
+          }
+        ],
+        "name": "热门文章",
+        "maintainers": [
+          "KarasuShin",
+          "ranpox",
+          "xyqfer"
+        ],
+        "location": "hot.ts"
+      },
       "/:id": {
         "path": "/:id",
         "parameters": {
@@ -34410,6 +35980,140 @@
     "name": "吉林大学",
     "url": "jlu.edu.cn"
   },
+  "joins": {
+    "routes": {
+      "/chinese/:category?": {
+        "path": "/chinese/:category?",
+        "name": "中央日报中文版",
+        "url": "chinese.joins.com",
+        "maintainers": [
+          "nczitzk"
+        ],
+        "example": "/chinese",
+        "parameters": {
+          "category": "分类，默认为空，可在对应分类页 URL 中找到 `sc_section_code`"
+        },
+        "description": ":::tip\n  若订阅 [财经](https://chinese.joins.com/news/articleList.html?sc_section_code=S1N1)，网址为 `https://chinese.joins.com/news/articleList.html?sc_section_code=S1N1`。截取 `sc_section_code` 的值作为参数填入，此时路由为 [`/joins/chinese/S1N1`](https://rsshub.app/joins/chinese/S1N1)。\n  :::\n\n  | 分类                                                                                       | `sc_section_code`                             |\n  | ------------------------------------------------------------------------------------------ | ----------------------------------------------- |\n  | [财经](https://chinese.joins.com/news/articleList.html?sc_section_code=S1N1)               | [S1N1](https://rsshub.app/joins/chinese/S1N1)   |\n  | [国际](https://chinese.joins.com/news/articleList.html?sc_section_code=S1N2)               | [S1N2](https://rsshub.app/joins/chinese/S1N2)   |\n  | [北韩](https://chinese.joins.com/news/articleList.html?sc_section_code=S1N3)               | [S1N3](https://rsshub.app/joins/chinese/S1N3)   |\n  | [政治·社会](https://chinese.joins.com/news/articleList.html?sc_section_code=S1N4)          | [S1N4](https://rsshub.app/joins/chinese/S1N4)   |\n  | [中国观察](https://chinese.joins.com/news/articleList.html?sc_section_code=S1N5)           | [S1N5](https://rsshub.app/joins/chinese/S1N5)   |\n  | [社论](https://chinese.joins.com/news/articleList.html?sc_section_code=S1N26)              | [S1N26](https://rsshub.app/joins/chinese/S1N26) |\n  | [专栏·观点](https://chinese.joins.com/news/articleList.html?sc_section_code=S1N11)         | [S1N11](https://rsshub.app/joins/chinese/S1N11) |\n  | [军事·科技](https://chinese.joins.com/news/articleList.html?sc_section_code=S1N6)          | [S1N6](https://rsshub.app/joins/chinese/S1N6)   |\n  | [娱乐体育](https://chinese.joins.com/news/articleList.html?sc_section_code=S1N7)           | [S1N7](https://rsshub.app/joins/chinese/S1N7)   |\n  | [教育](https://chinese.joins.com/news/articleList.html?sc_section_code=S1N8)               | [S1N8](https://rsshub.app/joins/chinese/S1N8)   |\n  | [旅游美食](https://chinese.joins.com/news/articleList.html?sc_section_code=S1N9)           | [S1N9](https://rsshub.app/joins/chinese/S1N9)   |\n  | [时尚](https://chinese.joins.com/news/articleList.html?sc_section_code=S1N10)              | [S1N10](https://rsshub.app/joins/chinese/S1N10) |\n  | [图集](https://chinese.joins.com/news/articleList.html?sc_section_code=S1N12&view_type=tm) | [S1N12](https://rsshub.app/joins/chinese/S1N12) |\n\n  ",
+        "categories": [
+          "traditional-media"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportRadar": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "chinese.joins.com/news/articleList.html"
+            ]
+          },
+          {
+            "title": "财经",
+            "source": [
+              "chinese.joins.com/news/articleList.html?sc_section_code=S1N1"
+            ],
+            "target": "/chinese/S1N1"
+          },
+          {
+            "title": "国际",
+            "source": [
+              "chinese.joins.com/news/articleList.html?sc_section_code=S1N2"
+            ],
+            "target": "/chinese/S1N2"
+          },
+          {
+            "title": "北韩",
+            "source": [
+              "chinese.joins.com/news/articleList.html?sc_section_code=S1N3"
+            ],
+            "target": "/chinese/S1N3"
+          },
+          {
+            "title": "政治·社会",
+            "source": [
+              "chinese.joins.com/news/articleList.html?sc_section_code=S1N4"
+            ],
+            "target": "/chinese/S1N4"
+          },
+          {
+            "title": "中国观察",
+            "source": [
+              "chinese.joins.com/news/articleList.html?sc_section_code=S1N5"
+            ],
+            "target": "/chinese/S1N5"
+          },
+          {
+            "title": "社论",
+            "source": [
+              "chinese.joins.com/news/articleList.html?sc_section_code=S1N26"
+            ],
+            "target": "/chinese/S1N26"
+          },
+          {
+            "title": "专栏·观点",
+            "source": [
+              "chinese.joins.com/news/articleList.html?sc_section_code=S1N11"
+            ],
+            "target": "/chinese/S1N11"
+          },
+          {
+            "title": "军事·科技",
+            "source": [
+              "chinese.joins.com/news/articleList.html?sc_section_code=S1N6"
+            ],
+            "target": "/chinese/S1N6"
+          },
+          {
+            "title": "娱乐体育",
+            "source": [
+              "chinese.joins.com/news/articleList.html?sc_section_code=S1N7"
+            ],
+            "target": "/chinese/S1N7"
+          },
+          {
+            "title": "教育",
+            "source": [
+              "chinese.joins.com/news/articleList.html?sc_section_code=S1N8"
+            ],
+            "target": "/chinese/S1N8"
+          },
+          {
+            "title": "旅游美食",
+            "source": [
+              "chinese.joins.com/news/articleList.html?sc_section_code=S1N9"
+            ],
+            "target": "/chinese/S1N9"
+          },
+          {
+            "title": "时尚",
+            "source": [
+              "chinese.joins.com/news/articleList.html?sc_section_code=S1N10"
+            ],
+            "target": "/chinese/S1N10"
+          },
+          {
+            "title": "图集",
+            "source": [
+              "chinese.joins.com/news/articleList.html?sc_section_code=S1N12"
+            ],
+            "target": "/chinese/S1N12"
+          }
+        ],
+        "location": "chinese.ts"
+      }
+    },
+    "name": "中央日报",
+    "url": "joins.com",
+    "categories": [
+      "traditional-media"
+    ],
+    "description": ""
+  },
   "jornada": {
     "routes": {
       "/:date?/:category?": {
@@ -36622,6 +38326,73 @@
     "name": "LINE",
     "url": "today.line.me"
   },
+  "link3": {
+    "routes": {
+      "/events": {
+        "path": "/events",
+        "name": "Link3 Events",
+        "url": "link3.to",
+        "maintainers": [
+          "cxheng315"
+        ],
+        "example": "/link3/events",
+        "categories": [
+          "other"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "link3.to/events"
+            ],
+            "target": "/events"
+          }
+        ],
+        "location": "events.ts"
+      },
+      "/profile/:handle": {
+        "path": "/profile/:handle",
+        "name": "Link3 Profile",
+        "url": "link3.to",
+        "maintainers": [
+          "cxheng315"
+        ],
+        "example": "/link3/profile/synfutures_defi",
+        "parameters": {
+          "handle": "Profile handle"
+        },
+        "categories": [
+          "other"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "link3.to/:handle"
+            ],
+            "target": "/:handle"
+          }
+        ],
+        "location": "profile.ts"
+      }
+    },
+    "name": "Link3",
+    "url": "link3.to"
+  },
   "linkedin": {
     "routes": {
       "/jobs/:job_types/:exp_levels/:keywords?/:routeParams?": {
@@ -37454,6 +39225,44 @@
     },
     "name": "乐山师范学院",
     "url": "lsnu.edu.cn"
+  },
+  "luma": {
+    "routes": {
+      "/:url": {
+        "path": "/:url",
+        "name": "Events",
+        "url": "lu.ma",
+        "maintainers": [
+          "cxheng315"
+        ],
+        "example": "/luma/yieldnest",
+        "categories": [
+          "other"
+        ],
+        "parameters": {
+          "url": "LuMa URL"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "lu.ma/:url"
+            ],
+            "target": "/:url"
+          }
+        ],
+        "location": "index.ts"
+      }
+    },
+    "name": "LuMa",
+    "url": "lu.ma"
   },
   "luogu": {
     "routes": {
@@ -41873,14 +43682,14 @@
   },
   "newyorker": {
     "routes": {
-      "/:category/:subCategory?": {
-        "path": "/:category/:subCategory?",
+      "/:category": {
+        "path": "/:category",
         "categories": [
           "traditional-media"
         ],
-        "example": "/newyorker/everything",
+        "example": "/newyorker/latest",
         "parameters": {
-          "category": "rss category. can be found at `https://www.newyorker.com/about/feeds`"
+          "category": "tab name. can be found at url"
         },
         "features": {
           "requireConfig": false,
@@ -41893,7 +43702,7 @@
         "radar": [
           {
             "source": [
-              "newyorker.com/feed/:category/:subCategory?"
+              "newyorker.com/:category?"
             ]
           }
         ],
@@ -50378,6 +52187,77 @@
     "name": "QuestMobile",
     "url": "questmobile.com.cn"
   },
+  "questn": {
+    "routes": {
+      "/community/:communityUrl": {
+        "path": "/community/:communityUrl",
+        "name": "Community Events",
+        "url": "app.questn.com",
+        "maintainers": [
+          "cxheng315"
+        ],
+        "example": "/questn/community/gmnetwork",
+        "parameters": {
+          "community_url": "Community URL"
+        },
+        "categories": [
+          "other"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "app.questn.com/:communityUrl"
+            ],
+            "target": "/community/:communityUrl"
+          }
+        ],
+        "location": "community.ts"
+      },
+      "/events/:filter?": {
+        "path": "/events/:filter?",
+        "name": "Events",
+        "url": "app.questn.com",
+        "maintainers": [
+          "cxheng315"
+        ],
+        "example": "/questn/events",
+        "parameters": {
+          "filter": "Filter string"
+        },
+        "description": "\n:::tip\n\nFilter parameters:\n- category: 100: trending, 200: newest, 300: top\n- status_filter: 0: all, 100: available, 400: missed\n- community_filter: 0: all community, 100: verified, 200: followed\n- rewards_filter: 0: all rewards, 100: nft, 200: token, 400: whitelist\n- chain_filter: 0: all chains, 1: ethereum, 56: bsc, 137: polygon, 42161: arb, 10: op, 324: zksync, 43114: avax\n- search: 'Search keyword',\n- count: 'Number of events to fetch',\n- page: 'Page number',\n:::",
+        "categories": [
+          "other"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "app.questn.com/explore"
+            ],
+            "target": "/events/:category?/:status_filter?/:community_filter?/:reward_filter?/:chain_filter?/:search?/:count?/:page?"
+          }
+        ],
+        "location": "events.ts"
+      }
+    },
+    "name": "QuestN",
+    "url": "app.questn.com"
+  },
   "quicker": {
     "routes": {
       "/qa/:category?/:state?": {
@@ -51022,6 +52902,32 @@
     },
     "name": "Readwise",
     "url": "readwise.io"
+  },
+  "rebase": {
+    "routes": {
+      "/geekdaily": {
+        "path": "/geekdaily",
+        "categories": [
+          "new-media"
+        ],
+        "example": "/rebase/geekdaily",
+        "radar": [
+          {
+            "source": [
+              "rebase.network/geekdaily"
+            ],
+            "target": "/geekdaily"
+          }
+        ],
+        "name": "Web3 Geek Daily",
+        "maintainers": [
+          "gaoyifan"
+        ],
+        "location": "geekdaily.ts"
+      }
+    },
+    "name": "Rebase Network",
+    "url": "rebase.network"
   },
   "remnote": {
     "routes": {
@@ -52671,6 +54577,72 @@
         ],
         "url": "www2.scut.edu.cn/graduate/14562/list.htm",
         "location": "yjs.ts"
+      },
+      "/gzic/media": {
+        "path": "/gzic/media",
+        "categories": [
+          "university"
+        ],
+        "example": "/scut/gzic/media",
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "广州国际校区 - 媒体报道",
+        "maintainers": [
+          "gdzhht"
+        ],
+        "description": ":::warning\n由于学校网站对非大陆 IP 的访问存在限制，可能需自行部署。\n:::",
+        "location": "gzic/media.ts"
+      },
+      "/gzic/news": {
+        "path": "/gzic/news",
+        "categories": [
+          "university"
+        ],
+        "example": "/scut/gzic/news",
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "广州国际校区 - 新闻聚焦",
+        "maintainers": [
+          "gdzhht"
+        ],
+        "description": ":::warning\n由于学校网站对非大陆 IP 的访问存在限制，可能需自行部署。\n:::",
+        "location": "gzic/news.ts"
+      },
+      "/gzic/notice/:category?": {
+        "path": "/gzic/notice/:category?",
+        "categories": [
+          "university"
+        ],
+        "example": "/scut/gzic/notice/swtz",
+        "parameters": {
+          "category": "通知分类，默认为 `swtz`"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "广州国际校区 - 通知公告",
+        "maintainers": [
+          "gdzhht"
+        ],
+        "description": "| 学术预告 | 教研通知 | 海外学习 | 事务通知 |\n  | -------- | -------- | -------- | -------- |\n  | xsyg     | jytz     | hwxx     | swtz     |\n\n:::warning\n由于学校网站对非大陆 IP 的访问存在限制，可能需自行部署。\n部分通知详情页可能会被删除（返回 404），或在校园网外无法访问。\n:::",
+        "location": "gzic/notice.ts"
       },
       "/jwc/news": {
         "path": "/jwc/news",
@@ -54731,8 +56703,36 @@
         ],
         "example": "/showstart/search/live",
         "parameters": {
-          "type": "类别",
-          "keyword": "搜索关键词"
+          "keyword": "搜索关键词",
+          "type": {
+            "description": "类别",
+            "options": [
+              {
+                "value": "event",
+                "label": "演出"
+              },
+              {
+                "value": "artist",
+                "label": "音乐人"
+              },
+              {
+                "value": "site",
+                "label": "场地"
+              },
+              {
+                "value": "brand",
+                "label": "厂牌"
+              },
+              {
+                "value": "city",
+                "label": "城市"
+              },
+              {
+                "value": "style",
+                "label": "风格"
+              }
+            ]
+          }
         },
         "features": {
           "requireConfig": false,
@@ -55288,6 +57288,29 @@
   },
   "sis001": {
     "routes": {
+      "/author/:id?": {
+        "path": "/author/:id?",
+        "categories": [
+          "bbs"
+        ],
+        "example": "/sis001/author/13131575",
+        "parameters": {
+          "id": "作者 ID，可以在作者的个人空间地址找到"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "作者",
+        "maintainers": [
+          "keocheung"
+        ],
+        "location": "author.ts"
+      },
       "/forum/:id?": {
         "path": "/forum/:id?",
         "categories": [
@@ -55372,6 +57395,39 @@
         "description": "| 新闻中心 | 通知通告 | 教学运行  | 注册学务 | 研究办 | 教改办 | 综合办 | 语言文字 | 工会与支部 | 通识教育 |\n  | -------- | -------- | --------- | -------- | ------ | ------ | ------ | -------- | ---------- | -------- |\n  | news     | notice   | operation | affairs  | yjb    | jgb    | zhb    | language | party      | ge       |",
         "location": "jwc.ts"
       },
+      "/seiee/:path/:catID?/:searchCatCode?": {
+        "path": "/seiee/:path/:catID?/:searchCatCode?",
+        "categories": [
+          "university"
+        ],
+        "example": "/sjtu/seiee/xzzx_notice_bks",
+        "parameters": {
+          "path": "不含'.html'的最后一部分路径",
+          "catID": "'本科生人才培养'与'研究生人才培养'的类别ID",
+          "searchCatCode": "'本科生人才培养'与'研究生人才培养'下类别名"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.seiee.sjtu.edu.cn/:path.html"
+            ],
+            "target": "/seiee/:path"
+          }
+        ],
+        "name": "电子信息与电气工程学院",
+        "maintainers": [
+          "dzx-dzx"
+        ],
+        "location": "seiee/index.ts"
+      },
       "/tongqu/:type?": {
         "path": "/tongqu/:type?",
         "categories": [
@@ -55422,7 +57478,7 @@
       }
     },
     "name": "上海交通大学",
-    "url": "bjwb.seiee.sjtu.edu.cn"
+    "url": "www.sjtu.edu.cn"
   },
   "sketis": {
     "routes": {
@@ -55726,6 +57782,37 @@
           "MeanZhang"
         ],
         "location": "keyword.ts"
+      },
+      "/product/:id": {
+        "path": "/product/:id",
+        "categories": [
+          "shopping"
+        ],
+        "example": "/smzdm/product/zm5vzpe",
+        "parameters": {
+          "id": "商品 id，网址上直接可以看到"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "wiki.smzdm.com/p/:id"
+            ],
+            "target": "/product/:id"
+          }
+        ],
+        "name": "商品",
+        "maintainers": [
+          "chesha1"
+        ],
+        "location": "product.ts"
       },
       "/ranking/:rank_type/:rank_id/:hour": {
         "path": "/ranking/:rank_type/:rank_id/:hour",
@@ -56779,30 +58866,6 @@
         "url": "www.sse.com.cn/disclosure/credibility/supervision/inquiries",
         "location": "inquire.ts"
       },
-      "/lawandrules/:slug?": {
-        "path": "/lawandrules/:slug?",
-        "categories": [
-          "finance"
-        ],
-        "example": "/sse/lawandrules",
-        "parameters": {
-          "slug": "见下文，默认为 `latest`"
-        },
-        "features": {
-          "requireConfig": false,
-          "requirePuppeteer": false,
-          "antiCrawler": false,
-          "supportBT": false,
-          "supportPodcast": false,
-          "supportScihub": false
-        },
-        "name": "本所业务指南与流程",
-        "maintainers": [
-          "nczitzk"
-        ],
-        "description": "将目标栏目的网址拆解为 `https://www.sse.com.cn/lawandrules/guide/` 和后面的字段，把后面的字段中的 `/` 替换为 `-`，即为该路由的 slug\n\n  如：（最新指南与流程）`https://www.sse.com.cn/lawandrules/guide/latest` 的网址在 `https://www.sse.com.cn/lawandrules/guide/` 后的字段是 `latest`，则对应的 slug 为 `latest`，对应的路由即为 `/sse/lawandrules/latest`\n\n  又如：（主板业务指南与流程 - 发行承销业务指南）`https://www.sse.com.cn/lawandrules/guide/zbywznylc/fxcxywzn` 的网址在 `https://www.sse.com.cn/lawandrules/guide/` 后的字段是 `zbywznylc/fxcxywzn`，则对应的 slug 为 `zbywznylc-fxcxywzn`，对应的路由即为 `/sse/lawandrules/zbywznylc-fxcxywzn`",
-        "location": "lawandrules.ts"
-      },
       "/renewal": {
         "path": "/renewal",
         "categories": [
@@ -56832,6 +58895,347 @@
         ],
         "url": "kcb.sse.com.cn/home",
         "location": "renewal.ts"
+      },
+      "/sselawsrules/:category{.+}?": {
+        "path": "/sselawsrules/:category{.+}?",
+        "name": "本所业务规则",
+        "url": "www.sse.com.cn",
+        "maintainers": [
+          "nczitzk"
+        ],
+        "example": "/sse/sselawsrules/latest",
+        "parameters": {
+          "category": "分类，默认为最新规则，即 `latest`，可在对应分类页 URL 中找到"
+        },
+        "description": ":::tip\n  若订阅 [最新规则](https://www.sse.com.cn/lawandrules/sselawsrules/latest/)，网址为 `https://www.sse.com.cn/lawandrules/sselawsrules/latest/`。截取 `https://www.sse.com.cn/lawandrules/sselawsrules/` 到末尾 `/` 的部分 `latest` 作为参数填入，此时路由为 [`/sse/sselawsrules/latest`](https://rsshub.app/sse/sselawsrules/latest)。\n  :::\n\n  | [最新规则](https://www.sse.com.cn/lawandrules/sselawsrules/latest/) | [章程](https://www.sse.com.cn/lawandrules/sselawsrules/article/) | [首发](https://www.sse.com.cn/lawandrules/sselawsrules/stocks/review/firstepisode/)          | [再融资](https://www.sse.com.cn/lawandrules/sselawsrules/stocks/review/refinancing/)       | [重组](https://www.sse.com.cn/lawandrules/sselawsrules/stocks/review/recombination/)           |\n  | ------------------------------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- |\n  | [latest](https://rsshub.app/sse/sselawsrules/latest)                | [article](https://rsshub.app/sse/sselawsrules/article)           | [stocks/review/firstepisode](https://rsshub.app/sse/sselawsrules/stocks/review/firstepisode) | [stocks/review/refinancing](https://rsshub.app/sse/sselawsrules/stocks/review/refinancing) | [stocks/review/recombination](https://rsshub.app/sse/sselawsrules/stocks/review/recombination) |\n\n  | [转板](https://www.sse.com.cn/lawandrules/sselawsrules/stocks/review/flap/)  | [发行承销](https://www.sse.com.cn/lawandrules/sselawsrules/stocks/issue/) | [主板上市（挂牌）](https://www.sse.com.cn/lawandrules/sselawsrules/stocks/mainipo/) | [科创板上市（挂牌）](https://www.sse.com.cn/lawandrules/sselawsrules/stocks/staripo/) | [股票交易](https://www.sse.com.cn/lawandrules/sselawsrules/stocks/exchange/) |\n  | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |\n  | [stocks/review/flap](https://rsshub.app/sse/sselawsrules/stocks/review/flap) | [stocks/issue](https://rsshub.app/sse/sselawsrules/stocks/issue)          | [stocks/mainipo](https://rsshub.app/sse/sselawsrules/stocks/mainipo)                | [stocks/staripo](https://rsshub.app/sse/sselawsrules/stocks/staripo)                  | [stocks/exchange](https://rsshub.app/sse/sselawsrules/stocks/exchange)       |\n\n  | [试点创新企业](https://www.sse.com.cn/lawandrules/sselawsrules/stocks/innovative/) | [股权分置改革](https://www.sse.com.cn/lawandrules/sselawsrules/stocks/reform/) | [发行上市审核](https://www.sse.com.cn/lawandrules/sselawsrules/bond/review/) | [发行承销](https://www.sse.com.cn/lawandrules/sselawsrules/bond/issue/) | [公司债券上市（挂牌）](https://www.sse.com.cn/lawandrules/sselawsrules/bond/listing/corporatebond/) |\n  | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |\n  | [stocks/innovative](https://rsshub.app/sse/sselawsrules/stocks/innovative)         | [stocks/reform](https://rsshub.app/sse/sselawsrules/stocks/reform)             | [bond/review](https://rsshub.app/sse/sselawsrules/bond/review)               | [bond/issue](https://rsshub.app/sse/sselawsrules/bond/issue)            | [bond/listing/corporatebond](https://rsshub.app/sse/sselawsrules/bond/listing/corporatebond)        |\n\n  | [资产支持证券上市（挂牌）](https://www.sse.com.cn/lawandrules/sselawsrules/bond/listing/assets/) | [债券交易通用](https://www.sse.com.cn/lawandrules/sselawsrules/bond/trading/currency/) | [国债预发行](https://www.sse.com.cn/lawandrules/sselawsrules/bond/trading/tbondp/) | [债券质押式三方回购](https://www.sse.com.cn/lawandrules/sselawsrules/bond/trading/tripartyrepo/) | [债券质押式协议回购](https://www.sse.com.cn/lawandrules/sselawsrules/bond/trading/repurchase/) |\n  | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- |\n  | [bond/listing/assets](https://rsshub.app/sse/sselawsrules/bond/listing/assets)                   | [bond/trading/currency](https://rsshub.app/sse/sselawsrules/bond/trading/currency)     | [bond/trading/tbondp](https://rsshub.app/sse/sselawsrules/bond/trading/tbondp)     | [bond/trading/tripartyrepo](https://rsshub.app/sse/sselawsrules/bond/trading/tripartyrepo)       | [bond/trading/repurchase](https://rsshub.app/sse/sselawsrules/bond/trading/repurchase)         |\n\n  | [国债买断式回购交易](https://www.sse.com.cn/lawandrules/sselawsrules/bond/trading/outrightrepo/) | [信用保护工具](https://www.sse.com.cn/lawandrules/sselawsrules/bond/trading/cdx/) | [上市公司可转债](https://www.sse.com.cn/lawandrules/sselawsrules/bond/convertible/) | [基金上市](https://www.sse.com.cn/lawandrules/sselawsrules/fund/listing/) | [基金交易](https://www.sse.com.cn/lawandrules/sselawsrules/fund/trading/) |\n  | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- |\n  | [bond/trading/outrightrepo](https://rsshub.app/sse/sselawsrules/bond/trading/outrightrepo)       | [bond/trading/cdx](https://rsshub.app/sse/sselawsrules/bond/trading/cdx)          | [bond/convertible](https://rsshub.app/sse/sselawsrules/bond/convertible)            | [fund/listing](https://rsshub.app/sse/sselawsrules/fund/listing)          | [fund/trading](https://rsshub.app/sse/sselawsrules/fund/trading)          |\n\n  | [基础设施公募REITs](https://www.sse.com.cn/lawandrules/sselawsrules/reits/) | [期权](https://www.sse.com.cn/lawandrules/sselawsrules/option/) | [通用类](https://www.sse.com.cn/lawandrules/sselawsrules/trade/universal/) | [融资融券](https://www.sse.com.cn/lawandrules/sselawsrules/trade/specific/margin/) | [转融通](https://www.sse.com.cn/lawandrules/sselawsrules/trade/specific/refinancing/)        |\n  | --------------------------------------------------------------------------- | --------------------------------------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |\n  | [reits](https://rsshub.app/sse/sselawsrules/reits)                          | [option](https://rsshub.app/sse/sselawsrules/option)            | [trade/universal](https://rsshub.app/sse/sselawsrules/trade/universal)     | [trade/specific/margin](https://rsshub.app/sse/sselawsrules/trade/specific/margin) | [trade/specific/refinancing](https://rsshub.app/sse/sselawsrules/trade/specific/refinancing) |\n\n  | [质押式回购](https://www.sse.com.cn/lawandrules/sselawsrules/trade/specific/repo/) | [质押式报价回购](https://www.sse.com.cn/lawandrules/sselawsrules/trade/specific/pricerepo/) | [约定购回](https://www.sse.com.cn/lawandrules/sselawsrules/trade/specific/promise/)  | [协议转让](https://www.sse.com.cn/lawandrules/sselawsrules/trade/specific/xyzr/) | [其他](https://www.sse.com.cn/lawandrules/sselawsrules/trade/specific/others/)     |\n  | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |\n  | [trade/specific/repo](https://rsshub.app/sse/sselawsrules/trade/specific/repo)     | [trade/specific/pricerepo](https://rsshub.app/sse/sselawsrules/trade/specific/pricerepo)    | [trade/specific/promise](https://rsshub.app/sse/sselawsrules/trade/specific/promise) | [trade/specific/xyzr](https://rsshub.app/sse/sselawsrules/trade/specific/xyzr)   | [trade/specific/others](https://rsshub.app/sse/sselawsrules/trade/specific/others) |\n\n  | [沪港通](https://www.sse.com.cn/lawandrules/sselawsrules/global/hkexsc/) | [互联互通存托凭证](https://www.sse.com.cn/lawandrules/sselawsrules/global/slsc/) | [会员管理](https://www.sse.com.cn/lawandrules/sselawsrules/member/personnel/) | [适当性管理](https://www.sse.com.cn/lawandrules/sselawsrules/member/adequacy/) | [纪律处分与复核](https://www.sse.com.cn/lawandrules/sselawsrules/disciplinary/) |\n  | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------- |\n  | [global/hkexsc](https://rsshub.app/sse/sselawsrules/global/hkexsc)       | [global/slsc](https://rsshub.app/sse/sselawsrules/global/slsc)                   | [member/personnel](https://rsshub.app/sse/sselawsrules/member/personnel)      | [member/adequacy](https://rsshub.app/sse/sselawsrules/member/adequacy)         | [disciplinary](https://rsshub.app/sse/sselawsrules/disciplinary)                |\n\n  | [交易收费](https://www.sse.com.cn/lawandrules/sselawsrules/charge/) | [其他业务规则](https://www.sse.com.cn/lawandrules/sselawsrules/other/) | [业务规则废止公告](https://www.sse.com.cn/lawandrules/sserules/repeal/announcement/)                                       | [已废止规则文本](https://www.sse.com.cn/lawandrules/sselawsrules/repeal/rules/) |\n  | ------------------------------------------------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |\n  | [charge](https://rsshub.app/sse/sselawsrules/charge)                | [other](https://rsshub.app/sse/sselawsrules/other)                     | [/lawandrules/sserules/repeal/announcement](https://rsshub.app/sse/sselawsrules//lawandrules/sserules/repeal/announcement) | [repeal/rules](https://rsshub.app/sse/sselawsrules/repeal/rules)                |\n  ",
+        "categories": [
+          "finance"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportRadar": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/:category"
+            ]
+          },
+          {
+            "title": "最新规则",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/latest/"
+            ],
+            "target": "/sselawsrules/latest"
+          },
+          {
+            "title": "章程",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/article/"
+            ],
+            "target": "/sselawsrules/article"
+          },
+          {
+            "title": "首发",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/stocks/review/firstepisode/"
+            ],
+            "target": "/sselawsrules/stocks/review/firstepisode"
+          },
+          {
+            "title": "再融资",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/stocks/review/refinancing/"
+            ],
+            "target": "/sselawsrules/stocks/review/refinancing"
+          },
+          {
+            "title": "重组",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/stocks/review/recombination/"
+            ],
+            "target": "/sselawsrules/stocks/review/recombination"
+          },
+          {
+            "title": "转板",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/stocks/review/flap/"
+            ],
+            "target": "/sselawsrules/stocks/review/flap"
+          },
+          {
+            "title": "发行承销",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/stocks/issue/"
+            ],
+            "target": "/sselawsrules/stocks/issue"
+          },
+          {
+            "title": "主板上市（挂牌）",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/stocks/mainipo/"
+            ],
+            "target": "/sselawsrules/stocks/mainipo"
+          },
+          {
+            "title": "科创板上市（挂牌）",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/stocks/staripo/"
+            ],
+            "target": "/sselawsrules/stocks/staripo"
+          },
+          {
+            "title": "股票交易",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/stocks/exchange/"
+            ],
+            "target": "/sselawsrules/stocks/exchange"
+          },
+          {
+            "title": "试点创新企业",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/stocks/innovative/"
+            ],
+            "target": "/sselawsrules/stocks/innovative"
+          },
+          {
+            "title": "股权分置改革",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/stocks/reform/"
+            ],
+            "target": "/sselawsrules/stocks/reform"
+          },
+          {
+            "title": "发行上市审核",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/bond/review/"
+            ],
+            "target": "/sselawsrules/bond/review"
+          },
+          {
+            "title": "发行承销",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/bond/issue/"
+            ],
+            "target": "/sselawsrules/bond/issue"
+          },
+          {
+            "title": "公司债券上市（挂牌）",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/bond/listing/corporatebond/"
+            ],
+            "target": "/sselawsrules/bond/listing/corporatebond"
+          },
+          {
+            "title": "资产支持证券上市（挂牌）",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/bond/listing/assets/"
+            ],
+            "target": "/sselawsrules/bond/listing/assets"
+          },
+          {
+            "title": "债券交易通用",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/bond/trading/currency/"
+            ],
+            "target": "/sselawsrules/bond/trading/currency"
+          },
+          {
+            "title": "国债预发行",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/bond/trading/tbondp/"
+            ],
+            "target": "/sselawsrules/bond/trading/tbondp"
+          },
+          {
+            "title": "债券质押式三方回购",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/bond/trading/tripartyrepo/"
+            ],
+            "target": "/sselawsrules/bond/trading/tripartyrepo"
+          },
+          {
+            "title": "债券质押式协议回购",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/bond/trading/repurchase/"
+            ],
+            "target": "/sselawsrules/bond/trading/repurchase"
+          },
+          {
+            "title": "国债买断式回购交易",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/bond/trading/outrightrepo/"
+            ],
+            "target": "/sselawsrules/bond/trading/outrightrepo"
+          },
+          {
+            "title": "信用保护工具",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/bond/trading/cdx/"
+            ],
+            "target": "/sselawsrules/bond/trading/cdx"
+          },
+          {
+            "title": "上市公司可转债",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/bond/convertible/"
+            ],
+            "target": "/sselawsrules/bond/convertible"
+          },
+          {
+            "title": "基金上市",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/fund/listing/"
+            ],
+            "target": "/sselawsrules/fund/listing"
+          },
+          {
+            "title": "基金交易",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/fund/trading/"
+            ],
+            "target": "/sselawsrules/fund/trading"
+          },
+          {
+            "title": "基础设施公募REITs",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/reits/"
+            ],
+            "target": "/sselawsrules/reits"
+          },
+          {
+            "title": "期权",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/option/"
+            ],
+            "target": "/sselawsrules/option"
+          },
+          {
+            "title": "通用类",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/trade/universal/"
+            ],
+            "target": "/sselawsrules/trade/universal"
+          },
+          {
+            "title": "融资融券",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/trade/specific/margin/"
+            ],
+            "target": "/sselawsrules/trade/specific/margin"
+          },
+          {
+            "title": "转融通",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/trade/specific/refinancing/"
+            ],
+            "target": "/sselawsrules/trade/specific/refinancing"
+          },
+          {
+            "title": "质押式回购",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/trade/specific/repo/"
+            ],
+            "target": "/sselawsrules/trade/specific/repo"
+          },
+          {
+            "title": "质押式报价回购",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/trade/specific/pricerepo/"
+            ],
+            "target": "/sselawsrules/trade/specific/pricerepo"
+          },
+          {
+            "title": "约定购回",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/trade/specific/promise/"
+            ],
+            "target": "/sselawsrules/trade/specific/promise"
+          },
+          {
+            "title": "协议转让",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/trade/specific/xyzr/"
+            ],
+            "target": "/sselawsrules/trade/specific/xyzr"
+          },
+          {
+            "title": "其他",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/trade/specific/others/"
+            ],
+            "target": "/sselawsrules/trade/specific/others"
+          },
+          {
+            "title": "沪港通",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/global/hkexsc/"
+            ],
+            "target": "/sselawsrules/global/hkexsc"
+          },
+          {
+            "title": "互联互通存托凭证",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/global/slsc/"
+            ],
+            "target": "/sselawsrules/global/slsc"
+          },
+          {
+            "title": "会员管理",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/member/personnel/"
+            ],
+            "target": "/sselawsrules/member/personnel"
+          },
+          {
+            "title": "适当性管理",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/member/adequacy/"
+            ],
+            "target": "/sselawsrules/member/adequacy"
+          },
+          {
+            "title": "纪律处分与复核",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/disciplinary/"
+            ],
+            "target": "/sselawsrules/disciplinary"
+          },
+          {
+            "title": "交易收费",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/charge/"
+            ],
+            "target": "/sselawsrules/charge"
+          },
+          {
+            "title": "其他业务规则",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/other/"
+            ],
+            "target": "/sselawsrules/other"
+          },
+          {
+            "title": "业务规则废止公告",
+            "source": [
+              "www.sse.com.cn/lawandrules/sserules/repeal/announcement/"
+            ],
+            "target": "/sselawsrules//lawandrules/sserules/repeal/announcement"
+          },
+          {
+            "title": "已废止规则文本",
+            "source": [
+              "www.sse.com.cn/lawandrules/sselawsrules/repeal/rules/"
+            ],
+            "target": "/sselawsrules/repeal/rules"
+          }
+        ],
+        "location": "sselawsrules.ts"
       }
     },
     "name": "上海证券交易所",
@@ -58670,17 +61074,26 @@
         "description": "类型\n\n  | IPO | 再融资 | 重大资产重组 |\n  | --- | ------ | ------------ |\n  | 1   | 2      | 3            |\n\n  阶段\n\n  | 全部 | 受理 | 问询 | 上市委会议 |\n  | ---- | ---- | ---- | ---------- |\n  | 0    | 10   | 20   | 30         |\n\n  | 提交注册 | 注册结果 | 中止 | 终止 |\n  | -------- | -------- | ---- | ---- |\n  | 35       | 40       | 50   | 60   |\n\n  状态\n\n  | 全部 | 新受理 | 已问询 | 通过 | 未通过 |\n  | ---- | ------ | ------ | ---- | ------ |\n  | 0    | 20     | 30     | 45   | 44     |\n\n  | 暂缓审议 | 复审通过 | 复审不通过 | 提交注册 |\n  | -------- | -------- | ---------- | -------- |\n  | 46       | 56       | 54         | 60       |\n\n  | 注册生效 | 不予注册 | 补充审核 | 终止注册 |\n  | -------- | -------- | -------- | -------- |\n  | 70       | 74       | 78       | 76       |\n\n  | 中止 | 审核不通过 | 撤回 |\n  | ---- | ---------- | ---- |\n  | 80   | 90         | 95   |",
         "location": "projectdynamic.ts"
       },
-      "/rule": {
-        "path": "/rule",
+      "/rule/:channel{.+}?": {
+        "path": "/rule/:channel{.+}?",
+        "name": "本所业务规则",
+        "url": "www.szse.cn",
+        "maintainers": [
+          "nczitzk"
+        ],
+        "example": "/szse/rule/allrules/bussiness",
+        "parameters": {
+          "channel": "频道，默认为 `allrules/bussiness`，即全部业务规则，可在对应频道页 URL 中找到"
+        },
+        "description": ":::tip\n  若订阅 [综合类](https://www.szse.cn/www/lawrules/rule/all/index.html)，网址为 `https://www.szse.cn/www/lawrules/rule/all/index.html`。截取 `https://www.szse.cn/www/lawrules/rule/` 到末尾 `/index.html` 的部分 `all` 作为参数填入，此时路由为 [`/szse/rule/all`](https://rsshub.app/szse/rule/all)。\n  :::\n\n  | 频道                                                                        | ID                                                    |\n  | --------------------------------------------------------------------------- | ----------------------------------------------------- |\n  | [综合类](https://www.szse.cn/www/lawrules/rule/all/index.html)              | [all](https://rsshub.app/szes/rule/all)               |\n  | [基础设施REITs类](https://www.szse.cn/www/lawrules/rule/reits/index.html)   | [reits](https://rsshub.app/szes/rule/reits)           |\n  | [衍生品类](https://www.szse.cn/www/lawrules/rule/derivative/index.html)     | [derivative](https://rsshub.app/szes/rule/derivative) |\n  | [会员管理类](https://www.szse.cn/www/lawrules/rule/memberty/index.html)     | [memberty](https://rsshub.app/szes/rule/memberty)     |\n  | [纪律处分与内部救济类](https://www.szse.cn/www/lawrules/rule/pr/index.html) | [pr](https://rsshub.app/szes/rule/pr)                 |\n\n  #### 股票类\n\n  | 频道                                                                                     | ID                                                                                    |\n  | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |\n  | [发行上市审核](https://www.szse.cn/www/lawrules/rule/stock/audit/index.html)             | [stock/audit](https://rsshub.app/szes/rule/stock/audit)                               |\n  | [发行承销](https://www.szse.cn/www/lawrules/rule/stock/issue/index.html)                 | [stock/issue](https://rsshub.app/szes/rule/stock/issue)                               |\n  | [通用](https://www.szse.cn/www/lawrules/rule/stock/supervision/currency/index.html)      | [stock/supervision/currency](https://rsshub.app/szes/rule/stock/supervision/currency) |\n  | [主板专用](https://www.szse.cn/www/lawrules/rule/stock/supervision/mb/index.html)        | [stock/supervision/mb](https://rsshub.app/szes/rule/stock/supervision/mb)             |\n  | [创业板专用](https://www.szse.cn/www/lawrules/rule/stock/supervision/chinext/index.html) | [stock/supervision/chinext](https://rsshub.app/szes/rule/stock/supervision/chinext)   |\n  | [交易](https://www.szse.cn/www/lawrules/rule/stock/trade/index.html)                     | [stock/trade](https://rsshub.app/szes/rule/stock/trade)                               |\n\n  #### 固收类\n\n  | 频道                                                                                 | ID                                                                            |\n  | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------- |\n  | [发行上市（挂牌）](https://www.szse.cn/www/lawrules/rule/bond/bonds/list/index.html) | [bond/bonds/list](https://rsshub.app/szes/rule/bond/bonds/list)               |\n  | [持续监管](https://www.szse.cn/www/lawrules/rule/bond/bonds/supervision/index.html)  | [bond/bonds/supervision](https://rsshub.app/szes/rule/bond/bonds/supervision) |\n  | [交易](https://www.szse.cn/www/lawrules/rule/bond/bonds/trade/index.html)            | [bond/bonds/trade](https://rsshub.app/szes/rule/bond/bonds/trade)             |\n  | [资产支持证券](https://www.szse.cn/www/lawrules/rule/bond/abs/index.html)            | [bond/abs](https://rsshub.app/szes/rule/bond/abs)                             |\n\n  #### 基金类\n\n  | 频道                                                                | ID                                                    |\n  | ------------------------------------------------------------------- | ----------------------------------------------------- |\n  | [上市](https://www.szse.cn/www/lawrules/rule/fund/list/index.html)  | [fund/list](https://rsshub.app/szes/rule/fund/list)   |\n  | [交易](https://www.szse.cn/www/lawrules/rule/fund/trade/index.html) | [fund/trade](https://rsshub.app/szes/rule/fund/trade) |\n\n  #### 交易类\n\n  | 频道                                                                                     | ID                                                                                    |\n  | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |\n  | [通用](https://www.szse.cn/www/lawrules/rule/trade/current/index.html)                   | [trade/current](https://rsshub.app/szes/rule/trade/current)                           |\n  | [融资融券](https://www.szse.cn/www/lawrules/rule/trade/business/margin/index.html)       | [trade/business/margin](https://rsshub.app/szes/rule/trade/business/margin)           |\n  | [转融通](https://www.szse.cn/www/lawrules/rule/trade/business/refinancing/index.html)    | [trade/business/refinancing](https://rsshub.app/szes/rule/trade/business/refinancing) |\n  | [股票质押式回购](https://www.szse.cn/www/lawrules/rule/trade/business/pledge/index.html) | [trade/business/pledge](https://rsshub.app/szes/rule/trade/business/pledge)           |\n  | [质押式报价回购](https://www.szse.cn/www/lawrules/rule/trade/business/price/index.html)  | [trade/business/price](https://rsshub.app/szes/rule/trade/business/price)             |\n  | [约定购回](https://www.szse.cn/www/lawrules/rule/trade/business/promise/index.html)      | [trade/business/promise](https://rsshub.app/szes/rule/trade/business/promise)         |\n  | [协议转让](https://www.szse.cn/www/lawrules/rule/trade/business/transfer/index.html)     | [trade/business/transfer](https://rsshub.app/szes/rule/trade/business/transfer)       |\n  | [其他](https://www.szse.cn/www/lawrules/rule/trade/business/oth/index.html)              | [trade/business/oth](https://rsshub.app/szes/rule/trade/business/oth)                 |\n\n  #### 跨境创新类\n\n  | 频道                                                                          | ID                                                    |\n  | ----------------------------------------------------------------------------- | ----------------------------------------------------- |\n  | [深港通](https://www.szse.cn/www/lawrules/rule/inno/szhk/index.html)          | [inno/szhk](https://rsshub.app/szes/rule/inno/szhk)   |\n  | [试点创新企业](https://www.szse.cn/www/lawrules/rule/inno/pilot/index.html)   | [inno/pilot](https://rsshub.app/szes/rule/inno/pilot) |\n  | [H股全流通](https://www.szse.cn/www/lawrules/rule/inno/hc/index.html)         | [inno/hc](https://rsshub.app/szes/rule/inno/hc)       |\n  | [互联互通存托凭证](https://www.szse.cn/www/lawrules/rule/inno/gdr/index.html) | [inno/gdr](https://rsshub.app/szes/rule/inno/gdr)     |\n\n  #### 全部规则\n\n  | 频道                                                                                | ID                                                                    |\n  | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------- |\n  | [全部业务规则](https://www.szse.cn/www/lawrules/rule/allrules/bussiness/index.html) | [allrules/bussiness](https://rsshub.app/szes/rule/allrules/bussiness) |\n  | [规则汇编下载](https://www.szse.cn/www/lawrules/rule/allrules/rulejoin/index.html)  | [allrules/rulejoin](https://rsshub.app/szes/rule/allrules/rulejoin)   |\n\n  #### 已废止规则\n\n  | 频道                                                                                 | ID                                                                      |\n  | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- |\n  | [规则废止公告](https://www.szse.cn/www/lawrules/rule/repeal/announcement/index.html) | [repeal/announcement](https://rsshub.app/szes/rule/repeal/announcement) |\n  | [已废止规则文本](https://www.szse.cn/www/lawrules/rule/repeal/rules/index.html)      | [repeal/rules](https://rsshub.app/szes/rule/repeal/rules)               |\n  ",
         "categories": [
           "finance"
         ],
-        "example": "/szse/rule",
-        "parameters": {},
         "features": {
           "requireConfig": false,
           "requirePuppeteer": false,
           "antiCrawler": false,
+          "supportRadar": true,
           "supportBT": false,
           "supportPodcast": false,
           "supportScihub": false
@@ -58688,16 +61101,241 @@
         "radar": [
           {
             "source": [
-              "szse.cn/lawrules/rule/new",
-              "szse.cn/"
+              "www.szse.cn/www/lawrules/rule/:category"
             ]
+          },
+          {
+            "title": "综合类",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/all/index.html"
+            ],
+            "target": "/rule/all"
+          },
+          {
+            "title": "基础设施REITs类",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/reits/index.html"
+            ],
+            "target": "/rule/reits"
+          },
+          {
+            "title": "衍生品类",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/derivative/index.html"
+            ],
+            "target": "/rule/derivative"
+          },
+          {
+            "title": "会员管理类",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/memberty/index.html"
+            ],
+            "target": "/rule/memberty"
+          },
+          {
+            "title": "纪律处分与内部救济类",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/pr/index.html"
+            ],
+            "target": "/rule/pr"
+          },
+          {
+            "title": "股票类 - 发行上市审核",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/stock/audit/index.html"
+            ],
+            "target": "/rule/stock/audit"
+          },
+          {
+            "title": "股票类 - 发行承销",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/stock/issue/index.html"
+            ],
+            "target": "/rule/stock/issue"
+          },
+          {
+            "title": "股票类 - 通用",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/stock/supervision/currency/index.html"
+            ],
+            "target": "/rule/stock/supervision/currency"
+          },
+          {
+            "title": "股票类 - 主板专用",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/stock/supervision/mb/index.html"
+            ],
+            "target": "/rule/stock/supervision/mb"
+          },
+          {
+            "title": "股票类 - 创业板专用",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/stock/supervision/chinext/index.html"
+            ],
+            "target": "/rule/stock/supervision/chinext"
+          },
+          {
+            "title": "股票类 - 交易",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/stock/trade/index.html"
+            ],
+            "target": "/rule/stock/trade"
+          },
+          {
+            "title": "固收类 - 发行上市（挂牌）",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/bond/bonds/list/index.html"
+            ],
+            "target": "/rule/bond/bonds/list"
+          },
+          {
+            "title": "固收类 - 持续监管",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/bond/bonds/supervision/index.html"
+            ],
+            "target": "/rule/bond/bonds/supervision"
+          },
+          {
+            "title": "固收类 - 交易",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/bond/bonds/trade/index.html"
+            ],
+            "target": "/rule/bond/bonds/trade"
+          },
+          {
+            "title": "固收类 - 资产支持证券",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/bond/abs/index.html"
+            ],
+            "target": "/rule/bond/abs"
+          },
+          {
+            "title": "基金类 - 上市",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/fund/list/index.html"
+            ],
+            "target": "/rule/fund/list"
+          },
+          {
+            "title": "基金类 - 交易",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/fund/trade/index.html"
+            ],
+            "target": "/rule/fund/trade"
+          },
+          {
+            "title": "交易类 - 通用",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/trade/current/index.html"
+            ],
+            "target": "/rule/trade/current"
+          },
+          {
+            "title": "交易类 - 融资融券",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/trade/business/margin/index.html"
+            ],
+            "target": "/rule/trade/business/margin"
+          },
+          {
+            "title": "交易类 - 转融通",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/trade/business/refinancing/index.html"
+            ],
+            "target": "/rule/trade/business/refinancing"
+          },
+          {
+            "title": "交易类 - 股票质押式回购",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/trade/business/pledge/index.html"
+            ],
+            "target": "/rule/trade/business/pledge"
+          },
+          {
+            "title": "交易类 - 质押式报价回购",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/trade/business/price/index.html"
+            ],
+            "target": "/rule/trade/business/price"
+          },
+          {
+            "title": "交易类 - 约定购回",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/trade/business/promise/index.html"
+            ],
+            "target": "/rule/trade/business/promise"
+          },
+          {
+            "title": "交易类 - 协议转让",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/trade/business/transfer/index.html"
+            ],
+            "target": "/rule/trade/business/transfer"
+          },
+          {
+            "title": "交易类 - 其他",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/trade/business/oth/index.html"
+            ],
+            "target": "/rule/trade/business/oth"
+          },
+          {
+            "title": "跨境创新类 - 深港通",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/inno/szhk/index.html"
+            ],
+            "target": "/rule/inno/szhk"
+          },
+          {
+            "title": "跨境创新类 - 试点创新企业",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/inno/pilot/index.html"
+            ],
+            "target": "/rule/inno/pilot"
+          },
+          {
+            "title": "跨境创新类 - H股全流通",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/inno/hc/index.html"
+            ],
+            "target": "/rule/inno/hc"
+          },
+          {
+            "title": "跨境创新类 - 互联互通存托凭证",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/inno/gdr/index.html"
+            ],
+            "target": "/rule/inno/gdr"
+          },
+          {
+            "title": "全部规则 - 全部业务规则",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/allrules/bussiness/index.html"
+            ],
+            "target": "/rule/allrules/bussiness"
+          },
+          {
+            "title": "全部规则 - 规则汇编下载",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/allrules/rulejoin/index.html"
+            ],
+            "target": "/rule/allrules/rulejoin"
+          },
+          {
+            "title": "已废止规则 - 规则废止公告",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/repeal/announcement/index.html"
+            ],
+            "target": "/rule/repeal/announcement"
+          },
+          {
+            "title": "已废止规则 - 已废止规则文本",
+            "source": [
+              "www.szse.cn/www/lawrules/rule/repeal/rules/index.html"
+            ],
+            "target": "/rule/repeal/rules"
           }
         ],
-        "name": "最新规则",
-        "maintainers": [
-          "nczitzk"
-        ],
-        "url": "szse.cn/lawrules/rule/new",
         "location": "rule.ts"
       }
     },
@@ -59970,14 +62608,15 @@
   },
   "theblockbeats": {
     "routes": {
-      "/:channel?": {
-        "path": "/:channel?",
+      "/:channel?/:original?": {
+        "path": "/:channel?/:original?",
         "categories": [
           "finance"
         ],
         "example": "/theblockbeats/newsflash",
         "parameters": {
-          "channel": "类型，见下表，默认为快讯"
+          "channel": "类型，见下表，默认为快讯",
+          "original": "文章类型，仅 `channel` 为 `article` 时有效，见下表，留空为全部"
         },
         "name": "新闻快讯",
         "maintainers": [
@@ -60000,7 +62639,7 @@
             "target": "/newsflash"
           }
         ],
-        "description": "|    快讯   |   文章  |\n  | :-------: | :-----: |\n  | newsflash | article |",
+        "description": "|    快讯   |   文章  |\n  | :-------: | :-----: |\n  | newsflash | article |\n\n  | 全部 | 深度 | 精选 | 热点追踪 |\n  | :--: | :--: | :--: | :---: |\n  |     | -2  | 1    |  2     |",
         "location": "index.ts"
       }
     },
@@ -61602,6 +64241,32 @@
     "name": "TOPYS",
     "url": "topys.cn"
   },
+  "towardsdatascience": {
+    "routes": {
+      "/latest": {
+        "path": "/latest",
+        "categories": [
+          "blog"
+        ],
+        "example": "/latest",
+        "radar": [
+          {
+            "source": [
+              "towardsdatascience.com/"
+            ]
+          }
+        ],
+        "name": "Towards Data Science",
+        "maintainers": [
+          "mintyfrankie"
+        ],
+        "url": "towardsdatascience.com/latest",
+        "location": "latest.ts"
+      }
+    },
+    "name": "Towards Data Science",
+    "url": "towardsdatascience.com"
+  },
   "tradingview": {
     "routes": {
       "/blog/:category{.+}?": {
@@ -62094,6 +64759,48 @@
   },
   "twitter": {
     "routes": {
+      "/home_latest/:routeParams?": {
+        "path": "/home_latest/:routeParams?",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/twitter/home_latest",
+        "features": {
+          "requireConfig": [
+            {
+              "name": "TWITTER_USERNAME",
+              "description": "Please see above for details."
+            },
+            {
+              "name": "TWITTER_PASSWORD",
+              "description": "Please see above for details."
+            },
+            {
+              "name": "TWITTER_AUTH_TOKEN",
+              "description": "Please see above for details."
+            }
+          ],
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "Home latest timeline",
+        "maintainers": [
+          "DIYgod",
+          "CaoMeiYouRen"
+        ],
+        "radar": [
+          {
+            "source": [
+              "x.com/home"
+            ],
+            "target": "/home_latest"
+          }
+        ],
+        "location": "home-latest.ts"
+      },
       "/home/:routeParams?": {
         "path": "/home/:routeParams?",
         "categories": [
@@ -62773,7 +65480,8 @@
         "radar": [
           {
             "source": [
-              "www.uber.com/blog/pittsburgh/engineering"
+              "www.uber.com/:language/blog/engineering",
+              "www.uber.com/:language/blog"
             ],
             "target": "/blog"
           }
@@ -64078,6 +66786,39 @@
         "description": "| 学院新闻 | 通知公告 | 学术交流 | 学术报告 |\n  | -------- | -------- | -------- | -------- |\n  | xyxw     | tzgg     | xsjl     | xsbg     |",
         "location": "math.ts"
       },
+      "/scms/:type?": {
+        "path": "/scms/:type?",
+        "categories": [
+          "university"
+        ],
+        "example": "/ustc/scms/tzgg",
+        "parameters": {
+          "type": "分类，见下表，默认为通知公告"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "scms.ustc.edu.cn/:id/list.htm"
+            ],
+            "target": "/scms"
+          }
+        ],
+        "name": "化学与材料科学学院",
+        "maintainers": [
+          "boxie123"
+        ],
+        "url": "scms.ustc.edu.cn/",
+        "description": "| 院内新闻 | 通知公告 | 科研动态 | 学术活动 | 其他 |\n  | -------- | -------- | -------- | -------- | -------- |\n  | ynxw     | tzgg     | kydt     | xshd     | 自定义id  |",
+        "location": "scms.ts"
+      },
       "/sist/:type?": {
         "path": "/sist/:type?",
         "categories": [
@@ -65073,6 +67814,41 @@
     "categories": [
       "blog"
     ]
+  },
+  "wchscu": {
+    "routes": {
+      "/recruit": {
+        "name": "招聘公告",
+        "path": "/recruit",
+        "example": "/wchscu/recruit",
+        "url": "www.wchscu.cn",
+        "maintainers": [
+          "ViggoC"
+        ],
+        "categories": [
+          "other"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportRadar": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.wchscu.cn/public/notice/recruit"
+            ]
+          }
+        ],
+        "location": "recruit.ts"
+      }
+    },
+    "name": "华西医院",
+    "url": "www.wchscu.cn"
   },
   "wdc": {
     "routes": {
@@ -67320,14 +70096,47 @@
             "target": "/user/:user_id/notes"
           }
         ],
-        "name": "Unknown",
-        "maintainers": [],
+        "name": "用户笔记 全文",
+        "maintainers": [
+          "howerhe"
+        ],
+        "example": "/xiaohongshu/user/52d8c541b4c4d60e6c867480/notes/fulltext",
+        "features": {
+          "antiCrawler": true,
+          "requirePuppeteer": true
+        },
+        "parameters": {
+          "user_id": "user id, length 24 characters"
+        },
         "location": "notes.ts"
       },
       "/user/:user_id/:category": {
         "path": "/user/:user_id/:category",
-        "name": "Unknown",
-        "maintainers": [],
+        "name": "用户笔记",
+        "maintainers": [
+          "lotosbin"
+        ],
+        "example": "/xiaohongshu/user/593032945e87e77791e03696/notes",
+        "features": {
+          "antiCrawler": true,
+          "requirePuppeteer": true
+        },
+        "parameters": {
+          "user_id": "user id, length 24 characters",
+          "category": {
+            "description": "category, notes or collect",
+            "options": [
+              {
+                "value": "notes",
+                "label": "notes"
+              },
+              {
+                "value": "collect",
+                "label": "collect"
+              }
+            ]
+          }
+        },
         "location": "user.ts"
       }
     },
@@ -67531,6 +70340,70 @@
   },
   "xidian": {
     "routes": {
+      "/cs/:category?": {
+        "path": "/cs/:category?",
+        "categories": [
+          "university"
+        ],
+        "example": "/xidian/cs/xyxw",
+        "parameters": {
+          "category": "通知类别，默认为主页-学院新闻"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "计算机科学与技术学院",
+        "url": "cs.xidian.edu.cn",
+        "maintainers": [
+          "ZiHao256"
+        ],
+        "description": "| 文章来源                   | 参数          |\n| ---------------------- | ----------- |\n| ✅主页-学院新闻                | xyxw        |\n| ✅主页-通知公告                | tzgg        |\n| ✅主页-交流合作                | jlhz1       |\n| ✅主页-人事人才                | rsrc        |\n| ✅主页-本科生教育 / 本科教育-教学新闻   | bkjy_jxxw   |\n| ✅主页-研究生教育 / 研究生教育-研究生通知 | yjsjy_yjstz |\n| ✅主页-就业招聘                | jyzhaop     |",
+        "radar": [
+          {
+            "source": [
+              "cs.xidian.edu.cn/"
+            ]
+          }
+        ],
+        "location": "cs.ts"
+      },
+      "/gr/:category?": {
+        "path": "/gr/:category?",
+        "categories": [
+          "university"
+        ],
+        "example": "/xidian/gr/home_tzgg1",
+        "parameters": {
+          "category": "通知类别，默认为主页-通知公告"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "研究生院/卓越工程师学院",
+        "url": "gr.xidian.edu.cn",
+        "maintainers": [
+          "ZiHao256"
+        ],
+        "description": "| 文章来源          | 参数           |\n| ------------- | ------------ |\n| ✅主页-最新动态      | home_zxdt    |\n| ✅主页-通知公告      | home_tzgg1   |\n| ✅主页-讲座报告      | home_jzbg    |\n| ✅研院介绍-基本情况    | yyjs_jbqk    |\n| ✅研院介绍-机构设置    | yyjs_jbqk1   |\n| ✅研院介绍-部门领导    | yyjs_jbqk2   |\n| ✅研院介绍-服务指南    | yyjs_jbqk3   |\n| ✅研院介绍-学院联系方式  | yyjs_jbqk4   |\n| ✅招生信息         | yjsy         |\n| ✅招生信息-硕士研究生招生 | yjsy_yjszs   |\n| ✅招生信息-博士研究生招生 | yjsy_bsyjszs |\n| ✅招生信息-其他类型招生  | yjsy_qtlxzs  |\n| ✅培养管理         | pygl         |\n| ✅培养管理-学术学位    | pygl_xsxw    |\n| ✅培养管理-专业学位    | pygl_zyxw    |\n| ✅培养管理-教学管理    | pygl_jxgl    |\n| ✅培养管理-课程建设    | pygl_jxgl1   |\n| ✅培养管理-管理规定    | pygl_jxgl2   |\n| ✅培养管理-国际交流    | pygl_jxgl3   |\n| ✅培养管理-办事流程    | pygl_bslc    |\n| ✅学位授予         | xwsy         |\n| ✅学位授予-通知公告    | xwsy_tzgg    |\n| ✅学位授予-规章制度    | xwsy_gzzd    |\n| ✅学位授予-授位名单    | xwsy_swmd    |\n| ✅学位授予-资料下载    | xwsy_zlxz    |",
+        "radar": [
+          {
+            "source": [
+              "gr.xidian.edu.cn/"
+            ]
+          }
+        ],
+        "location": "gr.ts"
+      },
       "/jwc/:category?": {
         "path": "/jwc/:category?",
         "categories": [
@@ -67549,6 +70422,7 @@
           "supportScihub": false
         },
         "name": "教务处",
+        "url": "jwc.xidian.edu.cn",
         "maintainers": [
           "ShadowySpirits"
         ],
@@ -67557,7 +70431,7 @@
       }
     },
     "name": "西安电子科技大学",
-    "url": "jwc.xidian.edu.cn"
+    "url": "www.xidian.edu.cn"
   },
   "ximalaya": {
     "routes": {
@@ -68921,6 +71795,35 @@
         "url": "yicai.com/brief",
         "location": "brief.ts"
       },
+      "/carousel": {
+        "path": "/carousel",
+        "categories": [
+          "traditional-media"
+        ],
+        "example": "/yicai/carousel",
+        "parameters": {},
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "yicai.com/"
+            ]
+          }
+        ],
+        "name": "轮播",
+        "maintainers": [
+          "nczitzk"
+        ],
+        "url": "yicai.com/",
+        "location": "carousel.ts"
+      },
       "/dt/:column?/:category?": {
         "path": "/dt/:column?/:category?",
         "categories": [
@@ -69993,7 +72896,8 @@
         ],
         "name": "游研社 - 全部文章",
         "maintainers": [
-          "HaitianLiu"
+          "HaitianLiu",
+          "yy4382"
         ],
         "url": "yystv.cn/docs",
         "location": "docs.ts"
