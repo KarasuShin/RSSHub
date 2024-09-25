@@ -5782,7 +5782,7 @@
     "cn": [
       {
         "title": "Blog",
-        "docs": "https://docs.rsshub.app/routes/design",
+        "docs": "https://docs.rsshub.app/routes/blog",
         "source": [
           "/blog"
         ],
@@ -6897,6 +6897,14 @@
   "gamer.com.tw": {
     "_name": "巴哈姆特電玩資訊站",
     "ani": [
+      {
+        "title": "動畫瘋 - 動畫",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/"
+        ],
+        "target": "/gamer/anime/:sn"
+      },
       {
         "title": "動畫瘋 - 最後更新",
         "docs": "https://docs.rsshub.app/routes/anime",
@@ -9510,7 +9518,7 @@
     "_name": "Hacker News",
     "news": [
       {
-        "title": "用户",
+        "title": "User",
         "docs": "https://docs.rsshub.app/routes/programming",
         "source": [
           "/:section",
@@ -15909,13 +15917,21 @@
     "_name": "国家地理",
     ".": [
       {
-        "title": "每日一图",
+        "title": "Daily Photo",
         "docs": "https://docs.rsshub.app/routes/picture",
         "source": [
           "/photo-of-the-day/*",
           "/"
         ],
         "target": "/natgeo/dailyphoto"
+      },
+      {
+        "title": "Daily Selection",
+        "docs": "https://docs.rsshub.app/routes/picture",
+        "source": [
+          "/"
+        ],
+        "target": "/natgeo/dailyselection"
       }
     ],
     "www": [
@@ -16633,7 +16649,7 @@
     "_name": "New Yorker",
     ".": [
       {
-        "title": "The New Yorker",
+        "title": "Articles",
         "docs": "https://docs.rsshub.app/routes/traditional-media",
         "source": [
           "/:category"
@@ -17458,6 +17474,19 @@
           "/"
         ],
         "target": "/nytimes/:lang?"
+      }
+    ]
+  },
+  "obsidian.md": {
+    "_name": "Obsidian",
+    "publish": [
+      {
+        "title": "Publish",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
+          "/"
+        ],
+        "target": "/obsidian/publish/:id"
       }
     ]
   },
