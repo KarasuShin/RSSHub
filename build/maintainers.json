@@ -245,9 +245,8 @@
     "nczitzk"
   ],
   "/9to5/:subsite/:tag?": [],
-  "/a9vg/:category{.+}?": [
-    "monnerHenster",
-    "nczitzk"
+  "/a9vg/": [
+    "monnerHenster"
   ],
   "/aamacau/:category?/:id?": [],
   "/abc/:category{.+}?": [
@@ -600,9 +599,6 @@
   ],
   "/bangumi/tv/user/blog/:id": [
     "nczitzk"
-  ],
-  "/bangumi/tv/user/collections/:id/:subjectType/:type": [
-    "youyou-sudo"
   ],
   "/bangumi/tv/user/wish/:id": [
     "honue"
@@ -1161,9 +1157,6 @@
   "/cebbank/quotation/history/:type": [
     "linbuxiao"
   ],
-  "/ceph/blog/:topic?": [
-    "pandada8"
-  ],
   "/cfachina/servicesupport/analygarden/:program?": [
     "TonyRL"
   ],
@@ -1203,26 +1196,8 @@
   "/chiculture/topic/:category?": [
     "nczitzk"
   ],
-  "/chikubi/category/:keyword": [
-    "SnowAgar25"
-  ],
-  "/chikubi/": [
-    "SnowAgar25"
-  ],
-  "/chikubi/:keyword": [
-    "SnowAgar25"
-  ],
-  "/chikubi/nipple-video-category/:keyword": [
-    "SnowAgar25"
-  ],
-  "/chikubi/nipple-video-maker/:keyword": [
-    "SnowAgar25"
-  ],
-  "/chikubi/search/:keyword": [
-    "SnowAgar25"
-  ],
-  "/chikubi/tag/:keyword": [
-    "SnowAgar25"
+  "/chikubi/:category?": [
+    "snowagar25"
   ],
   "/china/finance/:category?": [
     "KingJem"
@@ -1391,9 +1366,6 @@
     "Fatpandac"
   ],
   "/codeforces/recent-actions/:minrating?": [],
-  "/cohere/blog": [
-    "Loongphy"
-  ],
   "/coindesk/consensus-magazine": [
     "jameshih"
   ],
@@ -1616,12 +1588,6 @@
   "/deadline/": [
     "TonyRL"
   ],
-  "/dealstreetasia/home": [
-    "jack2game"
-  ],
-  "/dealstreetasia/section/:section": [
-    "jack2game"
-  ],
   "/dedao/:category?": [],
   "/dedao/knowledge/:topic?/:type?": [
     "nczitzk"
@@ -1634,9 +1600,6 @@
   ],
   "/deepin/homepage/:user_id": [
     "tensor-tech"
-  ],
-  "/deepin/threads/:type?": [
-    "myml"
   ],
   "/deeplearning/thebatch": [
     "nczitzk",
@@ -2379,9 +2342,6 @@
   "/github/activity/:user": [
     "hyoban"
   ],
-  "/github/advisor/data/:type?/:category?": [
-    "sd0ric4"
-  ],
   "/github/branches/:user/:repo": [
     "max-arnold"
   ],
@@ -2391,9 +2351,6 @@
   ],
   "/github/contributors/:user/:repo/:order?/:anon?": [
     "zoenglinghou"
-  ],
-  "/github/discussion/:user/:repo/:state?/:category?": [
-    "waynzh"
   ],
   "/github/file/:user/:repo/:branch/:filepath{.+}": [
     "zengxs"
@@ -2556,9 +2513,6 @@
   "/gov/csrc/auditstatus/:apply_id": [
     "hillerliao"
   ],
-  "/gov/csrc/zfxxgk_zdgk/:id?": [
-    "nczitzk"
-  ],
   "/gov/csrc/news/:suffix{.+}?": [],
   "/gov/customs/list/:gchannel?": [
     "Jeason0228",
@@ -2637,16 +2591,12 @@
     "Yoge-Code"
   ],
   "/gov/mmht/*": [],
-  "/gov/moa/suburl/:suburl{.+}": [
+  "/gov/moa/:suburl{.+}": [
     "Origami404",
     "lyqluis"
   ],
-  "/gov/moa/szcpxx": [
-    "nczitzk"
-  ],
-  "/gov/moa/zdscxx/:category{.+}?": [
-    "nczitzk"
-  ],
+  "/gov/moa/sjzxfb/:category{.+}?": [],
+  "/gov/moa/zdscxx/:category{.+}?": [],
   "/gov/moe/:type": [
     "Crawler995"
   ],
@@ -3505,12 +3455,6 @@
   "/javlibrary/update/:language?": [],
   "/javlibrary/users/:id/:type/:language?": [],
   "/javlibrary/:type/:id/:language?": [],
-  "/javtiful/actress/:id": [
-    "huanfe1"
-  ],
-  "/javtiful/channel/:id": [
-    "huanfe1"
-  ],
   "/jd/price/:id": [
     "nczitzk"
   ],
@@ -3714,13 +3658,6 @@
   "/kimlaw/thesis": [
     "TonyRL"
   ],
-  "/kisskiss/blog/:category?": [
-    "keocheung"
-  ],
-  "/konachan/post/popular_recent/:period?": [
-    "magic-akari",
-    "NekoAria"
-  ],
   "/konghq/blog-posts": [
     "piglei"
   ],
@@ -3903,13 +3840,10 @@
     "ladeng07",
     "3401797899"
   ],
-  "/lovelive-anime/news/:abbr?/:category?/:option?": [
-    "axojhf",
-    "zhaoweizhong"
-  ],
-  "/lovelive-anime/schedules/:serie?/:category?": [
+  "/lovelive-anime/news/:option?": [
     "axojhf"
   ],
+  "/lovelive-anime/schedules/:serie?/:category?": [],
   "/lovelive-anime/topics/:abbr/:category?/:option?": [
     "axojhf"
   ],
@@ -4057,8 +3991,7 @@
   ],
   "/metmuseum/exhibitions/:state?": [],
   "/mi/crowdfunding": [
-    "DIYgod",
-    "nuomi1"
+    "DIYgod"
   ],
   "/mi/golden": [
     "nczitzk"
@@ -4288,12 +4221,6 @@
   ],
   "/ncepu/master/:type": [
     "nilleo"
-  ],
-  "/ncku/csie/:catagory?": [
-    "simbafs"
-  ],
-  "/ncku/phys/:catagory?": [
-    "simbafs"
   ],
   "/ncpssd/newlist": [
     "LyleLee"
@@ -5308,9 +5235,6 @@
     "amakerlife"
   ],
   "/researchgate/publications/:id": [],
-  "/resonac/products": [
-    "valuex"
-  ],
   "/reuters/:category/:topic?": [
     "LyleLee",
     "HenryQW",
@@ -5821,9 +5745,6 @@
   "/southcn/nfapp/reporter/:reporter": [
     "TimWu007"
   ],
-  "/spankbang/new_videos": [
-    "TonyRL"
-  ],
   "/spotify/artist/:id": [
     "outloudvi"
   ],
@@ -6039,12 +5960,6 @@
   "/sysu/cse": [],
   "/sysu/ygafz/:type?": [
     "TonyRL"
-  ],
-  "/szftedu/dongtai": [
-    "valuex"
-  ],
-  "/szftedu/gonggao": [
-    "valuex"
   ],
   "/szse/inquire/:category?/:select?/:keyword?": [
     "Jeason0228",
@@ -6510,9 +6425,6 @@
     "talengu",
     "mobyw"
   ],
-  "/uestc/bbs/:types?": [
-    "huyyi"
-  ],
   "/uestc/cqe/:type?": [
     "truobel",
     "mobyw"
@@ -6958,9 +6870,6 @@
     "mocusez",
     "light0926"
   ],
-  "/xbookcn/:label?": [
-    "Lyunvy"
-  ],
   "/xboxfan/news": [
     "XXY233"
   ],
@@ -7130,9 +7039,6 @@
     "TonyRL",
     "williamgateszhao"
   ],
-  "/yamap/": [
-    "valuex"
-  ],
   "/yamibo/bbs/forum/:fid/:type?": [
     "KarasuShin"
   ],
@@ -7140,10 +7046,7 @@
     "KarasuShin"
   ],
   "/yande/post/popular_recent/:period?": [
-    "magic-akari",
-    "SettingDust",
-    "fashioncj",
-    "NekoAria"
+    "fashioncj"
   ],
   "/yangtzeu/dongke/*": [],
   "/ycwb/:node": [
