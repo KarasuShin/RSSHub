@@ -327,6 +327,12 @@
   "/ahjzu/news": [
     "Yuk-0v0"
   ],
+  "/aibase/discover/:id?": [
+    "nczitzk"
+  ],
+  "/aibase/topic/:id?/:filter?": [
+    "nczitzk"
+  ],
   "/aicaijing/:category?/:id?": [],
   "/aiea/seminars/:period": [
     "zxx-457"
@@ -1091,6 +1097,9 @@
   "/cbnweek/": [
     "nczitzk"
   ],
+  "/cbpanet/dzp_news/:bigId?/:smallId?": [
+    "nczitzk"
+  ],
   "/ccac/news/:type/:lang?": [
     "linbuxiao"
   ],
@@ -1716,13 +1725,13 @@
   "/dlsite/campaign/:type/:free?": [
     "cssxsh"
   ],
-  "/dlsite*": [],
   "/dlsite/new/:type": [
     "cssxsh"
   ],
   "/dlsite/ci-en/:id/article": [
     "nczitzk"
   ],
+  "/dlsite*": [],
   "/dmzj/news/:category?": [
     "vzz64"
   ],
@@ -2448,6 +2457,9 @@
     "TonyRL"
   ],
   "/globallawreview/": [
+    "nczitzk"
+  ],
+  "/gmcmonline/chinacustoms": [
     "nczitzk"
   ],
   "/go/mhlw/pdf/:category{.+}?": [
@@ -3390,6 +3402,9 @@
   ],
   "/ipsw/index/:ptype/:pname": [
     "Jeason0228"
+  ],
+  "/ipsw.dev/index/:productID": [
+    "RieN7"
   ],
   "/iqilu/v/:category{.+}?": [],
   "/iqiyi/album/:id": [
@@ -4871,6 +4886,12 @@
   ],
   "/parliament/section77/:type?": [
     "itpcc"
+  ],
+  "/parliament.uk/commonslibrary/type/:topic?": [
+    "AntiKnot"
+  ],
+  "/parliament.uk/lordslibrary/type/:topic?": [
+    "AntiKnot"
   ],
   "/patagonia/new-arrivals/:category": [],
   "/paulgraham/articles": [
@@ -6524,7 +6545,7 @@
     "truobel",
     "mobyw"
   ],
-  "/uestc/gr": [
+  "/uestc/gr/:type?": [
     "huyyi",
     "mobyw"
   ],
@@ -7012,7 +7033,8 @@
   ],
   "/xiaoyuzhou/podcast/:id": [
     "hondajojo",
-    "jtsang4"
+    "jtsang4",
+    "pseudoyu"
   ],
   "/xiaozhuanlan/column/:id": [
     "TonyRL"
