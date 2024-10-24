@@ -78,6 +78,9 @@
   "/0x80/blog": [
     "xnum"
   ],
+  "/10jqka/realtimenews/:tag?": [
+    "nczitzk"
+  ],
   "/141jav/:type/:keyword{.*}?": [
     "cgkings",
     "nczitzk"
@@ -5819,7 +5822,9 @@
   "/sis001/author/:id?": [
     "keocheung"
   ],
-  "/sis001/forum/:id?": [],
+  "/sis001/forum/:id?": [
+    "TonyRL"
+  ],
   "/sjtu/gs/:type/:num?": [
     "dzx-dzx"
   ],
@@ -5924,6 +5929,9 @@
   ],
   "/sony/downloads/:productType/:productId": [
     "EthanWng97"
+  ],
+  "/sorrycc/": [
+    "KarasuShin"
   ],
   "/soundofhope/:channel/:id": [
     "Fatpandac"

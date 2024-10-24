@@ -773,6 +773,100 @@
     "url": "0x80.pl",
     "description": ""
   },
+  "10jqka": {
+    "routes": {
+      "/realtimenews/:tag?": {
+        "path": "/realtimenews/:tag?",
+        "name": "7×24小时要闻直播",
+        "url": "news.10jqka.com.cn",
+        "maintainers": [
+          "nczitzk"
+        ],
+        "example": "/10jqka/realtimenews",
+        "parameters": {
+          "tag": "标签，默认为全部"
+        },
+        "description": ":::tip\n  若订阅 [7×24小时要闻直播](https://news.10jqka.com.cn/realtimenews.html) 的 `公告` 标签。将 `公告` 作为标签参数填入，此时路由为 [`/10jqka/realtimenews/公告`](https://rsshub.app/10jqka/realtimenews/公告)。\n  \n  若订阅 [7×24小时要闻直播](https://news.10jqka.com.cn/realtimenews.html) 的 `公告` 和 `A股` 标签。将 `公告,A股` 作为标签参数填入，此时路由为 [`/10jqka/realtimenews/公告,A股`](https://rsshub.app/10jqka/realtimenews/公告,A股)。\n  :::\n\n  | 全部 | 重要 | A股 | 港股 | 美股 | 机会 | 异动 | 公告 |\n  | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |\n    ",
+        "categories": [
+          "finance"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportRadar": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "title": "全部",
+            "source": [
+              "news.10jqka.com.cn/realtimenews.html"
+            ],
+            "target": "/realtimenews/全部"
+          },
+          {
+            "title": "重要",
+            "source": [
+              "news.10jqka.com.cn/realtimenews.html"
+            ],
+            "target": "/realtimenews/重要"
+          },
+          {
+            "title": "A股",
+            "source": [
+              "news.10jqka.com.cn/realtimenews.html"
+            ],
+            "target": "/realtimenews/A股"
+          },
+          {
+            "title": "港股",
+            "source": [
+              "news.10jqka.com.cn/realtimenews.html"
+            ],
+            "target": "/realtimenews/港股"
+          },
+          {
+            "title": "美股",
+            "source": [
+              "news.10jqka.com.cn/realtimenews.html"
+            ],
+            "target": "/realtimenews/美股"
+          },
+          {
+            "title": "机会",
+            "source": [
+              "news.10jqka.com.cn/realtimenews.html"
+            ],
+            "target": "/realtimenews/机会"
+          },
+          {
+            "title": "异动",
+            "source": [
+              "news.10jqka.com.cn/realtimenews.html"
+            ],
+            "target": "/realtimenews/异动"
+          },
+          {
+            "title": "公告",
+            "source": [
+              "news.10jqka.com.cn/realtimenews.html"
+            ],
+            "target": "/realtimenews/公告"
+          }
+        ],
+        "location": "realtimenews.ts"
+      }
+    },
+    "name": "同花顺财经",
+    "url": "10jqka.com.cn",
+    "categories": [
+      "finance"
+    ],
+    "description": ""
+  },
   "141jav": {
     "routes": {
       "/:type/:keyword{.*}?": {
@@ -6044,8 +6138,7 @@
           "/nav/:nav{.*}?"
         ],
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "example": "/apnews/topics/apf-topnews",
         "view": 0,
@@ -6085,8 +6178,7 @@
           "/nav/:nav{.*}?"
         ],
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "example": "/apnews/topics/apf-topnews",
         "view": 0,
@@ -21560,8 +21652,10 @@
       "/people/:userid/status/:routeParams?": {
         "path": "/people/:userid/status/:routeParams?",
         "categories": [
-          "social-media"
+          "social-media",
+          "popular"
         ],
+        "view": 1,
         "example": "/douban/people/75118396/status",
         "parameters": {
           "userid": "整数型用户 id",
@@ -27163,7 +27257,7 @@
           "programming",
           "popular"
         ],
-        "view": 0,
+        "view": 5,
         "parameters": {
           "user": "GitHub username"
         },
@@ -27771,7 +27865,7 @@
           "popular"
         ],
         "example": "/github/trending/daily/javascript/en",
-        "view": 0,
+        "view": 5,
         "parameters": {
           "since": {
             "description": "time range",
@@ -59311,8 +59405,10 @@
       "/top/:category?/:lang?": {
         "path": "/top/:category?/:lang?",
         "categories": [
-          "social-media"
+          "social-media",
+          "popular"
         ],
+        "view": 1,
         "example": "/plurk/top/topReplurks",
         "parameters": {
           "category": "Category, see the table below, `topReplurks` by default",
@@ -59336,8 +59432,10 @@
       "/topic/:topic": {
         "path": "/topic/:topic",
         "categories": [
-          "social-media"
+          "social-media",
+          "popular"
         ],
+        "view": 1,
         "example": "/plurk/topic/standwithukraine",
         "parameters": {
           "topic": "Topic ID, can be found in URL"
@@ -59366,8 +59464,10 @@
       "/user/:user": {
         "path": "/user/:user",
         "categories": [
-          "social-media"
+          "social-media",
+          "popular"
         ],
+        "view": 1,
         "example": "/plurk/user/plurkoffice",
         "parameters": {
           "user": "User ID, can be found in URL"
@@ -66811,12 +66911,15 @@
           "supportScihub": false
         },
         "name": "子版块",
-        "maintainers": [],
+        "maintainers": [
+          "TonyRL"
+        ],
         "location": "forum.ts"
       }
     },
     "name": "第一会所",
-    "url": "sis001.com"
+    "url": "sis001.com",
+    "description": ":::tip\n    第一会所有多个备用网址，本路由默认使用`https://sis001.com`，若该网址无法访问，可以在部署实例的时候通过`SIS001_BASE_URL`环境变量配置要使用的地址，如`https://www.sis001.com`等)\n    :::"
   },
   "sjtu": {
     "routes": {
@@ -68294,6 +68397,43 @@
     },
     "name": "Sony",
     "url": "sony.com"
+  },
+  "sorrycc": {
+    "routes": {
+      "/": {
+        "name": "文章",
+        "categories": [
+          "blog"
+        ],
+        "path": "/",
+        "example": "/sorrycc",
+        "radar": [
+          {
+            "source": [
+              "sorrycc.com"
+            ]
+          }
+        ],
+        "maintainers": [
+          "KarasuShin"
+        ],
+        "view": 0,
+        "features": {
+          "supportRadar": true,
+          "requireConfig": [
+            {
+              "name": "SORRYCC_COOKIES",
+              "description": "登录用户的Cookie,获取方式：\n1. 登录sorrycc.com\n2. 打开浏览器开发者工具，切换到 Application 面板\n3. 点击侧边栏中的Storage -> Cookies -> https://sorrycc.com\n4. 复制 Cookie 中的 wordpress_logged_in_f05fca638390aed897fbe3c2fff03000 值",
+              "optional": true
+            }
+          ]
+        },
+        "description": "云谦的博客，部分内容存在权限校验，访问完整内容请部署RSSHub私有实例并配置授权信息",
+        "location": "index.ts"
+      }
+    },
+    "name": "云谦的博客",
+    "url": "sorrycc.com"
   },
   "soundofhope": {
     "routes": {
