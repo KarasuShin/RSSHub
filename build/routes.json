@@ -550,7 +550,7 @@
         "maintainers": [
           "nczitzk"
         ],
-        "description": "| 热门推荐 | 户外知识 | 户外装备 |\n  | -------- | -------- | -------- |\n  | 751      | 238      | 204      |\n\n  <details>\n    <summary>更多列表</summary>\n\n    #### 热门推荐\n\n    | 业界 | 国际 | 专访 | 图说 | 户外 | 登山 | 攀岩 |\n    | ---- | ---- | ---- | ---- | ---- | ---- | ---- |\n    | 489  | 733  | 746  | 902  | 914  | 934  | 935  |\n\n    #### 户外知识\n\n    | 徒步 | 露营 | 安全急救 | 领队 | 登雪山 |\n    | ---- | ---- | -------- | ---- | ------ |\n    | 242  | 950  | 931      | 920  | 915    |\n\n    | 攀岩 | 骑行 | 跑步 | 滑雪 | 水上运动 |\n    | ---- | ---- | ---- | ---- | -------- |\n    | 916  | 917  | 918  | 919  | 921      |\n\n    | 钓鱼 | 潜水 | 攀冰 | 冲浪 | 网球 |\n    | ---- | ---- | ---- | ---- | ---- |\n    | 951  | 952  | 953  | 966  | 967  |\n\n    | 绳索知识 | 高尔夫 | 马术 | 户外摄影 | 羽毛球 |\n    | -------- | ------ | ---- | -------- | ------ |\n    | 968      | 969    | 970  | 973      | 971    |\n\n    | 游泳 | 溯溪 | 健身 | 瑜伽 |\n    | ---- | ---- | ---- | ---- |\n    | 974  | 975  | 976  | 977  |\n\n    #### 户外装备\n\n    | 服装 | 冲锋衣 | 抓绒衣 | 皮肤衣 | 速干衣 |\n    | ---- | ------ | ------ | ------ | ------ |\n    | 209  | 923    | 924    | 925    | 926    |\n\n    | 羽绒服 | 软壳 | 户外鞋 | 登山鞋 | 徒步鞋 |\n    | ------ | ---- | ------ | ------ | ------ |\n    | 927    | 929  | 211    | 928    | 930    |\n\n    | 越野跑鞋 | 溯溪鞋 | 登山杖 | 帐篷 | 睡袋 |\n    | -------- | ------ | ------ | ---- | ---- |\n    | 933      | 932    | 220    | 208  | 212  |\n\n    | 炉具 | 灯具 | 水具 | 面料 | 背包 |\n    | ---- | ---- | ---- | ---- | ---- |\n    | 792  | 218  | 219  | 222  | 207  |\n\n    | 防潮垫 | 电子导航 | 冰岩绳索 | 综合装备 |\n    | ------ | -------- | -------- | -------- |\n    | 214    | 216      | 215      | 223      |\n  </details>",
+        "description": "| 热门推荐 | 户外知识 | 户外装备 |\n| -------- | -------- | -------- |\n| 751      | 238      | 204      |\n\n<details>\n  <summary>更多列表</summary>\n\n  #### 热门推荐\n\n  | 业界 | 国际 | 专访 | 图说 | 户外 | 登山 | 攀岩 |\n  | ---- | ---- | ---- | ---- | ---- | ---- | ---- |\n  | 489  | 733  | 746  | 902  | 914  | 934  | 935  |\n\n  #### 户外知识\n\n  | 徒步 | 露营 | 安全急救 | 领队 | 登雪山 |\n  | ---- | ---- | -------- | ---- | ------ |\n  | 242  | 950  | 931    | 920  | 915  |\n\n  | 攀岩 | 骑行 | 跑步 | 滑雪 | 水上运动 |\n  | ---- | ---- | ---- | ---- | -------- |\n  | 916  | 917  | 918  | 919  | 921    |\n\n  | 钓鱼 | 潜水 | 攀冰 | 冲浪 | 网球 |\n  | ---- | ---- | ---- | ---- | ---- |\n  | 951  | 952  | 953  | 966  | 967  |\n\n  | 绳索知识 | 高尔夫 | 马术 | 户外摄影 | 羽毛球 |\n  | -------- | ------ | ---- | -------- | ------ |\n  | 968    | 969  | 970  | 973    | 971  |\n\n  | 游泳 | 溯溪 | 健身 | 瑜伽 |\n  | ---- | ---- | ---- | ---- |\n  | 974  | 975  | 976  | 977  |\n\n  #### 户外装备\n\n  | 服装 | 冲锋衣 | 抓绒衣 | 皮肤衣 | 速干衣 |\n  | ---- | ------ | ------ | ------ | ------ |\n  | 209  | 923  | 924  | 925  | 926  |\n\n  | 羽绒服 | 软壳 | 户外鞋 | 登山鞋 | 徒步鞋 |\n  | ------ | ---- | ------ | ------ | ------ |\n  | 927  | 929  | 211  | 928  | 930  |\n\n  | 越野跑鞋 | 溯溪鞋 | 登山杖 | 帐篷 | 睡袋 |\n  | -------- | ------ | ------ | ---- | ---- |\n  | 933    | 932  | 220  | 208  | 212  |\n\n  | 炉具 | 灯具 | 水具 | 面料 | 背包 |\n  | ---- | ---- | ---- | ---- | ---- |\n  | 792  | 218  | 219  | 222  | 207  |\n\n  | 防潮垫 | 电子导航 | 冰岩绳索 | 综合装备 |\n  | ------ | -------- | -------- | -------- |\n  | 214  | 216    | 215    | 223    |\n</details>",
         "location": "list.ts"
       }
     },
@@ -642,7 +642,7 @@
           "zvrr"
         ],
         "url": "www.12371.cn",
-        "description": "| 最新发布 |\n    | :------: |\n    |   zxfb   |",
+        "description": "| 最新发布 |\n  | :------: |\n  |   zxfb   |",
         "location": "zxfb.ts"
       }
     },
@@ -1512,7 +1512,7 @@
           "nczitzk",
           "fashioncj"
         ],
-        "description": "| 最新资讯频道    | 快讯     | 推荐资讯｜生活｜房产｜职场｜搜索文章｜搜索快讯｜\n    | ------- | -------- ｜ -------- ｜ -------- ｜ -------- ｜ --------｜ -------- ｜ -------- ｜\n    | news | newsflashes ｜ recommend ｜ life ｜ estate ｜ workplace ｜ search/articles/关键词 ｜ search/articles/关键词 ｜",
+        "description": "| 最新资讯频道 | 快讯 | 推荐资讯 | 生活 | 房产 | 职场 | 搜索文章 | 搜索快讯 |\n  | ------- | -------- | -------- | -------- | -------- | --------| -------- | -------- |\n  | news | newsflashes | recommend | life | estate | workplace | search/articles/关键词 | search/articles/关键词 |",
         "location": "index.ts"
       }
     },
@@ -3086,13 +3086,85 @@
       "/article/:categoryId/:sortType?/:timeRange?": {
         "path": "/article/:categoryId/:sortType?/:timeRange?",
         "categories": [
-          "anime"
+          "anime",
+          "popular"
         ],
+        "view": 0,
         "example": "/acfun/article/110",
         "parameters": {
-          "categoryId": "分区 ID，见下表",
-          "sortType": "排序，见下表，默认为 `createTime`",
-          "timeRange": "时间范围，见下表，仅在排序是 `hotScore` 有效，默认为 `all`"
+          "categoryId": {
+            "description": "分区 ID",
+            "options": [
+              {
+                "value": "73",
+                "label": "生活情感"
+              },
+              {
+                "value": "74",
+                "label": "动漫文化"
+              },
+              {
+                "value": "75",
+                "label": "漫画文学"
+              },
+              {
+                "value": "110",
+                "label": "综合"
+              },
+              {
+                "value": "164",
+                "label": "游戏"
+              },
+              {
+                "value": "184",
+                "label": "二次元画师"
+              }
+            ]
+          },
+          "sortType": {
+            "description": "排序",
+            "options": [
+              {
+                "value": "createTime",
+                "label": "最新发表"
+              },
+              {
+                "value": "lastCommentTime",
+                "label": "最新动态"
+              },
+              {
+                "value": "hotScore",
+                "label": "最热文章"
+              }
+            ],
+            "default": "createTime"
+          },
+          "timeRange": {
+            "description": "时间范围，仅在排序是 `hotScore` 有效",
+            "options": [
+              {
+                "value": "all",
+                "label": "时间不限"
+              },
+              {
+                "value": "oneDay",
+                "label": "24 小时"
+              },
+              {
+                "value": "threeDay",
+                "label": "三天"
+              },
+              {
+                "value": "oneWeek",
+                "label": "一周"
+              },
+              {
+                "value": "oneMonth",
+                "label": "一个月"
+              }
+            ],
+            "default": "all"
+          }
         },
         "features": {
           "requireConfig": false,
@@ -3112,8 +3184,10 @@
       "/bangumi/:id": {
         "path": "/bangumi/:id",
         "categories": [
-          "anime"
+          "anime",
+          "popular"
         ],
+        "view": 3,
         "example": "/acfun/bangumi/5022158",
         "parameters": {
           "id": "番剧 id"
@@ -3148,8 +3222,11 @@
           "uid": "用户 UID"
         },
         "categories": [
-          "anime"
+          "anime",
+          "popular"
         ],
+        "example": "/acfun/user/video/6102",
+        "view": 3,
         "maintainers": [
           "wdssmq"
         ],
@@ -3383,7 +3460,7 @@
         "maintainers": [
           "sanmmm"
         ],
-        "description": "分类\n\n    | 推荐 | 最热 |\n    | ---- | ---- |\n    | rec  | hot  |\n  \n    目录类型\n  \n    | 所有 | 绘画 | 视频 | 写作 | 游戏 | 音乐 | 播客 | 摄影 | 技术 | Vtuber | 舞蹈 | 体育 | 旅游 | 美食 | 时尚 | 数码 | 动画 | 其他 |\n    | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |\n    | 所有 | 绘画 | 视频 | 写作 | 游戏 | 音乐 | 播客 | 摄影 | 技术 | Vtuber | 舞蹈 | 体育 | 旅游 | 美食 | 时尚 | 数码 | 动画 | 其他 |",
+        "description": "分类\n\n  | 推荐 | 最热 |\n  | ---- | ---- |\n  | rec  | hot  |\n\n  目录类型\n\n  | 所有 | 绘画 | 视频 | 写作 | 游戏 | 音乐 | 播客 | 摄影 | 技术 | Vtuber | 舞蹈 | 体育 | 旅游 | 美食 | 时尚 | 数码 | 动画 | 其他 |\n  | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |\n  | 所有 | 绘画 | 视频 | 写作 | 游戏 | 音乐 | 播客 | 摄影 | 技术 | Vtuber | 舞蹈 | 体育 | 旅游 | 美食 | 时尚 | 数码 | 动画 | 其他 |",
         "location": "explore.ts"
       }
     },
@@ -5019,10 +5096,12 @@
       "/news": {
         "path": "/news",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
         "example": "/ainvest/news",
         "parameters": {},
+        "view": 0,
         "features": {
           "requireConfig": false,
           "requirePuppeteer": false,
@@ -5234,8 +5313,10 @@
       "/:id": {
         "path": "/:id",
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular"
         ],
+        "view": 4,
         "example": "/ajmide/10603594",
         "parameters": {
           "id": "播客 id，可以从播客页面 URL 中找到"
@@ -7190,8 +7271,10 @@
       "/gushitong/index": {
         "path": "/gushitong/index",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 5,
         "example": "/baidu/gushitong/index",
         "parameters": {},
         "features": {
@@ -7487,29 +7570,40 @@
     "name": "Bandcamp",
     "url": "bandcamp.com"
   },
-  "bangumi": {
+  "bangumi.moe": {
     "routes": {
-      "/moe/*": {
-        "path": "/moe/*",
+      "/*": {
+        "path": "/*",
+        "categories": [
+          "anime"
+        ],
         "radar": [
           {
             "source": [
               "bangumi.moe/"
-            ],
-            "target": "/moe"
+            ]
           }
         ],
-        "name": "Unknown",
-        "maintainers": [],
+        "name": "Latest",
+        "example": "/bangumi.moe",
+        "maintainers": [
+          "nczitzk"
+        ],
         "url": "bangumi.moe/",
-        "location": "moe/index.ts"
-      },
-      "/online": {
-        "path": "/online",
+        "location": "index.ts"
+      }
+    },
+    "name": "萌番组",
+    "url": "bangumi.online"
+  },
+  "bangumi.online": {
+    "routes": {
+      "/": {
+        "path": "/",
         "categories": [
           "anime"
         ],
-        "example": "/bangumi/online",
+        "example": "/bangumi.online",
         "parameters": {},
         "features": {
           "requireConfig": false,
@@ -7531,14 +7625,20 @@
           "devinmugen"
         ],
         "url": "bangumi.online/",
-        "location": "online/online.ts"
-      },
-      "/tv/calendar/today": {
-        "path": "/tv/calendar/today",
+        "location": "online.ts"
+      }
+    },
+    "name": "アニメ新番組",
+    "url": "bangumi.online"
+  },
+  "bangumi.tv": {
+    "routes": {
+      "/calendar/today": {
+        "path": "/calendar/today",
         "categories": [
           "anime"
         ],
-        "example": "/bangumi/tv/calendar/today",
+        "example": "/bangumi.tv/calendar/today",
         "parameters": {},
         "features": {
           "requireConfig": false,
@@ -7560,14 +7660,14 @@
           "magic-akari"
         ],
         "url": "bgm.tv/calendar",
-        "location": "tv/calendar/today.ts"
+        "location": "calendar/today.ts"
       },
-      "/tv/topic/:id": {
-        "path": "/tv/topic/:id",
+      "/topic/:id": {
+        "path": "/topic/:id",
         "categories": [
           "anime"
         ],
-        "example": "/bangumi/tv/topic/367032",
+        "example": "/bangumi.tv/topic/367032",
         "parameters": {
           "id": "话题 id, 在话题页面地址栏查看"
         },
@@ -7590,14 +7690,14 @@
         "maintainers": [
           "ylc395"
         ],
-        "location": "tv/group/reply.ts"
+        "location": "group/reply.ts"
       },
-      "/tv/group/:id": {
-        "path": "/tv/group/:id",
+      "/group/:id": {
+        "path": "/group/:id",
         "categories": [
           "anime"
         ],
-        "example": "/bangumi/tv/group/boring",
+        "example": "/bangumi.tv/group/boring",
         "parameters": {
           "id": "小组 id, 在小组页面地址栏查看"
         },
@@ -7620,14 +7720,14 @@
         "maintainers": [
           "SettingDust"
         ],
-        "location": "tv/group/topic.ts"
+        "location": "group/topic.ts"
       },
       "/:type/followrank": {
         "path": "/:type/followrank",
         "categories": [
           "anime"
         ],
-        "example": "/bangumi/anime/followrank",
+        "example": "/bangumi.tv/anime/followrank",
         "parameters": {
           "type": "类型：anime - 动画，book - 图书，music - 音乐，game - 游戏，real - 三次元"
         },
@@ -7653,14 +7753,14 @@
           "zhoukuncheng",
           "NekoAria"
         ],
-        "location": "tv/other/followrank.ts"
+        "location": "other/followrank.ts"
       },
-      "/tv/person/:id": {
-        "path": "/tv/person/:id",
+      "/person/:id": {
+        "path": "/person/:id",
         "categories": [
           "anime"
         ],
-        "example": "/bangumi/tv/person/32943",
+        "example": "/bangumi.tv/person/32943",
         "parameters": {
           "id": "人物 id, 在人物页面的地址栏查看"
         },
@@ -7683,14 +7783,14 @@
         "maintainers": [
           "ylc395"
         ],
-        "location": "tv/person/index.ts"
+        "location": "person/index.ts"
       },
-      "/tv/subject/:id/:type?/:showOriginalName?": {
-        "path": "/tv/subject/:id/:type?/:showOriginalName?",
+      "/subject/:id/:type?/:showOriginalName?": {
+        "path": "/subject/:id/:type?/:showOriginalName?",
         "categories": [
           "anime"
         ],
-        "example": "/bangumi/tv/subject/328609/ep/true",
+        "example": "/bangumi.tv/subject/328609/ep/true",
         "parameters": {
           "id": "条目 id, 在条目页面的地址栏查看",
           "type": "条目类型，可选值为 `ep`, `comments`, `blogs`, `topics`，默认为 `ep`",
@@ -7717,14 +7817,14 @@
           "JimenezLi"
         ],
         "description": ":::warning\n  此通用路由仅用于对路由参数的描述，具体信息请查看下方与条目相关的路由\n  :::",
-        "location": "tv/subject/index.ts"
+        "location": "subject/index.ts"
       },
-      "/tv/user/blog/:id": {
-        "path": "/tv/user/blog/:id",
+      "/user/blog/:id": {
+        "path": "/user/blog/:id",
         "categories": [
           "anime"
         ],
-        "example": "/bangumi/tv/user/blog/sai",
+        "example": "/bangumi.tv/user/blog/sai",
         "parameters": {
           "id": "用户 id, 在用户页面地址栏查看"
         },
@@ -7741,20 +7841,25 @@
             "source": [
               "bgm.tv/user/:id"
             ]
+          },
+          {
+            "source": [
+              "bangumi.tv/user/:id"
+            ]
           }
         ],
         "name": "用户日志",
         "maintainers": [
           "nczitzk"
         ],
-        "location": "tv/user/blog.ts"
+        "location": "user/blog.ts"
       },
-      "/tv/user/collections/:id/:subjectType/:type": {
-        "path": "/tv/user/collections/:id/:subjectType/:type",
+      "/user/collections/:id/:subjectType/:type": {
+        "path": "/user/collections/:id/:subjectType/:type",
         "categories": [
           "anime"
         ],
-        "example": "/bangumi/tv/user/collections/sai/1/1",
+        "example": "/bangumi.tv/user/collections/sai/1/1",
         "parameters": {
           "id": "用户 id, 在用户页面地址栏查看",
           "subjectType": {
@@ -7824,46 +7929,42 @@
           "supportPodcast": false,
           "supportScihub": false
         },
-        "radar": [],
-        "name": "Bangumi 用户收藏列表",
-        "maintainers": [
-          "youyou-sudo"
-        ],
-        "location": "tv/user/collections.ts"
-      },
-      "/tv/user/wish/:id": {
-        "path": "/tv/user/wish/:id",
-        "categories": [
-          "anime"
-        ],
-        "example": "/bangumi/tv/user/wish/sai",
-        "parameters": {
-          "id": "用户 id, 在用户页面地址栏查看"
-        },
-        "features": {
-          "requireConfig": false,
-          "requirePuppeteer": false,
-          "antiCrawler": false,
-          "supportBT": false,
-          "supportPodcast": false,
-          "supportScihub": false
-        },
         "radar": [
           {
             "source": [
+              "bgm.tv/anime/list/:id"
+            ],
+            "target": "/bangumi.tv/user/collections/:id/all/all"
+          },
+          {
+            "source": [
+              "bangumi.tv/anime/list/:id"
+            ],
+            "target": "/bangumi.tv/user/collections/:id/all/all"
+          },
+          {
+            "source": [
               "bgm.tv/anime/list/:id/wish"
-            ]
+            ],
+            "target": "/bangumi.tv/user/collections/:id/2/1"
+          },
+          {
+            "source": [
+              "bangumi.tv/anime/list/:id/wish"
+            ],
+            "target": "/bangumi.tv/user/collections/:id/2/1"
           }
         ],
-        "name": "用户想看",
+        "name": "Bangumi 用户收藏列表",
         "maintainers": [
+          "youyou-sudo",
           "honue"
         ],
-        "location": "tv/user/wish.ts"
+        "location": "user/collections.ts"
       }
     },
-    "name": "アニメ新番組",
-    "url": "bangumi.moe"
+    "name": "Bangumi 番组计划",
+    "url": "bangumi.tv"
   },
   "baozimh": {
     "routes": {
@@ -8359,8 +8460,10 @@
       "/collections": {
         "path": "/collections",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/bigquant/collections",
         "parameters": {},
         "features": {
@@ -9617,8 +9720,10 @@
       "/announcement/:type": {
         "path": "/announcement/:type",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/binance/announcement/new-cryptocurrency-listing",
         "parameters": {
           "type": {
@@ -9661,7 +9766,7 @@
           }
         },
         "name": "Announcement",
-        "description": "\nType category\n\n - new-cryptocurrency-listing => New Cryptocurrency Listing \n - latest-binance-news        => Latest Binance News        \n - latest-activities          => Latest Activities          \n - new-fiat-listings          => New Fiat Listings          \n - api-updates                => API Updates                \n - crypto-airdrop             => Crypto Airdrop             \n - wallet-maintenance-updates => Wallet Maintenance Updates \n - delisting                  => Delisting                  \n",
+        "description": "\nType category\n\n - new-cryptocurrency-listing => New Cryptocurrency Listing\n - latest-binance-news        => Latest Binance News\n - latest-activities          => Latest Activities\n - new-fiat-listings          => New Fiat Listings\n - api-updates                => API Updates\n - crypto-airdrop             => Crypto Airdrop\n - wallet-maintenance-updates => Wallet Maintenance Updates\n - delisting                  => Delisting\n",
         "maintainers": [
           "enpitsulin"
         ],
@@ -10045,8 +10150,10 @@
       "/announcement/:type/:lang?": {
         "path": "/announcement/:type/:lang?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/bitget/announcement/all/zh-CN",
         "parameters": {
           "type": {
@@ -10381,8 +10488,10 @@
       "/apod": {
         "path": "/apod",
         "categories": [
-          "picture"
+          "picture",
+          "popular"
         ],
+        "view": 2,
         "example": "/bjp/apod",
         "parameters": {},
         "features": {
@@ -10692,8 +10801,10 @@
       "/authors/:id/:slug/:source?": {
         "path": "/authors/:id/:slug/:source?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/bloomberg/authors/ARbTQlRLRjE/matthew-s-levine",
         "parameters": {
           "id": "Author ID, can be found in URL",
@@ -10726,11 +10837,65 @@
       "/:site?": {
         "path": "/:site?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/bloomberg/bbiz",
         "parameters": {
-          "site": "Site ID, can be found below"
+          "site": {
+            "description": "Site ID, can be found below",
+            "options": [
+              {
+                "value": "/",
+                "label": "News"
+              },
+              {
+                "value": "bpol",
+                "label": "Politics"
+              },
+              {
+                "value": "bbiz",
+                "label": "Business"
+              },
+              {
+                "value": "markets",
+                "label": "Markets"
+              },
+              {
+                "value": "technology",
+                "label": "Technology"
+              },
+              {
+                "value": "green",
+                "label": "Green"
+              },
+              {
+                "value": "wealth",
+                "label": "Wealth"
+              },
+              {
+                "value": "pursuits",
+                "label": "Pursuits"
+              },
+              {
+                "value": "bview",
+                "label": "Opinion"
+              },
+              {
+                "value": "equality",
+                "label": "Equality"
+              },
+              {
+                "value": "businessweek",
+                "label": "Businessweek"
+              },
+              {
+                "value": "citylab",
+                "label": "CityLab"
+              }
+            ]
+          }
         },
         "features": {
           "requireConfig": false,
@@ -10744,7 +10909,7 @@
         "maintainers": [
           "bigfei"
         ],
-        "description": "\n    | Site ID      | Title        |\n    | ------------ | ------------ |\n    | /            | News         |\n    | bpol         | Politics     |\n    | bbiz         | Business     |\n    | markets      | Markets      |\n    | technology   | Technology   |\n    | green        | Green        |\n    | wealth       | Wealth       |\n    | pursuits     | Pursuits     |\n    | bview        | Opinion      |\n    | equality     | Equality     |\n    | businessweek | Businessweek |\n    | citylab      | CityLab      |\n    ",
+        "description": "\n  | Site ID      | Title        |\n  | ------------ | ------------ |\n  | /            | News         |\n  | bpol         | Politics     |\n  | bbiz         | Business     |\n  | markets      | Markets      |\n  | technology   | Technology   |\n  | green        | Green        |\n  | wealth       | Wealth       |\n  | pursuits     | Pursuits     |\n  | bview        | Opinion      |\n  | equality     | Equality     |\n  | businessweek | Businessweek |\n  | citylab      | CityLab      |\n  ",
         "location": "index.ts"
       }
     },
@@ -11163,11 +11328,37 @@
       "/:category": {
         "path": "/:category",
         "categories": [
-          "reading"
+          "reading",
+          "popular"
         ],
+        "view": 0,
         "example": "/bookfere/skills",
         "parameters": {
-          "category": "分类名"
+          "category": {
+            "description": "分类名",
+            "options": [
+              {
+                "value": "weekly",
+                "label": "每周一书"
+              },
+              {
+                "value": "skills",
+                "label": "使用技巧"
+              },
+              {
+                "value": "books",
+                "label": "图书推荐"
+              },
+              {
+                "value": "news",
+                "label": "新闻速递"
+              },
+              {
+                "value": "essay",
+                "label": "精选短文"
+              }
+            ]
+          }
         },
         "features": {
           "requireConfig": false,
@@ -11383,8 +11574,8 @@
         ],
         "location": "keyword.ts"
       },
-      "/profile/:handle": {
-        "path": "/profile/:handle",
+      "/profile/:handle/:routeParams?": {
+        "path": "/profile/:handle/:routeParams?",
         "categories": [
           "social-media",
           "popular"
@@ -11392,7 +11583,8 @@
         "view": 1,
         "example": "/bsky/profile/bsky.app",
         "parameters": {
-          "handle": "User handle, can be found in URL"
+          "handle": "User handle, can be found in URL",
+          "routeParams": "Filter parameter, Use filter to customize content types"
         },
         "features": {
           "requireConfig": false,
@@ -11413,6 +11605,7 @@
         "maintainers": [
           "TonyRL"
         ],
+        "description": "\n| Filter Value | Description |\n|--------------|-------------|\n| posts_with_replies | Includes Posts, Replies, and Reposts |\n| posts_no_replies | Includes Posts and Reposts, without Replies |\n| posts_with_media | Shows only Posts containing media |\n| posts_and_author_threads | Shows Posts and Threads, without Replies and Reposts |\n\nDefault value for filter is `posts_and_author_threads` if not specified.\n\nExample:\n- `/bsky/profile/bsky.app/filter=posts_with_replies`",
         "location": "posts.ts"
       }
     },
@@ -14971,7 +15164,7 @@
           "supportScihub": false
         },
         "name": "各学位授予单位学位证书上网进度",
-        "description": "| 省市             | 代号 |\n    | ---------------- | ---- |\n    | 北京市           | 11   |\n    | 天津市           | 12   |\n    | 河北省           | 13   |\n    | 山西省           | 14   |\n    | 内蒙古自治区     | 15   |\n    | 辽宁省           | 21   |\n    | 吉林省           | 22   |\n    | 黑龙江省         | 23   |\n    | 上海市           | 31   |\n    | 江苏省           | 32   |\n    | 浙江省           | 33   |\n    | 安徽省           | 34   |\n    | 福建省           | 35   |\n    | 江西省           | 36   |\n    | 山东省           | 37   |\n    | 河南省           | 41   |\n    | 湖北省           | 42   |\n    | 湖南省           | 43   |\n    | 广东省           | 44   |\n    | 广西壮族自治区   | 45   |\n    | 海南省           | 46   |\n    | 重庆市           | 50   |\n    | 四川省           | 51   |\n    | 贵州省           | 52   |\n    | 云南省           | 53   |\n    | 西藏自治区       | 54   |\n    | 陕西省           | 61   |\n    | 甘肃省           | 62   |\n    | 青海省           | 63   |\n    | 宁夏回族自治区   | 64   |\n    | 新疆维吾尔自治区 | 65   |\n    | 台湾             | 71   |",
+        "description": "| 省市             | 代号 |\n  | ---------------- | ---- |\n  | 北京市           | 11   |\n  | 天津市           | 12   |\n  | 河北省           | 13   |\n  | 山西省           | 14   |\n  | 内蒙古自治区     | 15   |\n  | 辽宁省           | 21   |\n  | 吉林省           | 22   |\n  | 黑龙江省         | 23   |\n  | 上海市           | 31   |\n  | 江苏省           | 32   |\n  | 浙江省           | 33   |\n  | 安徽省           | 34   |\n  | 福建省           | 35   |\n  | 江西省           | 36   |\n  | 山东省           | 37   |\n  | 河南省           | 41   |\n  | 湖北省           | 42   |\n  | 湖南省           | 43   |\n  | 广东省           | 44   |\n  | 广西壮族自治区   | 45   |\n  | 海南省           | 46   |\n  | 重庆市           | 50   |\n  | 四川省           | 51   |\n  | 贵州省           | 52   |\n  | 云南省           | 53   |\n  | 西藏自治区       | 54   |\n  | 陕西省           | 61   |\n  | 甘肃省           | 62   |\n  | 青海省           | 63   |\n  | 宁夏回族自治区   | 64   |\n  | 新疆维吾尔自治区 | 65   |\n  | 台湾             | 71   |",
         "maintainers": [
           "TonyRL"
         ],
@@ -15027,7 +15220,7 @@
         "maintainers": [
           "nczitzk"
         ],
-        "description": "| 栏目     | id                                                               |\n  | -------- | ---------------------------------------------------------------- |\n  | 钢协动态 | 58af05dfb6b4300151760176d2aad0a04c275aaadbb1315039263f021f920dcd |\n  | 钢协要闻 | 67ea4f106bd8f0843c0538d43833c463a0cd411fc35642cbd555a5f39fcf352b |\n  | 会议报道 | e5070694f299a43b20d990e53b6a69dc02e755fef644ae667cf75deaff80407a |\n  | 领导讲话 | a873c2e67b26b4a2d8313da769f6e106abc9a1ff04b7f1a50674dfa47cf91a7b |\n  | 图片新闻 | 806254321b2459bddb3c2cb5590fef6332bd849079d3082daf6153d7f8d62e1e |\n\n  <details>\n    <summary>更多栏目</summary>\n\n    #### 党建工作\n\n    | 栏目                                                 | id                                                               |\n    | ---------------------------------------------------- | ---------------------------------------------------------------- |\n    | 党建工作                                             | 10e8911e0c852d91f08e173c768700da608abfb4e7b0540cb49fa5498f33522b |\n    | 学习贯彻习近平新时代中国特色社会主义思想主题教育专栏 | b7a7ad4b5d8ffaca4b29f3538fd289da9d07f827f89e6ea57ef07257498aacf9 |\n    | 党史学习教育专栏                                     | 4d8e7dec1b672704916331431156ea7628a598c191d751e4fc28408ccbd4e0c4 |\n    | 不忘初心、牢记使命                                   | 427f7c28c90ec9db1aab78db8156a63ff2e23f6a0cea693e3847fe6d595753db |\n    | 两学一做                                             | 5b0609fedc9052bb44f1cfe9acf5ec8c9fe960f22a07be69636f2cf1cacaa8f7 |\n    | 钢协党代会                                           | beaaa0314f0f532d4b18244cd70df614a4af97465d974401b1f5b3349d78144b |\n    | 创先争优                                             | e7ea82c886ba18691210aaf48b3582a92dca9c4f2aab912757cedafb066ff8a6 |\n    | 青年工作                                             | 2706ee3a4a4c3c23e90e13c8fdc3002855d1dba394b61626562a97b33af3dbd0 |\n    | 日常动态                                             | e21157a082fc0ab0d7062c8755e91472ee0d23de6ccc5c2a44b62e54062cf1e4 |\n\n    #### 要闻\n\n    | 栏目         | id                                                               |\n    | ------------ | ---------------------------------------------------------------- |\n    | 要闻         | c42511ce3f868a515b49668dd250290c80d4dc8930c7e455d0e6e14b8033eae2 |\n    | 会员动态     | 268f86fdf61ac8614f09db38a2d0295253043b03e092c7ff48ab94290296125c |\n    | 疫情应对专栏 | a83c48faeb34065fd9b33d3c84957a152675141458aedc0ec454b760c9fcad65 |\n\n    #### 统计发布\n\n    | 栏目     | id                                                               |\n    | -------- | ---------------------------------------------------------------- |\n    | 统计发布 | 2e3c87064bdfc0e43d542d87fce8bcbc8fe0463d5a3da04d7e11b4c7d692194b |\n    | 生产经营 | 3238889ba0fa3aabcf28f40e537d440916a361c9170a4054f9fc43517cb58c1e |\n    | 进出口   | 95ef75c752af3b6c8be479479d8b931de7418c00150720280d78c8f0da0a438c |\n    | 环保统计 | 619ce7b53a4291d47c19d0ee0765098ca435e252576fbe921280a63fba4bc712 |\n\n    #### 行业分析\n\n    | 栏目     | id                                                               |\n    | -------- | ---------------------------------------------------------------- |\n    | 行业分析 | 1b4316d9238e09c735365896c8e4f677a3234e8363e5622ae6e79a5900a76f56 |\n    | 市场分析 | a44207e193a5caa5e64102604b6933896a0025eb85c57c583b39626f33d4dafd |\n    | 板带材   | 05d0e136828584d2cd6e45bdc3270372764781b98546cce122d9974489b1e2f2 |\n    | 社会库存 | 197422a82d9a09b9cc86188444574816e93186f2fde87474f8b028fc61472d35 |\n\n    #### 钢材价格指数\n\n    | 栏目         | id                                                               |\n    | ------------ | ---------------------------------------------------------------- |\n    | 钢材价格指数 | 17b6a9a214c94ccc28e56d4d1a2dbb5acef3e73da431ddc0a849a4dcfc487d04 |\n    | 综合价格指数 | 63913b906a7a663f7f71961952b1ddfa845714b5982655b773a62b85dd3b064e |\n    | 地区价格     | fc816c75aed82b9bc25563edc9cf0a0488a2012da38cbef5258da614d6e51ba9 |\n\n    #### 宏观经济信息\n\n    | 栏目         | id                                                               |\n    | ------------ | ---------------------------------------------------------------- |\n    | 宏观经济信息 | 5d77b433182404193834120ceed16fe0625860fafd5fd9e71d0800c4df227060 |\n    | 相关行业信息 | ae2a3c0fd4936acf75f4aab6fadd08bc6371aa65bdd50419e74b70d6f043c473 |\n    | 国际动态     | 1bad7c56af746a666e4a4e56e54a9508d344d7bc1498360580613590c16b6c41 |\n\n    #### 专题报道\n\n    | 栏目                 | id                                                               |\n    | -------------------- | ---------------------------------------------------------------- |\n    | 专题报道             | 50e7242bfd78b4395f3338df7699a0ff8847b886c4c3a55bd7c102a2cfe32fe9 |\n    | 钢协理事会           | 40c6404418699f0f8cb4e513013bb110ef250c782f0959852601e7c75e1afcd8 |\n    | 钢协新闻发布会       | 11ea370f565c6c141b1a4dac60aa00c4331bd442382a5dd476a5e73e001b773c |\n    | 劳模表彰             | 907e4ae217bf9c981a132051572103f9c87cccb7f00caf5a1770078829e6bcb3 |\n    | 钢铁行业职业技能竞赛 | 563c15270a691e3c7cb9cd9ba457c5af392eb4630fa833fc1a55c8e2afbc28a9 |\n\n    #### 成果奖励\n\n    | 栏目                   | id                                                               |\n    | ---------------------- | ---------------------------------------------------------------- |\n    | 成果奖励               | a6c30053b66356b4d77fbf6668bda69f7e782b2ae08a21d5db171d50a504bd40 |\n    | 冶金科学技术奖         | 50fe0c63f657ee48e49cb13fe7f7c5502046acdb05e2ee8a317f907af4191683 |\n    | 企业管理现代化创新成果 | b5607d3b73c2c3a3b069a97b9dbfd59af64aea27bafd5eb87ba44d1b07a33b66 |\n    | 清洁生产环境友好企业   | 4475c8e21374d063a22f95939a2909837e78fab1832dc97bf64f09fa01c0c5f7 |\n    | 产品开发市场开拓奖     | 169e34d7b29e3deaf4d4496da594d3bbde2eb0a40f7244b54dbfb9cc89a37296 |\n    | 质量金杯奖             | 68029784be6d9a7bf9cb8cace5b8a5ce5d2d871e9a0cbcbf84eeae0ea2746311 |\n\n    #### 节能减排\n\n    | 栏目                                       | id                                                               |\n    | ------------------------------------------ | ---------------------------------------------------------------- |\n    | 节能减排                                   | 08895f1681c198fdf297ab38e33e1f428f6ccf2add382f3844a52e410f10e5a0 |\n    | 先进节能环保技术                           | 6e639343a517fd08e5860fba581d41940da523753956ada973b6952fc05ef94f |\n    | 钢铁企业超低排放改造和评估监测进展情况公示 | 50d99531d5dee68346653ca9548f308764ad38410a091e662834a5ed66770174 |\n\n    #### 国际交流\n\n    | 栏目     | id                                                               |\n    | -------- | ---------------------------------------------------------------- |\n    | 国际交流 | 4753eef81b4019369d4751413d852ab9027944b84c612b5a08614e046d169e81 |\n    | 外事动态 | aa590ec6f835136a9ce8c9f3d0c3b194beb6b78037466ab40bb4aacc32adfcc9 |\n    | 国际会展 | 05ac1f2971bc375d25c9112e399f9c3cbb237809684ebc5b0ca4a68a1fcb971c |\n\n    #### 政策法规\n\n    | 栏目     | id                                                               |\n    | -------- | ---------------------------------------------------------------- |\n    | 政策法规 | 63a69eb0087f1984c0b269a1541905f19a56e117d56b3f51dfae0e6c1d436533 |\n    | 政策法规 | a214b2e71c3c79fa4a36ff382ee5f822b9603634626f7e320f91ed696b3666f2 |\n    | 贸易规则 | 5988b2380d04d3efde8cc247377d19530c17904ec0b5decdd00f9b3e026e3715 |\n\n    #### 分会园地\n\n    | 栏目         | id                                                               |\n    | ------------ | ---------------------------------------------------------------- |\n    | 分会园地     | d059d6751dcaae94e31a795072267f7959c35d012eebb9858b3ede2990e82ea9 |\n    | 法律分会     | 96000647f18ea78fa134a3932563e7d27c68d0482de498f179b44846234567a9 |\n    | 设备分会     | c8e1e3f52406115c2c03928271bbe883c0875b7c9f2f67492395685a62a1a2d8 |\n    | 国际产能合作 | 4fb8cc4b0d6f905a969ac3375f6d17b34df4dcae69d798d2a4616daa80af020c |\n    | 绿化分会     | ad55a0fbc1a44e94fb60e21b98cf967aca17ecf1450bdfb3699468fe8235103b |\n\n    #### 钢铁知识\n\n    | 栏目         | id                                                               |\n    | ------------ | ---------------------------------------------------------------- |\n    | 钢铁知识     | 7f7509ff045023015e0d6c1ba22c32734b673be2ec14eae730a99c08e3badb3f |\n    | 钢铁材料使用 | 7e319d71258ed6bb663cf59b4cf67fe97894e60aa5520f3d2cf966f82f9b89ac |\n    | 钢铁标准     | fae0c4dd27f8fe4759941e78c9dc1dfe0088ce30d1b684d12be4c8172d2c08e1 |\n\n    #### 钢协刊物\n\n    | 栏目       | id                                                               |\n    | ---------- | ---------------------------------------------------------------- |\n    | 钢协刊物   | ed51af486f6d4b313b3aaf8fea0b32a4a2d4a89714c61992caf01942eb61831b |\n    | 中国钢铁业 | 6440bdfccadf87908b13d8bbd9a66bb89bbd60cc5e175c018ca1c62c7d55e61f |\n    | 钢铁信息   | 2b66af0b2cda9b420739e55e255a6f72f277557670ef861c9956da8fde25da05 |\n  </details>",
+        "description": "| 栏目     | id                                               |\n  | -------- | --------------------------------------------------------------- |\n  | 钢协动态 | 58af05dfb6b4300151760176d2aad0a04c275aaadbb1315039263f021f920dcd |\n  | 钢协要闻 | 67ea4f106bd8f0843c0538d43833c463a0cd411fc35642cbd555a5f39fcf352b |\n  | 会议报道 | e5070694f299a43b20d990e53b6a69dc02e755fef644ae667cf75deaff80407a |\n  | 领导讲话 | a873c2e67b26b4a2d8313da769f6e106abc9a1ff04b7f1a50674dfa47cf91a7b |\n  | 图片新闻 | 806254321b2459bddb3c2cb5590fef6332bd849079d3082daf6153d7f8d62e1e |\n\n<details>\n  <summary>更多栏目</summary>\n\n  #### 党建工作\n\n  | 栏目                                                 | id                                                               |\n  | ---------------------------------------------------- | ---------------------------------------------------------------- |\n  | 党建工作                                             | 10e8911e0c852d91f08e173c768700da608abfb4e7b0540cb49fa5498f33522b |\n  | 学习贯彻习近平新时代中国特色社会主义思想主题教育专栏 | b7a7ad4b5d8ffaca4b29f3538fd289da9d07f827f89e6ea57ef07257498aacf9 |\n  | 党史学习教育专栏                                     | 4d8e7dec1b672704916331431156ea7628a598c191d751e4fc28408ccbd4e0c4 |\n  | 不忘初心、牢记使命                                   | 427f7c28c90ec9db1aab78db8156a63ff2e23f6a0cea693e3847fe6d595753db |\n  | 两学一做                                             | 5b0609fedc9052bb44f1cfe9acf5ec8c9fe960f22a07be69636f2cf1cacaa8f7 |\n  | 钢协党代会                                           | beaaa0314f0f532d4b18244cd70df614a4af97465d974401b1f5b3349d78144b |\n  | 创先争优                                             | e7ea82c886ba18691210aaf48b3582a92dca9c4f2aab912757cedafb066ff8a6 |\n  | 青年工作                                             | 2706ee3a4a4c3c23e90e13c8fdc3002855d1dba394b61626562a97b33af3dbd0 |\n  | 日常动态                                             | e21157a082fc0ab0d7062c8755e91472ee0d23de6ccc5c2a44b62e54062cf1e4 |\n\n  #### 要闻\n\n  | 栏目         | id                                                               |\n  | ------------ | ---------------------------------------------------------------- |\n  | 要闻         | c42511ce3f868a515b49668dd250290c80d4dc8930c7e455d0e6e14b8033eae2 |\n  | 会员动态     | 268f86fdf61ac8614f09db38a2d0295253043b03e092c7ff48ab94290296125c |\n  | 疫情应对专栏 | a83c48faeb34065fd9b33d3c84957a152675141458aedc0ec454b760c9fcad65 |\n\n  #### 统计发布\n\n  | 栏目     | id                                                               |\n  | -------- | ---------------------------------------------------------------- |\n  | 统计发布 | 2e3c87064bdfc0e43d542d87fce8bcbc8fe0463d5a3da04d7e11b4c7d692194b |\n  | 生产经营 | 3238889ba0fa3aabcf28f40e537d440916a361c9170a4054f9fc43517cb58c1e |\n  | 进出口   | 95ef75c752af3b6c8be479479d8b931de7418c00150720280d78c8f0da0a438c |\n  | 环保统计 | 619ce7b53a4291d47c19d0ee0765098ca435e252576fbe921280a63fba4bc712 |\n\n  #### 行业分析\n\n  | 栏目     | id                                                               |\n  | -------- | ---------------------------------------------------------------- |\n  | 行业分析 | 1b4316d9238e09c735365896c8e4f677a3234e8363e5622ae6e79a5900a76f56 |\n  | 市场分析 | a44207e193a5caa5e64102604b6933896a0025eb85c57c583b39626f33d4dafd |\n  | 板带材   | 05d0e136828584d2cd6e45bdc3270372764781b98546cce122d9974489b1e2f2 |\n  | 社会库存 | 197422a82d9a09b9cc86188444574816e93186f2fde87474f8b028fc61472d35 |\n\n  #### 钢材价格指数\n\n  | 栏目         | id                                                               |\n  | ------------ | ---------------------------------------------------------------- |\n  | 钢材价格指数 | 17b6a9a214c94ccc28e56d4d1a2dbb5acef3e73da431ddc0a849a4dcfc487d04 |\n  | 综合价格指数 | 63913b906a7a663f7f71961952b1ddfa845714b5982655b773a62b85dd3b064e |\n  | 地区价格     | fc816c75aed82b9bc25563edc9cf0a0488a2012da38cbef5258da614d6e51ba9 |\n\n  #### 宏观经济信息\n\n  | 栏目         | id                                                               |\n  | ------------ | ---------------------------------------------------------------- |\n  | 宏观经济信息 | 5d77b433182404193834120ceed16fe0625860fafd5fd9e71d0800c4df227060 |\n  | 相关行业信息 | ae2a3c0fd4936acf75f4aab6fadd08bc6371aa65bdd50419e74b70d6f043c473 |\n  | 国际动态     | 1bad7c56af746a666e4a4e56e54a9508d344d7bc1498360580613590c16b6c41 |\n\n  #### 专题报道\n\n  | 栏目                 | id                                                               |\n  | -------------------- | ---------------------------------------------------------------- |\n  | 专题报道             | 50e7242bfd78b4395f3338df7699a0ff8847b886c4c3a55bd7c102a2cfe32fe9 |\n  | 钢协理事会           | 40c6404418699f0f8cb4e513013bb110ef250c782f0959852601e7c75e1afcd8 |\n  | 钢协新闻发布会       | 11ea370f565c6c141b1a4dac60aa00c4331bd442382a5dd476a5e73e001b773c |\n  | 劳模表彰             | 907e4ae217bf9c981a132051572103f9c87cccb7f00caf5a1770078829e6bcb3 |\n  | 钢铁行业职业技能竞赛 | 563c15270a691e3c7cb9cd9ba457c5af392eb4630fa833fc1a55c8e2afbc28a9 |\n\n  #### 成果奖励\n\n  | 栏目                   | id                                                               |\n  | ---------------------- | ---------------------------------------------------------------- |\n  | 成果奖励               | a6c30053b66356b4d77fbf6668bda69f7e782b2ae08a21d5db171d50a504bd40 |\n  | 冶金科学技术奖         | 50fe0c63f657ee48e49cb13fe7f7c5502046acdb05e2ee8a317f907af4191683 |\n  | 企业管理现代化创新成果 | b5607d3b73c2c3a3b069a97b9dbfd59af64aea27bafd5eb87ba44d1b07a33b66 |\n  | 清洁生产环境友好企业   | 4475c8e21374d063a22f95939a2909837e78fab1832dc97bf64f09fa01c0c5f7 |\n  | 产品开发市场开拓奖     | 169e34d7b29e3deaf4d4496da594d3bbde2eb0a40f7244b54dbfb9cc89a37296 |\n  | 质量金杯奖             | 68029784be6d9a7bf9cb8cace5b8a5ce5d2d871e9a0cbcbf84eeae0ea2746311 |\n\n  #### 节能减排\n\n  | 栏目                                       | id                                                               |\n  | ------------------------------------------ | ---------------------------------------------------------------- |\n  | 节能减排                                   | 08895f1681c198fdf297ab38e33e1f428f6ccf2add382f3844a52e410f10e5a0 |\n  | 先进节能环保技术                           | 6e639343a517fd08e5860fba581d41940da523753956ada973b6952fc05ef94f |\n  | 钢铁企业超低排放改造和评估监测进展情况公示 | 50d99531d5dee68346653ca9548f308764ad38410a091e662834a5ed66770174 |\n\n  #### 国际交流\n\n  | 栏目     | id                                                               |\n  | -------- | ---------------------------------------------------------------- |\n  | 国际交流 | 4753eef81b4019369d4751413d852ab9027944b84c612b5a08614e046d169e81 |\n  | 外事动态 | aa590ec6f835136a9ce8c9f3d0c3b194beb6b78037466ab40bb4aacc32adfcc9 |\n  | 国际会展 | 05ac1f2971bc375d25c9112e399f9c3cbb237809684ebc5b0ca4a68a1fcb971c |\n\n  #### 政策法规\n\n  | 栏目     | id                                                               |\n  | -------- | ---------------------------------------------------------------- |\n  | 政策法规 | 63a69eb0087f1984c0b269a1541905f19a56e117d56b3f51dfae0e6c1d436533 |\n  | 政策法规 | a214b2e71c3c79fa4a36ff382ee5f822b9603634626f7e320f91ed696b3666f2 |\n  | 贸易规则 | 5988b2380d04d3efde8cc247377d19530c17904ec0b5decdd00f9b3e026e3715 |\n\n  #### 分会园地\n\n  | 栏目         | id                                                               |\n  | ------------ | ---------------------------------------------------------------- |\n  | 分会园地     | d059d6751dcaae94e31a795072267f7959c35d012eebb9858b3ede2990e82ea9 |\n  | 法律分会     | 96000647f18ea78fa134a3932563e7d27c68d0482de498f179b44846234567a9 |\n  | 设备分会     | c8e1e3f52406115c2c03928271bbe883c0875b7c9f2f67492395685a62a1a2d8 |\n  | 国际产能合作 | 4fb8cc4b0d6f905a969ac3375f6d17b34df4dcae69d798d2a4616daa80af020c |\n  | 绿化分会     | ad55a0fbc1a44e94fb60e21b98cf967aca17ecf1450bdfb3699468fe8235103b |\n\n  #### 钢铁知识\n\n  | 栏目         | id                                                               |\n  | ------------ | ---------------------------------------------------------------- |\n  | 钢铁知识     | 7f7509ff045023015e0d6c1ba22c32734b673be2ec14eae730a99c08e3badb3f |\n  | 钢铁材料使用 | 7e319d71258ed6bb663cf59b4cf67fe97894e60aa5520f3d2cf966f82f9b89ac |\n  | 钢铁标准     | fae0c4dd27f8fe4759941e78c9dc1dfe0088ce30d1b684d12be4c8172d2c08e1 |\n\n  #### 钢协刊物\n\n  | 栏目       | id                                                               |\n  | ---------- | ---------------------------------------------------------------- |\n  | 钢协刊物   | ed51af486f6d4b313b3aaf8fea0b32a4a2d4a89714c61992caf01942eb61831b |\n  | 中国钢铁业 | 6440bdfccadf87908b13d8bbd9a66bb89bbd60cc5e175c018ca1c62c7d55e61f |\n  | 钢铁信息   | 2b66af0b2cda9b420739e55e255a6f72f277557670ef861c9956da8fde25da05 |\n</details>",
         "location": "index.ts"
       }
     },
@@ -15086,6 +15279,168 @@
     },
     "name": "中国新闻网",
     "url": "chinanews.com.cn"
+  },
+  "chinania": {
+    "routes": {
+      "/:category{.+}?": {
+        "path": "/:category{.+}?",
+        "name": "分类",
+        "url": "www.chinania.org.cn",
+        "maintainers": [
+          "nczitzk"
+        ],
+        "example": "/chinania/xiehuidongtai/xiehuitongzhi",
+        "parameters": {
+          "category": "分类，默认为 `xiehuidongtai/xiehuitongzhi`，即协会通知，可在对应分类页 URL 中找到"
+        },
+        "description": ":::tip\n  若订阅 [协会通知](https://www.chinania.org.cn/html/xiehuidongtai/xiehuitongzhi/)，网址为 `https://www.chinania.org.cn/html/xiehuidongtai/xiehuitongzhi/`。截取 `https://www.chinania.org.cn/html` 到末尾 `/` 的部分 `xiehuidongtai/xiehuitongzhi` 作为参数填入，此时路由为 [`/chinania/xiehuidongtai/xiehuitongzhi`](https://rsshub.app/chinania/xiehuidongtai/xiehuitongzhi)。\n  :::\n\n  <details>\n    <summary>更多分类</summary>\n\n  #### [协会动态](https://www.chinania.org.cn/html/xiehuidongtai/)\n\n  | [协会动态](https://www.chinania.org.cn/html/xiehuidongtai/xiehuidongtai/)              | [协会通知](https://www.chinania.org.cn/html/xiehuidongtai/xiehuitongzhi/)              | [有色企业50强](https://www.chinania.org.cn/html/xiehuidongtai/youseqiye50qiang/)             |\n  | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |\n  | [xiehuidongtai/xiehuidongtai](https://rsshub.app/chinania/xiehuidongtai/xiehuidongtai) | [xiehuidongtai/xiehuitongzhi](https://rsshub.app/chinania/xiehuidongtai/xiehuitongzhi) | [xiehuidongtai/youseqiye50qiang](https://rsshub.app/chinania/xiehuidongtai/youseqiye50qiang) |\n\n  #### [党建工作](https://www.chinania.org.cn/html/djgz/)\n\n  | [协会党建](https://www.chinania.org.cn/html/djgz/xiehuidangjian/)      | [行业党建](https://www.chinania.org.cn/html/djgz/hangyedangjian/)      |\n  | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |\n  | [djgz/xiehuidangjian](https://rsshub.app/chinania/djgz/xiehuidangjian) | [djgz/hangyedangjian](https://rsshub.app/chinania/djgz/hangyedangjian) |\n\n  #### [行业新闻](https://www.chinania.org.cn/html/hangyexinwen/)\n\n  | [时政要闻](https://www.chinania.org.cn/html/hangyexinwen/shizhengyaowen/)              | [要闻](https://www.chinania.org.cn/html/hangyexinwen/yaowen/)          | [行业新闻](https://www.chinania.org.cn/html/hangyexinwen/guoneixinwen/)            | [资讯](https://www.chinania.org.cn/html/hangyexinwen/zixun/)         |\n  | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------- |\n  | [hangyexinwen/shizhengyaowen](https://rsshub.app/chinania/hangyexinwen/shizhengyaowen) | [hangyexinwen/yaowen](https://rsshub.app/chinania/hangyexinwen/yaowen) | [hangyexinwen/guoneixinwen](https://rsshub.app/chinania/hangyexinwen/guoneixinwen) | [hangyexinwen/zixun](https://rsshub.app/chinania/hangyexinwen/zixun) |\n\n  #### [人力资源](https://www.chinania.org.cn/html/renliziyuan/)\n\n  | [相关通知](https://www.chinania.org.cn/html/renliziyuan/xiangguantongzhi/)               | [人事招聘](https://www.chinania.org.cn/html/renliziyuan/renshizhaopin/)            |\n  | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |\n  | [renliziyuan/xiangguantongzhi](https://rsshub.app/chinania/renliziyuan/xiangguantongzhi) | [renliziyuan/renshizhaopin](https://rsshub.app/chinania/renliziyuan/renshizhaopin) |\n\n  #### [行业统计](https://www.chinania.org.cn/html/hangyetongji/jqzs/)\n\n  | [行业分析](https://www.chinania.org.cn/html/hangyetongji/tongji/)      | [数据统计](https://www.chinania.org.cn/html/hangyetongji/chanyeshuju/)           | [景气指数](https://www.chinania.org.cn/html/hangyetongji/jqzs/)    |\n  | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------ |\n  | [hangyetongji/tongji](https://rsshub.app/chinania/hangyetongji/tongji) | [hangyetongji/chanyeshuju](https://rsshub.app/chinania/hangyetongji/chanyeshuju) | [hangyetongji/jqzs](https://rsshub.app/chinania/hangyetongji/jqzs) |\n\n  #### [政策法规](https://www.chinania.org.cn/html/zcfg/zhengcefagui/)\n\n  | [政策法规](https://www.chinania.org.cn/html/zcfg/zhengcefagui/)    |\n  | ------------------------------------------------------------------ |\n  | [zcfg/zhengcefagui](https://rsshub.app/chinania/zcfg/zhengcefagui) |\n\n  #### [会议展览](https://www.chinania.org.cn/html/hyzl/huiyizhanlan/)\n\n  | [会展通知](https://www.chinania.org.cn/html/hyzl/huiyizhanlan/)    | [会展报道](https://www.chinania.org.cn/html/hyzl/huizhanbaodao/)     |\n  | ------------------------------------------------------------------ | -------------------------------------------------------------------- |\n  | [hyzl/huiyizhanlan](https://rsshub.app/chinania/hyzl/huiyizhanlan) | [hyzl/huizhanbaodao](https://rsshub.app/chinania/hyzl/huizhanbaodao) |\n\n  </details>\n    ",
+        "categories": [
+          "new-media"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportRadar": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.chinania.org.cn/html/:category"
+            ]
+          },
+          {
+            "title": "协会动态 - 协会动态",
+            "source": [
+              "www.chinania.org.cn/html/xiehuidongtai/xiehuidongtai/"
+            ],
+            "target": "/xiehuidongtai/xiehuidongtai"
+          },
+          {
+            "title": "协会动态 - 协会通知",
+            "source": [
+              "www.chinania.org.cn/html/xiehuidongtai/xiehuitongzhi/"
+            ],
+            "target": "/xiehuidongtai/xiehuitongzhi"
+          },
+          {
+            "title": "协会动态 - 有色企业50强",
+            "source": [
+              "www.chinania.org.cn/html/xiehuidongtai/youseqiye50qiang/"
+            ],
+            "target": "/xiehuidongtai/youseqiye50qiang"
+          },
+          {
+            "title": "党建工作 - 协会党建",
+            "source": [
+              "www.chinania.org.cn/html/djgz/xiehuidangjian/"
+            ],
+            "target": "/djgz/xiehuidangjian"
+          },
+          {
+            "title": "党建工作 - 行业党建",
+            "source": [
+              "www.chinania.org.cn/html/djgz/hangyedangjian/"
+            ],
+            "target": "/djgz/hangyedangjian"
+          },
+          {
+            "title": "会议展览 - 会展通知",
+            "source": [
+              "www.chinania.org.cn/html/hyzl/huiyizhanlan/"
+            ],
+            "target": "/hyzl/huiyizhanlan"
+          },
+          {
+            "title": "会议展览 - 会展报道",
+            "source": [
+              "www.chinania.org.cn/html/hyzl/huizhanbaodao/"
+            ],
+            "target": "/hyzl/huizhanbaodao"
+          },
+          {
+            "title": "行业新闻 - 时政要闻",
+            "source": [
+              "www.chinania.org.cn/html/hangyexinwen/shizhengyaowen/"
+            ],
+            "target": "/hangyexinwen/shizhengyaowen"
+          },
+          {
+            "title": "行业新闻 - 要闻",
+            "source": [
+              "www.chinania.org.cn/html/hangyexinwen/yaowen/"
+            ],
+            "target": "/hangyexinwen/yaowen"
+          },
+          {
+            "title": "行业新闻 - 行业新闻",
+            "source": [
+              "www.chinania.org.cn/html/hangyexinwen/guoneixinwen/"
+            ],
+            "target": "/hangyexinwen/guoneixinwen"
+          },
+          {
+            "title": "行业新闻 - 资讯",
+            "source": [
+              "www.chinania.org.cn/html/hangyexinwen/zixun/"
+            ],
+            "target": "/hangyexinwen/zixun"
+          },
+          {
+            "title": "行业统计 - 行业分析",
+            "source": [
+              "www.chinania.org.cn/html/hangyetongji/tongji/"
+            ],
+            "target": "/hangyetongji/tongji"
+          },
+          {
+            "title": "行业统计 - 数据统计",
+            "source": [
+              "www.chinania.org.cn/html/hangyetongji/chanyeshuju/"
+            ],
+            "target": "/hangyetongji/chanyeshuju"
+          },
+          {
+            "title": "行业统计 - 景气指数",
+            "source": [
+              "www.chinania.org.cn/html/hangyetongji/jqzs/"
+            ],
+            "target": "/hangyetongji/jqzs"
+          },
+          {
+            "title": "人力资源 - 相关通知",
+            "source": [
+              "www.chinania.org.cn/html/renliziyuan/xiangguantongzhi/"
+            ],
+            "target": "/renliziyuan/xiangguantongzhi"
+          },
+          {
+            "title": "人力资源 - 人事招聘",
+            "source": [
+              "www.chinania.org.cn/html/renliziyuan/renshizhaopin/"
+            ],
+            "target": "/renliziyuan/renshizhaopin"
+          },
+          {
+            "title": "政策法规 - 政策法规",
+            "source": [
+              "www.chinania.org.cn/html/zcfg/zhengcefagui/"
+            ],
+            "target": "/zcfg/zhengcefagui"
+          }
+        ],
+        "location": "index.ts"
+      }
+    },
+    "name": "中国有色金属工业网",
+    "url": "chinania.org.cn",
+    "categories": [
+      "new-media"
+    ],
+    "description": ""
   },
   "chinathinktanks": {
     "routes": {
@@ -16552,8 +16907,10 @@
       "/weekly": {
         "path": "/weekly",
         "categories": [
-          "anime"
+          "anime",
+          "popular"
         ],
+        "view": 0,
         "example": "/cngal/weekly",
         "parameters": {},
         "features": {
@@ -17944,7 +18301,7 @@
         "maintainers": [
           "nczitzk"
         ],
-        "description": "| 要闻 | 公司 | 市场 | 基金 |\n    | ---- | ---- | ---- | ---- |\n    | xwzx | ssgs | gppd | tzjj |\n\n    | 科创 | 产经   | 期货     | 海外   |\n    | ---- | ------ | -------- | ------ |\n    | 5g   | cj2020 | zzqh2020 | hw2020 |\n\n    <details>\n      <summary>更多栏目</summary>\n\n      #### 要闻\n\n      | 财经要闻 | 观点评论 | 民生消费  |\n      | -------- | -------- | --------- |\n      | xwzx/hg  | xwzx/jr  | xwzx/msxf |\n\n      #### 公司\n\n      | 公司要闻  | 公司深度  | 公司巡礼  |\n      | --------- | --------- | --------- |\n      | ssgs/gsxw | ssgs/gssd | ssgs/gsxl |\n\n      #### 市场\n\n      | A 股市场  | 港股资讯  | 债市研究  | 海外报道  | 期货报道  |\n      | --------- | --------- | --------- | --------- | --------- |\n      | gppd/gsyj | gppd/ggzx | gppd/zqxw | gppd/hwbd | gppd/qhbd |\n\n      #### 基金\n\n      | 基金动态  | 基金视点  | 基金持仓  | 私募基金  | 基民学苑  |\n      | --------- | --------- | --------- | --------- | --------- |\n      | tzjj/jjdt | tzjj/jjks | tzjj/jjcs | tzjj/smjj | tzjj/tjdh |\n\n      #### 机构\n\n      | 券商 | 银行 | 保险 |\n      | ---- | ---- | ---- |\n      | qs   | yh   | bx   |\n\n      #### 其他\n\n      | 中证快讯 7x24 | IPO 鉴真 | 公司能见度 |\n      | ------------- | -------- | ---------- |\n      | sylm/jsbd     | yc/ipojz | yc/gsnjd   |\n    </details>",
+        "description": "| 要闻 | 公司 | 市场 | 基金 |\n  | ---- | ---- | ---- | ---- |\n  | xwzx | ssgs | gppd | tzjj |\n\n  | 科创 | 产经   | 期货     | 海外   |\n  | ---- | ------ | -------- | ------ |\n  | 5g   | cj2020 | zzqh2020 | hw2020 |\n\n<details>\n  <summary>更多栏目</summary>\n\n  #### 要闻\n\n  | 财经要闻 | 观点评论 | 民生消费  |\n  | -------- | -------- | --------- |\n  | xwzx/hg  | xwzx/jr  | xwzx/msxf |\n\n  #### 公司\n\n  | 公司要闻  | 公司深度  | 公司巡礼  |\n  | --------- | --------- | --------- |\n  | ssgs/gsxw | ssgs/gssd | ssgs/gsxl |\n\n  #### 市场\n\n  | A 股市场  | 港股资讯  | 债市研究  | 海外报道  | 期货报道  |\n  | --------- | --------- | --------- | --------- | --------- |\n  | gppd/gsyj | gppd/ggzx | gppd/zqxw | gppd/hwbd | gppd/qhbd |\n\n  #### 基金\n\n  | 基金动态  | 基金视点  | 基金持仓  | 私募基金  | 基民学苑  |\n  | --------- | --------- | --------- | --------- | --------- |\n  | tzjj/jjdt | tzjj/jjks | tzjj/jjcs | tzjj/smjj | tzjj/tjdh |\n\n  #### 机构\n\n  | 券商 | 银行 | 保险 |\n  | ---- | ---- | ---- |\n  | qs   | yh   | bx   |\n\n  #### 其他\n\n  | 中证快讯 7x24 | IPO 鉴真 | 公司能见度 |\n  | ------------- | -------- | ---------- |\n  | sylm/jsbd     | yc/ipojz | yc/gsnjd   |\n</details>",
         "location": "index.ts"
       },
       "/video/:category?": {
@@ -17965,7 +18322,7 @@
           "supportScihub": false
         },
         "name": "中证视频",
-        "description": "| 今日聚焦 | 传闻求证 | 高端访谈 | 投教课堂 | 直播汇 |\n    | -------- | -------- | -------- | -------- | ------ |",
+        "description": "| 今日聚焦 | 传闻求证 | 高端访谈 | 投教课堂 | 直播汇 |\n  | -------- | -------- | -------- | -------- | ------ |",
         "maintainers": [
           "nczitzk"
         ],
@@ -20318,12 +20675,57 @@
       "/campaign/:type/:free?": {
         "path": "/campaign/:type/:free?",
         "categories": [
-          "anime"
+          "anime",
+          "popular"
         ],
         "example": "/dlsite/campaign/home",
         "parameters": {
-          "type": "Type, see table above",
-          "free": "Free only, empty means false, other value means true"
+          "type": {
+            "description": "类型",
+            "options": [
+              {
+                "value": "home",
+                "label": "「DLsite 同人」"
+              },
+              {
+                "value": "comic",
+                "label": "「DLsite コミック」"
+              },
+              {
+                "value": "soft",
+                "label": "「DLsite PCソフト」"
+              },
+              {
+                "value": "maniax",
+                "label": "「DLsite 同人 - R18」"
+              },
+              {
+                "value": "books",
+                "label": "「DLsite 成年コミック - R18」"
+              },
+              {
+                "value": "pro",
+                "label": "「DLsite 美少女ゲーム」"
+              },
+              {
+                "value": "girls",
+                "label": "「DLsite 乙女」"
+              },
+              {
+                "value": "bl",
+                "label": "「DLsite BL」"
+              }
+            ]
+          },
+          "free": {
+            "description": "免费",
+            "options": [
+              {
+                "value": "1",
+                "label": "是"
+              }
+            ]
+          }
         },
         "features": {
           "requireConfig": false,
@@ -20342,11 +20744,49 @@
       "/new/:type": {
         "path": "/new/:type",
         "categories": [
-          "anime"
+          "anime",
+          "popular"
         ],
+        "view": 0,
         "example": "/dlsite/new/home",
         "parameters": {
-          "type": "Type, see table below"
+          "type": {
+            "description": "类型",
+            "options": [
+              {
+                "value": "home",
+                "label": "「DLsite 同人」"
+              },
+              {
+                "value": "comic",
+                "label": "「DLsite コミック」"
+              },
+              {
+                "value": "soft",
+                "label": "「DLsite PCソフト」"
+              },
+              {
+                "value": "maniax",
+                "label": "「DLsite 同人 - R18」"
+              },
+              {
+                "value": "books",
+                "label": "「DLsite 成年コミック - R18」"
+              },
+              {
+                "value": "pro",
+                "label": "「DLsite 美少女ゲーム」"
+              },
+              {
+                "value": "girls",
+                "label": "「DLsite 乙女」"
+              },
+              {
+                "value": "bl",
+                "label": "「DLsite BL」"
+              }
+            ]
+          }
         },
         "features": {
           "requireConfig": false,
@@ -20366,8 +20806,10 @@
       "/ci-en/:id/article": {
         "path": "/ci-en/:id/article",
         "categories": [
-          "anime"
+          "anime",
+          "popular"
         ],
+        "view": 0,
         "example": "/dlsite/ci-en/7400/article",
         "parameters": {
           "id": "Creator id, can be found in URL"
@@ -20907,8 +21349,10 @@
       "/article/:topic/:topicId?": {
         "path": "/article/:topic/:topicId?",
         "categories": [
-          "anime"
+          "anime",
+          "popular"
         ],
+        "view": 0,
         "example": "/dora-world/article/contents",
         "parameters": {
           "topic": "Topic name, can be found in URL. For example: the topic name of [https://www.dora-world.com/movie](https://www.dora-world.com/movie) is `movie`",
@@ -20999,7 +21443,7 @@
           "fengkx",
           "lyqluis"
         ],
-        "description": "| 文学         | 小说    | 历史文化 | 社会纪实  | 科学新知 | 艺术设计 | 商业经管 | 绘本漫画 |\n    | ------------ | ------- | -------- | --------- | -------- | -------- | -------- | -------- |\n    | prose_poetry | fiction | history  | biography | science  | art      | business | comics   |",
+        "description": "| 文学         | 小说    | 历史文化 | 社会纪实  | 科学新知 | 艺术设计 | 商业经管 | 绘本漫画 |\n  | ------------ | ------- | -------- | --------- | -------- | -------- | -------- | -------- |\n  | prose_poetry | fiction | history  | biography | science  | art      | business | comics   |",
         "location": "book/latest.ts"
       },
       "/book/rank/:type?": {
@@ -22216,6 +22660,35 @@
   },
   "dxy": {
     "routes": {
+      "/bbs/board/:boardId": {
+        "path": "/bbs/board/:boardId",
+        "categories": [
+          "bbs"
+        ],
+        "example": "/dxy/bbs/board/46",
+        "parameters": {
+          "specialId": "板块 ID，可在对应板块页 URL 中找到"
+        },
+        "name": "板块",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "radar": [
+          {
+            "source": [
+              "www.dxy.cn/bbs/newweb/pc/category/:boardIdId"
+            ],
+            "target": "/bbs/board/:boardIdId"
+          },
+          {
+            "source": [
+              "3g.dxy.cn/bbs/board/:boardIdId"
+            ],
+            "target": "/bbs/board/:boardIdId"
+          }
+        ],
+        "location": "board.ts"
+      },
       "/bbs/special/:specialId": {
         "path": "/bbs/special/:specialId",
         "categories": [
@@ -22585,11 +23058,37 @@
       "/report/:category": {
         "path": "/report/:category",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/eastmoney/report/strategyreport",
         "parameters": {
-          "category": "研报类型"
+          "category": {
+            "description": "研报类型",
+            "options": [
+              {
+                "value": "strategyreport",
+                "label": "策略报告"
+              },
+              {
+                "value": "macresearch",
+                "label": "宏观研究"
+              },
+              {
+                "value": "brokerreport",
+                "label": "券商晨报"
+              },
+              {
+                "value": "industry",
+                "label": "行业研报"
+              },
+              {
+                "value": "stock",
+                "label": "个股研报"
+              }
+            ]
+          }
         },
         "features": {
           "requireConfig": false,
@@ -22616,8 +23115,10 @@
       "/search/:keyword": {
         "path": "/search/:keyword",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/eastmoney/search/web3",
         "parameters": {
           "keyword": "关键词，可以设置为自己需要检索的关键词"
@@ -22639,8 +23140,10 @@
       "/ttjj/user/:uid": {
         "path": "/ttjj/user/:uid",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 1,
         "example": "/eastmoney/ttjj/user/6551094298949188",
         "parameters": {
           "uid": "用户id, 可以通过天天基金App分享用户主页到浏览器，在相应的URL中找到"
@@ -23505,8 +24008,10 @@
       "/actors/:name/:id": {
         "path": "/actors/:name/:id",
         "categories": [
-          "anime"
+          "anime",
+          "popular"
         ],
+        "view": 3,
         "example": "/eventernote/actors/三森すずこ/2634",
         "parameters": {
           "name": "声优姓名",
@@ -23732,15 +24237,194 @@
       "/search/:type?/:caty?/:period?/:order?/:rating?/:keyword?": {
         "path": "/search/:type?/:caty?/:period?/:order?/:rating?/:keyword?",
         "categories": [
-          "picture"
+          "picture",
+          "popular"
         ],
+        "view": 2,
         "example": "/fantia/search/posts/all/daily",
         "parameters": {
-          "type": "Type, see the table below, `posts` by default",
-          "caty": "Category, see the table below, can also be found in search page URL, `すべてのクリエイター` by default",
-          "period": "Ranking period, see the table below, empty by default",
-          "order": "Sorting, see the table below, `更新の新しい順` by default",
-          "rating": "Rating, see the table below, `すべて` by default",
+          "type": {
+            "description": "Type, see the table below, `posts` by default",
+            "options": [
+              {
+                "value": "fanclubs",
+                "label": "クリエイター"
+              },
+              {
+                "value": "posts",
+                "label": "投稿"
+              },
+              {
+                "value": "products",
+                "label": "商品"
+              },
+              {
+                "value": "commissions",
+                "label": "コミッション"
+              }
+            ],
+            "default": "posts"
+          },
+          "caty": {
+            "description": "Category, see the table below, can also be found in search page URL, `すべてのクリエイター` by default",
+            "options": [
+              {
+                "value": "all",
+                "label": "すべてのクリエイター"
+              },
+              {
+                "value": "illust",
+                "label": "イラスト"
+              },
+              {
+                "value": "comic",
+                "label": "漫画"
+              },
+              {
+                "value": "cosplay",
+                "label": "コスプレ"
+              },
+              {
+                "value": "youtuber",
+                "label": "YouTuber・配信者"
+              },
+              {
+                "value": "vtuber",
+                "label": "Vtuber"
+              },
+              {
+                "value": "voice",
+                "label": "音声作品・ASMR"
+              },
+              {
+                "value": "voiceactor",
+                "label": "声優・歌い手"
+              },
+              {
+                "value": "idol",
+                "label": "アイドル"
+              },
+              {
+                "value": "anime",
+                "label": "アニメ・映像・写真"
+              },
+              {
+                "value": "3d",
+                "label": "3D"
+              },
+              {
+                "value": "game",
+                "label": "ゲーム制作"
+              },
+              {
+                "value": "music",
+                "label": "音楽"
+              },
+              {
+                "value": "novel",
+                "label": "小説"
+              },
+              {
+                "value": "doll",
+                "label": "ドール"
+              },
+              {
+                "value": "art",
+                "label": "アート・デザイン"
+              },
+              {
+                "value": "program",
+                "label": "プログラム"
+              },
+              {
+                "value": "handmade",
+                "label": "創作・ハンドメイド"
+              },
+              {
+                "value": "history",
+                "label": "歴史・評論・情報"
+              },
+              {
+                "value": "railroad",
+                "label": "鉄道・旅行・ミリタリー"
+              },
+              {
+                "value": "shop",
+                "label": "ショップ"
+              },
+              {
+                "value": "other",
+                "label": "その他"
+              }
+            ],
+            "default": "all"
+          },
+          "period": {
+            "description": "Ranking period, see the table below, empty by default",
+            "options": [
+              {
+                "value": "daily",
+                "label": "デイリー"
+              },
+              {
+                "value": "weekly",
+                "label": "ウィークリー"
+              },
+              {
+                "value": "monthly",
+                "label": "マンスリー"
+              },
+              {
+                "value": "all",
+                "label": "全期間"
+              }
+            ],
+            "default": ""
+          },
+          "order": {
+            "description": "Sorting, see the table below, `更新の新しい順` by default",
+            "options": [
+              {
+                "value": "updater",
+                "label": "更新の新しい順"
+              },
+              {
+                "value": "update_old",
+                "label": "更新の古い順"
+              },
+              {
+                "value": "newer",
+                "label": "投稿の新しい順"
+              },
+              {
+                "value": "create_old",
+                "label": "投稿の古い順"
+              },
+              {
+                "value": "popular",
+                "label": "お気に入り数順"
+              }
+            ],
+            "default": "updater"
+          },
+          "rating": {
+            "description": "Rating, see the table below, `すべて` by default",
+            "options": [
+              {
+                "value": "all",
+                "label": "すべて"
+              },
+              {
+                "value": "general",
+                "label": "一般のみ"
+              },
+              {
+                "value": "adult",
+                "label": "R18 のみ"
+              }
+            ],
+            "default": "all"
+          },
           "keyword": "Keyword, empty by default"
         },
         "features": {
@@ -23752,15 +24436,19 @@
           "supportScihub": false
         },
         "name": "Search",
-        "maintainers": [],
+        "maintainers": [
+          "nczitzk"
+        ],
         "description": "Type\n\n  | クリエイター | 投稿  | 商品     | コミッション |\n  | ------------ | ----- | -------- | ------------ |\n  | fanclubs     | posts | products | commissions  |\n\n  Category\n\n  | 分类                   | 分类名     |\n  | ---------------------- | ---------- |\n  | イラスト               | illust     |\n  | 漫画                   | comic      |\n  | コスプレ               | cosplay    |\n  | YouTuber・配信者       | youtuber   |\n  | Vtuber                 | vtuber     |\n  | 音声作品・ASMR         | voice      |\n  | 声優・歌い手           | voiceactor |\n  | アイドル               | idol       |\n  | アニメ・映像・写真     | anime      |\n  | 3D                     | 3d         |\n  | ゲーム制作             | game       |\n  | 音楽                   | music      |\n  | 小説                   | novel      |\n  | ドール                 | doll       |\n  | アート・デザイン       | art        |\n  | プログラム             | program    |\n  | 創作・ハンドメイド     | handmade   |\n  | 歴史・評論・情報       | history    |\n  | 鉄道・旅行・ミリタリー | railroad   |\n  | ショップ               | shop       |\n  | その他                 | other      |\n\n  Ranking period\n\n  | デイリー | ウィークリー | マンスリー | 全期間 |\n  | -------- | ------------ | ---------- | ------ |\n  | daily    | weekly       | monthly    | all    |\n\n  Sorting\n\n  | 更新の新しい順 | 更新の古い順 | 投稿の新しい順 | 投稿の古い順 | お気に入り数順 |\n  | -------------- | ------------ | -------------- | ------------ | -------------- |\n  | updater        | update_old  | newer          | create_old  | popular        |\n\n  Rating\n\n  | すべて | 一般のみ | R18 のみ |\n  | ------ | -------- | -------- |\n  | all    | general  | adult    |",
         "location": "search.ts"
       },
       "/user/:id": {
         "path": "/user/:id",
         "categories": [
-          "picture"
+          "picture",
+          "popular"
         ],
+        "view": 2,
         "example": "/fantia/user/3498",
         "parameters": {
           "id": "User id, can be found in user profile URL"
@@ -24078,8 +24766,10 @@
       "/express-news": {
         "path": "/express-news",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/fastbull/express-news",
         "parameters": {},
         "features": {
@@ -24111,8 +24801,10 @@
           "/"
         ],
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/fastbull/news",
         "parameters": {},
         "features": {
@@ -24144,8 +24836,10 @@
           "/"
         ],
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/fastbull/news",
         "parameters": {},
         "features": {
@@ -24546,11 +25240,25 @@
       "/:category?": {
         "path": "/:category?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/finviz",
         "parameters": {
-          "category": "Category, see below, News by default"
+          "category": {
+            "description": "Category, see below, News by default",
+            "options": [
+              {
+                "value": "news",
+                "label": "news"
+              },
+              {
+                "value": "blogs",
+                "label": "blogs"
+              }
+            ]
+          }
         },
         "features": {
           "requireConfig": false,
@@ -24972,12 +25680,76 @@
       "/:categoryId?/:lang?": {
         "path": "/:categoryId?/:lang?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/followin",
         "parameters": {
-          "categoryId": "Category ID, see table below, `1` by default",
-          "lang": "Language, see table below, `en` by default"
+          "categoryId": {
+            "description": "Category ID",
+            "options": [
+              {
+                "value": "1",
+                "label": "For You"
+              },
+              {
+                "value": "9",
+                "label": "Market"
+              },
+              {
+                "value": "13",
+                "label": "Meme"
+              },
+              {
+                "value": "14",
+                "label": "BRC20"
+              },
+              {
+                "value": "3",
+                "label": "NFT"
+              },
+              {
+                "value": "5",
+                "label": "Thread"
+              },
+              {
+                "value": "6",
+                "label": "In-depth"
+              },
+              {
+                "value": "8",
+                "label": "Tutorials"
+              },
+              {
+                "value": "11",
+                "label": "Videos"
+              }
+            ],
+            "default": "1"
+          },
+          "lang": {
+            "description": "Language",
+            "options": [
+              {
+                "value": "en",
+                "label": "English"
+              },
+              {
+                "value": "zh-Hans",
+                "label": "简体中文"
+              },
+              {
+                "value": "zh-Hant",
+                "label": "繁體中文"
+              },
+              {
+                "value": "vi",
+                "label": "Tiếng Việt"
+              }
+            ],
+            "default": "en"
+          }
         },
         "features": {
           "requireConfig": false,
@@ -25029,11 +25801,34 @@
       "/news/:lang?": {
         "path": "/news/:lang?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/followin/news",
         "parameters": {
-          "lang": "Language, see table above, `en` by default"
+          "lang": {
+            "description": "Language",
+            "options": [
+              {
+                "value": "en",
+                "label": "English"
+              },
+              {
+                "value": "zh-Hans",
+                "label": "简体中文"
+              },
+              {
+                "value": "zh-Hant",
+                "label": "繁體中文"
+              },
+              {
+                "value": "vi",
+                "label": "Tiếng Việt"
+              }
+            ],
+            "default": "en"
+          }
         },
         "features": {
           "requireConfig": false,
@@ -25838,8 +26633,10 @@
       "/kx": {
         "path": "/kx",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 5,
         "example": "/fx678/kx",
         "parameters": {},
         "features": {
@@ -26738,11 +27535,37 @@
       "/home/:tag?": {
         "path": "/home/:tag?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/gelonghui/home",
         "parameters": {
-          "tag": "分类标签，见下表，默认为 `web_home_page`"
+          "tag": {
+            "description": "分类标签，见下表，默认为 `web_home_page`",
+            "options": [
+              {
+                "value": "web_home_page",
+                "label": "推荐"
+              },
+              {
+                "value": "stock",
+                "label": "股票"
+              },
+              {
+                "value": "fund",
+                "label": "基金"
+              },
+              {
+                "value": "new_stock",
+                "label": "新股"
+              },
+              {
+                "value": "research",
+                "label": "研报"
+              }
+            ]
+          }
         },
         "features": {
           "requireConfig": false,
@@ -26762,11 +27585,25 @@
       "/hot-article/:type?": {
         "path": "/hot-article/:type?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/gelonghui/hot-article",
         "parameters": {
-          "type": "`day` 为日排行，`week` 为周排行，默认为 `day`"
+          "type": {
+            "description": "`day` 为日排行，`week` 为周排行，默认为 `day`",
+            "options": [
+              {
+                "value": "day",
+                "label": "日排行"
+              },
+              {
+                "value": "week",
+                "label": "周排行"
+              }
+            ]
+          }
         },
         "features": {
           "requireConfig": false,
@@ -26785,15 +27622,19 @@
           }
         ],
         "name": "最热文章",
-        "maintainers": [],
+        "maintainers": [
+          "nczitzk"
+        ],
         "url": "gelonghui.com/",
         "location": "hot-article.ts"
       },
       "/keyword/:keyword": {
         "path": "/keyword/:keyword",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/gelonghui/keyword/早报",
         "parameters": {
           "keyword": "搜索关键字"
@@ -26815,8 +27656,10 @@
       "/live": {
         "path": "/live",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/gelonghui/live",
         "parameters": {},
         "features": {
@@ -26843,8 +27686,10 @@
       "/subject/:id": {
         "path": "/subject/:id",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/gelonghui/subject/4",
         "parameters": {
           "id": "主题编号，可在主题页 URL 中找到"
@@ -26873,8 +27718,10 @@
       "/user/:id": {
         "path": "/user/:id",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/gelonghui/user/5273",
         "parameters": {
           "id": "用户编号，可在用户页 URL 中找到"
@@ -28401,8 +29248,10 @@
       "/doodles/:language?": {
         "path": "/doodles/:language?",
         "categories": [
-          "picture"
+          "picture",
+          "popular"
         ],
+        "view": 2,
         "example": "/google/doodles/zh-CN",
         "parameters": {
           "language": "Language, default to `zh-CN`, for other language values, you can get it from [Google Doodles official website](https://www.google.com/doodles)"
@@ -29180,7 +30029,7 @@
             "target": "/chongqing/gzw/*category"
           }
         ],
-        "description": "| 通知公告  | 国企资讯 | 国企简介 | 国企招聘 |\n    | --------- | -------- | -------- | -------- |\n    | tzgg_191 | gqdj     | gqjj     | gqzp     |",
+        "description": "| 通知公告  | 国企资讯 | 国企简介 | 国企招聘 |\n  | --------- | -------- | -------- | -------- |\n  | tzgg_191 | gqdj     | gqjj     | gqzp     |",
         "location": "chongqing/gzw.ts"
       },
       "/chongqing/rsks": {
@@ -36954,7 +37803,7 @@
         "parameters": {
           "category": "分类，默认为新闻动态，即 `xwdt`，可在对应分类页 URL 中找到"
         },
-        "description": ":::tip\n  若订阅 [新闻动态](https://gs.hust.edu.cn/xwdt.htm)，网址为 `https://gs.hust.edu.cn/xwdt.htm`。截取 `https://gs.hust.edu.cn/` 到末尾 `.htm` 的部分 `xwdt` 作为参数填入，此时路由为 [`/hust/gs/xwdt`](https://rsshub.app/hust/gs/xwdt)。\n  :::\n\n  | [新闻动态](https://gs.hust.edu.cn/xwdt.htm) | [研究生服务专区](https://gs.hust.edu.cn/yjsfwzq.htm) | [综合管理](https://gs.hust.edu.cn/gzzd/zhgl.htm)  |\n  | ------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------- |\n  | [xwdt](https://rsshub.app/hust/gs/xwdt)     | [yjsfwzq](https://rsshub.app/hust/gs/yjsfwzq)        | [gzzd/zhgl](https://rsshub.app/hust/gs/gzzd/zhgl) |\n\n  #### [通知公告](https://gs.hust.edu.cn/tzgg/kcjksap.htm)\n\n  | [课程及考试安排](https://gs.hust.edu.cn/tzgg/kcjksap.htm) | [国际交流](https://gs.hust.edu.cn/tzgg/gjjl.htm)  | [学位工作](https://gs.hust.edu.cn/tzgg/xwgz.htm)  | [同济医学院](https://gs.hust.edu.cn/tzgg/tjyxy.htm) | [其他](https://gs.hust.edu.cn/tzgg/qt.htm)    |\n  | --------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- | --------------------------------------------------- | --------------------------------------------- |\n  | [tzgg/kcjksap](https://rsshub.app/hust/gs/tzgg/kcjksap)   | [tzgg/gjjl](https://rsshub.app/hust/gs/tzgg/gjjl) | [tzgg/xwgz](https://rsshub.app/hust/gs/tzgg/xwgz) | [tzgg/tjyxy](https://rsshub.app/hust/gs/tzgg/tjyxy) | [tzgg/qt](https://rsshub.app/hust/gs/tzgg/qt) |\n\n    #### [学籍管理](https://gs.hust.edu.cn/pygz/zbjs1/xjyd.htm)\n\n  | [学籍异动](https://gs.hust.edu.cn/pygz/zbjs1/xjyd.htm)        | [毕业管理](https://gs.hust.edu.cn/pygz/zbjs1/bygl.htm)        |\n  | ------------------------------------------------------------- | ------------------------------------------------------------- |\n  | [pygz/zbjs1/xjyd](https://rsshub.app/hust/gs/pygz/zbjs1/xjyd) | [pygz/zbjs1/bygl](https://rsshub.app/hust/gs/pygz/zbjs1/bygl) |\n\n  #### [教学管理](https://gs.hust.edu.cn/pygz/zbjs13/jxyj.htm)\n\n  | [教学研究](https://gs.hust.edu.cn/pygz/zbjs13/jxyj.htm)         | [课程教材](https://gs.hust.edu.cn/pygz/zbjs13/kcjc.htm)         | [教学安排](https://gs.hust.edu.cn/pygz/zbjs13/jxap.htm)         | [课表查询](https://gs.hust.edu.cn/pygz/zbjs13/kbcx.htm)         |\n  | --------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- |\n  | [pygz/zbjs13/jxyj](https://rsshub.app/hust/gs/pygz/zbjs13/jxyj) | [pygz/zbjs13/kcjc](https://rsshub.app/hust/gs/pygz/zbjs13/kcjc) | [pygz/zbjs13/jxap](https://rsshub.app/hust/gs/pygz/zbjs13/jxap) | [pygz/zbjs13/kbcx](https://rsshub.app/hust/gs/pygz/zbjs13/kbcx) |\n\n  #### [培养过程](https://gs.hust.edu.cn/pygz/pygc.htm)\n\n  | [培养方案](https://gs.hust.edu.cn/pygz/pygc/pyfa.htm)       | [硕博连读](https://gs.hust.edu.cn/pygz/pygc/sbld.htm)       |\n  | ----------------------------------------------------------- | ----------------------------------------------------------- |\n  | [pygz/pygc/pyfa](https://rsshub.app/hust/gs/pygz/pygc/pyfa) | [pygz/pygc/sbld](https://rsshub.app/hust/gs/pygz/pygc/sbld) |\n\n  #### [国际交流](https://gs.hust.edu.cn/pygz/zbjs11/gjgpxm.htm)\n\n  | [国家公派项目](https://gs.hust.edu.cn/pygz/zbjs11/gjgpxm.htm)       | [国际学术会议](https://gs.hust.edu.cn/pygz/zbjs11/gjxshy.htm)       | [校际合作项目](https://gs.hust.edu.cn/pygz/zbjs11/xjhzxm.htm)       | [国际交流与合作办事流程](https://gs.hust.edu.cn/pygz/zbjs11/gjjlyhzbslc.htm)  |\n  | ------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------- |\n  | [pygz/zbjs11/gjgpxm](https://rsshub.app/hust/gs/pygz/zbjs11/gjgpxm) | [pygz/zbjs11/gjxshy](https://rsshub.app/hust/gs/pygz/zbjs11/gjxshy) | [pygz/zbjs11/xjhzxm](https://rsshub.app/hust/gs/pygz/zbjs11/xjhzxm) | [pygz/zbjs11/gjjlyhzbslc](https://rsshub.app/hust/gs/pygz/zbjs11/gjjlyhzbslc) |\n\n  #### [专业学位](https://gs.hust.edu.cn/pygz/zbjs111/xwsqdml.htm)\n\n  | [学位授权点目录](https://gs.hust.edu.cn/pygz/zbjs111/xwsqdml.htm)       | [专业学位建设](https://gs.hust.edu.cn/pygz/zbjs111/zyxwjs.htm)        | [特色培养](https://gs.hust.edu.cn/pygz/zbjs111/tspy.htm)          |\n  | ----------------------------------------------------------------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------- |\n  | [pygz/zbjs111/xwsqdml](https://rsshub.app/hust/gs/pygz/zbjs111/xwsqdml) | [pygz/zbjs111/zyxwjs](https://rsshub.app/hust/gs/pygz/zbjs111/zyxwjs) | [pygz/zbjs111/tspy](https://rsshub.app/hust/gs/pygz/zbjs111/tspy) |\n\n  #### [学位工作](https://gs.hust.edu.cn/xwgz/xwdjs.htm)\n\n  | [学位点建设](https://gs.hust.edu.cn/xwgz/xwdjs.htm) | [学位授予](https://gs.hust.edu.cn/xwgz/xwsy.htm)  | [导师队伍](https://gs.hust.edu.cn/xwgz/dsdw.htm)  |\n  | --------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |\n  | [xwgz/xwdjs](https://rsshub.app/hust/gs/xwgz/xwdjs) | [xwgz/xwsy](https://rsshub.app/hust/gs/xwgz/xwsy) | [xwgz/dsdw](https://rsshub.app/hust/gs/xwgz/dsdw) |\n  ",
+        "description": ":::tip\n  若订阅 [新闻动态](https://gs.hust.edu.cn/xwdt.htm)，网址为 `https://gs.hust.edu.cn/xwdt.htm`。截取 `https://gs.hust.edu.cn/` 到末尾 `.htm` 的部分 `xwdt` 作为参数填入，此时路由为 [`/hust/gs/xwdt`](https://rsshub.app/hust/gs/xwdt)。\n  :::\n\n  | [新闻动态](https://gs.hust.edu.cn/xwdt.htm) | [研究生服务专区](https://gs.hust.edu.cn/yjsfwzq.htm) | [综合管理](https://gs.hust.edu.cn/gzzd/zhgl.htm)  |\n  | ------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------- |\n  | [xwdt](https://rsshub.app/hust/gs/xwdt)     | [yjsfwzq](https://rsshub.app/hust/gs/yjsfwzq)        | [gzzd/zhgl](https://rsshub.app/hust/gs/gzzd/zhgl) |\n\n  #### [通知公告](https://gs.hust.edu.cn/tzgg/kcjksap.htm)\n\n  | [课程及考试安排](https://gs.hust.edu.cn/tzgg/kcjksap.htm) | [国际交流](https://gs.hust.edu.cn/tzgg/gjjl.htm)  | [学位工作](https://gs.hust.edu.cn/tzgg/xwgz.htm)  | [同济医学院](https://gs.hust.edu.cn/tzgg/tjyxy.htm) | [其他](https://gs.hust.edu.cn/tzgg/qt.htm)    |\n  | --------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- | --------------------------------------------------- | --------------------------------------------- |\n  | [tzgg/kcjksap](https://rsshub.app/hust/gs/tzgg/kcjksap)   | [tzgg/gjjl](https://rsshub.app/hust/gs/tzgg/gjjl) | [tzgg/xwgz](https://rsshub.app/hust/gs/tzgg/xwgz) | [tzgg/tjyxy](https://rsshub.app/hust/gs/tzgg/tjyxy) | [tzgg/qt](https://rsshub.app/hust/gs/tzgg/qt) |\n\n  #### [学籍管理](https://gs.hust.edu.cn/pygz/zbjs1/xjyd.htm)\n\n  | [学籍异动](https://gs.hust.edu.cn/pygz/zbjs1/xjyd.htm)        | [毕业管理](https://gs.hust.edu.cn/pygz/zbjs1/bygl.htm)        |\n  | ------------------------------------------------------------- | ------------------------------------------------------------- |\n  | [pygz/zbjs1/xjyd](https://rsshub.app/hust/gs/pygz/zbjs1/xjyd) | [pygz/zbjs1/bygl](https://rsshub.app/hust/gs/pygz/zbjs1/bygl) |\n\n  #### [教学管理](https://gs.hust.edu.cn/pygz/zbjs13/jxyj.htm)\n\n  | [教学研究](https://gs.hust.edu.cn/pygz/zbjs13/jxyj.htm)         | [课程教材](https://gs.hust.edu.cn/pygz/zbjs13/kcjc.htm)         | [教学安排](https://gs.hust.edu.cn/pygz/zbjs13/jxap.htm)         | [课表查询](https://gs.hust.edu.cn/pygz/zbjs13/kbcx.htm)         |\n  | --------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- |\n  | [pygz/zbjs13/jxyj](https://rsshub.app/hust/gs/pygz/zbjs13/jxyj) | [pygz/zbjs13/kcjc](https://rsshub.app/hust/gs/pygz/zbjs13/kcjc) | [pygz/zbjs13/jxap](https://rsshub.app/hust/gs/pygz/zbjs13/jxap) | [pygz/zbjs13/kbcx](https://rsshub.app/hust/gs/pygz/zbjs13/kbcx) |\n\n  #### [培养过程](https://gs.hust.edu.cn/pygz/pygc.htm)\n\n  | [培养方案](https://gs.hust.edu.cn/pygz/pygc/pyfa.htm)       | [硕博连读](https://gs.hust.edu.cn/pygz/pygc/sbld.htm)       |\n  | ----------------------------------------------------------- | ----------------------------------------------------------- |\n  | [pygz/pygc/pyfa](https://rsshub.app/hust/gs/pygz/pygc/pyfa) | [pygz/pygc/sbld](https://rsshub.app/hust/gs/pygz/pygc/sbld) |\n\n  #### [国际交流](https://gs.hust.edu.cn/pygz/zbjs11/gjgpxm.htm)\n\n  | [国家公派项目](https://gs.hust.edu.cn/pygz/zbjs11/gjgpxm.htm)       | [国际学术会议](https://gs.hust.edu.cn/pygz/zbjs11/gjxshy.htm)       | [校际合作项目](https://gs.hust.edu.cn/pygz/zbjs11/xjhzxm.htm)       | [国际交流与合作办事流程](https://gs.hust.edu.cn/pygz/zbjs11/gjjlyhzbslc.htm)  |\n  | ------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------- |\n  | [pygz/zbjs11/gjgpxm](https://rsshub.app/hust/gs/pygz/zbjs11/gjgpxm) | [pygz/zbjs11/gjxshy](https://rsshub.app/hust/gs/pygz/zbjs11/gjxshy) | [pygz/zbjs11/xjhzxm](https://rsshub.app/hust/gs/pygz/zbjs11/xjhzxm) | [pygz/zbjs11/gjjlyhzbslc](https://rsshub.app/hust/gs/pygz/zbjs11/gjjlyhzbslc) |\n\n  #### [专业学位](https://gs.hust.edu.cn/pygz/zbjs111/xwsqdml.htm)\n\n  | [学位授权点目录](https://gs.hust.edu.cn/pygz/zbjs111/xwsqdml.htm)       | [专业学位建设](https://gs.hust.edu.cn/pygz/zbjs111/zyxwjs.htm)        | [特色培养](https://gs.hust.edu.cn/pygz/zbjs111/tspy.htm)          |\n  | ----------------------------------------------------------------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------- |\n  | [pygz/zbjs111/xwsqdml](https://rsshub.app/hust/gs/pygz/zbjs111/xwsqdml) | [pygz/zbjs111/zyxwjs](https://rsshub.app/hust/gs/pygz/zbjs111/zyxwjs) | [pygz/zbjs111/tspy](https://rsshub.app/hust/gs/pygz/zbjs111/tspy) |\n\n  #### [学位工作](https://gs.hust.edu.cn/xwgz/xwdjs.htm)\n\n  | [学位点建设](https://gs.hust.edu.cn/xwgz/xwdjs.htm) | [学位授予](https://gs.hust.edu.cn/xwgz/xwsy.htm)  | [导师队伍](https://gs.hust.edu.cn/xwgz/dsdw.htm)  |\n  | --------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |\n  | [xwgz/xwdjs](https://rsshub.app/hust/gs/xwgz/xwdjs) | [xwgz/xwsy](https://rsshub.app/hust/gs/xwgz/xwsy) | [xwgz/dsdw](https://rsshub.app/hust/gs/xwgz/dsdw) |\n  ",
         "categories": [
           "university"
         ],
@@ -38360,8 +39209,10 @@
       "/news": {
         "path": "/news",
         "categories": [
-          "anime"
+          "anime",
+          "popular"
         ],
+        "view": 0,
         "example": "/idolypride/news",
         "parameters": {},
         "features": {
@@ -38838,10 +39689,33 @@
       "/chart/:chart?": {
         "path": "/chart/:chart?",
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular"
         ],
+        "view": 5,
         "parameters": {
-          "chart": "The chart to display, `top` by default"
+          "chart": {
+            "description": "The chart to display, `top` by default",
+            "options": [
+              {
+                "value": "top",
+                "label": "Top 250 Movies"
+              },
+              {
+                "value": "moviemeter",
+                "label": "Most Popular Movies"
+              },
+              {
+                "value": "toptv",
+                "label": "Top 250 TV Shows"
+              },
+              {
+                "value": "tvmeter",
+                "label": "Most Popular TV Shows"
+              }
+            ],
+            "default": "top"
+          }
         },
         "example": "/imdb/chart",
         "radar": [
@@ -39347,7 +40221,7 @@
           "ranpox",
           "xyqfer"
         ],
-        "description": "下面给出部分参考：\n\n    | 推荐 | 新闻 | 观点 | 文化 | 人物 | 影像 | 专题 | 生活 | 视频 |\n    | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |\n    | 1    | 2    | 3    | 4    | 7    | 8    | 6    | 5    | 131  |",
+        "description": "下面给出部分参考：\n\n  | 推荐 | 新闻 | 观点 | 文化 | 人物 | 影像 | 专题 | 生活 | 视频 |\n  | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |\n  | 1    | 2    | 3    | 4    | 7    | 8    | 6    | 5    | 131  |",
         "location": "index.ts"
       }
     }
@@ -39356,15 +40230,25 @@
     "routes": {
       "/html_clip/:user/:tag": {
         "path": "/html_clip/:user/:tag",
-        "name": "Unknown",
-        "maintainers": [],
+        "example": "/inoreader/html_clip/1005137674/user-favorites",
+        "categories": [
+          "reading",
+          "popular"
+        ],
+        "view": 0,
+        "name": "HTML Clip",
+        "maintainers": [
+          "EthanWng97"
+        ],
         "location": "index.ts"
       },
       "/rss/:user/:tag": {
         "path": "/rss/:user/:tag",
         "categories": [
-          "reading"
+          "reading",
+          "popular"
         ],
+        "view": 0,
         "example": "/inoreader/rss/1005137674/user-favorites",
         "parameters": {
           "user": "user id, the interger after user/ in the example URL",
@@ -41358,8 +42242,10 @@
       "/:important?": {
         "path": "/:important?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 5,
         "example": "/jin10",
         "parameters": {
           "important": "只看重要，任意值开启，留空关闭"
@@ -41390,8 +42276,10 @@
       "/topic/:id": {
         "path": "/topic/:id",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/jin10/topic/396",
         "parameters": {
           "id": "N"
@@ -41507,11 +42395,42 @@
       "/lives/:category?": {
         "path": "/lives/:category?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 5,
         "example": "/jinse/lives",
         "parameters": {
-          "category": "分类，见下表，默认为全部"
+          "category": {
+            "description": "分类",
+            "options": [
+              {
+                "value": "0",
+                "label": "全部"
+              },
+              {
+                "value": "1",
+                "label": "精选"
+              },
+              {
+                "value": "2",
+                "label": "政策"
+              },
+              {
+                "value": "3",
+                "label": "数据"
+              },
+              {
+                "value": "4",
+                "label": "NFT"
+              },
+              {
+                "value": "5",
+                "label": "项目"
+              }
+            ],
+            "default": "0"
+          }
         },
         "features": {
           "requireConfig": false,
@@ -41531,11 +42450,74 @@
       "/timeline/:category?": {
         "path": "/timeline/:category?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/jinse/timeline",
         "parameters": {
-          "category": "分类，见下表，默认为头条"
+          "category": {
+            "description": "分类",
+            "options": [
+              {
+                "value": "头条",
+                "label": "头条"
+              },
+              {
+                "value": "独家",
+                "label": "独家"
+              },
+              {
+                "value": "铭文",
+                "label": "铭文"
+              },
+              {
+                "value": "产业",
+                "label": "产业"
+              },
+              {
+                "value": "项目",
+                "label": "项目"
+              },
+              {
+                "value": "政策",
+                "label": "政策"
+              },
+              {
+                "value": "AI",
+                "label": "AI"
+              },
+              {
+                "value": "Web 3.0",
+                "label": "Web 3.0"
+              },
+              {
+                "value": "以太坊 2.0",
+                "label": "以太坊 2.0"
+              },
+              {
+                "value": "DeFi",
+                "label": "DeFi"
+              },
+              {
+                "value": "Layer2",
+                "label": "Layer2"
+              },
+              {
+                "value": "NFT",
+                "label": "NFT"
+              },
+              {
+                "value": "DAO",
+                "label": "DAO"
+              },
+              {
+                "value": "百科",
+                "label": "百科"
+              }
+            ],
+            "default": "头条"
+          }
         },
         "features": {
           "requireConfig": false,
@@ -41602,6 +42584,11 @@
     "routes": {
       "/community": {
         "path": "/community",
+        "categories": [
+          "finance",
+          "popular"
+        ],
+        "view": 0,
         "example": "/jiuyangongshe/community",
         "maintainers": [
           "TonyRL"
@@ -42643,7 +43630,7 @@
         "maintainers": [
           "renzhexigua"
         ],
-        "description": "| 版块           | category  |\n    | -------------- | --------- |\n    | 智能设备       | iot       |\n    | Android 安全   | android   |\n    | iOS 安全       | ios       |\n    | HarmonyOS 安全 | harmonyos |\n    | 软件逆向       | re        |\n    | 编程技术       | coding    |\n    | 加壳脱壳       | unpack    |\n    | 密码应用       | crypto    |\n    | 二进制漏洞     | vuln      |\n    | CTF 对抗       | ctf       |\n    | Pwn            | pwn       |\n    | WEB 安全       | web       |\n    | 茶余饭后       | chat      |\n    | 极客空间       | geekzone  |\n    | 外文翻译       | translate |\n    | 全站           | all       |\n    \n    | 类型     | type   |\n    | -------- | ------ |\n    | 最新主题 | latest |\n    | 精华主题 | digest |",
+        "description": "| 版块           | category  |\n  | -------------- | --------- |\n  | 智能设备       | iot       |\n  | Android 安全   | android   |\n  | iOS 安全       | ios       |\n  | HarmonyOS 安全 | harmonyos |\n  | 软件逆向       | re        |\n  | 编程技术       | coding    |\n  | 加壳脱壳       | unpack    |\n  | 密码应用       | crypto    |\n  | 二进制漏洞     | vuln      |\n  | CTF 对抗       | ctf       |\n  | Pwn            | pwn       |\n  | WEB 安全       | web       |\n  | 茶余饭后       | chat      |\n  | 极客空间       | geekzone  |\n  | 外文翻译       | translate |\n  | 全站           | all       |\n\n  | 类型     | type   |\n  | -------- | ------ |\n  | 最新主题 | latest |\n  | 精华主题 | digest |",
         "location": "topic.ts"
       }
     },
@@ -43114,11 +44101,34 @@
       "/post/popular_recent/:period?": {
         "path": "/post/popular_recent/:period?",
         "categories": [
-          "picture"
+          "picture",
+          "popular"
         ],
+        "view": 2,
         "example": "/konachan/post/popular_recent/1d",
         "parameters": {
-          "period": "展示时间"
+          "period": {
+            "description": "展示时间",
+            "options": [
+              {
+                "value": "1d",
+                "label": "最近 24 小时"
+              },
+              {
+                "value": "1w",
+                "label": "最近一周"
+              },
+              {
+                "value": "1m",
+                "label": "最近一月"
+              },
+              {
+                "value": "1y",
+                "label": "最近一年"
+              }
+            ],
+            "default": "1d"
+          }
         },
         "radar": [
           {
@@ -43644,8 +44654,10 @@
       "/personal/:id": {
         "path": "/personal/:id",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/laohu8/personal/3527667596890271",
         "parameters": {
           "id": "用户 ID，见网址链接"
@@ -45853,8 +46865,10 @@
       "/magazine": {
         "path": "/magazine",
         "categories": [
-          "picture"
+          "picture",
+          "popular"
         ],
+        "view": 2,
         "example": "/magnumphotos/magazine",
         "parameters": {},
         "features": {
@@ -46368,11 +47382,90 @@
       "/cn/:category?": {
         "path": "/cn/:category?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/mckinsey/cn",
         "parameters": {
-          "category": "分类，见下表，默认为全部"
+          "category": {
+            "description": "分类",
+            "options": [
+              {
+                "value": "2",
+                "label": "汽车"
+              },
+              {
+                "value": "3",
+                "label": "金融服务"
+              },
+              {
+                "value": "4",
+                "label": "消费者"
+              },
+              {
+                "value": "5",
+                "label": "医药"
+              },
+              {
+                "value": "7",
+                "label": "数字化"
+              },
+              {
+                "value": "8",
+                "label": "制造业"
+              },
+              {
+                "value": "9",
+                "label": "私募"
+              },
+              {
+                "value": "10",
+                "label": "技术，媒体与通信"
+              },
+              {
+                "value": "12",
+                "label": "城市化与可持续发展"
+              },
+              {
+                "value": "13",
+                "label": "创新"
+              },
+              {
+                "value": "16",
+                "label": "人才与领导力"
+              },
+              {
+                "value": "18",
+                "label": "宏观经济"
+              },
+              {
+                "value": "19",
+                "label": "麦肯锡全球研究院"
+              },
+              {
+                "value": "25",
+                "label": "洞见"
+              },
+              {
+                "value": "37",
+                "label": "麦肯锡季刊"
+              },
+              {
+                "value": "41",
+                "label": "资本项目和基础设施"
+              },
+              {
+                "value": "42",
+                "label": "旅游、运输和物流"
+              },
+              {
+                "value": "45",
+                "label": "全球基础材料"
+              }
+            ],
+            "default": "25"
+          }
         },
         "features": {
           "requireConfig": false,
@@ -49930,7 +51023,7 @@
         "maintainers": [
           "Indexyz"
         ],
-        "description": "  | stable  | development |\n    | ------- | ----------- |\n    | release | dev         |\n  \n    | region | region |\n    | ------ | ------ |\n    | China  | cn     |\n    | Global | global |",
+        "description": "  | stable  | development |\n  | ------- | ----------- |\n  | release | dev         |\n\n  | region | region |\n  | ------ | ------ |\n  | China  | cn     |\n  | Global | global |",
         "location": "firmware/index.ts"
       }
     },
@@ -50148,7 +51241,7 @@
         "maintainers": [
           "nczitzk"
         ],
-        "description": "分类\n\n    | 全部 | 游戏  | 动漫   | 出版       | 桌游       |\n    | ---- | ----- | ------ | ---------- | ---------- |\n    | all  | games | comics | publishing | tablegames |\n\n    | 卡牌  | 潮玩模型 | 影视       | 音乐  | 活动       |\n    | ----- | -------- | ---------- | ----- | ---------- |\n    | cards | toys     | film-video | music | activities |\n\n    | 设计   | 科技       | 食品 | 爱心通道 | 动物救助 |\n    | ------ | ---------- | ---- | -------- | -------- |\n    | design | technology | food | charity  | animals  |\n\n    | 个人愿望 | 其他   |\n    | -------- | ------ |\n    | wishes   | others |\n\n    排序\n\n    | 最新上线  | 金额最高   | 评论最多     |\n    | --------- | ---------- | ------------ |\n    | top_time | top_money | top_comment |\n\n    状态\n\n    | 全部 | 创意 | 预热    | 众筹中 | 众筹成功 |\n    | ---- | ---- | ------- | ------ | -------- |\n    | all  | idea | preheat | going  | success  |",
+        "description": "分类\n\n  | 全部 | 游戏  | 动漫   | 出版       | 桌游       |\n  | ---- | ----- | ------ | ---------- | ---------- |\n  | all  | games | comics | publishing | tablegames |\n\n  | 卡牌  | 潮玩模型 | 影视       | 音乐  | 活动       |\n  | ----- | -------- | ---------- | ----- | ---------- |\n  | cards | toys     | film-video | music | activities |\n\n  | 设计   | 科技       | 食品 | 爱心通道 | 动物救助 |\n  | ------ | ---------- | ---- | -------- | -------- |\n  | design | technology | food | charity  | animals  |\n\n  | 个人愿望 | 其他   |\n  | -------- | ------ |\n  | wishes   | others |\n\n  排序\n\n  | 最新上线  | 金额最高   | 评论最多     |\n  | --------- | ---------- | ------------ |\n  | top_time | top_money | top_comment |\n\n  状态\n\n  | 全部 | 创意 | 预热    | 众筹中 | 众筹成功 |\n  | ---- | ---- | ------- | ------ | -------- |\n  | all  | idea | preheat | going  | success  |",
         "radar": [
           {
             "source": [
@@ -51714,7 +52807,7 @@
           "name": "國立成功大學物理系公告"
         },
         "name": "Phys News",
-        "description": "| 分類 | catagory |\n| 物理系 | 24 |\n| 獎助學金 | scholarship |\n| 招生與錄取報到 | admission |\n| 助教公告 | course-announcement |\n| 大學部 | bachelor-announcement |\n| 研究所 | master-announcement |\n| 畢業離校 | graduation |\n| 學生手冊與新生入學 | student-guide |\n| 榮譽榜 | honor |\n| 求才公告 | career |\n| 其他 | others |\n| 所有訊息 | _all |\n",
+        "description": "| 分類 | catagory |\n| ---- | ---- |\n| 物理系 | 24 |\n| 獎助學金 | scholarship |\n| 招生與錄取報到 | admission |\n| 助教公告 | course-announcement |\n| 大學部 | bachelor-announcement |\n| 研究所 | master-announcement |\n| 畢業離校 | graduation |\n| 學生手冊與新生入學 | student-guide |\n| 榮譽榜 | honor |\n| 求才公告 | career |\n| 其他 | others |\n| 所有訊息 | _all |\n",
         "path": "/phys/:catagory?",
         "parameters": {
           "catagory": "catagory, default is _all"
@@ -53283,7 +54376,7 @@
           }
         ],
         "name": "政治外交",
-        "description": "| 政治     | 经济    | 社会    | 展览预告 | 焦点专题           | 深度报道 | 话题         | 日本信息库 | 日本一蹩      | 人物访谈 | 编辑部通告    |\n    | -------- | ------- | ------- | -------- | ------------------ | -------- | ------------ | ---------- | ------------- | -------- | ------------- |\n    | Politics | Economy | Society | Culture  | Science,Technology | In-depth | japan-topics | japan-data | japan-glances | People   | Announcements |",
+        "description": "| 政治     | 经济    | 社会    | 展览预告 | 焦点专题           | 深度报道 | 话题         | 日本信息库 | 日本一蹩      | 人物访谈 | 编辑部通告    |\n  | -------- | ------- | ------- | -------- | ------------------ | -------- | ------------ | ---------- | ------------- | -------- | ------------- |\n  | Politics | Economy | Society | Culture  | Science,Technology | In-depth | japan-topics | japan-data | japan-glances | People   | Announcements |",
         "maintainers": [
           "laampui"
         ],
@@ -54310,7 +55403,7 @@
         "maintainers": [
           "nczitzk"
         ],
-        "description": "| العربية | Catalan | Deutsch | Español | زبان فارسی |\n  | ------- | ------- | ------- | ------- | ---------- |\n  | ar      | ca      | de      | es      | fa         |\n\n  | Français | Galego | Italiano | 日本語 | 한국어 |\n  | -------- | ------ | -------- | ------ | ------ |\n  | fr       | gl     | it       | ja     | ko     |\n\n  | Português do Brasil | limba română | Русский | Türkçe | Українська |\n  | ------------------- | ------------ | ------- | ------ | ---------- |\n  | pt-br               | ro           | ru      | tr     | uk         |\n\n  | 简体中文 | 繁體中文 |\n  | -------- | -------- |\n  | zh-cn    | zh-tw    |",
+        "description": "Official RSS Source: https://nodejs.org/en/feed/blog.xml\n\n  | العربية | Catalan | Deutsch | Español | زبان فارسی |\n  | ------- | ------- | ------- | ------- | ---------- |\n  | ar      | ca      | de      | es      | fa         |\n\n  | Français | Galego | Italiano | 日本語 | 한국어 |\n  | -------- | ------ | -------- | ------ | ------ |\n  | fr       | gl     | it       | ja     | ko     |\n\n  | Português do Brasil | limba română | Русский | Türkçe | Українська |\n  | ------------------- | ------------ | ------- | ------ | ---------- |\n  | pt-br               | ro           | ru      | tr     | uk         |\n\n  | 简体中文 | 繁體中文 |\n  | -------- | -------- |\n  | zh-cn    | zh-tw    |",
         "location": "blog.ts"
       }
     },
@@ -54402,7 +55495,7 @@
         "maintainers": [
           "hellodword"
         ],
-        "description": "  | 分类     | 标识       |\n    | :------- | :--------- |\n    | 威胁情报 | `threaten` |\n    | 安全动态 | `security` |\n    | 漏洞预警 | `hole`     |\n    | 数据泄露 | `leakage`  |\n    | 专题报告 | `speech`   |\n    | 技术分析 | `skill`    |\n    | 安全工具 | `tool`     |",
+        "description": "| 分类     | 标识       |\n  | :------- | :--------- |\n  | 威胁情报 | `threaten` |\n  | 安全动态 | `security` |\n  | 漏洞预警 | `hole`     |\n  | 数据泄露 | `leakage`  |\n  | 专题报告 | `speech`   |\n  | 技术分析 | `skill`    |\n  | 安全工具 | `tool`     |",
         "radar": [
           {
             "source": [
@@ -54459,13 +55552,114 @@
       "/search/:category?/:order?/:time?/:query?": {
         "path": "/search/:category?/:order?/:time?/:query?",
         "categories": [
-          "design"
+          "design",
+          "popular"
         ],
+        "view": 2,
         "example": "/notefolio/search/1/pick/all/life",
         "parameters": {
-          "category": "Category, see below, `all` by default",
-          "order": "Order, `pick` as Notefolio Pick, `published` as Newest, `like` as like, `pick` by default",
-          "time": "Time, `all` as All the time, `one-day` as Latest 24 hours, `week` as Latest week, `month` as Latest month, `three-month` as Latest 3 months, `all` by default",
+          "category": {
+            "description": "Category, see below",
+            "options": [
+              {
+                "value": "all",
+                "label": "All (전체)"
+              },
+              {
+                "value": "1",
+                "label": "Video / Motion Graphics (영상/모션그래픽)"
+              },
+              {
+                "value": "2",
+                "label": "Graphic Design (그래픽 디자인)"
+              },
+              {
+                "value": "3",
+                "label": "Branding / Editing (브랜딩/편집)"
+              },
+              {
+                "value": "4",
+                "label": "UI/UX (UI/UX)"
+              },
+              {
+                "value": "5",
+                "label": "Illustration (일러스트레이션)"
+              },
+              {
+                "value": "6",
+                "label": "Digital Art (디지털 아트)"
+              },
+              {
+                "value": "7",
+                "label": "Character Design (캐릭터 디자인)"
+              },
+              {
+                "value": "8",
+                "label": "Product Package Design (제품/패키지 디자인)"
+              },
+              {
+                "value": "9",
+                "label": "Photography (포토그래피)"
+              },
+              {
+                "value": "10",
+                "label": "Typography (타이포그래피)"
+              },
+              {
+                "value": "11",
+                "label": "Crafts (공예)"
+              },
+              {
+                "value": "12",
+                "label": "Fine Art (파인아트)"
+              }
+            ],
+            "default": "all"
+          },
+          "order": {
+            "description": "Order, `pick` as Notefolio Pick, `published` as Newest, `like` as like, `pick` by default",
+            "options": [
+              {
+                "value": "pick",
+                "label": "Notefolio Pick"
+              },
+              {
+                "value": "published",
+                "label": "Newest"
+              },
+              {
+                "value": "like",
+                "label": "Like"
+              }
+            ],
+            "default": "pick"
+          },
+          "time": {
+            "description": "Time",
+            "options": [
+              {
+                "value": "all",
+                "label": "All the time"
+              },
+              {
+                "value": "one-day",
+                "label": "Latest 24 hours"
+              },
+              {
+                "value": "week",
+                "label": "Latest week"
+              },
+              {
+                "value": "month",
+                "label": "Latest month"
+              },
+              {
+                "value": "three-month",
+                "label": "Latest 3 months"
+              }
+            ],
+            "default": "all"
+          },
           "query": "Keyword, empty by default"
         },
         "features": {
@@ -56459,6 +57653,48 @@
     "name": "OpenAI",
     "url": "openai.com"
   },
+  "openrice": {
+    "routes": {
+      "/:lang/hongkong/offers": {
+        "path": "/:lang/hongkong/offers",
+        "maintainers": [
+          "after9"
+        ],
+        "categories": [
+          "shopping"
+        ],
+        "example": "/openrice/zh/hongkong/offers",
+        "parameters": {
+          "lang": "语言，缺省为 zh"
+        },
+        "name": "香港餐廳精選優惠券",
+        "description": "\n  | 简体 | 繁體 | EN |\n  | ----- | ------ | ----- |\n  | zh-cn | zh | en |\n  ",
+        "location": "offers.ts"
+      },
+      "/:lang/hongkong/promos": {
+        "path": "/:lang/hongkong/promos",
+        "maintainers": [
+          "after9"
+        ],
+        "categories": [
+          "shopping"
+        ],
+        "example": "/openrice/zh/hongkong/promos",
+        "parameters": {
+          "lang": "语言，缺省为 zh"
+        },
+        "name": "香港餐厅滋讯",
+        "description": "\n  | 简体 | 繁體 | EN |\n  | ----- | ------ | ----- |\n  | zh-cn | zh | en |\n  ",
+        "location": "promos.ts"
+      }
+    },
+    "name": "Openrice開飯喇",
+    "url": "www.openrice.com",
+    "categories": [
+      "shopping"
+    ],
+    "description": "美食網站Openrice相关資訊"
+  },
   "openwrt": {
     "routes": {
       "/releases/:brand/:model": {
@@ -57212,10 +58448,11 @@
             ]
           }
         ],
-        "name": "Oxford Academic",
-        "maintainers": [],
+        "name": "Oxford Academic - Journal",
+        "maintainers": [
+          "Fatpandac"
+        ],
         "url": "academic.oup.com/",
-        "description": "#### Journal {#oxford-university-press-oxford-academic-journal}",
         "location": "index.ts"
       }
     },
@@ -58428,12 +59665,27 @@
       "/search/:q/:order?": {
         "path": "/search/:q/:order?",
         "categories": [
-          "picture"
+          "picture",
+          "popular"
         ],
+        "view": 2,
         "example": "/pixabay/search/cat",
         "parameters": {
           "q": "Search term",
-          "order": "Order, `popular` or `latest`, `latest` by default"
+          "order": {
+            "description": "Order",
+            "options": [
+              {
+                "value": "popular",
+                "label": "popular"
+              },
+              {
+                "value": "latest",
+                "label": "latest"
+              }
+            ],
+            "default": "latest"
+          }
         },
         "features": {
           "requireConfig": [
@@ -58763,8 +60015,10 @@
       "/:lang/:category?": {
         "path": "/:lang/:category?",
         "categories": [
-          "anime"
+          "anime",
+          "popular"
         ],
+        "view": 0,
         "example": "/pixivision/zh-tw",
         "parameters": {
           "lang": "Language",
@@ -59516,8 +60770,10 @@
       "/explore": {
         "path": "/explore",
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular"
         ],
+        "view": 4,
         "example": "/podwise/explore",
         "radar": [
           {
@@ -61319,6 +62575,41 @@
           "zhangxiang012"
         ],
         "location": "kg/user.ts"
+      },
+      "/pd/guild/:id/:sub?/:sort?": {
+        "path": [
+          "/pd/guild/:id/:sub?/:sort?"
+        ],
+        "categories": [
+          "bbs"
+        ],
+        "example": "/qq/pd/guild/qrp4pkq01d/650967831/created",
+        "parameters": {
+          "id": "频道号",
+          "sub": "子频道 ID，网页端 URL `subc` 参数的值，默认为 `hot`（全部）",
+          "sort": "排序方式，`hot`（热门），`created`（最新发布），`replied`（最新回复），默认为 `created`"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "pd.qq.com/"
+            ]
+          }
+        ],
+        "name": "腾讯频道",
+        "maintainers": [
+          "mobyw"
+        ],
+        "url": "pd.qq.com/",
+        "location": "pd/guild.ts"
       }
     },
     "name": "腾讯网",
@@ -62667,7 +63958,8 @@
         "example": "/rss3/vitalik.eth",
         "name": "Account Activities",
         "maintainers": [
-          "DIYgod"
+          "DIYgod",
+          "pseudoyu"
         ],
         "url": "docs.rss3.io/api-reference#tag/decentralized/GET/decentralized/%7Baccount%7D",
         "description": "Retrieve the activities associated with a specified account in the decentralized system.",
@@ -63293,7 +64585,7 @@
           "supportPodcast": false,
           "supportScihub": false
         },
-        "description": "| 协会动态 | 通知公告 |行业动态 |\n    | -------- | ------------ | -------- |\n    | dynamic | announcement | industry |",
+        "description": "| 协会动态 | 通知公告 |行业动态 |\n  | -------- | ------------ | -------- |\n  | dynamic | announcement | industry |",
         "name": "新闻资讯",
         "maintainers": [
           "HChenZi"
@@ -66919,7 +68211,7 @@
     },
     "name": "第一会所",
     "url": "sis001.com",
-    "description": ":::tip\n    第一会所有多个备用网址，本路由默认使用`https://sis001.com`，若该网址无法访问，可以在部署实例的时候通过`SIS001_BASE_URL`环境变量配置要使用的地址，如`https://www.sis001.com`等)\n    :::"
+    "description": "::: tip\n    第一会所有多个备用网址，本路由默认使用`https://sis001.com`，若该网址无法访问，可以在部署实例的时候通过`SIS001_BASE_URL`环境变量配置要使用的地址，如`https://www.sis001.com`等\n:::"
   },
   "sjtu": {
     "routes": {
@@ -70021,11 +71313,146 @@
       "/:id?": {
         "path": "/:id?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/stcn/yw",
         "parameters": {
-          "id": "栏目 id，见下表，默认为要闻"
+          "id": {
+            "description": "栏目 id",
+            "options": [
+              {
+                "value": "kx",
+                "label": "快讯"
+              },
+              {
+                "value": "yw",
+                "label": "要闻"
+              },
+              {
+                "value": "gs",
+                "label": "股市"
+              },
+              {
+                "value": "company",
+                "label": "公司"
+              },
+              {
+                "value": "data",
+                "label": "数据"
+              },
+              {
+                "value": "fund",
+                "label": "基金"
+              },
+              {
+                "value": "finance",
+                "label": "金融"
+              },
+              {
+                "value": "comment",
+                "label": "评论"
+              },
+              {
+                "value": "cj",
+                "label": "产经"
+              },
+              {
+                "value": "ct",
+                "label": "创投"
+              },
+              {
+                "value": "kcb",
+                "label": "科创板"
+              },
+              {
+                "value": "xsb",
+                "label": "新三板"
+              },
+              {
+                "value": "tj",
+                "label": "投教"
+              },
+              {
+                "value": "zk",
+                "label": "ESG"
+              },
+              {
+                "value": "gd",
+                "label": "滚动"
+              },
+              {
+                "value": "gsyl",
+                "label": "股市一览"
+              },
+              {
+                "value": "djjd",
+                "label": "独家解读"
+              },
+              {
+                "value": "gsxw",
+                "label": "公司新闻"
+              },
+              {
+                "value": "gsdt",
+                "label": "公司动态"
+              },
+              {
+                "value": "djsj",
+                "label": "独家数据"
+              },
+              {
+                "value": "kd",
+                "label": "看点数据"
+              },
+              {
+                "value": "zj",
+                "label": "资金流向"
+              },
+              {
+                "value": "sj_kcb",
+                "label": "科创板"
+              },
+              {
+                "value": "hq",
+                "label": "行情总貌"
+              },
+              {
+                "value": "zl",
+                "label": "专栏"
+              },
+              {
+                "value": "author",
+                "label": "作者"
+              },
+              {
+                "value": "cjhy",
+                "label": "行业"
+              },
+              {
+                "value": "cjqc",
+                "label": "汽车"
+              },
+              {
+                "value": "tjkt",
+                "label": "投教课堂"
+              },
+              {
+                "value": "zczs",
+                "label": "政策知识"
+              },
+              {
+                "value": "tjdt",
+                "label": "投教动态"
+              },
+              {
+                "value": "zthd",
+                "label": "专题活动"
+              }
+            ],
+            "default": "yw"
+          }
         },
         "features": {
           "requireConfig": false,
@@ -70204,8 +71631,10 @@
       "/daily-updates/news": {
         "path": "/daily-updates/news",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 5,
         "example": "/stockedge/daily-updates/news",
         "parameters": {},
         "features": {
@@ -71255,7 +72684,7 @@
           }
         ],
         "name": "粤港澳发展研究院",
-        "description": "| 人才招聘   | 人才培养      | 新闻动态 | 通知公告 | 专家观点 |\n    | ---------- | ------------- | -------- | -------- | -------- |\n    | jobopening | personnelplan | news     | notice   | opinion  |\n\n    | 研究成果 | 研究论文 | 学术著作 | 形势政策 |\n    | -------- | -------- | -------- | -------- |\n    | results  | papers   | writings | policy   |",
+        "description": "| 人才招聘   | 人才培养      | 新闻动态 | 通知公告 | 专家观点 |\n  | ---------- | ------------- | -------- | -------- | -------- |\n  | jobopening | personnelplan | news     | notice   | opinion  |\n\n  | 研究成果 | 研究论文 | 学术著作 | 形势政策 |\n  | -------- | -------- | -------- | -------- |\n  | results  | papers   | writings | policy   |",
         "maintainers": [
           "TonyRL"
         ],
@@ -72279,8 +73708,10 @@
       "/express": {
         "path": "/express",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/techflowpost/express",
         "radar": [
           {
@@ -72307,6 +73738,11 @@
           }
         ],
         "name": "首页",
+        "categories": [
+          "finance",
+          "popular"
+        ],
+        "view": 0,
         "maintainers": [
           "nczitzk"
         ],
@@ -72478,7 +73914,13 @@
           "routeParams": "extra parameters, see the table below\n| Key                    | Description                                                           | Accepts                                            | Defaults to  |\n| :--------------------: | :-------------------------------------------------------------------: | :------------------------------------------------: | :----------: |\n| showLinkPreview        | Show the link preview from Telegram                                   | 0/1/true/false                                     | true         |\n| showViaBot             | For messages sent via bot, show the bot                               | 0/1/true/false                                     | true         |\n| showReplyTo            | For reply messages, show the target of the reply                      | 0/1/true/false                                     | true         |\n| showFwdFrom            | For forwarded messages, show the forwarding source                    | 0/1/true/false                                     | true         |\n| showFwdFromAuthor      | For forwarded messages, show the author of the forwarding source      | 0/1/true/false                                     | true         |\n| showInlineButtons      | Show inline buttons                                                   | 0/1/true/false                                     | false        |\n| showMediaTagInTitle    | Show media tags in the title                                          | 0/1/true/false                                     | true         |\n| showMediaTagAsEmoji    | Show media tags as emoji                                              | 0/1/true/false                                     | true         |\n| showHashtagAsHyperlink | Show hashtags as hyperlinks (`https://t.me/s/channel?q=%23hashtag`) | 0/1/true/false                                     | true         |\n| includeFwd             | Include forwarded messages                                            | 0/1/true/false                                     | true         |\n| includeReply           | Include reply messages                                                | 0/1/true/false                                     | true         |\n| includeServiceMsg      | Include service messages (e.g. message pinned, channel photo updated) | 0/1/true/false                                     | true         |\n| includeUnsupportedMsg  | Include messages unsupported by t.me                                  | 0/1/true/false                                     | false        |\n| searchQuery            | search query                                                          | keywords; replace `#hashtag` with `%23hashtag` | (no keyword) |\n\nSpecify different option values than default values can meet different needs, URL\n\n```\nhttps://rsshub.app/telegram/channel/NewlearnerChannel/showLinkPreview=0&showViaBot=0&showReplyTo=0&showFwdFrom=0&showFwdFromAuthor=0&showInlineButtons=0&showMediaTagInTitle=1&showMediaTagAsEmoji=1&includeFwd=0&includeReply=1&includeServiceMsg=0&includeUnsupportedMsg=0\n```\n\ngenerates an RSS without any link previews and annoying metadata, with emoji media tags in the title, without forwarded messages (but with reply messages), and without messages you don't care about (service messages and unsupported messages), for people who prefer pure subscriptions.\n\nFor backward compatibility reasons, invalid `routeParams` will be treated as `searchQuery` .\n"
         },
         "features": {
-          "requireConfig": false,
+          "requireConfig": [
+            {
+              "name": "TELEGRAM_SESSION",
+              "optional": true,
+              "description": "Telegram API Authentication"
+            }
+          ],
           "requirePuppeteer": false,
           "antiCrawler": false,
           "supportBT": false,
@@ -72496,9 +73938,10 @@
         "name": "Channel",
         "maintainers": [
           "DIYgod",
-          "Rongronggg9"
+          "Rongronggg9",
+          "pseudoyu"
         ],
-        "description": "\n  :::tip\n  Due to Telegram restrictions, some channels involving pornography, copyright, and politics cannot be subscribed. You can confirm by visiting `https://t.me/s/:username`.\n  :::",
+        "description": "\n  :::tip\n  Due to Telegram restrictions, some channels involving pornography, copyright, and politics cannot be subscribed. You can confirm by visiting `https://t.me/s/:username`, it's recommended to deploy your own instance with telegram api configs (create your telegram application via `https://core.telegram.org/api/obtaining_api_id`, run this command `node ./lib/routes/telegram/scripts/get-telegram-session.mjs` to get `TELEGRAM_SESSION` and set it as Environment Variable).\n  :::",
         "location": "channel.ts"
       },
       "/stickerpack/:name": {
@@ -72573,12 +74016,13 @@
         },
         "radar": [
           {
+            "title": "当前作者文章",
             "source": [
-              "new.qq.com/omn/author/:mid"
+              "news.qq.com/omn/author/:mid"
             ]
           }
         ],
-        "name": "更新",
+        "name": "作者",
         "maintainers": [
           "LogicJake",
           "miles170"
@@ -72686,7 +74130,7 @@
           "simonsmh",
           "nczitzk"
         ],
-        "description": "| 充电免停 | 酒店 | 美食 | 生活方式 |\n  | -------- | ---- | ---- | -------- |\n\n  :::tip\n  分类为 **充电免停** 时，城市参数不起作用\n  :::\n\n  <details>\n    <summary>可选城市</summary>\n\n    | 成都 | 深圳 | 洛阳 | 北京 | 南京 | 绍兴 |\n    | ---- | ---- | ---- | ---- | ---- | ---- |\n\n    | 西安 | 上海 | 阿坝藏族羌族自治州 | 重庆 | 郑州 | 天津 |\n    | ---- | ---- | ------------------ | ---- | ---- | ---- |\n\n    | 晋中 | 三亚 | 湖州 | 苏州 | 扬州 | 秦皇岛 |\n    | ---- | ---- | ---- | ---- | ---- | ------ |\n\n    | 长沙 | 武汉 | 安阳 | 温州 | 瑞安 | 石家庄 |\n    | ---- | ---- | ---- | ---- | ---- | ------ |\n\n    | 佛山 | 广州 | 杭州 | 烟台 | 沧州 | 张家港 |\n    | ---- | ---- | ---- | ---- | ---- | ------ |\n\n    | 金华 | 临沧 | 大理 | 南昌 | 贵阳 | 信阳 |\n    | ---- | ---- | ---- | ---- | ---- | ---- |\n\n    | 张家口 | 铜仁 | 沈阳 | 合肥 | 黔东 | 高邮 |\n    | ------ | ---- | ---- | ---- | ---- | ---- |\n\n    | 三河 | 安顺 | 莆田 | 阳江 | 南宁 | 台州 |\n    | ---- | ---- | ---- | ---- | ---- | ---- |\n\n    | 余姚 | 淄博 | 三明 | 中山 | 宁波 | 厦门 |\n    | ---- | ---- | ---- | ---- | ---- | ---- |\n\n    | 永康 | 慈溪 | 台山 | 福州 | 无锡 | 宜昌 |\n    | ---- | ---- | ---- | ---- | ---- | ---- |\n\n    | 泉州 | 肇庆 | 太仓 | 珠海 | 邢台 | 衡水 |\n    | ---- | ---- | ---- | ---- | ---- | ---- |\n\n    | 温岭 | 宜兴 | 东莞 | 威海 | 南通 | 舟山 |\n    | ---- | ---- | ---- | ---- | ---- | ---- |\n\n    | 都匀 | 长治 | 江阴 | 云浮 | 常州 | 唐山 |\n    | ---- | ---- | ---- | ---- | ---- | ---- |\n\n    | 平湖 | 商丘 | 保定 | 泰州 | 青岛 | 龙口 |\n    | ---- | ---- | ---- | ---- | ---- | ---- |\n\n    | 泰安 | 岳阳 | 惠州 | 徐州 | 哈尔滨 | 潍坊 |\n    | ---- | ---- | ---- | ---- | ------ | ---- |\n\n    | 大同 | 嘉兴 | 毕节 | 临汾 | 江门 | 诸暨 |\n    | ---- | ---- | ---- | ---- | ---- | ---- |\n\n    | 儋州 | 衢州 | 大连 | 昆山 | 靖江 | 常熟 |\n    | ---- | ---- | ---- | ---- | ---- | ---- |\n\n    | 罗定 | 丽江 | 晋江 | 乐清 | 茂名 | 福清 |\n    | ---- | ---- | ---- | ---- | ---- | ---- |\n\n    | 廊坊 | 兰溪 | 汕尾 | 滨州 | 昆明 | 玉环 |\n    | ---- | ---- | ---- | ---- | ---- | ---- |\n\n    | 绵阳 | 漳州 | 德州 | 聊城 | 龙岩 | 临沂 |\n    | ---- | ---- | ---- | ---- | ---- | ---- |\n\n    | 新沂 | 桐乡 | 迪庆藏族自治州 | 汕头 | 潮州 | 驻马店 |\n    | ---- | ---- | -------------- | ---- | ---- | ------ |\n\n    | 曲阜 | 郴州 | 济源 | 兴义 |\n    | ---- | ---- | ---- | ---- |\n  </details>",
+        "description": "| 充电免停 | 酒店 | 美食 | 生活方式 |\n  | -------- | ---- | ---- | -------- |\n\n  :::tip\n  分类为 **充电免停** 时，城市参数不起作用\n  :::\n\n<details>\n  <summary>可选城市</summary>\n\n  | 成都 | 深圳 | 洛阳 | 北京 | 南京 | 绍兴 |\n  | ---- | ---- | ---- | ---- | ---- | ---- |\n\n  | 西安 | 上海 | 阿坝藏族羌族自治州 | 重庆 | 郑州 | 天津 |\n  | ---- | ---- | ------------------ | ---- | ---- | ---- |\n\n  | 晋中 | 三亚 | 湖州 | 苏州 | 扬州 | 秦皇岛 |\n  | ---- | ---- | ---- | ---- | ---- | ------ |\n\n  | 长沙 | 武汉 | 安阳 | 温州 | 瑞安 | 石家庄 |\n  | ---- | ---- | ---- | ---- | ---- | ------ |\n\n  | 佛山 | 广州 | 杭州 | 烟台 | 沧州 | 张家港 |\n  | ---- | ---- | ---- | ---- | ---- | ------ |\n\n  | 金华 | 临沧 | 大理 | 南昌 | 贵阳 | 信阳 |\n  | ---- | ---- | ---- | ---- | ---- | ---- |\n\n  | 张家口 | 铜仁 | 沈阳 | 合肥 | 黔东 | 高邮 |\n  | ------ | ---- | ---- | ---- | ---- | ---- |\n\n  | 三河 | 安顺 | 莆田 | 阳江 | 南宁 | 台州 |\n  | ---- | ---- | ---- | ---- | ---- | ---- |\n\n  | 余姚 | 淄博 | 三明 | 中山 | 宁波 | 厦门 |\n  | ---- | ---- | ---- | ---- | ---- | ---- |\n\n  | 永康 | 慈溪 | 台山 | 福州 | 无锡 | 宜昌 |\n  | ---- | ---- | ---- | ---- | ---- | ---- |\n\n  | 泉州 | 肇庆 | 太仓 | 珠海 | 邢台 | 衡水 |\n  | ---- | ---- | ---- | ---- | ---- | ---- |\n\n  | 温岭 | 宜兴 | 东莞 | 威海 | 南通 | 舟山 |\n  | ---- | ---- | ---- | ---- | ---- | ---- |\n\n  | 都匀 | 长治 | 江阴 | 云浮 | 常州 | 唐山 |\n  | ---- | ---- | ---- | ---- | ---- | ---- |\n\n  | 平湖 | 商丘 | 保定 | 泰州 | 青岛 | 龙口 |\n  | ---- | ---- | ---- | ---- | ---- | ---- |\n\n  | 泰安 | 岳阳 | 惠州 | 徐州 | 哈尔滨 | 潍坊 |\n  | ---- | ---- | ---- | ---- | ------ | ---- |\n\n  | 大同 | 嘉兴 | 毕节 | 临汾 | 江门 | 诸暨 |\n  | ---- | ---- | ---- | ---- | ---- | ---- |\n\n  | 儋州 | 衢州 | 大连 | 昆山 | 靖江 | 常熟 |\n  | ---- | ---- | ---- | ---- | ---- | ---- |\n\n  | 罗定 | 丽江 | 晋江 | 乐清 | 茂名 | 福清 |\n  | ---- | ---- | ---- | ---- | ---- | ---- |\n\n  | 廊坊 | 兰溪 | 汕尾 | 滨州 | 昆明 | 玉环 |\n  | ---- | ---- | ---- | ---- | ---- | ---- |\n\n  | 绵阳 | 漳州 | 德州 | 聊城 | 龙岩 | 临沂 |\n  | ---- | ---- | ---- | ---- | ---- | ---- |\n\n  | 新沂 | 桐乡 | 迪庆藏族自治州 | 汕头 | 潮州 | 驻马店 |\n  | ---- | ---- | -------------- | ---- | ---- | ------ |\n\n  | 曲阜 | 郴州 | 济源 | 兴义 |\n  | ---- | ---- | ---- | ---- |\n</details>",
         "location": "cx.ts"
       },
       "/price": {
@@ -72794,7 +74238,7 @@
         "maintainers": [
           "Xzonn"
         ],
-        "description": "| 最新资讯 | 游戏评测 | 游戏视频 | 巴士首页特稿 | 硬件资讯 |\n    | -------- | -------- | -------- | ------------ | -------- |\n    | news     | review   | video    | special      | hardware |",
+        "description": "| 最新资讯 | 游戏评测 | 游戏视频 | 巴士首页特稿 | 硬件资讯 |\n  | -------- | -------- | -------- | ------------ | -------- |\n  | news     | review   | video    | special      | hardware |",
         "location": "list.ts"
       }
     },
@@ -72963,12 +74407,48 @@
       "/:channel?/:original?": {
         "path": "/:channel?/:original?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/theblockbeats/newsflash",
         "parameters": {
-          "channel": "类型，见下表，默认为快讯",
-          "original": "文章类型，仅 `channel` 为 `article` 时有效，见下表，留空为全部"
+          "channel": {
+            "description": "类型",
+            "options": [
+              {
+                "value": "newsflash",
+                "label": "快讯"
+              },
+              {
+                "value": "article",
+                "label": "文章"
+              }
+            ],
+            "default": "newsflash"
+          },
+          "original": {
+            "description": "文章类型，仅 `channel` 为 `article` 时有效",
+            "options": [
+              {
+                "value": "0",
+                "label": "全部"
+              },
+              {
+                "value": "1",
+                "label": "深度"
+              },
+              {
+                "value": "2",
+                "label": "精选"
+              },
+              {
+                "value": "3",
+                "label": "热点追踪"
+              }
+            ],
+            "default": "0"
+          }
         },
         "name": "新闻快讯",
         "maintainers": [
@@ -73274,8 +74754,10 @@
       "/tv/:id/seasons/:lang?": {
         "path": "/tv/:id/seasons/:lang?",
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular"
         ],
+        "view": 5,
         "example": "/themoviedb/tv/70593/seasons/en-US",
         "parameters": {
           "id": "TV show ID",
@@ -73591,7 +75073,7 @@
           "bigfei"
         ],
         "url": "thepetcity.co/",
-        "description": "| Column Name       | TermID |\n    | -------------------- | ------ |\n    | Knowledge飼養大全     | 3      |\n    | Funny News毛孩趣聞    | 2      |\n    | Raise Pets 養寵物新手  | 5      |\n    | Hot Spot 毛孩打卡點    | 4      |\n    | Pet Staff 毛孩好物    | 1      |",
+        "description": "| Column Name       | TermID |\n  | -------------------- | ------ |\n  | Knowledge飼養大全     | 3      |\n  | Funny News毛孩趣聞    | 2      |\n  | Raise Pets 養寵物新手  | 5      |\n  | Hot Spot 毛孩打卡點    | 4      |\n  | Pet Staff 毛孩好物    | 1      |",
         "location": "index.ts"
       }
     },
@@ -73710,7 +75192,8 @@
         },
         "name": "User timeline",
         "maintainers": [
-          "ninboy"
+          "ninboy",
+          "pseudoyu"
         ],
         "location": "index.ts"
       }
@@ -74121,8 +75604,10 @@
       "/program/:programId": {
         "path": "/program/:programId",
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular"
         ],
+        "view": 4,
         "example": "/tingtingfm/program/M7VJv6Jj4R",
         "parameters": {
           "programId": "节目 ID，可以在 URL 中找到"
@@ -75571,7 +77056,7 @@
     },
     "name": "X (Twitter)",
     "url": "x.com",
-    "description": "Specify options (in the format of query string) in parameter `routeParams` to control some extra features for Tweets\n\n| Key                            | Description                                                                                                                          | Accepts                | Defaults to                               |\n| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------- | ----------------------------------------- |\n| `readable`                     | Enable readable layout                                                                                                               | `0`/`1`/`true`/`false` | `false`                                   |\n| `authorNameBold`               | Display author name in bold                                                                                                          | `0`/`1`/`true`/`false` | `false`                                   |\n| `showAuthorInTitle`            | Show author name in title                                                                                                            | `0`/`1`/`true`/`false` | `false` (`true` in `/twitter/followings`) |\n| `showAuthorInDesc`             | Show author name in description (RSS body)                                                                                           | `0`/`1`/`true`/`false` | `false` (`true` in `/twitter/followings`) |\n| `showQuotedAuthorAvatarInDesc` | Show avatar of quoted Tweet's author in description (RSS body) (Not recommended if your RSS reader extracts images from description) | `0`/`1`/`true`/`false` | `false`                                   |\n| `showAuthorAvatarInDesc`       | Show avatar of author in description (RSS body) (Not recommended if your RSS reader extracts images from description)                | `0`/`1`/`true`/`false` | `false`                                   |\n| `showEmojiForRetweetAndReply`  | Use \"🔁\" instead of \"RT\", \"↩️\" & \"💬\" instead of \"Re\"                                                                                | `0`/`1`/`true`/`false` | `false`                                   |\n| `showSymbolForRetweetAndReply` | Use \" RT \" instead of \"\", \" Re \" instead of \"\"                                                                                       | `0`/`1`/`true`/`false` | `true`                                    |\n| `showRetweetTextInTitle`       | Show quote comments in title (if `false`, only the retweeted tweet will be shown in the title)                                       | `0`/`1`/`true`/`false` | `true`                                    |\n| `addLinkForPics`               | Add clickable links for Tweet pictures                                                                                               | `0`/`1`/`true`/`false` | `false`                                   |\n| `showTimestampInDescription`   | Show timestamp in description                                                                                                        | `0`/`1`/`true`/`false` | `false`                                   |\n| `showQuotedInTitle`            | Show quoted tweet in title                                                                                                           | `0`/`1`/`true`/`false` | `false`                                   |\n| `widthOfPics`                  | Width of Tweet pictures                                                                                                              | Unspecified/Integer    | Unspecified                               |\n| `heightOfPics`                 | Height of Tweet pictures                                                                                                             | Unspecified/Integer    | Unspecified                               |\n| `sizeOfAuthorAvatar`           | Size of author's avatar                                                                                                              | Integer                | `48`                                      |\n| `sizeOfQuotedAuthorAvatar`     | Size of quoted tweet's author's avatar                                                                                               | Integer                | `24`                                      |\n| `excludeReplies`               | Exclude replies, only available in `/twitter/user`                                                                                   | `0`/`1`/`true`/`false` | `false`                                   |\n| `includeRts`                   | Include retweets, only available in `/twitter/user`                                                                                  | `0`/`1`/`true`/`false` | `true`                                    |\n| `forceWebApi`                  | Force using Web API even if Developer API is configured, only available in `/twitter/user` and `/twitter/keyword`                    | `0`/`1`/`true`/`false` | `false`                                   |\n| `count`                        | `count` parameter passed to Twitter API, only available in `/twitter/user`                                                           | Unspecified/Integer    | Unspecified                               |\n\nSpecify different option values than default values to improve readability. The URL\n\n```\nhttps://rsshub.app/twitter/user/durov/readable=1&authorNameBold=1&showAuthorInTitle=1&showAuthorInDesc=1&showQuotedAuthorAvatarInDesc=1&showAuthorAvatarInDesc=1&showEmojiForRetweetAndReply=1&showRetweetTextInTitle=0&addLinkForPics=1&showTimestampInDescription=1&showQuotedInTitle=1&heightOfPics=150\n```\n\ngenerates\n\n<img loading=\"lazy\" src=\"/img/readable-twitter.png\" alt=\"Readable Twitter RSS of Durov\" />\n\nCurrently supports two authentication methods:\n\n- Using `TWITTER_AUTH_TOKEN` (recommended): Configure a comma-separated list of `auth_token` cookies of logged-in Twitter Web. RSSHub will use this information to directly access Twitter's web API to obtain data.\n\n- Using `TWITTER_USERNAME` `TWITTER_PASSWORD` and `TWITTER_AUTHENTICATION_SECRET`: Configure a comma-separated list of Twitter username and password. RSSHub will use this information to log in to Twitter and obtain data using the mobile API. Please note that if you have not logged in with the current IP address before, it is easy to trigger Twitter's risk control mechanism.\n"
+    "description": "Specify options (in the format of query string) in parameter `routeParams` to control some extra features for Tweets\n\n| Key                            | Description                                                                                                                          | Accepts                | Defaults to                               |\n| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------- | ----------------------------------------- |\n| `readable`                     | Enable readable layout                                                                                                               | `0`/`1`/`true`/`false` | `false`                                   |\n| `authorNameBold`               | Display author name in bold                                                                                                          | `0`/`1`/`true`/`false` | `false`                                   |\n| `showAuthorInTitle`            | Show author name in title                                                                                                            | `0`/`1`/`true`/`false` | `false` (`true` in `/twitter/followings`) |\n| `showAuthorInDesc`             | Show author name in description (RSS body)                                                                                           | `0`/`1`/`true`/`false` | `false` (`true` in `/twitter/followings`) |\n| `showQuotedAuthorAvatarInDesc` | Show avatar of quoted Tweet's author in description (RSS body) (Not recommended if your RSS reader extracts images from description) | `0`/`1`/`true`/`false` | `false`                                   |\n| `showAuthorAvatarInDesc`       | Show avatar of author in description (RSS body) (Not recommended if your RSS reader extracts images from description)                | `0`/`1`/`true`/`false` | `false`                                   |\n| `showEmojiForRetweetAndReply`  | Use \"🔁\" instead of \"RT\", \"↩️\" & \"💬\" instead of \"Re\"                                                                                | `0`/`1`/`true`/`false` | `false`                                   |\n| `showSymbolForRetweetAndReply` | Use \" RT \" instead of \"\", \" Re \" instead of \"\"                                                                                       | `0`/`1`/`true`/`false` | `true`                                    |\n| `showRetweetTextInTitle`       | Show quote comments in title (if `false`, only the retweeted tweet will be shown in the title)                                       | `0`/`1`/`true`/`false` | `true`                                    |\n| `addLinkForPics`               | Add clickable links for Tweet pictures                                                                                               | `0`/`1`/`true`/`false` | `false`                                   |\n| `showTimestampInDescription`   | Show timestamp in description                                                                                                        | `0`/`1`/`true`/`false` | `false`                                   |\n| `showQuotedInTitle`            | Show quoted tweet in title                                                                                                           | `0`/`1`/`true`/`false` | `false`                                   |\n| `widthOfPics`                  | Width of Tweet pictures                                                                                                              | Unspecified/Integer    | Unspecified                               |\n| `heightOfPics`                 | Height of Tweet pictures                                                                                                             | Unspecified/Integer    | Unspecified                               |\n| `sizeOfAuthorAvatar`           | Size of author's avatar                                                                                                              | Integer                | `48`                                      |\n| `sizeOfQuotedAuthorAvatar`     | Size of quoted tweet's author's avatar                                                                                               | Integer                | `24`                                      |\n| `excludeReplies`               | Exclude replies, only available in `/twitter/user`                                                                                   | `0`/`1`/`true`/`false` | `false`                                   |\n| `includeRts`                   | Include retweets, only available in `/twitter/user`                                                                                  | `0`/`1`/`true`/`false` | `true`                                    |\n| `forceWebApi`                  | Force using Web API even if Developer API is configured, only available in `/twitter/user` and `/twitter/keyword`                    | `0`/`1`/`true`/`false` | `false`                                   |\n| `count`                        | `count` parameter passed to Twitter API, only available in `/twitter/user`                                                           | Unspecified/Integer    | Unspecified                               |\n| `onlyMedia`                    | Only get tweets with a media                                                                                                             | `0`/`1`/`true`/`false` | `false`                 |\n\nSpecify different option values than default values to improve readability. The URL\n\n```\nhttps://rsshub.app/twitter/user/durov/readable=1&authorNameBold=1&showAuthorInTitle=1&showAuthorInDesc=1&showQuotedAuthorAvatarInDesc=1&showAuthorAvatarInDesc=1&showEmojiForRetweetAndReply=1&showRetweetTextInTitle=0&addLinkForPics=1&showTimestampInDescription=1&showQuotedInTitle=1&heightOfPics=150\n```\n\ngenerates\n\n<img loading=\"lazy\" src=\"/img/readable-twitter.png\" alt=\"Readable Twitter RSS of Durov\" />\n\nCurrently supports two authentication methods:\n\n- Using `TWITTER_AUTH_TOKEN` (recommended): Configure a comma-separated list of `auth_token` cookies of logged-in Twitter Web. RSSHub will use this information to directly access Twitter's web API to obtain data.\n\n- Using `TWITTER_USERNAME` `TWITTER_PASSWORD` and `TWITTER_AUTHENTICATION_SECRET`: Configure a comma-separated list of Twitter username and password. RSSHub will use this information to log in to Twitter and obtain data using the mobile API. Please note that if you have not logged in with the current IP address before, it is easy to trigger Twitter's risk control mechanism.\n"
   },
   "twreporter": {
     "routes": {
@@ -77996,7 +79481,8 @@
       "/author/:username": {
         "url": "voronoiapp.com",
         "categories": [
-          "picture"
+          "picture",
+          "popular"
         ],
         "view": 2,
         "maintainers": [
@@ -78021,7 +79507,8 @@
       "/editors-pick/:category?": {
         "url": "voronoiapp.com",
         "categories": [
-          "picture"
+          "picture",
+          "popular"
         ],
         "view": 2,
         "maintainers": [
@@ -78155,7 +79642,8 @@
       "/home/:category?": {
         "url": "voronoiapp.com",
         "categories": [
-          "picture"
+          "picture",
+          "popular"
         ],
         "view": 2,
         "maintainers": [
@@ -78291,7 +79779,8 @@
       "/latest/:category?": {
         "url": "voronoiapp.com",
         "categories": [
-          "picture"
+          "picture",
+          "popular"
         ],
         "view": 2,
         "maintainers": [
@@ -78425,7 +79914,8 @@
       "/popular/:tab?/:time_range?/:category?": {
         "url": "voronoiapp.com",
         "categories": [
-          "picture"
+          "picture",
+          "popular"
         ],
         "view": 2,
         "maintainers": [
@@ -78614,7 +80104,8 @@
       "/search/:keyword": {
         "url": "voronoiapp.com",
         "categories": [
-          "picture"
+          "picture",
+          "popular"
         ],
         "view": 2,
         "maintainers": [
@@ -78920,12 +80411,49 @@
           "axojhf"
         ],
         "url": "warthunder.com/en/news",
-        "description": "News data from [https://warthunder.com/en/news/](https://warthunder.com/en/news/)\n  The year, month and day provided under UTC time zone are the same as the official website, so please ignore the specific time!!!",
+        "description": "News data from [https://warthunder.com/en/news/](https://warthunder.com/en/news/)\n  The `pubDate` provided under UTC time zone, so please ignore the specific time!!!",
         "location": "news.ts"
       }
     },
     "name": "War Thunder",
     "url": "warthunder.com"
+  },
+  "washingtonpost": {
+    "routes": {
+      "/app/:category{.+}?": {
+        "path": "/app/:category{.+}?",
+        "categories": [
+          "traditional-media"
+        ],
+        "example": "/washingtonpost/app/national",
+        "parameters": {
+          "category": "Category from the path of the URL of the corresponding site, see below"
+        },
+        "features": {
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "App",
+        "maintainers": [
+          "quiniapiezoelectricity"
+        ],
+        "radar": [
+          {
+            "source": [
+              "www.washingtonpost.com/:category"
+            ],
+            "target": "/app/:category"
+          }
+        ],
+        "description": ":::tip\nFor example, the category for https://www.washingtonpost.com/national/investigations would be /national/investigations.\n:::",
+        "location": "app.ts"
+      }
+    },
+    "name": "The Washington Post",
+    "url": "www.washingtonpost.com"
   },
   "watasuke": {
     "routes": {
@@ -83300,8 +84828,10 @@
       "/": {
         "path": "/",
         "categories": [
-          "reading"
+          "reading",
+          "popular"
         ],
+        "view": 0,
         "example": "/yilinzazhi",
         "radar": [
           {
@@ -83321,8 +84851,10 @@
       "/latest": {
         "path": "/latest",
         "categories": [
-          "reading"
+          "reading",
+          "popular"
         ],
+        "view": 0,
         "example": "/yilinzazhi/latest",
         "radar": [
           {
@@ -83882,11 +85414,46 @@
       "/materials/:id?": {
         "path": "/materials/:id?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/youzhiyouxing/materials",
         "parameters": {
-          "id": "分类，见下表，默认为全部"
+          "id": {
+            "description": "分类",
+            "options": [
+              {
+                "value": "0",
+                "label": "全部"
+              },
+              {
+                "value": "4",
+                "label": "知行小酒馆"
+              },
+              {
+                "value": "2",
+                "label": "知行黑板报"
+              },
+              {
+                "value": "10",
+                "label": "无人知晓"
+              },
+              {
+                "value": "1",
+                "label": "孟岩专栏"
+              },
+              {
+                "value": "3",
+                "label": "知行读书会"
+              },
+              {
+                "value": "11",
+                "label": "你好，同路人"
+              }
+            ],
+            "default": "0"
+          }
         },
         "features": {
           "requireConfig": false,
@@ -84099,11 +85666,46 @@
       "/article/:type?": {
         "path": "/article/:type?",
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular"
         ],
+        "view": 0,
         "example": "/yyets/article",
         "parameters": {
-          "type": "["
+          "type": {
+            "description": "类型",
+            "options": [
+              {
+                "value": "all",
+                "label": "全部"
+              },
+              {
+                "value": "news",
+                "label": "影视资讯"
+              },
+              {
+                "value": "report",
+                "label": "收视快报"
+              },
+              {
+                "value": "m_review",
+                "label": "人人影评"
+              },
+              {
+                "value": "t_review",
+                "label": "人人剧评"
+              },
+              {
+                "value": "new_review",
+                "label": "新剧评测"
+              },
+              {
+                "value": "recom",
+                "label": "片单推荐"
+              }
+            ],
+            "default": "all"
+          }
         },
         "features": {
           "requireConfig": false,
@@ -84123,8 +85725,10 @@
       "/today": {
         "path": "/today",
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular"
         ],
+        "view": 5,
         "example": "/yyets/today",
         "parameters": {},
         "features": {
@@ -84472,11 +86076,25 @@
       "/top/:type": {
         "path": "/top/:type",
         "categories": [
-          "design"
+          "design",
+          "popular"
         ],
+        "view": 2,
         "example": "/zcool/top/design",
         "parameters": {
-          "type": "推荐类型,详见下面的表格"
+          "type": {
+            "description": "推荐类型",
+            "options": [
+              {
+                "value": "design",
+                "label": "作品榜单"
+              },
+              {
+                "value": "article",
+                "label": "文章榜单"
+              }
+            ]
+          }
         },
         "features": {
           "requireConfig": false,
@@ -84490,14 +86108,15 @@
         "maintainers": [
           "yuuow"
         ],
-        "description": "榜单类型\n\n  | design   | article  |\n  | -------- | -------- |\n  | 作品榜单 | 文章榜单 |",
         "location": "top.ts"
       },
       "/user/:uid": {
         "path": "/user/:uid",
         "categories": [
-          "design"
+          "design",
+          "popular"
         ],
+        "view": 2,
         "example": "/zcool/user/baiyong",
         "parameters": {
           "uid": "个性域名前缀或者用户ID"
@@ -85374,8 +86993,10 @@
       "/:id?/:category?": {
         "path": "/:id?/:category?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
+        "view": 0,
         "example": "/zhitongcaijing",
         "parameters": {
           "id": "栏目 id，可在对应栏目页 URL 中找到，默认为 recommend，即推荐",
@@ -85846,7 +87467,7 @@
           "supportScihub": false
         },
         "name": "软件学院",
-        "description": "| 全部通知 | 招生信息 | 教务管理 | 论文管理 | 思政工作 | 评奖评优 | 实习就业 | 国际实习 | 国内合作科研 | 国际合作科研 | 校园服务 |\n    | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | ------------ | ------------ | -------- |\n    | 0        | 1        | 2        | 3        | 4        | 5        | 6        | 7        | 8            | 9            | 10       |",
+        "description": "| 全部通知 | 招生信息 | 教务管理 | 论文管理 | 思政工作 | 评奖评优 | 实习就业 | 国际实习 | 国内合作科研 | 国际合作科研 | 校园服务 |\n  | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | ------------ | ------------ | -------- |\n  | 0        | 1        | 2        | 3        | 4        | 5        | 6        | 7        | 8            | 9            | 10       |",
         "maintainers": [
           "yonvenne",
           "zwithz"
@@ -86030,6 +87651,39 @@
         ],
         "description": "| 板块 | 参数 |\n| ------- | ------- |\n| 新闻动态 | 1838 |\n| 课程思政 | 1842 |\n| 校内动态 | 2613 |\n| 学习思考 | 2614 |\n| 成果展示 | 2615 |\n| 媒体聚焦 | 2616 |\n| 制度文件 | 2617 |\n| 教学运行 | 1849 |\n| 实践竞赛 | 1850 |\n| 留学生Notice | 1851 |\n| 项目申报 | 1852 |\n| 学籍管理 | 1853 |\n| 办事指南 | 1839 |",
         "location": "jwc/index.ts"
+      },
+      "/www/:type": {
+        "path": "/www/:type",
+        "categories": [
+          "university"
+        ],
+        "example": "/zjut/www/4528",
+        "parameters": {
+          "type": "分类，见下表"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "浙江工业大学首页",
+        "maintainers": [
+          "zhullyb"
+        ],
+        "url": "www.zjut.edu.cn",
+        "radar": [
+          {
+            "source": [
+              "www.zjut.edu.cn/:type/list.htm"
+            ],
+            "target": "/www/:type"
+          }
+        ],
+        "description": "| 板块 | 参数 |\n| ------- | ------- |\n| 学术动态 | xsdt_4662 |\n| 三创·人物 | 4527 |\n| 通知公告 | 4528 |\n| 美誉工大 | 5389 |\n| 智库工大 | 5390 |\n| 校区班车 | xqbc |",
+        "location": "www/index.ts"
       }
     },
     "name": "浙江工业大学",
@@ -86189,7 +87843,7 @@
             }
           ]
         },
-        "description": "| all  | digests | by_owner | questions | tasks |\n    | ---- | ------ | --------- | -------- | ------ |\n    | 最新 | 精华    | 只看星主    | 问答      | 作业   |",
+        "description": "| all  | digests | by_owner | questions | tasks |\n  | ---- | ------ | --------- | -------- | ------ |\n  | 最新 | 精华    | 只看星主    | 问答      | 作业   |",
         "location": "group.ts"
       },
       "/user/:id": {
