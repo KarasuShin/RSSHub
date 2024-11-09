@@ -1022,6 +1022,9 @@
   "/caareviews/exhibition": [
     "Fatpandac"
   ],
+  "/cags/edu/:category": [
+    "Chikit-L"
+  ],
   "/cahkms/:category?": [
     "nczitzk"
   ],
@@ -1531,7 +1534,9 @@
   ],
   "/cs/news/zzkx": [],
   "/cs/zzkx": [],
-  "/csdn/blog/:user": [],
+  "/csdn/blog/:user": [
+    "Jkker"
+  ],
   "/cssn/iolaw/:section?": [
     "HankChow"
   ],
@@ -3893,6 +3898,9 @@
   ],
   "/laohu8/personal/:id": [
     "Fatpandac"
+  ],
+  "/last-origin/news": [
+    "gudezhi"
   ],
   "/latepost/:proma?": [
     "nczitzk"
@@ -7321,7 +7329,8 @@
     "akynazh"
   ],
   "/xsijishe/rank/:type": [
-    "akynazh"
+    "akynazh",
+    "AiraNadih"
   ],
   "/xueqiu/column/:id": [
     "TonyRL"
