@@ -1692,9 +1692,10 @@
   "/deepin/threads/:type?": [
     "myml"
   ],
-  "/deeplearning/thebatch": [
+  "/deeplearning/the-batch/:tag{.+}?": [
     "nczitzk",
-    "juvenn"
+    "juvenn",
+    "TonyRL"
   ],
   "/deepmind/blog": [
     "nczitzk",
@@ -6382,6 +6383,7 @@
   "/telegram/channel/:username/:routeParams?": [
     "DIYgod",
     "Rongronggg9",
+    "synchrone",
     "pseudoyu"
   ],
   "/telegram/stickerpack/:name": [
@@ -6597,6 +6599,9 @@
   ],
   "/tongji/yjs": [
     "shengmaosu"
+  ],
+  "/tongji/sem": [
+    "sitdownkevin"
   ],
   "/tongji/sse/:type?": [
     "sgqy"
