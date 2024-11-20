@@ -2362,15 +2362,375 @@
   },
   "78dm": {
     "routes": {
-      "*": {
-        "path": "*",
-        "name": "Unknown",
-        "maintainers": [],
+      "/:category{.+}?": {
+        "path": "/:category{.+}?",
+        "name": "分类",
+        "url": "78dm.net",
+        "maintainers": [
+          "nczitzk"
+        ],
+        "example": "/78dm/news",
+        "parameters": {
+          "category": "分类，默认为 `news`，即新品速递，可在对应分类页 URL 中找到"
+        },
+        "description": ":::tip\n  若订阅 [新品速递](https://www.78dm.net/news)，网址为 `https://www.78dm.net/news`。截取 `https://www.78dm.net/` 到末尾的部分 `news` 作为参数填入，此时路由为 [`/78dm/news`](https://rsshub.app/78dm/news)。\n\n  若订阅 [精彩评测 - 变形金刚](https://www.78dm.net/eval_list/109/0/0/1.html)，网址为 `https://www.78dm.net/eval_list/109/0/0/1.html`。截取 `https://www.78dm.net/` 到末尾 `.html` 的部分 `eval_list/109/0/0/1` 作为参数填入，此时路由为 [`/78dm/eval_list/109/0/0/1`](https://rsshub.app/78dm/eval_list/109/0/0/1)。\n  :::\n\n  <details>\n    <summary>更多分类</summary>\n\n    #### [新品速递](https://www.78dm.net/news)\n\n    | 分类                                                           | ID                                                                     |\n    | -------------------------------------------------------------- | ---------------------------------------------------------------------- |\n    | [全部](https://www.78dm.net/news/0/0/0/0/0/0/0/1.html)         | [news/0/0/0/0/0/0/0/1](https://rsshub.app/78dm/news/0/0/0/0/0/0/0/1)   |\n    | [变形金刚](https://www.78dm.net/news/3/0/0/0/0/0/0/1.html)     | [news/3/0/0/0/0/0/0/1](https://rsshub.app/78dm/news/3/0/0/0/0/0/0/1)   |\n    | [高达](https://www.78dm.net/news/4/0/0/0/0/0/0/1.html)         | [news/4/0/0/0/0/0/0/1](https://rsshub.app/78dm/news/4/0/0/0/0/0/0/1)   |\n    | [圣斗士](https://www.78dm.net/news/2/0/0/0/0/0/0/1.html)       | [news/2/0/0/0/0/0/0/1](https://rsshub.app/78dm/news/2/0/0/0/0/0/0/1)   |\n    | [海贼王](https://www.78dm.net/news/8/0/0/0/0/0/0/1.html)       | [news/8/0/0/0/0/0/0/1](https://rsshub.app/78dm/news/8/0/0/0/0/0/0/1)   |\n    | [PVC 手办](https://www.78dm.net/news/0/5/0/0/0/0/0/1.html)     | [news/0/5/0/0/0/0/0/1](https://rsshub.app/78dm/news/0/5/0/0/0/0/0/1)   |\n    | [拼装模型](https://www.78dm.net/news/0/1/0/0/0/0/0/1.html)     | [news/0/1/0/0/0/0/0/1](https://rsshub.app/78dm/news/0/1/0/0/0/0/0/1)   |\n    | [机甲成品](https://www.78dm.net/news/0/2/0/0/0/0/0/1.html)     | [news/0/2/0/0/0/0/0/1](https://rsshub.app/78dm/news/0/2/0/0/0/0/0/1)   |\n    | [特摄](https://www.78dm.net/news/0/3/0/0/0/0/0/1.html)         | [news/0/3/0/0/0/0/0/1](https://rsshub.app/78dm/news/0/3/0/0/0/0/0/1)   |\n    | [美系](https://www.78dm.net/news/0/4/0/0/0/0/0/1.html)         | [news/0/4/0/0/0/0/0/1](https://rsshub.app/78dm/news/0/4/0/0/0/0/0/1)   |\n    | [GK](https://www.78dm.net/news/0/6/0/0/0/0/0/1.html)           | [news/0/6/0/0/0/0/0/1](https://rsshub.app/78dm/news/0/6/0/0/0/0/0/1)   |\n    | [扭蛋盒蛋食玩](https://www.78dm.net/news/0/7/0/0/0/0/0/1.html) | [news/0/7/0/0/0/0/0/1](https://rsshub.app/78dm/news/0/7/0/0/0/0/0/1)   |\n    | [其他](https://www.78dm.net/news/0/8/0/0/0/0/0/1.html)         | [news/0/8/0/0/0/0/0/1](https://rsshub.app/78dm/news/0/8/0/0/0/0/0/1)   |\n    | [综合](https://www.78dm.net/news/0/9/0/0/0/0/0/1.html)         | [news/0/9/0/0/0/0/0/1](https://rsshub.app/78dm/news/0/9/0/0/0/0/0/1)   |\n    | [军模](https://www.78dm.net/news/0/10/0/0/0/0/0/1.html)        | [news/0/10/0/0/0/0/0/1](https://rsshub.app/78dm/news/0/10/0/0/0/0/0/1) |\n    | [民用](https://www.78dm.net/news/0/11/0/0/0/0/0/1.html)        | [news/0/11/0/0/0/0/0/1](https://rsshub.app/78dm/news/0/11/0/0/0/0/0/1) |\n    | [配件](https://www.78dm.net/news/0/12/0/0/0/0/0/1.html)        | [news/0/12/0/0/0/0/0/1](https://rsshub.app/78dm/news/0/12/0/0/0/0/0/1) |\n    | [工具](https://www.78dm.net/news/0/13/0/0/0/0/0/1.html)        | [news/0/13/0/0/0/0/0/1](https://rsshub.app/78dm/news/0/13/0/0/0/0/0/1) |\n\n    #### [精彩评测](https://www.78dm.net/eval_list)\n\n    | 分类                                                      | ID                                                                 |\n    | --------------------------------------------------------- | ------------------------------------------------------------------ |\n    | [全部](https://www.78dm.net/eval_list/0/0/0/1.html)       | [eval_list/0/0/0/1](https://rsshub.app/78dm/eval_list/0/0/0/1)     |\n    | [变形金刚](https://www.78dm.net/eval_list/109/0/0/1.html) | [eval_list/109/0/0/1](https://rsshub.app/78dm/eval_list/109/0/0/1) |\n    | [高达](https://www.78dm.net/eval_list/110/0/0/1.html)     | [eval_list/110/0/0/1](https://rsshub.app/78dm/eval_list/110/0/0/1) |\n    | [圣斗士](https://www.78dm.net/eval_list/111/0/0/1.html)   | [eval_list/111/0/0/1](https://rsshub.app/78dm/eval_list/111/0/0/1) |\n    | [海贼王](https://www.78dm.net/eval_list/112/0/0/1.html)   | [eval_list/112/0/0/1](https://rsshub.app/78dm/eval_list/112/0/0/1) |\n    | [PVC 手办](https://www.78dm.net/eval_list/115/0/0/1.html) | [eval_list/115/0/0/1](https://rsshub.app/78dm/eval_list/115/0/0/1) |\n    | [拼装模型](https://www.78dm.net/eval_list/113/0/0/1.html) | [eval_list/113/0/0/1](https://rsshub.app/78dm/eval_list/113/0/0/1) |\n    | [机甲成品](https://www.78dm.net/eval_list/114/0/0/1.html) | [eval_list/114/0/0/1](https://rsshub.app/78dm/eval_list/114/0/0/1) |\n    | [特摄](https://www.78dm.net/eval_list/116/0/0/1.html)     | [eval_list/116/0/0/1](https://rsshub.app/78dm/eval_list/116/0/0/1) |\n    | [美系](https://www.78dm.net/eval_list/117/0/0/1.html)     | [eval_list/117/0/0/1](https://rsshub.app/78dm/eval_list/117/0/0/1) |\n    | [GK](https://www.78dm.net/eval_list/118/0/0/1.html)       | [eval_list/118/0/0/1](https://rsshub.app/78dm/eval_list/118/0/0/1) |\n    | [综合](https://www.78dm.net/eval_list/120/0/0/1.html)     | [eval_list/120/0/0/1](https://rsshub.app/78dm/eval_list/120/0/0/1) |\n\n    #### [好贴推荐](https://www.78dm.net/ht_list)\n\n    | 分类                                                    | ID                                                             |\n    | ------------------------------------------------------- | -------------------------------------------------------------- |\n    | [全部](https://www.78dm.net/ht_list/0/0/0/1.html)       | [ht_list/0/0/0/1](https://rsshub.app/78dm/ht_list/0/0/0/1)     |\n    | [变形金刚](https://www.78dm.net/ht_list/95/0/0/1.html)  | [ht_list/95/0/0/1](https://rsshub.app/78dm/ht_list/95/0/0/1)   |\n    | [高达](https://www.78dm.net/ht_list/96/0/0/1.html)      | [ht_list/96/0/0/1](https://rsshub.app/78dm/ht_list/96/0/0/1)   |\n    | [圣斗士](https://www.78dm.net/ht_list/98/0/0/1.html)    | [ht_list/98/0/0/1](https://rsshub.app/78dm/ht_list/98/0/0/1)   |\n    | [海贼王](https://www.78dm.net/ht_list/99/0/0/1.html)    | [ht_list/99/0/0/1](https://rsshub.app/78dm/ht_list/99/0/0/1)   |\n    | [PVC 手办](https://www.78dm.net/ht_list/100/0/0/1.html) | [ht_list/100/0/0/1](https://rsshub.app/78dm/ht_list/100/0/0/1) |\n    | [拼装模型](https://www.78dm.net/ht_list/101/0/0/1.html) | [ht_list/101/0/0/1](https://rsshub.app/78dm/ht_list/101/0/0/1) |\n    | [机甲成品](https://www.78dm.net/ht_list/102/0/0/1.html) | [ht_list/102/0/0/1](https://rsshub.app/78dm/ht_list/102/0/0/1) |\n    | [特摄](https://www.78dm.net/ht_list/103/0/0/1.html)     | [ht_list/103/0/0/1](https://rsshub.app/78dm/ht_list/103/0/0/1) |\n    | [美系](https://www.78dm.net/ht_list/104/0/0/1.html)     | [ht_list/104/0/0/1](https://rsshub.app/78dm/ht_list/104/0/0/1) |\n    | [GK](https://www.78dm.net/ht_list/105/0/0/1.html)       | [ht_list/105/0/0/1](https://rsshub.app/78dm/ht_list/105/0/0/1) |\n    | [综合](https://www.78dm.net/ht_list/107/0/0/1.html)     | [ht_list/107/0/0/1](https://rsshub.app/78dm/ht_list/107/0/0/1) |\n    | [装甲战车](https://www.78dm.net/ht_list/131/0/0/1.html) | [ht_list/131/0/0/1](https://rsshub.app/78dm/ht_list/131/0/0/1) |\n    | [舰船模型](https://www.78dm.net/ht_list/132/0/0/1.html) | [ht_list/132/0/0/1](https://rsshub.app/78dm/ht_list/132/0/0/1) |\n    | [飞机模型](https://www.78dm.net/ht_list/133/0/0/1.html) | [ht_list/133/0/0/1](https://rsshub.app/78dm/ht_list/133/0/0/1) |\n    | [民用模型](https://www.78dm.net/ht_list/134/0/0/1.html) | [ht_list/134/0/0/1](https://rsshub.app/78dm/ht_list/134/0/0/1) |\n    | [兵人模型](https://www.78dm.net/ht_list/135/0/0/1.html) | [ht_list/135/0/0/1](https://rsshub.app/78dm/ht_list/135/0/0/1) |\n  </details>\n  ",
+        "categories": [
+          "new-media"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportRadar": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.78dm.net/:category?"
+            ]
+          },
+          {
+            "title": "新品速递 - 全部",
+            "source": [
+              "www.78dm.net/news/0/0/0/0/0/0/0/1.html"
+            ],
+            "target": "/news/0/0/0/0/0/0/0/1"
+          },
+          {
+            "title": "新品速递 - 变形金刚",
+            "source": [
+              "www.78dm.net/news/3/0/0/0/0/0/0/1.html"
+            ],
+            "target": "/news/3/0/0/0/0/0/0/1"
+          },
+          {
+            "title": "新品速递 - 高达",
+            "source": [
+              "www.78dm.net/news/4/0/0/0/0/0/0/1.html"
+            ],
+            "target": "/news/4/0/0/0/0/0/0/1"
+          },
+          {
+            "title": "新品速递 - 圣斗士",
+            "source": [
+              "www.78dm.net/news/2/0/0/0/0/0/0/1.html"
+            ],
+            "target": "/news/2/0/0/0/0/0/0/1"
+          },
+          {
+            "title": "新品速递 - 海贼王",
+            "source": [
+              "www.78dm.net/news/8/0/0/0/0/0/0/1.html"
+            ],
+            "target": "/news/8/0/0/0/0/0/0/1"
+          },
+          {
+            "title": "新品速递 - PVC手办",
+            "source": [
+              "www.78dm.net/news/0/5/0/0/0/0/0/1.html"
+            ],
+            "target": "/news/0/5/0/0/0/0/0/1"
+          },
+          {
+            "title": "新品速递 - 拼装模型",
+            "source": [
+              "www.78dm.net/news/0/1/0/0/0/0/0/1.html"
+            ],
+            "target": "/news/0/1/0/0/0/0/0/1"
+          },
+          {
+            "title": "新品速递 - 机甲成品",
+            "source": [
+              "www.78dm.net/news/0/2/0/0/0/0/0/1.html"
+            ],
+            "target": "/news/0/2/0/0/0/0/0/1"
+          },
+          {
+            "title": "新品速递 - 特摄",
+            "source": [
+              "www.78dm.net/news/0/3/0/0/0/0/0/1.html"
+            ],
+            "target": "/news/0/3/0/0/0/0/0/1"
+          },
+          {
+            "title": "新品速递 - 美系",
+            "source": [
+              "www.78dm.net/news/0/4/0/0/0/0/0/1.html"
+            ],
+            "target": "/news/0/4/0/0/0/0/0/1"
+          },
+          {
+            "title": "新品速递 - GK",
+            "source": [
+              "www.78dm.net/news/0/6/0/0/0/0/0/1.html"
+            ],
+            "target": "/news/0/6/0/0/0/0/0/1"
+          },
+          {
+            "title": "新品速递 - 扭蛋盒蛋食玩",
+            "source": [
+              "www.78dm.net/news/0/7/0/0/0/0/0/1.html"
+            ],
+            "target": "/news/0/7/0/0/0/0/0/1"
+          },
+          {
+            "title": "新品速递 - 其他",
+            "source": [
+              "www.78dm.net/news/0/8/0/0/0/0/0/1.html"
+            ],
+            "target": "/news/0/8/0/0/0/0/0/1"
+          },
+          {
+            "title": "新品速递 - 综合",
+            "source": [
+              "www.78dm.net/news/0/9/0/0/0/0/0/1.html"
+            ],
+            "target": "/news/0/9/0/0/0/0/0/1"
+          },
+          {
+            "title": "新品速递 - 军模",
+            "source": [
+              "www.78dm.net/news/0/10/0/0/0/0/0/1.html"
+            ],
+            "target": "/news/0/10/0/0/0/0/0/1"
+          },
+          {
+            "title": "新品速递 - 民用",
+            "source": [
+              "www.78dm.net/news/0/11/0/0/0/0/0/1.html"
+            ],
+            "target": "/news/0/11/0/0/0/0/0/1"
+          },
+          {
+            "title": "新品速递 - 配件",
+            "source": [
+              "www.78dm.net/news/0/12/0/0/0/0/0/1.html"
+            ],
+            "target": "/news/0/12/0/0/0/0/0/1"
+          },
+          {
+            "title": "新品速递 - 工具",
+            "source": [
+              "www.78dm.net/news/0/13/0/0/0/0/0/1.html"
+            ],
+            "target": "/news/0/13/0/0/0/0/0/1"
+          },
+          {
+            "title": "精彩评测 - 全部",
+            "source": [
+              "www.78dm.net/eval_list/0/0/0/1.html"
+            ],
+            "target": "/eval_list/0/0/0/1"
+          },
+          {
+            "title": "精彩评测 - 变形金刚",
+            "source": [
+              "www.78dm.net/eval_list/109/0/0/1.html"
+            ],
+            "target": "/eval_list/109/0/0/1"
+          },
+          {
+            "title": "精彩评测 - 高达",
+            "source": [
+              "www.78dm.net/eval_list/110/0/0/1.html"
+            ],
+            "target": "/eval_list/110/0/0/1"
+          },
+          {
+            "title": "精彩评测 - 圣斗士",
+            "source": [
+              "www.78dm.net/eval_list/111/0/0/1.html"
+            ],
+            "target": "/eval_list/111/0/0/1"
+          },
+          {
+            "title": "精彩评测 - 海贼王",
+            "source": [
+              "www.78dm.net/eval_list/112/0/0/1.html"
+            ],
+            "target": "/eval_list/112/0/0/1"
+          },
+          {
+            "title": "精彩评测 - PVC手办",
+            "source": [
+              "www.78dm.net/eval_list/115/0/0/1.html"
+            ],
+            "target": "/eval_list/115/0/0/1"
+          },
+          {
+            "title": "精彩评测 - 拼装模型",
+            "source": [
+              "www.78dm.net/eval_list/113/0/0/1.html"
+            ],
+            "target": "/eval_list/113/0/0/1"
+          },
+          {
+            "title": "精彩评测 - 机甲成品",
+            "source": [
+              "www.78dm.net/eval_list/114/0/0/1.html"
+            ],
+            "target": "/eval_list/114/0/0/1"
+          },
+          {
+            "title": "精彩评测 - 特摄",
+            "source": [
+              "www.78dm.net/eval_list/116/0/0/1.html"
+            ],
+            "target": "/eval_list/116/0/0/1"
+          },
+          {
+            "title": "精彩评测 - 美系",
+            "source": [
+              "www.78dm.net/eval_list/117/0/0/1.html"
+            ],
+            "target": "/eval_list/117/0/0/1"
+          },
+          {
+            "title": "精彩评测 - GK",
+            "source": [
+              "www.78dm.net/eval_list/118/0/0/1.html"
+            ],
+            "target": "/eval_list/118/0/0/1"
+          },
+          {
+            "title": "精彩评测 - 综合",
+            "source": [
+              "www.78dm.net/eval_list/120/0/0/1.html"
+            ],
+            "target": "/eval_list/120/0/0/1"
+          },
+          {
+            "title": "好贴推荐 - 全部",
+            "source": [
+              "www.78dm.net/ht_list/0/0/0/1.html"
+            ],
+            "target": "/ht_list/0/0/0/1"
+          },
+          {
+            "title": "好贴推荐 - 变形金刚",
+            "source": [
+              "www.78dm.net/ht_list/95/0/0/1.html"
+            ],
+            "target": "/ht_list/95/0/0/1"
+          },
+          {
+            "title": "好贴推荐 - 高达",
+            "source": [
+              "www.78dm.net/ht_list/96/0/0/1.html"
+            ],
+            "target": "/ht_list/96/0/0/1"
+          },
+          {
+            "title": "好贴推荐 - 圣斗士",
+            "source": [
+              "www.78dm.net/ht_list/98/0/0/1.html"
+            ],
+            "target": "/ht_list/98/0/0/1"
+          },
+          {
+            "title": "好贴推荐 - 海贼王",
+            "source": [
+              "www.78dm.net/ht_list/99/0/0/1.html"
+            ],
+            "target": "/ht_list/99/0/0/1"
+          },
+          {
+            "title": "好贴推荐 - PVC手办",
+            "source": [
+              "www.78dm.net/ht_list/100/0/0/1.html"
+            ],
+            "target": "/ht_list/100/0/0/1"
+          },
+          {
+            "title": "好贴推荐 - 拼装模型",
+            "source": [
+              "www.78dm.net/ht_list/101/0/0/1.html"
+            ],
+            "target": "/ht_list/101/0/0/1"
+          },
+          {
+            "title": "好贴推荐 - 机甲成品",
+            "source": [
+              "www.78dm.net/ht_list/102/0/0/1.html"
+            ],
+            "target": "/ht_list/102/0/0/1"
+          },
+          {
+            "title": "好贴推荐 - 特摄",
+            "source": [
+              "www.78dm.net/ht_list/103/0/0/1.html"
+            ],
+            "target": "/ht_list/103/0/0/1"
+          },
+          {
+            "title": "好贴推荐 - 美系",
+            "source": [
+              "www.78dm.net/ht_list/104/0/0/1.html"
+            ],
+            "target": "/ht_list/104/0/0/1"
+          },
+          {
+            "title": "好贴推荐 - GK",
+            "source": [
+              "www.78dm.net/ht_list/105/0/0/1.html"
+            ],
+            "target": "/ht_list/105/0/0/1"
+          },
+          {
+            "title": "好贴推荐 - 综合",
+            "source": [
+              "www.78dm.net/ht_list/107/0/0/1.html"
+            ],
+            "target": "/ht_list/107/0/0/1"
+          },
+          {
+            "title": "好贴推荐 - 装甲战车",
+            "source": [
+              "www.78dm.net/ht_list/131/0/0/1.html"
+            ],
+            "target": "/ht_list/131/0/0/1"
+          },
+          {
+            "title": "好贴推荐 - 舰船模型",
+            "source": [
+              "www.78dm.net/ht_list/132/0/0/1.html"
+            ],
+            "target": "/ht_list/132/0/0/1"
+          },
+          {
+            "title": "好贴推荐 - 飞机模型",
+            "source": [
+              "www.78dm.net/ht_list/133/0/0/1.html"
+            ],
+            "target": "/ht_list/133/0/0/1"
+          },
+          {
+            "title": "好贴推荐 - 民用模型",
+            "source": [
+              "www.78dm.net/ht_list/134/0/0/1.html"
+            ],
+            "target": "/ht_list/134/0/0/1"
+          },
+          {
+            "title": "好贴推荐 - 兵人模型",
+            "source": [
+              "www.78dm.net/ht_list/135/0/0/1.html"
+            ],
+            "target": "/ht_list/135/0/0/1"
+          }
+        ],
         "location": "index.ts"
       }
     },
     "name": "78 动漫",
     "url": "78dm.net",
+    "categories": [
+      "anime"
+    ],
+    "description": "",
     "lang": "zh-CN"
   },
   "7mmtv": {
@@ -3509,6 +3869,73 @@
     "name": "爱发电",
     "url": "afdian.net",
     "lang": "zh-CN"
+  },
+  "afr": {
+    "routes": {
+      "/latest": {
+        "path": "/latest",
+        "categories": [
+          "traditional-media"
+        ],
+        "example": "/afr/latest",
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.afr.com/latest",
+              "www.afr.com/"
+            ]
+          }
+        ],
+        "name": "Latest",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "url": "www.afr.com/latest",
+        "location": "latest.ts"
+      },
+      "/navigation/:path{.+}": {
+        "path": "/navigation/:path{.+}",
+        "categories": [
+          "traditional-media"
+        ],
+        "example": "/afr/navigation/markets",
+        "parameters": {
+          "path": "Navigation path, can be found in the URL of the page"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.afr.com/path*"
+            ]
+          }
+        ],
+        "name": "Navigation",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "url": "www.afr.com",
+        "location": "navigation.ts"
+      }
+    },
+    "name": "The Australian Financial Review",
+    "url": "afr.com",
+    "lang": "en"
   },
   "agefans": {
     "routes": {
@@ -5220,6 +5647,60 @@
     "name": "American Institute of Physics",
     "url": "pubs.aip.org",
     "lang": "en"
+  },
+  "air-level": {
+    "routes": {
+      "/air/:area": {
+        "path": "/air/:area",
+        "radar": [
+          {
+            "source": [
+              "m.air-level.com/air/:area/"
+            ],
+            "target": "/air/:area"
+          }
+        ],
+        "parameters": {
+          "area": "地区"
+        },
+        "name": "空气质量",
+        "maintainers": [
+          "lifetraveler"
+        ],
+        "example": "/air-level/air/xian",
+        "location": "index.ts"
+      },
+      "/rank/:status?": {
+        "path": [
+          "/rank/:status?"
+        ],
+        "radar": [
+          {
+            "source": [
+              "m.air-level.com/rank/:status",
+              "m.air-level.com/rank"
+            ],
+            "target": "/rank/:status"
+          }
+        ],
+        "parameters": {
+          "status": "地区"
+        },
+        "name": "空气质量排行",
+        "maintainers": [
+          "lifetraveler"
+        ],
+        "example": "/air-level/rank/best,/air-level/rank",
+        "location": "levelrank.ts"
+      }
+    },
+    "name": "Air-Level",
+    "url": "air-level.com",
+    "description": "\n  - 可以订阅每个城市的空气质量，按照拼音订阅\n  - 支持订阅每天的实时排名\n    ",
+    "categories": [
+      "forecast"
+    ],
+    "lang": "zh-CN"
   },
   "airchina": {
     "routes": {
@@ -7061,8 +7542,7 @@
               "www.asus.com/:region/displays-desktops/:productLine/:series/:model",
               "www.asus.com/:region/laptops/:productLine/:series/:model",
               "www.asus.com/:region/motherboards-components/:productLine/:series/:model",
-              "www.asus.com/:region/networking-iot-servers/:productLine/:series/:model",
-              "asus.com.cn/"
+              "www.asus.com/:region/networking-iot-servers/:productLine/:series/:model"
             ],
             "target": "/bios/:model"
           }
@@ -8724,10 +9204,11 @@
             ]
           }
         ],
-        "name": "UP 主专栏",
+        "name": "UP 主图文",
         "maintainers": [
           "lengthmin",
-          "Qixingchen"
+          "Qixingchen",
+          "hyoban"
         ],
         "location": "article.ts"
       },
@@ -9496,114 +9977,105 @@
         ],
         "location": "popular.ts"
       },
-      "/ranking/:rid?/:day?/:arc_type?/:embed?": {
-        "path": "/ranking/:rid?/:day?/:arc_type?/:embed?",
+      "/ranking/:rid_index?/:embed?/:redirect1?/:redirect2?": {
+        "path": "/ranking/:rid_index?/:embed?/:redirect1?/:redirect2?",
         "name": "排行榜",
         "maintainers": [
-          "DIYgod"
+          "DIYgod",
+          "hyoban"
         ],
         "categories": [
           "social-media",
           "popular"
         ],
         "view": 3,
-        "example": "/bilibili/ranking/0/3/1",
+        "example": "/bilibili/ranking/0",
         "parameters": {
-          "rid": {
-            "description": "排行榜分区 id",
+          "rid_index": {
+            "description": "排行榜分区 id 序号",
             "default": "0",
             "options": [
               {
-                "label": "全站",
-                "value": "0"
-              },
-              {
-                "label": "动画",
-                "value": "1"
-              },
-              {
-                "label": "国创相关",
-                "value": "168"
-              },
-              {
-                "label": "音乐",
-                "value": "3"
-              },
-              {
-                "label": "舞蹈",
-                "value": "129"
-              },
-              {
-                "label": "游戏",
-                "value": "4"
-              },
-              {
-                "label": "科技",
-                "value": "36"
-              },
-              {
-                "label": "数码",
-                "value": "188"
-              },
-              {
-                "label": "生活",
-                "value": "160"
-              },
-              {
-                "label": "鬼畜",
-                "value": "119"
-              },
-              {
-                "label": "时尚",
-                "value": "155"
-              },
-              {
-                "label": "娱乐",
-                "value": "5"
-              },
-              {
-                "label": "影视",
-                "value": "181"
-              }
-            ]
-          },
-          "day": {
-            "description": "时间跨度",
-            "default": "3",
-            "options": [
-              {
-                "value": "1",
-                "label": "1日"
+                "value": "0",
+                "label": "全站"
               },
               {
                 "value": "3",
-                "label": "3日"
+                "label": "国创相关"
+              },
+              {
+                "value": "5",
+                "label": "动画"
+              },
+              {
+                "value": "6",
+                "label": "音乐"
               },
               {
                 "value": "7",
-                "label": "7日"
+                "label": "舞蹈"
               },
               {
-                "value": "30",
-                "label": "30日"
+                "value": "8",
+                "label": "游戏"
+              },
+              {
+                "value": "9",
+                "label": "知识"
+              },
+              {
+                "value": "10",
+                "label": "科技"
+              },
+              {
+                "value": "11",
+                "label": "运动"
+              },
+              {
+                "value": "12",
+                "label": "汽车"
+              },
+              {
+                "value": "13",
+                "label": "生活"
+              },
+              {
+                "value": "14",
+                "label": "美食"
+              },
+              {
+                "value": "15",
+                "label": "动物圈"
+              },
+              {
+                "value": "16",
+                "label": "鬼畜"
+              },
+              {
+                "value": "17",
+                "label": "时尚"
+              },
+              {
+                "value": "18",
+                "label": "娱乐"
+              },
+              {
+                "value": "19",
+                "label": "影视"
+              },
+              {
+                "value": "23",
+                "label": "原创"
+              },
+              {
+                "value": "24",
+                "label": "新人"
               }
             ]
           },
-          "arc_type": {
-            "description": "投稿时间",
-            "default": "1",
-            "options": [
-              {
-                "value": "0",
-                "label": "全部投稿"
-              },
-              {
-                "value": "1",
-                "label": "近期投稿"
-              }
-            ]
-          },
-          "embed": "默认为开启内嵌视频, 任意值为关闭"
+          "embed": "默认为开启内嵌视频, 任意值为关闭",
+          "redirect1": "留空，用于兼容之前的路由",
+          "redirect2": "留空，用于兼容之前的路由"
         },
         "location": "ranking.ts"
       },
@@ -10005,7 +10477,12 @@
         "radar": [
           {
             "source": [
-              "www.bing.com/",
+              "www.bing.com/"
+            ],
+            "target": ""
+          },
+          {
+            "source": [
               "cn.bing.com/"
             ],
             "target": ""
@@ -14035,77 +14512,77 @@
           {
             "title": "协会动态",
             "source": [
-              "www.ccfa.org.cn/portal/cn/xiehui_list.jsp?type=1"
+              "www.ccfa.org.cn/portal/cn/xiehui_list.jsp"
             ],
             "target": "/1"
           },
           {
             "title": "行业动态",
             "source": [
-              "www.ccfa.org.cn/portal/cn/xiehui_list.jsp?type=2"
+              "www.ccfa.org.cn/portal/cn/xiehui_list.jsp"
             ],
             "target": "/2"
           },
           {
             "title": "政策/报告/标准",
             "source": [
-              "www.ccfa.org.cn/portal/cn/hybz_list.jsp?type=33"
+              "www.ccfa.org.cn/portal/cn/hybz_list.jsp"
             ],
             "target": "/33"
           },
           {
             "title": "行业统计",
             "source": [
-              "www.ccfa.org.cn/portal/cn/lsbq.jsp?type=10003"
+              "www.ccfa.org.cn/portal/cn/lsbq.jsp"
             ],
             "target": "/10003"
           },
           {
             "title": "创新案例",
             "source": [
-              "www.ccfa.org.cn/portal/cn/hybzs_list.jsp?type=10004"
+              "www.ccfa.org.cn/portal/cn/hybzs_list.jsp"
             ],
             "target": "/10004"
           },
           {
             "title": "党建工作",
             "source": [
-              "www.ccfa.org.cn/portal/cn/xiehui_list.jsp?type=7"
+              "www.ccfa.org.cn/portal/cn/xiehui_list.jsp"
             ],
             "target": "/7"
           },
           {
             "title": "新消费论坛",
             "source": [
-              "www.ccfa.org.cn/portal/cn/xiehui_list.jsp?type=10005"
+              "www.ccfa.org.cn/portal/cn/xiehui_list.jsp"
             ],
             "target": "/10005"
           },
           {
             "title": "政策/报告/标准 - 行业报告",
             "source": [
-              "www.ccfa.org.cn/portal/cn/hybz_list.jsp?type=33"
+              "www.ccfa.org.cn/portal/cn/hybz_list.jsp"
             ],
             "target": "/33"
           },
           {
             "title": "政策/报告/标准 - 行业标准",
             "source": [
-              "www.ccfa.org.cn/portal/cn/hybz_list.jsp?type=34"
+              "www.ccfa.org.cn/portal/cn/hybz_list.jsp"
             ],
             "target": "/34"
           },
           {
             "title": "政策/报告/标准 - 行业政策",
             "source": [
-              "www.ccfa.org.cn/portal/cn/fangyizhuanqu_list.jsp?type=39"
+              "www.ccfa.org.cn/portal/cn/fangyizhuanqu_list.jsp"
             ],
             "target": "/39"
           },
           {
             "title": "政策/报告/标准 - 政策权威解读",
             "source": [
-              "www.ccfa.org.cn/portal/cn/fangyizhuanqu_list.jsp?type=40"
+              "www.ccfa.org.cn/portal/cn/fangyizhuanqu_list.jsp"
             ],
             "target": "/40"
           }
@@ -18356,154 +18833,154 @@
           {
             "title": "行业新闻 - 国内乘用车",
             "source": [
-              "cpcaauto.com/news.php?types=news&anid=10"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/news/10"
           },
           {
             "title": "行业新闻 - 进口及国外乘用车",
             "source": [
-              "cpcaauto.com/news.php?types=news&anid=64"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/news/64"
           },
           {
             "title": "行业新闻 - 后市场",
             "source": [
-              "cpcaauto.com/news.php?types=news&anid=44"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/news/44"
           },
           {
             "title": "行业新闻 - 商用车",
             "source": [
-              "cpcaauto.com/news.php?types=news&anid=62"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/news/62"
           },
           {
             "title": "车市解读 - 周度",
             "source": [
-              "cpcaauto.com/news.php?types=csjd&anid=128"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/csjd/128"
           },
           {
             "title": "车市解读 - 月度",
             "source": [
-              "cpcaauto.com/news.php?types=csjd&anid=129"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/csjd/129"
           },
           {
             "title": "车市解读 - 指数",
             "source": [
-              "cpcaauto.com/news.php?types=csjd&anid=130"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/csjd/130"
           },
           {
             "title": "车市解读 - 预测",
             "source": [
-              "cpcaauto.com/news.php?types=csjd&anid=131"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/csjd/131"
           },
           {
             "title": "发布会报告 - 上海市场上牌数",
             "source": [
-              "cpcaauto.com/news.php?types=bgzl&anid=119"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/bgzl/119"
           },
           {
             "title": "发布会报告 - 京城车市",
             "source": [
-              "cpcaauto.com/news.php?types=bgzl&anid=122"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/bgzl/122"
           },
           {
             "title": "发布会报告 - 进口车市场分析",
             "source": [
-              "cpcaauto.com/news.php?types=bgzl&anid=120"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/bgzl/120"
           },
           {
             "title": "发布会报告 - 二手车市场分析",
             "source": [
-              "cpcaauto.com/news.php?types=bgzl&anid=121"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/bgzl/121"
           },
           {
             "title": "发布会报告 - 价格指数",
             "source": [
-              "cpcaauto.com/news.php?types=bgzl&anid=124"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/bgzl/124"
           },
           {
             "title": "发布会报告 - 热点评述",
             "source": [
-              "cpcaauto.com/news.php?types=bgzl&anid=125"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/bgzl/125"
           },
           {
             "title": "发布会报告 - 新能源月报",
             "source": [
-              "cpcaauto.com/news.php?types=bgzl&anid=126"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/bgzl/126"
           },
           {
             "title": "发布会报告 - 商用车月报",
             "source": [
-              "cpcaauto.com/news.php?types=bgzl&anid=127"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/bgzl/127"
           },
           {
             "title": "发布会报告 - 政策分析",
             "source": [
-              "cpcaauto.com/news.php?types=bgzl&anid=123"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/bgzl/123"
           },
           {
             "title": "经济与政策 - 一周经济",
             "source": [
-              "cpcaauto.com/news.php?types=meeting&anid=46"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/meeting/46"
           },
           {
             "title": "经济与政策 - 一周政策",
             "source": [
-              "cpcaauto.com/news.php?types=meeting&anid=47"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/meeting/47"
           },
           {
             "title": "乘联会论坛 - 论坛文章",
             "source": [
-              "cpcaauto.com/news.php?types=yjsy&anid=49"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/yjsy/49"
           },
           {
             "title": "乘联会论坛 - 两会",
             "source": [
-              "cpcaauto.com/news.php?types=yjsy&anid=111"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/yjsy/111"
           },
           {
             "title": "乘联会论坛 - 车展看点",
             "source": [
-              "cpcaauto.com/news.php?types=yjsy&anid=113"
+              "cpcaauto.com/news.php"
             ],
             "target": "/news/yjsy/113"
           }
@@ -21262,6 +21739,35 @@
           "TonyRL"
         ],
         "location": "channel.ts"
+      },
+      "/search/:guildId/:routeParams": {
+        "path": "/search/:guildId/:routeParams",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/discord/search/302094807046684672/content=friendly&has=image,video",
+        "parameters": {
+          "guildId": "Guild ID",
+          "routeParams": "Search parameters, support content, author_id, mentions, has, min_id, max_id, channel_id, pinned"
+        },
+        "features": {
+          "requireConfig": [
+            {
+              "name": "DISCORD_AUTHORIZATION",
+              "description": "Discord authorization header"
+            }
+          ],
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "Guild Search",
+        "maintainers": [
+          "NekoAria"
+        ],
+        "location": "search.ts"
       }
     },
     "name": "Discord",
@@ -23496,6 +24002,69 @@
     "url": "dutdice.dlut.edu.cn",
     "lang": "zh-CN"
   },
+  "dw": {
+    "routes": {
+      "/news/:lang?/:id?": {
+        "path": "/news/:lang?/:id?",
+        "categories": [
+          "traditional-media"
+        ],
+        "example": "/dw/news",
+        "parameters": {
+          "lang": "Language, see below, default to en",
+          "id": "Category ID, see below, default to the id of the Top Stories Page of the language chosen"
+        },
+        "features": {
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false,
+          "requireConfig": false
+        },
+        "name": "News",
+        "maintainers": [
+          "quiniapiezoelectricity"
+        ],
+        "description": "\n:::tip\nParameters can be obtained from the official website, for instance:\nFor the site https://www.dw.com/de/deutschland/s-12321 the language code would be `de` and the category ID would be `s-1432`.\n:::\n",
+        "radar": [
+          {
+            "source": [
+              "www.dw.com/:lang/:name/:id"
+            ],
+            "target": "/news/:lang/:id"
+          }
+        ],
+        "location": "news.ts"
+      },
+      "/rss/:channel?": {
+        "path": "/rss/:channel?",
+        "categories": [
+          "traditional-media"
+        ],
+        "example": "/dw/rss/rss-en-all",
+        "parameters": {
+          "category": "RSS Feed Channel, see below, `rss-en-all` by default"
+        },
+        "features": {
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false,
+          "requireConfig": false
+        },
+        "name": "RSS",
+        "maintainers": [
+          "quiniapiezoelectricity"
+        ],
+        "description": "\nFor a full list of RSS Feed Channels in English, please refer to [DW RSS Feeds](https://corporate.dw.com/en/rss-feeds/a-68693346).\nRSS Feed Channels in other languages are also available, for example: `rss-chi-all` renders the RSS feed in Chinese and `rss-de-all` for the RSS Feed in German \n",
+        "location": "rss.ts"
+      }
+    },
+    "name": "DW Deutsche Welle",
+    "url": "dw.com"
+  },
   "dx2025": {
     "routes": {
       "/:type?/:category?": {
@@ -24122,7 +24691,12 @@
         "radar": [
           {
             "source": [
-              "www.jwc.ecnu.edu.cn",
+              "www.jwc.ecnu.edu.cn"
+            ],
+            "target": "/tzgg"
+          },
+          {
+            "source": [
               "www.ecnu.edu.cn"
             ],
             "target": "/tzgg"
@@ -27501,6 +28075,458 @@
     "url": "fuliba2023.net",
     "lang": "zh-CN"
   },
+  "furaffinity": {
+    "routes": {
+      "/art/:folder/:username/:mode?": {
+        "path": "/art/:folder/:username/:mode?",
+        "name": "Gallery",
+        "url": "furaffinity.net",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/furaffinity/art/gallery/fender/nsfw",
+        "maintainers": [
+          "TigerCubDen",
+          "SkyNetX007"
+        ],
+        "parameters": {
+          "username": "Username, can find in userpage",
+          "folder": "Image folders, options are gallery, scraps, favorites",
+          "mode": "R18 content toggle, default value is sfw, options are sfw, nsfw"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "furaffinity.net/gallery/:username"
+            ],
+            "target": "/gallery/:username"
+          },
+          {
+            "source": [
+              "furaffinity.net/scraps/:username"
+            ],
+            "target": "/scraps/:username"
+          },
+          {
+            "source": [
+              "furaffinity.net/favorites/:username"
+            ],
+            "target": "/favorites/:username"
+          }
+        ],
+        "location": "art.ts"
+      },
+      "/browse/:mode?": {
+        "path": "/browse/:mode?",
+        "name": "Browse",
+        "url": "furaffinity.net",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/furaffinity/browse/nsfw",
+        "maintainers": [
+          "TigerCubDen",
+          "SkyNetX007"
+        ],
+        "parameters": {
+          "mode": "R18 content toggle, default value is sfw, options are sfw, nsfw"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "furaffinity.net"
+            ],
+            "target": "/browse"
+          }
+        ],
+        "location": "browse.ts"
+      },
+      "/commissions/:username": {
+        "path": "/commissions/:username",
+        "name": "Commissions",
+        "url": "furaffinity.net",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/furaffinity/commissions/fender",
+        "maintainers": [
+          "TigerCubDen",
+          "SkyNetX007"
+        ],
+        "parameters": {
+          "username": "Username, can find in userpage"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "furaffinity.net/commissions/:username"
+            ],
+            "target": "/commissions/:username"
+          }
+        ],
+        "location": "commissions.ts"
+      },
+      "/home/:category/:mode?": {
+        "path": "/home/:category/:mode?",
+        "name": "Home",
+        "url": "furaffinity.net",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/furaffinity/home/nsfw",
+        "maintainers": [
+          "TigerCubDen",
+          "SkyNetX007"
+        ],
+        "parameters": {
+          "category": "Category, default value is artwork, options are artwork, writing, music, crafts",
+          "mode": "R18 content toggle, default value is sfw, options are sfw, nsfw"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "furaffinity.net"
+            ],
+            "target": "/"
+          }
+        ],
+        "location": "home.ts"
+      },
+      "/journal-comments/:id": {
+        "path": "/journal-comments/:id",
+        "name": "Journal Comments",
+        "url": "furaffinity.net",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/furaffinity/journal-comments/10925112",
+        "maintainers": [
+          "TigerCubDen",
+          "SkyNetX007"
+        ],
+        "parameters": {
+          "id": "Journal ID"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "furaffinity.net/journal/:id"
+            ],
+            "target": "/journal-comments/:id"
+          }
+        ],
+        "location": "journal-comments.ts"
+      },
+      "/journals/:username": {
+        "path": "/journals/:username",
+        "name": "Journals",
+        "url": "furaffinity.net",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/furaffinity/journals/fender",
+        "maintainers": [
+          "TigerCubDen",
+          "SkyNetX007"
+        ],
+        "parameters": {
+          "username": "Username, can find in userpage"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "furaffinity.net/journals/:username"
+            ],
+            "target": "/journals/:username"
+          }
+        ],
+        "location": "journals.ts"
+      },
+      "/search/:query/:mode?/:routeParams?": {
+        "path": "/search/:query/:mode?/:routeParams?",
+        "name": "Search",
+        "url": "furaffinity.net",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/furaffinity/search/protogen/nsfw",
+        "maintainers": [
+          "TigerCubDen",
+          "SkyNetX007"
+        ],
+        "parameters": {
+          "query": "Query value",
+          "mode": "R18 content toggle, default value is sfw, options are sfw, nsfw",
+          "routeParams": "Additional search parameters"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "furaffinity.net"
+            ],
+            "target": "/search"
+          }
+        ],
+        "description": "Additional search parameters\n| Parameter       | Description          | Default   | Options                                                        |\n|-----------------|----------------------|-----------|----------------------------------------------------------------|\n| order_by        | Sort by              | relevancy | relevancy, date, popularity                                    |\n| order_direction | Sort order           | desc      | desc, asc                                                      |\n| range           | Date range           | all       | all, 1day, 3days, 7days, 30days, 90days, 1year, 3years, 5years |\n| pattern         | Query match pattern  | extended  | all, any, extended                                             |\n| type            | Category of artworks | all       | art, flash, photo, music, story, poetry                        |\n",
+        "location": "search.ts"
+      },
+      "/shouts/:username": {
+        "path": "/shouts/:username",
+        "name": "Shouts",
+        "url": "furaffinity.net",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/furaffinity/shouts/fender",
+        "maintainers": [
+          "TigerCubDen",
+          "SkyNetX007"
+        ],
+        "parameters": {
+          "username": "Username, can find in userpage"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "furaffinity.net/user/:username"
+            ],
+            "target": "/shouts/:username"
+          }
+        ],
+        "location": "shouts.ts"
+      },
+      "/status": {
+        "path": "/status",
+        "name": "Status",
+        "url": "furaffinity.net",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/furaffinity/status",
+        "maintainers": [
+          "TigerCubDen",
+          "SkyNetX007"
+        ],
+        "parameters": {},
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "furaffinity.net"
+            ],
+            "target": "/"
+          }
+        ],
+        "location": "status.ts"
+      },
+      "/submission-comments/:id": {
+        "path": "/submission-comments/:id",
+        "name": "Submission Comments",
+        "url": "furaffinity.net",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/furaffinity/submission-comments/24259751",
+        "maintainers": [
+          "TigerCubDen",
+          "SkyNetX007"
+        ],
+        "parameters": {
+          "id": "Submission ID"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "furaffinity.net/view/:id"
+            ],
+            "target": "/submission-comments/:id"
+          }
+        ],
+        "location": "submission-comments.ts"
+      },
+      "/user/:username": {
+        "path": "/user/:username",
+        "name": "Userpage",
+        "url": "furaffinity.net",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/furaffinity/user/fender/nsfw",
+        "maintainers": [
+          "TigerCubDen",
+          "SkyNetX007"
+        ],
+        "parameters": {
+          "username": "Username, can find in userpage"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "furaffinity.net/user/:username"
+            ],
+            "target": "/user/:username"
+          }
+        ],
+        "location": "user.ts"
+      },
+      "/watchers/:username": {
+        "path": "/watchers/:username",
+        "name": "User's Watcher List",
+        "url": "furaffinity.net",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/furaffinity/watchers/fender",
+        "maintainers": [
+          "TigerCubDen",
+          "SkyNetX007"
+        ],
+        "parameters": {
+          "username": "Username, can find in userpage"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "furaffinity.net/watchlist/to/:username"
+            ],
+            "target": "/watchers/:username"
+          }
+        ],
+        "location": "watchers.ts"
+      },
+      "/watching/:username": {
+        "path": "/watching/:username",
+        "name": "User's Watching List",
+        "url": "furaffinity.net",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/furaffinity/watching/fender",
+        "maintainers": [
+          "TigerCubDen",
+          "SkyNetX007"
+        ],
+        "parameters": {
+          "username": "Username, can find in userpage"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "furaffinity.net/watchlist/by/:username"
+            ],
+            "target": "/watching/:username"
+          }
+        ],
+        "location": "watching.ts"
+      }
+    },
+    "name": "Furaffinity",
+    "url": "furaffinity.net",
+    "lang": "en"
+  },
   "furstar": {
     "routes": {
       "/archive/:lang?": {
@@ -30323,6 +31349,63 @@
         "description": "The parameter id in the route is the id in the URL of the user's Google Scholar reference page, for example `https://scholar.google.com/citations?user=mlmE4JMAAAAJ` to `mlmE4JMAAAAJ`.\n\n  Query parameters are also supported here, for example `https://scholar.google.com/citations?user=mlmE4JMAAAAJ&sortby=pubdate` to `mlmE4JMAAAAJ&sortby=pubdate`. Please make sure that the user id (`mlmE4JMAAAAJ` in this case) should be the first parameter in the query string.",
         "location": "citations.ts"
       },
+      "/developers/:locale?": {
+        "path": "/developers/:locale?",
+        "name": "Developers Blog",
+        "url": "developers.googleblog.com",
+        "maintainers": [
+          "Loongphy"
+        ],
+        "example": "/google/developers/en",
+        "parameters": {
+          "locale": {
+            "description": "language",
+            "default": "en",
+            "options": [
+              {
+                "value": "en",
+                "label": "English"
+              },
+              {
+                "value": "es",
+                "label": "Español (Latam)"
+              },
+              {
+                "value": "id",
+                "label": "Bahasa Indonesia"
+              },
+              {
+                "value": "ja",
+                "label": "日本語"
+              },
+              {
+                "value": "ko",
+                "label": "한국어"
+              },
+              {
+                "value": "pt-br",
+                "label": "Português (Brasil)"
+              },
+              {
+                "value": "zh-hans",
+                "label": "简体中文"
+              }
+            ]
+          }
+        },
+        "description": "Google Developers Blog",
+        "categories": [
+          "blog"
+        ],
+        "radar": [
+          {
+            "source": [
+              "developers.googleblog.com"
+            ]
+          }
+        ],
+        "location": "developers.ts"
+      },
       "/doodles/:language?": {
         "path": "/doodles/:language?",
         "categories": [
@@ -30778,7 +31861,7 @@
         "parameters": {
           "category": "分类，默认为监管动态，即 915，可在对应分类页 URL 中找到"
         },
-        "description": ":::tip\n  若订阅 [监管动态](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemId=915&itemUrl=ItemListRightList.html)，网址为 `https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemId=915&itemUrl=ItemListRightList.html`。截取 `itemId` 的值 `915` 作为参数填入，此时路由为 [`/gov/cbirc/915`](https://rsshub.app/gov/cbirc/915)。\n  :::\n  \n  #### [首页](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=899&itemId=971&itemUrl=ItemListRightMore.html)\n\n  | [弹出公告](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=971&itemId=972&itemUrl=sss) | [法律声明](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=971&itemId=4128&itemUrl=ItemListRightArticle.html) |\n  | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |\n  | [972](https://rsshub.app/gov/cbirc/972)                                                             | [4128](https://rsshub.app/gov/cbirc/4128)                                                                                  |\n\n  #### [机构概况](https://www.cbirc.gov.cn/cn/view/pages/jigougaikuang/jigougaikuang.html)\n\n  | [主要职责](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=901&itemUrl=ItemListRightArticle.html) | [总局领导](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=902&itemUrl=jigougaikuang/huilingdao.html) | [内设机构](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=911&itemUrl=jigougaikuang/neishejigou.html) | [直属行政机构](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=4243&itemUrl=jigougaikuang/zhishuxingzhengjigou.html) | [派出机构](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=912&itemUrl=jigougaikuang/paichujigou.html) |\n  | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |\n  | [901](https://rsshub.app/gov/cbirc/901)                                                                                   | [902](https://rsshub.app/gov/cbirc/902)                                                                                       | [911](https://rsshub.app/gov/cbirc/911)                                                                                        | [4243](https://rsshub.app/gov/cbirc/4243)                                                                                                    | [912](https://rsshub.app/gov/cbirc/912)                                                                                        |\n\n  | [联系方式](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=913&itemUrl=jigougaikuang/lianxifangshi.html) |\n  | -------------------------------------------------------------------------------------------------------------------------------- |\n  | [913](https://rsshub.app/gov/cbirc/913)                                                                                          |\n\n  #### [新闻资讯](https://www.cbirc.gov.cn/cn/view/pages/xinwenzixun/xinwenzixun.html)\n\n  | [监管动态](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=915&itemUrl=ItemListRightList.html) | [政策解读](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=916&itemUrl=ItemListRightMore.html) | [领导活动及讲话](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=919&itemUrl=ItemListRightList.html) | [新闻发布会及访谈](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=920&itemUrl=xinwenzixun/xinwenfabu.html) | [新闻发言人](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=921&itemUrl=xinwenzixun/xinwenfayan.html) |\n  | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |\n  | [915](https://rsshub.app/gov/cbirc/915)                                                                                | [916](https://rsshub.app/gov/cbirc/916)                                                                                | [919](https://rsshub.app/gov/cbirc/919)                                                                                      | [920](https://rsshub.app/gov/cbirc/920)                                                                                             | [921](https://rsshub.app/gov/cbirc/921)                                                                                        |\n\n  #### [政务信息](https://www.cbirc.gov.cn/cn/view/pages/zhengwuxinxi/zhengwuxinxi.html)\n\n  | [政府信息公开](https://www.cbirc.gov.cn/cn/view/pages/zhengwuxinxi/zhengfuxinxi.html) | [公告通知](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=925&itemUrl=ItemListRightList.html) | [政策法规](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=926&itemUrl=ItemListRightMore.html) | [行政许可](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=930&itemUrl=zhengwuxinxi/xingzhengxuke.html) | [行政处罚](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=931&itemUrl=zhengwuxinxi/xingzhengchufa.html) |\n  | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |\n  | [924](https://rsshub.app/gov/cbirc/924)                                               | [925](https://rsshub.app/gov/cbirc/925)                                                                                | [926](https://rsshub.app/gov/cbirc/926)                                                                                | [930](https://rsshub.app/gov/cbirc/930)                                                                                         | [931](https://rsshub.app/gov/cbirc/931)                                                                                          |\n\n  | [行政监管措施](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=932&itemUrl=ItemListRightList.html) | [人事信息](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=933&itemUrl=ItemListRightList.html) |\n  | -------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |\n  | [932](https://rsshub.app/gov/cbirc/932)                                                                                    | [933](https://rsshub.app/gov/cbirc/933)                                                                                |\n\n  #### [在线服务](https://www.cbirc.gov.cn/cn/view/pages/zaixianfuwu/zaixianfuwu.html)\n\n  | [行政许可办事服务指南](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=937&itemId=938&itemUrl=zaixianfuwu/banshifuwu.html) | [查询服务](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=937&itemId=939&itemUrl=zaixianfuwu/chaxunfuwu.html) |\n  | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |\n  | [938](https://rsshub.app/gov/cbirc/938)                                                                                                 | [939](https://rsshub.app/gov/cbirc/939)                                                                                     |\n\n  #### [互动交流](https://www.cbirc.gov.cn/cn/view/pages/hudongjiaoliu/hudongjiaoliu.html)\n\n  | [政务咨询](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=945&itemId=946&itemUrl=tosubmenu:hudongjiaoliu/woyaozixun.html) | [征集调查](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=945&itemId=950&itemUrl=ItemListRightMore.html) | [国务院办公厅开通“国家政务服务投诉与建议”小程序](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=945&itemId=952&itemUrl=http://www.gov.cn/xinwen/2018-09/20/content_5323786.htm) |\n  | --------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n  | [946](https://rsshub.app/gov/cbirc/946)                                                                                                 | [950](https://rsshub.app/gov/cbirc/950)                                                                                | [952](https://rsshub.app/gov/cbirc/952)                                                                                                                                                       |\n\n  #### [统计数据](https://www.cbirc.gov.cn/cn/view/pages/tongjishuju/tongjishuju.html)\n\n  | [统计信息](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=953&itemId=954&itemUrl=ItemListRightList.html) | [数据图表](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=953&itemId=955&itemUrl=tosubmenu:tongjishuju/zongzichan.html) |\n  | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |\n  | [954](https://rsshub.app/gov/cbirc/954)                                                                                | [955](https://rsshub.app/gov/cbirc/955)                                                                                               |\n\n  #### [专题专栏](https://www.cbirc.gov.cn/cn/view/pages/zhuantizhuanlan/zhuantizhuanlan.html)\n\n  | [推进普惠金融高质量发展](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4234&itemUrl=ItemListRightMore.html) | [防范和处置非法集资](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=963&itemUrl=ItemListRightMore.html) | [消费者保护](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4097&itemUrl=ItemListRightMore.html) | [法治宣传](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4106&itemUrl=ItemListRightMore.html) | [政府网站年度报表](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=970&itemUrl=ItemListRightList.html) |\n  | ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |\n  | [4234](https://rsshub.app/gov/cbirc/4234)                                                                                             | [963](https://rsshub.app/gov/cbirc/963)                                                                                          | [4097](https://rsshub.app/gov/cbirc/4097)                                                                                 | [4106](https://rsshub.app/gov/cbirc/4106)                                                                               | [970](https://rsshub.app/gov/cbirc/970)                                                                                        |\n\n  | [服务民营企业](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4171&itemUrl=ItemListRightList.html) | [服务制造业发展](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4217&itemUrl=ItemListRightList.html) | [学习贯彻习近平新时代中国特色社会主义思想主题教育](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4229&itemUrl=ItemListRightMore.html) |\n  | --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n  | [4171](https://rsshub.app/gov/cbirc/4171)                                                                                   | [4217](https://rsshub.app/gov/cbirc/4217)                                                                                     | [4229](https://rsshub.app/gov/cbirc/4229)                                                                                                                       |\n  ",
+        "description": ":::tip\n  若订阅 [监管动态](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemId=915&itemUrl=ItemListRightList.html)，网址为 `https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemId=915&itemUrl=ItemListRightList.html`。截取 `itemId` 的值 `915` 作为参数填入，此时路由为 [`/gov/cbirc/915`](https://rsshub.app/gov/cbirc/915)。\n  :::\n\n  #### [首页](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=899&itemId=971&itemUrl=ItemListRightMore.html)\n\n  | [弹出公告](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=971&itemId=972&itemUrl=sss) | [法律声明](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=971&itemId=4128&itemUrl=ItemListRightArticle.html) |\n  | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |\n  | [972](https://rsshub.app/gov/cbirc/972)                                                             | [4128](https://rsshub.app/gov/cbirc/4128)                                                                                  |\n\n  #### [机构概况](https://www.cbirc.gov.cn/cn/view/pages/jigougaikuang/jigougaikuang.html)\n\n  | [主要职责](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=901&itemUrl=ItemListRightArticle.html) | [总局领导](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=902&itemUrl=jigougaikuang/huilingdao.html) | [内设机构](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=911&itemUrl=jigougaikuang/neishejigou.html) | [直属行政机构](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=4243&itemUrl=jigougaikuang/zhishuxingzhengjigou.html) | [派出机构](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=912&itemUrl=jigougaikuang/paichujigou.html) |\n  | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |\n  | [901](https://rsshub.app/gov/cbirc/901)                                                                                   | [902](https://rsshub.app/gov/cbirc/902)                                                                                       | [911](https://rsshub.app/gov/cbirc/911)                                                                                        | [4243](https://rsshub.app/gov/cbirc/4243)                                                                                                    | [912](https://rsshub.app/gov/cbirc/912)                                                                                        |\n\n  | [联系方式](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=913&itemUrl=jigougaikuang/lianxifangshi.html) |\n  | -------------------------------------------------------------------------------------------------------------------------------- |\n  | [913](https://rsshub.app/gov/cbirc/913)                                                                                          |\n\n  #### [新闻资讯](https://www.cbirc.gov.cn/cn/view/pages/xinwenzixun/xinwenzixun.html)\n\n  | [监管动态](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=915&itemUrl=ItemListRightList.html) | [政策解读](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=916&itemUrl=ItemListRightMore.html) | [领导活动及讲话](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=919&itemUrl=ItemListRightList.html) | [新闻发布会及访谈](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=920&itemUrl=xinwenzixun/xinwenfabu.html) | [新闻发言人](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=921&itemUrl=xinwenzixun/xinwenfayan.html) |\n  | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |\n  | [915](https://rsshub.app/gov/cbirc/915)                                                                                | [916](https://rsshub.app/gov/cbirc/916)                                                                                | [919](https://rsshub.app/gov/cbirc/919)                                                                                      | [920](https://rsshub.app/gov/cbirc/920)                                                                                             | [921](https://rsshub.app/gov/cbirc/921)                                                                                        |\n\n  #### [政务信息](https://www.cbirc.gov.cn/cn/view/pages/zhengwuxinxi/zhengwuxinxi.html)\n\n  | [政府信息公开](https://www.cbirc.gov.cn/cn/view/pages/zhengwuxinxi/zhengfuxinxi.html) | [公告通知](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=925&itemUrl=ItemListRightList.html) | [政策法规](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=926&itemUrl=ItemListRightMore.html) | [行政许可](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=930&itemUrl=zhengwuxinxi/xingzhengxuke.html) | [行政处罚](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=931&itemUrl=zhengwuxinxi/xingzhengchufa.html) |\n  | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |\n  | [924](https://rsshub.app/gov/cbirc/924)                                               | [925](https://rsshub.app/gov/cbirc/925)                                                                                | [926](https://rsshub.app/gov/cbirc/926)                                                                                | [930](https://rsshub.app/gov/cbirc/930)                                                                                         | [931](https://rsshub.app/gov/cbirc/931)                                                                                          |\n\n  | [行政监管措施](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=932&itemUrl=ItemListRightList.html) | [人事信息](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=933&itemUrl=ItemListRightList.html) |\n  | -------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |\n  | [932](https://rsshub.app/gov/cbirc/932)                                                                                    | [933](https://rsshub.app/gov/cbirc/933)                                                                                |\n\n  #### [在线服务](https://www.cbirc.gov.cn/cn/view/pages/zaixianfuwu/zaixianfuwu.html)\n\n  | [行政许可办事服务指南](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=937&itemId=938&itemUrl=zaixianfuwu/banshifuwu.html) | [查询服务](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=937&itemId=939&itemUrl=zaixianfuwu/chaxunfuwu.html) |\n  | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |\n  | [938](https://rsshub.app/gov/cbirc/938)                                                                                                 | [939](https://rsshub.app/gov/cbirc/939)                                                                                     |\n\n  #### [互动交流](https://www.cbirc.gov.cn/cn/view/pages/hudongjiaoliu/hudongjiaoliu.html)\n\n  | [政务咨询](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=945&itemId=946&itemUrl=tosubmenu:hudongjiaoliu/woyaozixun.html) | [征集调查](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=945&itemId=950&itemUrl=ItemListRightMore.html) | [国务院办公厅开通“国家政务服务投诉与建议”小程序](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=945&itemId=952&itemUrl=http://www.gov.cn/xinwen/2018-09/20/content_5323786.htm) |\n  | --------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n  | [946](https://rsshub.app/gov/cbirc/946)                                                                                                 | [950](https://rsshub.app/gov/cbirc/950)                                                                                | [952](https://rsshub.app/gov/cbirc/952)                                                                                                                                                       |\n\n  #### [统计数据](https://www.cbirc.gov.cn/cn/view/pages/tongjishuju/tongjishuju.html)\n\n  | [统计信息](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=953&itemId=954&itemUrl=ItemListRightList.html) | [数据图表](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=953&itemId=955&itemUrl=tosubmenu:tongjishuju/zongzichan.html) |\n  | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |\n  | [954](https://rsshub.app/gov/cbirc/954)                                                                                | [955](https://rsshub.app/gov/cbirc/955)                                                                                               |\n\n  #### [专题专栏](https://www.cbirc.gov.cn/cn/view/pages/zhuantizhuanlan/zhuantizhuanlan.html)\n\n  | [推进普惠金融高质量发展](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4234&itemUrl=ItemListRightMore.html) | [防范和处置非法集资](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=963&itemUrl=ItemListRightMore.html) | [消费者保护](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4097&itemUrl=ItemListRightMore.html) | [法治宣传](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4106&itemUrl=ItemListRightMore.html) | [政府网站年度报表](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=970&itemUrl=ItemListRightList.html) |\n  | ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |\n  | [4234](https://rsshub.app/gov/cbirc/4234)                                                                                             | [963](https://rsshub.app/gov/cbirc/963)                                                                                          | [4097](https://rsshub.app/gov/cbirc/4097)                                                                                 | [4106](https://rsshub.app/gov/cbirc/4106)                                                                               | [970](https://rsshub.app/gov/cbirc/970)                                                                                        |\n\n  | [服务民营企业](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4171&itemUrl=ItemListRightList.html) | [服务制造业发展](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4217&itemUrl=ItemListRightList.html) | [学习贯彻习近平新时代中国特色社会主义思想主题教育](https://www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4229&itemUrl=ItemListRightMore.html) |\n  | --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n  | [4171](https://rsshub.app/gov/cbirc/4171)                                                                                   | [4217](https://rsshub.app/gov/cbirc/4217)                                                                                     | [4229](https://rsshub.app/gov/cbirc/4229)                                                                                                                       |\n  ",
         "categories": [
           "government"
         ],
@@ -30800,91 +31883,91 @@
           {
             "title": "首页 - 弹出公告",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=971&itemId=972&itemUrl=sss"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/972"
           },
           {
             "title": "首页 - 法律声明",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=971&itemId=4128&itemUrl=ItemListRightArticle.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/4128"
           },
           {
             "title": "机构概况 - 主要职责",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=901&itemUrl=ItemListRightArticle.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/901"
           },
           {
             "title": "机构概况 - 总局领导",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=902&itemUrl=jigougaikuang/huilingdao.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/902"
           },
           {
             "title": "机构概况 - 内设机构",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=911&itemUrl=jigougaikuang/neishejigou.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/911"
           },
           {
             "title": "机构概况 - 直属行政机构",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=4243&itemUrl=jigougaikuang/zhishuxingzhengjigou.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/4243"
           },
           {
             "title": "机构概况 - 派出机构",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=912&itemUrl=jigougaikuang/paichujigou.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/912"
           },
           {
             "title": "机构概况 - 联系方式",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=913&itemUrl=jigougaikuang/lianxifangshi.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/913"
           },
           {
             "title": "新闻资讯 - 监管动态",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=915&itemUrl=ItemListRightList.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/915"
           },
           {
             "title": "新闻资讯 - 政策解读",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=916&itemUrl=ItemListRightMore.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/916"
           },
           {
             "title": "新闻资讯 - 领导活动及讲话",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=919&itemUrl=ItemListRightList.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/919"
           },
           {
             "title": "新闻资讯 - 新闻发布会及访谈",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=920&itemUrl=xinwenzixun/xinwenfabu.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/920"
           },
           {
             "title": "新闻资讯 - 新闻发言人",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=914&itemId=921&itemUrl=xinwenzixun/xinwenfayan.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/921"
           },
@@ -30898,147 +31981,147 @@
           {
             "title": "政务信息 - 公告通知",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=925&itemUrl=ItemListRightList.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/925"
           },
           {
             "title": "政务信息 - 政策法规",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=926&itemUrl=ItemListRightMore.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/926"
           },
           {
             "title": "政务信息 - 行政许可",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=930&itemUrl=zhengwuxinxi/xingzhengxuke.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/930"
           },
           {
             "title": "政务信息 - 行政处罚",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=931&itemUrl=zhengwuxinxi/xingzhengchufa.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/931"
           },
           {
             "title": "政务信息 - 行政监管措施",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=932&itemUrl=ItemListRightList.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/932"
           },
           {
             "title": "政务信息 - 人事信息",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=933&itemUrl=ItemListRightList.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/933"
           },
           {
             "title": "在线服务 - 行政许可办事服务指南",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=937&itemId=938&itemUrl=zaixianfuwu/banshifuwu.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/938"
           },
           {
             "title": "在线服务 - 查询服务",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=937&itemId=939&itemUrl=zaixianfuwu/chaxunfuwu.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/939"
           },
           {
             "title": "互动交流 - 政务咨询",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=945&itemId=946&itemUrl=tosubmenu:hudongjiaoliu/woyaozixun.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/946"
           },
           {
             "title": "互动交流 - 征集调查",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=945&itemId=950&itemUrl=ItemListRightMore.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/950"
           },
           {
             "title": "互动交流 - 国务院办公厅开通“国家政务服务投诉与建议”小程序",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=945&itemId=952&itemUrl=http://www.gov.cn/xinwen/2018-09/20/content_5323786.htm"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/952"
           },
           {
             "title": "统计数据 - 统计信息",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=953&itemId=954&itemUrl=ItemListRightList.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/954"
           },
           {
             "title": "统计数据 - 数据图表",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=953&itemId=955&itemUrl=tosubmenu:tongjishuju/zongzichan.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/955"
           },
           {
             "title": "专题专栏 - 推进普惠金融高质量发展",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4234&itemUrl=ItemListRightMore.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/4234"
           },
           {
             "title": "专题专栏 - 防范和处置非法集资",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=963&itemUrl=ItemListRightMore.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/963"
           },
           {
             "title": "专题专栏 - 消费者保护",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4097&itemUrl=ItemListRightMore.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/4097"
           },
           {
             "title": "专题专栏 - 法治宣传",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4106&itemUrl=ItemListRightMore.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/4106"
           },
           {
             "title": "专题专栏 - 政府网站年度报表",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=970&itemUrl=ItemListRightList.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/970"
           },
           {
             "title": "专题专栏 - 服务民营企业",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4171&itemUrl=ItemListRightList.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/4171"
           },
           {
             "title": "专题专栏 - 服务制造业发展",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4217&itemUrl=ItemListRightList.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/4217"
           },
           {
             "title": "专题专栏 - 学习贯彻习近平新时代中国特色社会主义思想主题教育",
             "source": [
-              "www.cbirc.gov.cn/cn/view/pages/ItemList.html?itemPId=960&itemId=4229&itemUrl=ItemListRightMore.html"
+              "www.cbirc.gov.cn/cn/view/pages/ItemList.html"
             ],
             "target": "/cbirc/4229"
           }
@@ -37243,9 +38326,24 @@
         "radar": [
           {
             "source": [
-              "china.hket.com/:category/*",
-              "inews.hket.com/:category/*",
-              "topick.hket.com/:category/*",
+              "china.hket.com/:category/*"
+            ],
+            "target": "/:category"
+          },
+          {
+            "source": [
+              "inews.hket.com/:category/*"
+            ],
+            "target": "/:category"
+          },
+          {
+            "source": [
+              "topick.hket.com/:category/*"
+            ],
+            "target": "/:category"
+          },
+          {
+            "source": [
               "wealth.hket.com/:category/*"
             ],
             "target": "/:category"
@@ -38182,6 +39280,37 @@
         "description": "| 通知公告 | 热点新闻 |\n    | :------: | :------: |\n    |   tzgg   |   rdxw   |",
         "location": "job/list.ts"
       },
+      "/sec/:id": {
+        "path": "/sec/:id",
+        "categories": [
+          "university"
+        ],
+        "example": "/hrbeu/sec/xshd",
+        "parameters": {
+          "id": "栏目编号，由 `URL` 中获取。"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "sec.hrbeu.edu.cn/:id/list.htm"
+            ]
+          }
+        ],
+        "name": "船舶工程学院",
+        "maintainers": [
+          "Chi-hong22"
+        ],
+        "description": "| 学院要闻 | 学术活动 | 通知公告 | 学科方向 |\n| :------: | :------: |:------: | :------: |\n|   xyyw   |   xshd   |  229   |   xkfx   |",
+        "location": "sec/list.ts"
+      },
       "/uae/:id": {
         "path": "/uae/:id",
         "categories": [
@@ -38687,7 +39816,7 @@
           {
             "source": [
               "xky.hunau.edu.cn/",
-              "xky.hunau.edu.cntzgg_8472",
+              "xky.hunau.edu.cn/tzgg_8472",
               "xky.hunau.edu.cn/:category"
             ],
             "target": "/:category"
@@ -38723,7 +39852,7 @@
           {
             "source": [
               "xky.hunau.edu.cn/",
-              "xky.hunau.edu.cntzgg_8472",
+              "xky.hunau.edu.cn/tzgg_8472",
               "xky.hunau.edu.cn/:category"
             ],
             "target": "/:category"
@@ -38757,7 +39886,7 @@
           {
             "source": [
               "xky.hunau.edu.cn/",
-              "xky.hunau.edu.cntzgg_8472",
+              "xky.hunau.edu.cn/tzgg_8472",
               "xky.hunau.edu.cn/:category"
             ],
             "target": "/:category"
@@ -38791,7 +39920,7 @@
           {
             "source": [
               "xky.hunau.edu.cn/",
-              "xky.hunau.edu.cntzgg_8472",
+              "xky.hunau.edu.cn/tzgg_8472",
               "xky.hunau.edu.cn/:category"
             ],
             "target": "/:category"
@@ -40415,6 +41544,46 @@
     "name": "iDaily",
     "url": "idai.ly",
     "lang": "zh-CN"
+  },
+  "idolmaster": {
+    "routes": {
+      "/news/:routeParams?": {
+        "url": "idolmaster-official.jp/news",
+        "path": "/news/:routeParams?",
+        "categories": [
+          "anime"
+        ],
+        "example": "/idolmaster/news/brand=MILLIONLIVE&brand=SHINYCOLORS&category=GAME&category=ANIME",
+        "parameters": {
+          "routeParams": "The `brand` and `category` params in the path. The available values are as follows."
+        },
+        "description": "**Brand**\n| THE IDOLM@STER | シンデレラガールズ | ミリオンライブ！ | SideM | シャイニーカラーズ | 学園アイドルマスター | その他 |\n| -------------- | --------------- | ------------- | ----- | --------------- | ----------------- | ----- |\n| IDOLMASTER | CINDERELLAGIRLS | MILLIONLIVE | SIDEM | SHINYCOLORS | OTHER |\n\n**Category**\n| ゲーム | ライブ・イベント | アニメ | 配信番組 | ラジオ | グッズ | コラボ・キャンペーン | ミュージック | ブック・コミック | メディア | その他 |\n| ----- | ------------- | ----- | ------- | ----- | ----- | ----------------- | --------- | -------------- | ------ | ----- |\n| GAME | LIVE-EVENT | ANIME | LIVESTREAM | RADIO | GOODS | COLLABO-CAMP | CD | BOOK | MEDIA | OTHER |\n    ",
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "idolmaster-official.jp/news"
+            ],
+            "target": "/news"
+          }
+        ],
+        "name": "ニュース News",
+        "maintainers": [
+          "keocheung"
+        ],
+        "location": "news.ts"
+      }
+    },
+    "name": "アイドルマスター THE IDOLM@STER",
+    "url": "idolmaster-official.jp",
+    "lang": "ja"
   },
   "idolypride": {
     "routes": {
@@ -42063,6 +43232,47 @@
     "url": "www.iresearch.com.cn",
     "lang": "zh-CN"
   },
+  "isct": {
+    "routes": {
+      "/news/:lang": {
+        "path": "/news/:lang",
+        "categories": [
+          "university"
+        ],
+        "example": "/isct/news/ja",
+        "parameters": {
+          "lang": "language, could be ja or en"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.isct.ac.jp/:lang/news"
+            ],
+            "target": "/news/:lang"
+          }
+        ],
+        "name": "News",
+        "maintainers": [
+          "catyyy"
+        ],
+        "location": "news.ts"
+      }
+    },
+    "name": "Institute of Science Tokyo",
+    "url": "isct.ac.jp",
+    "lang": "ja",
+    "ja": {
+      "name": "東京科学大学"
+    }
+  },
   "issuehunt": {
     "routes": {
       "/funded/:username/:repo": {
@@ -43180,6 +44390,81 @@
     "url": "javtiful.com",
     "lang": "en"
   },
+  "javtrailers": {
+    "routes": {
+      "/casts/:cast": {
+        "path": "/casts/:cast",
+        "categories": [
+          "multimedia"
+        ],
+        "example": "/javtrailers/casts/hibiki-otsuki",
+        "parameters": {
+          "cast": "Cast name, can be found in the URL of the cast page"
+        },
+        "radar": [
+          {
+            "source": [
+              "javtrailers.com/casts/:category"
+            ]
+          }
+        ],
+        "name": "Casts",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "url": "javtrailers.com/casts",
+        "location": "casts.ts"
+      },
+      "/categories/:category": {
+        "path": "/categories/:category",
+        "categories": [
+          "multimedia"
+        ],
+        "example": "/javtrailers/categories/50001755",
+        "parameters": {
+          "category": "Category name, can be found in the URL of the category page"
+        },
+        "radar": [
+          {
+            "source": [
+              "javtrailers.com/categories/:category"
+            ]
+          }
+        ],
+        "name": "Categories",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "url": "javtrailers.com/categories",
+        "location": "categories.ts"
+      },
+      "/studios/:studio": {
+        "path": "/studios/:studio",
+        "categories": [
+          "multimedia"
+        ],
+        "example": "/javtrailers/studios/s1-no-1-style",
+        "parameters": {
+          "studio": "Studio name, can be found in the URL of the studio page"
+        },
+        "radar": [
+          {
+            "source": [
+              "javtrailers.com/studios/:category"
+            ]
+          }
+        ],
+        "name": "Studios",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "location": "studios.ts"
+      }
+    },
+    "name": "JavTrailers",
+    "url": "javtrailers.com",
+    "lang": "ja"
+  },
   "jd": {
     "routes": {
       "/price/:id": {
@@ -44059,91 +45344,91 @@
           {
             "title": "财经",
             "source": [
-              "chinese.joins.com/news/articleList.html?sc_section_code=S1N1"
+              "chinese.joins.com/news/articleList.html"
             ],
             "target": "/chinese/S1N1"
           },
           {
             "title": "国际",
             "source": [
-              "chinese.joins.com/news/articleList.html?sc_section_code=S1N2"
+              "chinese.joins.com/news/articleList.html"
             ],
             "target": "/chinese/S1N2"
           },
           {
             "title": "北韩",
             "source": [
-              "chinese.joins.com/news/articleList.html?sc_section_code=S1N3"
+              "chinese.joins.com/news/articleList.html"
             ],
             "target": "/chinese/S1N3"
           },
           {
             "title": "政治·社会",
             "source": [
-              "chinese.joins.com/news/articleList.html?sc_section_code=S1N4"
+              "chinese.joins.com/news/articleList.html"
             ],
             "target": "/chinese/S1N4"
           },
           {
             "title": "中国观察",
             "source": [
-              "chinese.joins.com/news/articleList.html?sc_section_code=S1N5"
+              "chinese.joins.com/news/articleList.html"
             ],
             "target": "/chinese/S1N5"
           },
           {
             "title": "社论",
             "source": [
-              "chinese.joins.com/news/articleList.html?sc_section_code=S1N26"
+              "chinese.joins.com/news/articleList.html"
             ],
             "target": "/chinese/S1N26"
           },
           {
             "title": "专栏·观点",
             "source": [
-              "chinese.joins.com/news/articleList.html?sc_section_code=S1N11"
+              "chinese.joins.com/news/articleList.html"
             ],
             "target": "/chinese/S1N11"
           },
           {
             "title": "军事·科技",
             "source": [
-              "chinese.joins.com/news/articleList.html?sc_section_code=S1N6"
+              "chinese.joins.com/news/articleList.html"
             ],
             "target": "/chinese/S1N6"
           },
           {
             "title": "娱乐体育",
             "source": [
-              "chinese.joins.com/news/articleList.html?sc_section_code=S1N7"
+              "chinese.joins.com/news/articleList.html"
             ],
             "target": "/chinese/S1N7"
           },
           {
             "title": "教育",
             "source": [
-              "chinese.joins.com/news/articleList.html?sc_section_code=S1N8"
+              "chinese.joins.com/news/articleList.html"
             ],
             "target": "/chinese/S1N8"
           },
           {
             "title": "旅游美食",
             "source": [
-              "chinese.joins.com/news/articleList.html?sc_section_code=S1N9"
+              "chinese.joins.com/news/articleList.html"
             ],
             "target": "/chinese/S1N9"
           },
           {
             "title": "时尚",
             "source": [
-              "chinese.joins.com/news/articleList.html?sc_section_code=S1N10"
+              "chinese.joins.com/news/articleList.html"
             ],
             "target": "/chinese/S1N10"
           },
           {
             "title": "图集",
             "source": [
-              "chinese.joins.com/news/articleList.html?sc_section_code=S1N12"
+              "chinese.joins.com/news/articleList.html"
             ],
             "target": "/chinese/S1N12"
           }
@@ -46871,7 +48156,7 @@
         "path": "/:params",
         "name": "Unknown",
         "maintainers": [
-          "yech1990"
+          "y9c"
         ],
         "location": "index.ts"
       }
@@ -47390,6 +48675,36 @@
     "name": "LogoNews 标志情报局",
     "url": "logonews.cn",
     "lang": "zh-CN"
+  },
+  "logrocket": {
+    "routes": {
+      "/:type": {
+        "path": "/:type",
+        "categories": [
+          "blog"
+        ],
+        "example": "/logrocket/dev",
+        "parameters": {
+          "type": "dev | product-management | ux-design"
+        },
+        "radar": [
+          {
+            "source": [
+              "blog.logrocket.com"
+            ]
+          }
+        ],
+        "name": "blog.logrocket",
+        "maintainers": [
+          "findwei"
+        ],
+        "url": "blog.logrocket.com/",
+        "location": "index.ts"
+      }
+    },
+    "name": "logrocket blog",
+    "url": "blog.logrocket.com",
+    "lang": "en"
   },
   "loltw": {
     "routes": {
@@ -53557,9 +54872,10 @@
           {
             "source": [
               "natgeomedia.com/:cat/:type",
+              "natgeomedia.com/:cat/",
               "natgeomedia.com/"
             ],
-            "target": "/:cat/:type"
+            "target": "/:cat/:type?"
           }
         ],
         "name": "分类",
@@ -60641,6 +61957,44 @@
     "url": "patagonia.com",
     "lang": "en"
   },
+  "patreon": {
+    "routes": {
+      "/:creator": {
+        "path": "/:creator",
+        "categories": [
+          "new-media"
+        ],
+        "example": "/patreon/straightupsisters",
+        "parameters": {
+          "creator": "Patreon creator id, can be found in the url"
+        },
+        "features": {
+          "requireConfig": [
+            {
+              "name": "PATREON_SESSION_ID",
+              "optional": true,
+              "description": "The value of the session_id cookie after logging in to Patreon, required to access paid posts"
+            }
+          ]
+        },
+        "radar": [
+          {
+            "source": [
+              "patreon.com/:creator"
+            ]
+          }
+        ],
+        "name": "Home",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "location": "feed.ts"
+      }
+    },
+    "name": "Patreon",
+    "url": "www.patreon.com",
+    "lang": "en"
+  },
   "paulgraham": {
     "routes": {
       "/articles": {
@@ -61531,6 +62885,43 @@
         "description": ":::warning\n  Only for self-hosted\n  :::",
         "location": "illustfollow.ts"
       },
+      "/novel/series/:id": {
+        "path": "/novel/series/:id",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/pixiv/novel/series/11586857",
+        "parameters": {
+          "id": "Series id, can be found in URL"
+        },
+        "features": {
+          "requireConfig": [
+            {
+              "name": "PIXIV_REFRESHTOKEN",
+              "optional": true,
+              "description": "\nrefresh_token after Pixiv login, required for accessing R18 novels\nPixiv 登錄後的 refresh_token，用於獲取 R18 小說\n[https://docs.rsshub.app/deploy/config#pixiv](https://docs.rsshub.app/deploy/config#pixiv)"
+            }
+          ],
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "Novel Series",
+        "maintainers": [
+          "SnowAgar25"
+        ],
+        "radar": [
+          {
+            "source": [
+              "www.pixiv.net/novel/series/:id"
+            ],
+            "target": "/novel/series/:id"
+          }
+        ],
+        "location": "novel-series.ts"
+      },
       "/user/novels/:id/:full_content?": {
         "path": "/user/novels/:id/:full_content?",
         "categories": [
@@ -61573,14 +62964,16 @@
           {
             "title": "User Novels (簡介 Basic info)",
             "source": [
-              "www.pixiv.net/users/:id/novels"
+              "www.pixiv.net/users/:id/novels",
+              "www.pixiv.net/users/:id"
             ],
             "target": "/user/novels/:id"
           },
           {
             "title": "User Novels (全文 Full text)",
             "source": [
-              "www.pixiv.net/users/:id/novels"
+              "www.pixiv.net/users/:id/novels",
+              "www.pixiv.net/users/:id"
             ],
             "target": "/user/novels/:id/true"
           }
@@ -64526,6 +65919,60 @@
     "url": "qqorw.cn",
     "lang": "zh-CN"
   },
+  "qstheory": {
+    "routes": {
+      "/:category?": {
+        "path": "/:category?",
+        "categories": [
+          "traditional-media"
+        ],
+        "example": "/qstheory",
+        "parameters": {
+          "industry": "分类，见下表"
+        },
+        "radar": [
+          {
+            "source": [
+              "www.qstheory.cn/v9zhuanqu/:category/index.htm",
+              "www.qstheory.cn/qszq/:category/index.htm",
+              "www.qstheory.cn/:category/index.htm"
+            ]
+          }
+        ],
+        "name": "分类",
+        "maintainers": [
+          "nczitzk"
+        ],
+        "description": "\n| 头条    | 网评 | 视频 | 原创   | 经济    | 政治     | 文化    | 社会    | 党建 | 科教    | 生态    | 国防    | 国际          | 图书  | 学习笔记 | 理论文选 |\n| ------- | ---- | ---- | ------ | ------- | -------- | ------- | ------- | ---- | ------- | ------- | ------- | ------------- | ----- | -------- | -------- |\n| toutiao | qswp | qssp | qslgxd | economy | politics | culture | society | cpc  | science | zoology | defense | international | books | xxbj     | llwx     |",
+        "location": "index.ts"
+      },
+      "/magazine/:magazine": {
+        "path": "/magazine/:magazine",
+        "categories": [
+          "traditional-media"
+        ],
+        "example": "/qstheory/magazine/qs",
+        "parameters": {
+          "magazine": "刊物，`qs` 为求是，`hqwglist` 为红旗文稿"
+        },
+        "radar": [
+          {
+            "source": [
+              "www.qstheory.cn/:magazine/mulu.htm"
+            ]
+          }
+        ],
+        "name": "在线读刊",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "location": "magazine.ts"
+      }
+    },
+    "name": "求是网",
+    "url": "www.qstheory.cn",
+    "lang": "zh-CN"
+  },
   "questmobile": {
     "routes": {
       "/report/:industry?/:label?": {
@@ -67137,6 +68584,64 @@
     },
     "name": "四川广播电视台",
     "url": "sctv.com",
+    "lang": "zh-CN"
+  },
+  "scu": {
+    "routes": {
+      "/jwc": {
+        "path": "/jwc",
+        "categories": [
+          "university"
+        ],
+        "example": "/scu/jwc",
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "jwc.scu.edu.cn"
+            ],
+            "target": "/jwc"
+          }
+        ],
+        "name": "教务处通知公告",
+        "maintainers": [
+          "Kyle-You"
+        ],
+        "location": "jwc/tzgg.ts"
+      },
+      "/scupi": {
+        "path": "/scupi",
+        "categories": [
+          "university"
+        ],
+        "example": "/scu/scupi",
+        "parameters": {},
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "匹兹堡学院通知",
+        "maintainers": [
+          "sitdownkevin"
+        ],
+        "url": "scupi.scu.edu.cn/activities/notice",
+        "description": "",
+        "location": "scupi/notice.ts"
+      }
+    },
+    "name": "四川大学",
+    "url": "www.scu.edu.cn",
     "lang": "zh-CN"
   },
   "scut": {
@@ -73197,7 +74702,11 @@
           {
             "source": [
               "jsjxy.stbu.edu.cn/news",
-              "jsjxy.stbu.edu.cn",
+              "jsjxy.stbu.edu.cn"
+            ]
+          },
+          {
+            "source": [
               "stbu.edu.cn"
             ]
           }
@@ -78027,13 +79536,15 @@
         "url": "yz.tongji.edu.cn/zsxw/ggtz.htm",
         "location": "yjs.ts"
       },
-      "/sem": {
-        "path": "/sem",
+      "/sem/:type?": {
+        "path": "/sem/:type?",
         "categories": [
           "university"
         ],
-        "example": "/tongji/sem",
-        "parameters": {},
+        "example": "/tongji/sem/notice",
+        "parameters": {
+          "type": "通知类型，默认为 `notice`"
+        },
         "features": {
           "requireConfig": false,
           "requirePuppeteer": false,
@@ -78046,8 +79557,8 @@
         "maintainers": [
           "sitdownkevin"
         ],
-        "url": "sem.tongji.edu.cn/semch/category/frontpage/notice",
-        "description": "",
+        "url": "sem.tongji.edu.cn/semch",
+        "description": "| 学院通知 | 招生通知 | 学术观点 | 新闻 | 活动 | 视点 | 教师与行政人员招聘 |\n| -------- | -------------- | ------------------ | ---- | ---------- | --------- | ------------------ |\n| notice   | enrollment     | academic-paper     | news | events     | focus     | collegerecruitment |\n",
         "location": "sem/notice.ts"
       },
       "/sse/:type?": {
@@ -81424,6 +82935,34 @@
     "url": "verfgh.baden-wuerttemberg.de",
     "lang": "de"
   },
+  "vertikal": {
+    "routes": {
+      "/latest": {
+        "path": "/latest",
+        "categories": [
+          "new-media"
+        ],
+        "example": "/vertikal/latest",
+        "radar": [
+          {
+            "source": [
+              "vertikal.net/en/news",
+              "vertikal.net"
+            ]
+          }
+        ],
+        "name": "News Archive",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "url": "vertikal.net/en/news",
+        "location": "latest.ts"
+      }
+    },
+    "name": "Vertikal.net",
+    "url": "vertikal.net",
+    "lang": "en"
+  },
   "vice": {
     "routes": {
       "/topic/:topic/:language?": {
@@ -82413,10 +83952,41 @@
   },
   "wallstreetcn": {
     "routes": {
+      "/calendar/:section?": {
+        "path": "/calendar/:section?",
+        "categories": [
+          "finance"
+        ],
+        "example": "/wallstreetcn/calendar",
+        "parameters": {
+          "section": "`macrodatas` 或 `report`，默认为 `macrodatas`"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "wallstreetcn.com/calendar"
+            ]
+          }
+        ],
+        "name": "财经日历",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "url": "wallstreetcn.com/calendar",
+        "location": "calendar.ts"
+      },
       "/hot/:period?": {
         "path": "/hot/:period?",
         "categories": [
-          "traditional-media"
+          "finance"
         ],
         "example": "/wallstreetcn/hot",
         "parameters": {
@@ -82447,7 +84017,7 @@
       "/live/:category?/:score?": {
         "path": "/live/:category?/:score?",
         "categories": [
-          "traditional-media"
+          "finance"
         ],
         "example": "/wallstreetcn/live",
         "parameters": {
@@ -82479,10 +84049,11 @@
         "location": "live.ts"
       },
       "/news/:category?": {
-        "path": [
-          "/news/:category?",
-          "/:category?"
+        "path": "/news/:category?",
+        "categories": [
+          "finance"
         ],
+        "example": "/wallstreetcn/news",
         "radar": [
           {
             "source": [
@@ -82491,27 +84062,7 @@
             ]
           }
         ],
-        "name": "Unknown",
-        "maintainers": [
-          "nczitzk"
-        ],
-        "description": "| id           | 分类 |\n  | ------------ | ---- |\n  | global       | 最新 |\n  | shares       | 股市 |\n  | bonds        | 债市 |\n  | commodities  | 商品 |\n  | forex        | 外汇 |\n  | enterprise   | 公司 |\n  | asset-manage | 资管 |\n  | tmt          | 科技 |\n  | estate       | 地产 |\n  | car          | 汽车 |\n  | medicine     | 医药 |",
-        "location": "news.ts"
-      },
-      "/:category?": {
-        "path": [
-          "/news/:category?",
-          "/:category?"
-        ],
-        "radar": [
-          {
-            "source": [
-              "wallstreetcn.com/news/:category",
-              "wallstreetcn.com/"
-            ]
-          }
-        ],
-        "name": "Unknown",
+        "name": "资讯",
         "maintainers": [
           "nczitzk"
         ],
@@ -86455,7 +88006,11 @@
         "radar": [
           {
             "source": [
-              "hk.news.yahoo.com/",
+              "hk.news.yahoo.com/"
+            ]
+          },
+          {
+            "source": [
               "tw.news.yahoo.com/"
             ]
           }
@@ -86489,7 +88044,11 @@
         "radar": [
           {
             "source": [
-              "hk.news.yahoo.com/",
+              "hk.news.yahoo.com/"
+            ]
+          },
+          {
+            "source": [
               "tw.news.yahoo.com/"
             ]
           }
@@ -86522,7 +88081,11 @@
         "radar": [
           {
             "source": [
-              "hk.news.yahoo.com/",
+              "hk.news.yahoo.com/"
+            ]
+          },
+          {
+            "source": [
               "tw.news.yahoo.com/"
             ]
           }
@@ -89905,7 +91468,7 @@
         "radar": [
           {
             "source": [
-              "cs.zjut.edu.cn/jsp/newsclass.jsp?wcId=:type"
+              "cs.zjut.edu.cn/jsp/newsclass.jsp"
             ],
             "target": "/cs/:type"
           }
