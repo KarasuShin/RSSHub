@@ -39434,6 +39434,14 @@
           "LenaNouzen"
         ],
         "description": "| 名师风采 | 热点新闻 | 教务公告 | 教学新闻 |\n  | -------- | -------- | -------- | -------- |\n  | 351      | 353      | 354      | 355      |",
+        "radar": [
+          {
+            "source": [
+              "jwzx.hrbust.edu.cn/homepage/index.do"
+            ],
+            "target": "/jwzx"
+          }
+        ],
         "location": "jwzx.ts"
       }
     },
@@ -78491,7 +78499,7 @@
       "/channel/:id": {
         "path": "/channel/:id",
         "categories": [
-          "traditional-media"
+          "new-media"
         ],
         "example": "/thepaper/channel/25950",
         "parameters": {
@@ -78517,7 +78525,7 @@
       "/factpaper/:status?": {
         "path": "/factpaper/:status?",
         "categories": [
-          "traditional-media"
+          "new-media"
         ],
         "example": "/thepaper/factpaper",
         "parameters": {
@@ -78549,7 +78557,7 @@
       "/featured": {
         "path": "/featured",
         "categories": [
-          "traditional-media"
+          "new-media"
         ],
         "example": "/thepaper/featured",
         "parameters": {},
@@ -78580,7 +78588,7 @@
       "/list/:id": {
         "path": "/list/:id",
         "categories": [
-          "traditional-media"
+          "new-media"
         ],
         "example": "/thepaper/list/25457",
         "parameters": {
@@ -78618,6 +78626,21 @@
         ],
         "url": "thepaper.cn/",
         "location": "sidebar.ts"
+      },
+      "/user/:pphId": {
+        "path": "/user/:pphId",
+        "categories": [
+          "new-media"
+        ],
+        "example": "/thepaper/user/4221423",
+        "parameters": {
+          "pphId": "澎湃号 id，可在澎湃号页 URL 中找到"
+        },
+        "name": "澎湃号",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "location": "user.ts"
       },
       "/839studio/:id": {
         "path": "/839studio/:id",
@@ -86721,8 +86744,21 @@
         ],
         "location": "board.ts"
       },
-      "/user/:user_id/notes/fulltext": {
-        "path": "/user/:user_id/notes/fulltext",
+      "/user/:user_id/:category": {
+        "path": "/user/:user_id/:category",
+        "name": "用户笔记/收藏",
+        "categories": [
+          "social-media",
+          "popular"
+        ],
+        "view": 0,
+        "maintainers": [
+          "lotosbin",
+          "howerhe",
+          "rien7",
+          "dddaniel1",
+          "pseudoyu"
+        ],
         "radar": [
           {
             "source": [
@@ -86731,35 +86767,17 @@
             "target": "/user/:user_id/notes"
           }
         ],
-        "name": "用户笔记 全文",
-        "maintainers": [
-          "howerhe"
-        ],
-        "example": "/xiaohongshu/user/52d8c541b4c4d60e6c867480/notes/fulltext",
-        "features": {
-          "antiCrawler": true,
-          "requirePuppeteer": true
-        },
-        "parameters": {
-          "user_id": "user id, length 24 characters"
-        },
-        "location": "notes.ts"
-      },
-      "/user/:user_id/:category": {
-        "path": "/user/:user_id/:category",
-        "name": "用户笔记",
-        "categories": [
-          "social-media",
-          "popular"
-        ],
-        "view": 0,
-        "maintainers": [
-          "lotosbin"
-        ],
         "example": "/xiaohongshu/user/593032945e87e77791e03696/notes",
         "features": {
           "antiCrawler": true,
-          "requirePuppeteer": true
+          "requirePuppeteer": true,
+          "requireConfig": [
+            {
+              "name": "XIAOHONGSHU_COOKIE",
+              "optional": true,
+              "description": "小红书 cookie 值，可在网络里面看到。"
+            }
+          ]
         },
         "parameters": {
           "user_id": "user id, length 24 characters",
